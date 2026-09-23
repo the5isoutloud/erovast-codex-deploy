@@ -1,9 +1,9 @@
 # sass_transpiler: 'dartsass' # Uncomment to use Dart Sass, you need to install Dart Sass first.
 
 mainSections:
-  - blog
-  - posts
-  - news
+  # - blog
+  # - posts
+  # - news
 
 # titleSeparator: '|' # Title separator. Default to -.
 
@@ -35,7 +35,7 @@ palette: purple # Default palette. Optional. You'll need to clear the browser ca
 #  - teal
 #  - yellow
 
-# color: dark # light, dark or auto. Default to auto.
+color: dark # light, dark or auto. Default to auto.
 
 # fullWidth: true # Full width.
 # fixedHeader: false # Turn on/off fixed header.
@@ -43,7 +43,7 @@ palette: purple # Default palette. Optional. You'll need to clear the browser ca
 dateFormat: ":date_long"
 
 # Google Adsense
-googleAdsense: 
+googleAdsense:
 
 # math: true # Enable math globally.
 # toc: false # Disable TOC globally.
@@ -131,13 +131,13 @@ analytics:
 
 # Site verification
 siteVerification:
-  google: 
-  bing: 
-  baidu: 
-  baiduUnion:  # Baidu Union
-  so: 
-  sogou: 
-  shenma: 
+  google:
+  bing:
+  baidu:
+  baiduUnion: # Baidu Union
+  so:
+  sogou:
+  shenma:
 
 creativeCommons:
   # by: true # Credit must be given to you, the creator.
@@ -146,29 +146,29 @@ creativeCommons:
   # sa: true # Adaptations must be shared under the same terms.
 
 # utterances:
-  # repo: razonyang/hugo-theme-bootstrap-skeleton # Replace with your repository.
-  #issueTerm: pathname # pathname, url, title, og:title
-  # label: comment
-  # By default, light and dark mode correspond to github-light and github-dark, respectively.
-  # Optional values: github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark.
-  #theme:  
+# repo: razonyang/hugo-theme-bootstrap-skeleton # Replace with your repository.
+#issueTerm: pathname # pathname, url, title, og:title
+# label: comment
+# By default, light and dark mode correspond to github-light and github-dark, respectively.
+# Optional values: github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark.
+#theme:
 
 #staticman:
-  #endpoint: https://yourstaticmaninstance # Required, replace with your own Staticman instance.
-  #repo: user/repo # Required
-  #service: github # or gitlab. Default to GitHub.
-  #branch: main # Default to master.
-  #property: comments # Default to comments.
-  #sorting: desc # Default to asc.
-  #reCaptchaKey: "" # The reCaptcha site key.
-  #reCaptchaSecret: "" # The reCaptcha encrypted secret. You'll need to encrypt plain secret via https://yourstaticmaninstance/v3/encrypt/PLAINSECRET.
-  #extraFields: # Extra fields. Available fiedls: url.
-  #  - url
-  #requiredFields: # Extra required fields. Available fields: email and the extra fields.
-  #  - email
-  #  - url
-  #paginate: 5 # Default to 10.
-  #moderation: false # Same as Staticman's moderation.
+#endpoint: https://yourstaticmaninstance # Required, replace with your own Staticman instance.
+#repo: user/repo # Required
+#service: github # or gitlab. Default to GitHub.
+#branch: main # Default to master.
+#property: comments # Default to comments.
+#sorting: desc # Default to asc.
+#reCaptchaKey: "" # The reCaptcha site key.
+#reCaptchaSecret: "" # The reCaptcha encrypted secret. You'll need to encrypt plain secret via https://yourstaticmaninstance/v3/encrypt/PLAINSECRET.
+#extraFields: # Extra fields. Available fiedls: url.
+#  - url
+#requiredFields: # Extra required fields. Available fields: email and the extra fields.
+#  - email
+#  - url
+#paginate: 5 # Default to 10.
+#moderation: false # Same as Staticman's moderation.
 
 # See https://giscus.app
 giscus:
@@ -198,12 +198,12 @@ search:
     # useExtendedSearch: true
 
 #docsearch:
-  # https://docsearch.algolia.com/docs/api
-  # container: ".search-bar" # replace it if necessary, default to '.search-bar'.
-  # appId: ""
-  # apiKey: ""
-  # indexName: ""
-  # debug: true
+# https://docsearch.algolia.com/docs/api
+# container: ".search-bar" # replace it if necessary, default to '.search-bar'.
+# appId: ""
+# apiKey: ""
+# indexName: ""
+# debug: true
 
 reward:
   alipay: images/reward/alipay.png
@@ -213,10 +213,10 @@ reward:
   #liberapay: images/reward/liberapay.png
 
 #share:
-  #addThis:  # AddThis pubid.
+#addThis:  # AddThis pubid.
 
 #actionsPanel:
-  # disabled: true
+# disabled: true
 
 # Comment or remove this settings to disable font size switcher.
 fontSize:
@@ -231,8 +231,8 @@ pwa:
     short_name: HBS
     # display: fullscreen # Default to standalone.
     # description:  # Default to site description.
-    # theme_color: 
-    # background_color: 
+    # theme_color:
+    # background_color:
 
     # Icons
     # [[pwa.manifest.icons]]
@@ -247,7 +247,7 @@ contact:
   # file: true # Enable file upload
   # fileField: image # The name of file field.
   # reCaptcha:
-    # siteKey: ""
+  # siteKey: ""
 
 repo:
   url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
@@ -268,7 +268,7 @@ docs:
     reduceFontSize: true # Reduce font size of children navigation.
 
 #feeds:
-  # content: true
+# content: true
 
 social:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
@@ -309,13 +309,12 @@ social:
 author:
   name: Razon Yang
   # avatar: images/profile.png # Avatar image. Default to "images/profile.webp".
-  bio: 'Gopher, PHPer, Full Stack Engineer.'
+  bio: "Gopher, PHPer, Full Stack Engineer."
   company: Company # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
   location: Earth # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
   # about: https://razonyang.com # The external about page. The internal about page will be used if not set.
-  params: {
-    # layout: compact
-  }
+  params: {}
+  # layout: compact
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
     email: razonyang@gmail.com

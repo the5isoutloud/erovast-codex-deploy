@@ -1,4 +1,4 @@
-module github.com/razonyang/hugo-theme-bootstrap-skeleton
+module github.com/the5isoutloud/erovast-codex-deploy/site
 
 go 1.18
 

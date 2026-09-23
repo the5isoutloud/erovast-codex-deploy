@@ -1,6 +1,6 @@
 baseURL: https://hbs-skeleton.netlify.app/
-title: Hugo Bootstrap Skeleton
-copyright: 'Copyright © 2016-{year} Razon Yang. All Rights Reserved.'
+title: Erovast
+copyright: "Copyright © 2016-{year} Trevor Nally"
 defaultContentLanguage: en
 # hasCJKLanguage: true # Uncomment it if your content contains Chinese/Japanese/Korean Languages.
 # defaultContentLanguageInSubdir: true
@@ -11,12 +11,12 @@ defaultContentLanguage: en
 pagination:
   pagerSize: 10
 # paginatePath: page
-enableRobotsTXT: true
+enableRobotsTXT: false
 enableEmoji: true
 pygmentsUseClasses: true
 
 blackfriday:
-  hrefTargetBlank: true
+  hrefTargetBlank: false
 
 taxonomies:
   category: categories
@@ -28,12 +28,12 @@ build:
   writeStats: true
 
 permalinks:
-  news: /news/:year/:month/:title/
-  blog: /blog/:year/:month/:title/
+  # news: /news/:year/:month/:title/
+  # blog: /blog/:year/:month/:title/
 
 module:
   imports:
-    - path: github.com/razonyang/hugo-theme-bootstrap
+    - path: github.com/the5isoutloud/erovast-codex-deploy/site
 #   proxy: https://goproxy.cn
 
 # services:
