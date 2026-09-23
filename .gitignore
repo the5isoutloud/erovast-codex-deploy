@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+
+.obsidian/
+node_modules/
+resources/
+public/
+.hugo_build.lock
+hugo_stats.json
