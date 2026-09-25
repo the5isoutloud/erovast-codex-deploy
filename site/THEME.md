@@ -12,13 +12,13 @@ The theme was built from scratch for this project. It has no npm packages, no Sa
 
 1. [How the site is put together](#1-how-the-site-is-put-together)
 2. [The landing page](#2-the-landing-page)
-3. [The sidebar](#3-the-sidebar)
+3. [The sidebar](#3-the-sidebar) (incl. [search](#search))
 4. [Colors](#4-colors)
 5. [Fonts and sizes](#5-fonts-and-sizes)
 6. [Note pages](#6-note-pages)
 7. [Obsidian features that are supported](#7-obsidian-features-that-are-supported)
 8. [Images and other media](#8-images-and-other-media) (incl. [social share previews](#social-share-previews))
-9. [Editing templates and CSS](#9-editing-templates-and-css)
+9. [Editing templates and CSS](#9-editing-templates-and-css) (incl. [caching](#caching))
 10. [Moving or renaming the vault](#10-moving-or-renaming-the-vault)
 11. [Troubleshooting](#11-troubleshooting)
 
@@ -70,6 +70,7 @@ The landing page has four parts, top to bottom:
 | Tagline | `tagline` in `[params.home]` |
 | Welcome text | the body of [`content/_index.md`](content/_index.md). Write normal Markdown; `[[wikilinks]]` work too |
 | "Latest session" button | `[params.home.latest]` |
+| Search box (above the cards) | `[params.search]`, see [Search](#search) |
 | Category cards | `[[params.home.cards]]` |
 
 ### Logo
@@ -176,6 +177,41 @@ Use single quotes in TOML so the backslashes are kept as written.
 
 ---
 
+### Search
+
+Every page has search. It appears as a large box above the cards on the landing page, and at the top left beside the sidebar on other pages. On phones it's the magnifier icon in the top bar. It opens a pop-up that searches note titles, aliases, tags, folder names and the full text of notes. Search is also opened by:
+
+- **`Ctrl`+`K`** (Windows/Linux) or **`⌘`+`K`** (Mac), from anywhere;
+- **`/`**, when you're not typing in a box;
+- **a link with `?search=`**, e.g. `https://erovast.com/?search=manticore`. It opens with that search already filled in, which is handy for sharing.
+
+In the pop-up, use `↑`/`↓` to choose a result, `Enter` to open it, and `Esc` to close.
+
+Matching is **fuzzy**, so misspellings still find the right note: "griselda" finds *Gruvelda Duskbelt*. Curly and straight apostrophes count as the same, and accents are ignored.
+
+```toml
+[params.search]
+  enable = true                  # false removes search from the whole site
+  placeholder = "Search the codex…"
+  include_text = true            # false = only titles, aliases, tags and folders
+  max_results = 12
+  min_length = 2                 # characters typed before searching starts
+  threshold = 0.35               # 0 = exact spelling … 1 = matches anything
+  [params.search.weights]        # how much each field counts toward ranking
+    title = 3
+    aliases = 2
+    tags = 1.5
+    folder = 0.5
+    text = 1
+```
+
+- **Too many loose matches?** Lower `threshold` to about `0.25`. **Typos not being caught?** Raise it to about `0.45`.
+- **Names should win over passing mentions:** raise `title` and `aliases`, or lower `text`.
+
+How it works: every build writes a search index file, `search-index.<hash>.json`, containing each note's name, aliases, tags, folder, URL and plain text. The browser only downloads it the first time someone opens search, or hovers over a search box. The index is about 270 KB, and the server compresses it to much less. [Fuse.js](https://www.fusejs.io) 7.5.0 does the fuzzy matching. It's stored in the project (`assets/js/vendor/`), so there's no outside service involved. Excluded folders such as `Transcripts/` aren't in the index.
+
+The sidebar's **Filter pages…** box is separate from search. It only narrows the sidebar tree by note name.
+
 ## 4. Colors
 
 The site is **dark mode only**. Every color is set in `[params.colors]` in `hugo.toml`, and any CSS color value works: `#hex`, `rgb()`, `rgba()`, `hsl()`, or a named color.
@@ -227,6 +263,9 @@ How it works: each key becomes a CSS variable named `--color-<key>`, with unders
 | `callout_warning` | `[!warning]`, `[!question]`, `[!todo]` … |
 | `callout_danger` | `[!danger]`, `[!error]`, `[!bug]` … |
 | `callout_quote` | `[!quote]`, `[!example]` |
+| **Search** | |
+| `search_overlay` | Dimmed layer behind the search pop-up (use a transparent color) |
+| `search_active_bg` | The highlighted result (matches use `mark_bg` / `mark_text`) |
 | **Landing page** | |
 | `hero_glow` | Soft glow behind the logo (use a transparent color like `rgba(...)`) |
 | `card_bg` / `card_hover_bg` / `card_border` / `card_title` | Category cards (also used for folder cards on listing pages) |
@@ -395,6 +434,9 @@ Templates use Hugo's Go template language ([docs](https://gohugo.io/templates/))
 | `layouts/404.html` | "Page not found" |
 | `_partials/head.html` | `<title>`, fonts, CSS bundle, share-preview tags |
 | `_partials/social-image.html`, `_partials/description.html` | Share-preview image (poster) and description |
+| `_partials/plain-text.html` | A note's text as plain text (used by descriptions and search) |
+| `_partials/search-trigger.html`, `search-dialog.html`, `search-index.html` | Search button, pop-up, and index file |
+| `assets/js/search.js` (+ `assets/js/vendor/fuse.basic.min.mjs`) | Search behavior, bundled with Fuse.js by Hugo |
 | `_partials/sidebar.html`, `_partials/sidebar-tree.html` | The sidebar and folder tree |
 | `_partials/folder-name.html` | Folder display-name rules (strip + rename) |
 | `_partials/page-name.html` | Display name for any page |
@@ -413,6 +455,16 @@ Templates use Hugo's Go template language ([docs](https://gohugo.io/templates/))
 **Why no Bootstrap?** CSS custom properties give the same "change any color in config" ability without a 200 KB framework or a Sass build step. Bootstrap's own theming needs Sass to recompile, or dozens of `--bs-*` overrides. Plain CSS keeps every style in one readable file.
 
 ---
+
+### Caching
+
+Browsers and CDNs keep copies of files to load pages faster. That's great for readers, but it can hide your changes. The site is set up so that stale copies can't happen:
+
+- **CSS, JavaScript, images and the search index have fingerprinted URLs.** Each URL contains a hash of the file's contents, e.g. `site.2c23af….css` or `Aldrich.fedb13….png`. When a file changes, its URL changes too, so a browser can never show an old version. This also covers replacing an image in the vault under the same file name. It applies to preview and the published site alike (`head.html`, `baseof.html`, `media-index.html`).
+- **The preview server (`docker compose up`) sends `Cache-Control: no-store`** on every response, so a normal reload always gets the latest files. This is the `[server]` block at the top of `hugo.toml`, and it doesn't affect the published site.
+- **HTML pages** can't be fingerprinted, because their addresses must stay the same. The host decides how long browsers keep them. After a publish, a normal reload usually shows the new page. If one doesn't, a hard refresh (`Cmd/Ctrl+Shift+R`) always will. Because every page points at fingerprinted CSS and JS, a refreshed page never mixes old styles with new content.
+
+Nothing needs to be done by hand. Don't change the templates to link CSS, JS or images directly (`/css/main.css`, `/vault/...`); always go through `resources.Get` / `fingerprint` as the existing templates do.
 
 ## 10. Moving or renaming the vault
 
@@ -433,7 +485,9 @@ The vault path appears in **three mounts** in `hugo.toml`: search for `../Erovas
 | Problem | Fix |
 |---|---|
 | A new **nested** folder doesn't appear | Restart the preview (`Ctrl+C`, then `docker compose up`). New folders are detected when the server starts. |
-| Changes don't show up | Hard-refresh the browser (`Cmd/Ctrl+Shift+R`). If still stale, restart the preview. |
+| Changes don't show up in preview | The preview disables browser caching (see [Caching](#caching)), so a stale page usually means the rebuild failed. Check `docker compose logs -f server` for an error. A new nested folder also needs a restart. |
+| Published site shows an old page | Hard-refresh (`Cmd/Ctrl+Shift+R`); the host may cache HTML briefly. CSS, JS and images are never stale (see [Caching](#caching)). |
+| Search says it couldn't load | The search index file didn't download. Reload the page; if it persists, check the build finished without errors. |
 | A link shows up red and dashed | The target note doesn't exist under that name. Check the spelling, or hover the link to see what's missing. |
 | An image doesn't show | Check the file's extension is in the supported list ([section 8](#8-images-and-other-media)) and the name matches exactly, including spaces. |
 | `hugo.toml` error on start | TOML is strict: strings need quotes, and each `[[params.home.cards]]` block needs its own header line. The error message gives the line number. |

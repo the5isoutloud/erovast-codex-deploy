@@ -1,0 +1,9 @@
+{{- /* A button that opens the search dialog. Input: a CSS class suffix ("hero", "toolbar", "icon"). */ -}}
+{{- $variant := . | default "toolbar" -}}
+<button type="button" class="search-trigger search-trigger-{{ $variant }}" data-search-open aria-haspopup="dialog" aria-label="Search the codex">
+  <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  {{- if ne $variant "icon" }}
+  <span class="search-trigger-label">{{ site.Params.search.placeholder | default "Search the codex…" }}</span>
+  <kbd class="search-trigger-key" data-search-shortcut>Ctrl K</kbd>
+  {{- end }}
+</button>

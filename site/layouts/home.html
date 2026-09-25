@@ -37,6 +37,12 @@
     {{- $cards = $cards | append (dict "title" (partial "folder-name.html" .Title) "description" "" "icon" "" "image" "" "url" .RelPermalink "count" (len .RegularPagesRecursive)) }}
   {{- end }}
 {{- end }}
+{{- if ne site.Params.search.enable false }}
+<section class="home-search">
+  {{ partial "search-trigger.html" "hero" }}
+</section>
+{{- end }}
+
 {{- with $cards }}
 <section class="home-cards">
   {{- with $home.cards_heading }}<h2 class="home-cards-heading">{{ . }}</h2>{{ end }}

@@ -1,0 +1,18 @@
+{{- /*
+  A note's text as plain text: wikilinks become their display text, and
+  Markdown, HTML, embeds, headings and comments are removed.
+  Input: a page. Used for share-preview descriptions and the search index.
+*/ -}}
+{{- $t := .RawContent -}}
+{{- $t = replaceRE `(?s)%%.*?%%` "" $t -}}
+{{- $t = replaceRE `(?s)<[^>]+>` " " $t -}}                         {{- /* HTML */ -}}
+{{- $t = replaceRE `!\[\[[^\]]*\]\]` "" $t -}}                     {{- /* embeds */ -}}
+{{- $t = replaceRE `!\[[^\]]*\]\([^)]*\)` "" $t -}}                {{- /* md images */ -}}
+{{- $t = replaceRE `\[\[[^\]|]*?\\?\|([^\]]*)\]\]` "$1" $t -}}      {{- /* [[x|alias]] → alias */ -}}
+{{- $t = replaceRE `\[\[(?:[^\]]*/)?([^\]#]*)[^\]]*\]\]` "$1" $t -}} {{- /* [[path/x#h]] → x */ -}}
+{{- $t = replaceRE `\[([^\]]*)\]\([^)]*\)` "$1" $t -}}             {{- /* [text](url) → text */ -}}
+{{- $t = replaceRE `(?m)^\s*#{1,6}\s.*$` "" $t -}}                 {{- /* headings */ -}}
+{{- $t = replaceRE `(?m)^\s*(?:>\s*(?:\[![^\]]*\][-+]?)?|[-*+]\s|\d+\.\s)` "" $t -}}
+{{- $t = replaceRE `[*_=~\x60]+` "" $t -}}                        {{- /* emphasis, code */ -}}
+{{- $t = replaceRE `\s+` " " $t | strings.TrimSpace -}}
+{{- return $t -}}

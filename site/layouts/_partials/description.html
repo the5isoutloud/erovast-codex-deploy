@@ -7,19 +7,7 @@
   {{- $d = . -}}
 {{- else -}}
   {{- if .IsPage -}}
-    {{- $t := .RawContent -}}
-    {{- $t = replaceRE `(?s)%%.*?%%` "" $t -}}
-    {{- $t = replaceRE `(?s)<[^>]+>` " " $t -}}                         {{- /* HTML */ -}}
-    {{- $t = replaceRE `!\[\[[^\]]*\]\]` "" $t -}}                     {{- /* embeds */ -}}
-    {{- $t = replaceRE `!\[[^\]]*\]\([^)]*\)` "" $t -}}                {{- /* md images */ -}}
-    {{- $t = replaceRE `\[\[[^\]|]*?\\?\|([^\]]*)\]\]` "$1" $t -}}      {{- /* [[x|alias]] → alias */ -}}
-    {{- $t = replaceRE `\[\[(?:[^\]]*/)?([^\]#]*)[^\]]*\]\]` "$1" $t -}} {{- /* [[path/x#h]] → x */ -}}
-    {{- $t = replaceRE `\[([^\]]*)\]\([^)]*\)` "$1" $t -}}             {{- /* [text](url) → text */ -}}
-    {{- $t = replaceRE `(?m)^\s*#{1,6}\s.*$` "" $t -}}                 {{- /* headings */ -}}
-    {{- $t = replaceRE `(?m)^\s*(?:>\s*(?:\[![^\]]*\][-+]?)?|[-*+]\s|\d+\.\s)` "" $t -}}
-    {{- $t = replaceRE `[*_=~\x60]+` "" $t -}}                        {{- /* emphasis, code */ -}}
-    {{- $t = replaceRE `\s+` " " $t | strings.TrimSpace -}}
-    {{- $d = $t | truncate 180 -}}
+    {{- $d = partial "plain-text.html" . | truncate 180 -}}
   {{- end -}}
 {{- end -}}
 {{- return ($d | default site.Params.description) -}}

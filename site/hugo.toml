@@ -22,6 +22,14 @@ enableGitInfo = false
 # Never read Obsidian's settings folder or its trash, wherever they appear.
 ignoreFiles = ['(^|[\\/])\.obsidian([\\/]|$)', '(^|[\\/])\.trash([\\/]|$)']
 
+# Preview server only (`docker compose up`): tell the browser never to cache,
+# so every save shows up on reload. Has no effect on the published site.
+[server]
+  [[server.headers]]
+    for = "/**"
+    [server.headers.values]
+      Cache-Control = "no-store"
+
 [taxonomies]
   tag = "tags"
 
@@ -209,6 +217,10 @@ ignoreFiles = ['(^|[\\/])\.obsidian([\\/]|$)', '(^|[\\/])\.trash([\\/]|$)']
     callout_danger    = "#e05d5d"
     callout_quote     = "#8b91a0"
 
+    # Search pop-up
+    search_overlay    = "rgba(5, 6, 9, 0.72)"   # dims the page behind it
+    search_active_bg  = "#2a2416"               # the highlighted result
+
     # Landing page
     hero_glow         = "rgba(217, 164, 65, 0.18)"
     card_bg           = "#171a21"
@@ -238,6 +250,27 @@ ignoreFiles = ['(^|[\\/])\.obsidian([\\/]|$)', '(^|[\\/])\.trash([\\/]|$)']
   #   "<exact folder name>" = "<display name>"
   [params.sidebar.rename]
     "Locations in Erovast" = "Locations"
+
+  # ---------------------------------------------------------------------------
+  #  SEARCH — the search box on the landing page and at the top of every page.
+  #  Shortcuts: Ctrl+K / ⌘K, or "/" when not typing.
+  # ---------------------------------------------------------------------------
+  [params.search]
+    enable = true
+    placeholder = "Search the codex…"
+    include_text = true     # search the full text of notes, not just names
+    max_results = 12
+    min_length = 2          # characters typed before searching starts
+    # How fuzzy matching is: 0 = exact spelling only, 1 = matches anything.
+    # 0.3–0.4 catches typos in names without too many false hits.
+    threshold = 0.35
+    # How much each field counts toward ranking (higher = more important).
+    [params.search.weights]
+      title = 3
+      aliases = 2
+      tags = 1.5
+      folder = 0.5
+      text = 1
 
   # ---------------------------------------------------------------------------
   #  NOTE PAGES

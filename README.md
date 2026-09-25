@@ -120,6 +120,6 @@ docker compose run --rm build hugo list all
 
 - **Port 1313 is in use:** change `1313:1313` in `docker-compose.yaml` to e.g. `8080:1313`, then browse to <http://localhost:8080>.
 - **A new sub-folder isn't in the sidebar:** restart the preview. Folders are detected when the server starts.
-- **Something looks stale:** hard-refresh the browser (`Cmd/Ctrl+Shift+R`), or run `docker compose down && docker compose up`.
+- **Something looks stale:** the preview tells the browser not to cache anything, so check `docker compose logs -f server` for a build error first. If there's none, run `docker compose down && docker compose up -d`. See [Caching](site/THEME.md#caching) for how the published site avoids stale files.
 
 See [`site/THEME.md` §11](site/THEME.md#11-troubleshooting) for more.

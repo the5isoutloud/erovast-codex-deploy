@@ -1,0 +1,35 @@
+{{- /*
+  Builds the search index once per build (call with partialCached) and returns
+  it as a fingerprinted JSON resource, e.g. /search-index.3f2a….json.
+  Short keys keep the file small:
+    t title · a aliases · g tags · f folder path · u URL · x note text
+*/ -}}
+{{- $cfg := site.Params.search | default dict -}}
+{{- $items := slice -}}
+{{- range site.RegularPages -}}
+  {{- $folders := slice -}}
+  {{- range .Ancestors.Reverse -}}
+    {{- if not .IsHome -}}{{- $folders = $folders | append (partial "page-name.html" .) -}}{{- end -}}
+  {{- end -}}
+  {{- $aliases := slice -}}
+  {{- range .Params.aliases -}}
+    {{- with . -}}
+      {{- $a := replaceRE `\[\[(?:[^\]|]*\|)?([^\]]*)\]\]` "$1" (string .) | strings.TrimSpace -}}
+      {{- with $a -}}{{- $aliases = $aliases | append . -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $tags := slice -}}
+  {{- range .Params.tags -}}{{- with . -}}{{- $tags = $tags | append (string .) -}}{{- end -}}{{- end -}}
+  {{- $item := dict
+      "t" (partial "page-name.html" .)
+      "a" $aliases
+      "g" $tags
+      "f" (delimit $folders " › ")
+      "u" .RelPermalink
+  -}}
+  {{- if ne $cfg.include_text false -}}
+    {{- $item = merge $item (dict "x" (partial "plain-text.html" .)) -}}
+  {{- end -}}
+  {{- $items = $items | append $item -}}
+{{- end -}}
+{{- return (resources.FromString "search-index.json" (jsonify $items) | fingerprint "md5") -}}

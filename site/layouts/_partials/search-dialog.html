@@ -1,0 +1,32 @@
+{{- /* The search pop-up. Included once per page by baseof.html; driven by assets/js/search.js. */ -}}
+{{- $cfg := site.Params.search | default dict -}}
+{{- $index := partialCached "search-index.html" "search-index" -}}
+{{- $w := $cfg.weights | default dict -}}
+{{- $options := dict
+    "threshold" ($cfg.threshold | default 0.35)
+    "limit" ($cfg.max_results | default 12)
+    "minLength" ($cfg.min_length | default 2)
+    "weights" (dict
+      "t" ($w.title | default 3)
+      "a" ($w.aliases | default 2)
+      "g" ($w.tags | default 1.5)
+      "f" ($w.folder | default 0.5)
+      "x" ($w.text | default 1))
+-}}
+<dialog class="search-dialog" id="search-dialog" aria-label="Search the codex"
+        data-index="{{ $index.RelPermalink }}" data-options="{{ jsonify $options }}">
+  <div class="search-panel">
+    <div class="search-field">
+      <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input type="search" id="search-input" placeholder="{{ $cfg.placeholder | default "Search the codex…" }}"
+             autocomplete="off" spellcheck="false" enterkeyhint="go"
+             role="combobox" aria-expanded="true" aria-controls="search-results" aria-autocomplete="list">
+      <button type="button" class="search-close" data-search-close aria-label="Close search"><kbd>Esc</kbd></button>
+    </div>
+    <div class="search-status" id="search-status" aria-live="polite"></div>
+    <ul class="search-results" id="search-results" role="listbox" aria-label="Results"></ul>
+    <div class="search-footer" aria-hidden="true">
+      <span><kbd>↑</kbd><kbd>↓</kbd> choose</span><span><kbd>Enter</kbd> open</span><span><kbd>Esc</kbd> close</span>
+    </div>
+  </div>
+</dialog>
