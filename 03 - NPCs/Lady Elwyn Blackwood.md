@@ -8,9 +8,13 @@ tags:
 aliases:
   - Elwyn Blackwood
 date:
-image_name:
+image_name: Lady Elwyn Blackwood.png
 ---
 # Lady Elwyn Blackwood
+
+<div style="float: left; margin-right: 10px;">  
+<img src="../Attachments/Lady Elwyn Blackwood.png" alt="Lady Elwyn Blackwood" width="300" />  
+</div>
 
 ## Summary
 

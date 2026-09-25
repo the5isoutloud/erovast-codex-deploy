@@ -6,13 +6,13 @@ dateCreated: 2026-05-05
 tags:
   - quest
 status: active
-dateUpdated: 2026-05-12
+dateUpdated: 2026-09-15
 ---
 # Rescue Jevon
 
 ## Status
 
-Partially resolved. [[Jevon]] was found in the [[Stone Sanctum]] graveyard, bound in rope and bloodied, and freed by [[Odine Dunmere]]. He is alive and recovering. However, he cannot safely return to the [[King's Tourney]] in daylight because [[House Godrin]] will be looking for him when they discover their two soldiers are missing. Source: [[2026.05.05|2026.05.05]], [[2026.05.12|2026.05.12]].
+**Rescued twice, still hunted.** [[Jevon]] was first found bound and bloodied in the [[Stone Sanctum]] graveyard and freed by [[Odine Dunmere]] ([[2026.05.12|2026.05.12]]). The party rescued him a second time from [[House Godrin]] knights in an untranscribed session before [[2026.08.11|2026.08.11]]. Godrin's real target turned out to be his teacher, [[Maralynn]], whom they have now confirmed is alive ([[2026.08.25|2026.08.25]]). By [[2026.09.15|2026.09.15]], Jevon had left Everdale for an outpost on the western fringe of the [[Thornwood Vale]] to help mislead the Godrin scouts chasing Odine's "Erendel Morath" decoy. The quest stays active because Jevon is no longer in danger at the fair but is still a Godrin target. Source: [[2026.05.12|2026.05.12]], [[2026.08.11|2026.08.11]], [[2026.08.25|2026.08.25]], [[2026.09.15|2026.09.15]].
 
 ## Evidence
 
@@ -26,18 +26,19 @@ Partially resolved. [[Jevon]] was found in the [[Stone Sanctum]] graveyard, boun
 
 [[House Godrin]] soldiers abducted Jevon and interrogated him about his magic and his teacher, [[Maralynn]]. He refused to give them much. They escalated and he passed out from the beating. One of the soldiers was killed by the possessing ghost before Jevon regained consciousness. The party defeated the second soldier (possessed by an undead spirit) in combat, after which the spirit submitted and dissipated. Source: [[2026.05.12|2026.05.12]].
 
-## Current Status
+## Current Status (as of 2026.05.12)
 
 - Jevon is in hiding, moving unseen through Everdale.
-- [[Odine Dunmere]] holds one of two enchanted stones Jevon made; she can send him one short message and receive a reply to her mind. She is to use it at night when the party has a secure meeting place.
-- Two dead House Godrin soldiers remain in the Stone Sanctum graveyard. When discovered, House Godrin will likely assume Jevon is responsible.
+- [[Odine Dunmere]] holds one of two enchanted stones Jevon made. She can send him one short message and receive a reply in her mind, and is to use it at night when the party has a secure meeting place.
+- Two dead House Godrin soldiers remain in the Stone Sanctum graveyard. When they are discovered, House Godrin will likely assume Jevon is responsible.
 - Jevon is willing to come to the party at night if called. Source: [[2026.05.12|2026.05.12]].
 
 ## Next Steps
 
-- Contact Jevon at night via the communication stone once the party is settled at the [[Ragged Flagon]].
-- Determine whether House Godrin's search for [[Maralynn]] escalates after the deaths of their soldiers.
-- Prove to [[Gruvelda Duskbelt]] that the party handled the ghost problem at the Stone Sanctum (she requires proof, not just their word).
+- ~~Contact Jevon at night via the communication stone once the party is settled at the [[Ragged Flagon]].~~ — **done** (2026.06.23)
+- ~~Determine whether House Godrin's search for [[Maralynn]] escalates after the deaths of their soldiers.~~ — **done** (2026.08.25). It escalated: Godrin has confirmed she is alive. See [[Investigate House Godrin]].
+- ~~Prove to [[Gruvelda Duskbelt]] that the party handled the ghost problem at the Stone Sanctum (she requires proof, not just their word).~~ — **done** (2026.05.19)
+- Keep in contact with Jevon via the sending stone while he misdirects the Godrin scouts on the western fringe of the Vale.
 
 ## Ongoing Support (since 2026.06.23)
 

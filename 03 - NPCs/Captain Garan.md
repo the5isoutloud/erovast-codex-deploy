@@ -8,9 +8,13 @@ tags:
 aliases:
   - Garan
 date:
-image_name:
+image_name: Captain Garran.png
 ---
 # Captain Garan
+
+<div style="float: left; margin-right: 10px;">  
+<img src="../Attachments/Captain Garran.png" alt="Captain Garan" width="300" />  
+</div>
 
 ## Summary
 
@@ -21,6 +25,7 @@ image_name:
 - Per [[Lady Elwyn Blackwood]], his tension isn't really about the party—he worries about the loyalty of his men, some of whom are paid mercenaries who could "swear fealty elsewhere" if frightened. She considers him "perfectly capable" and somewhat prone to overreacting.
 - Ordered by Duke Blackwood to escort the party safely out of the fairgrounds to [[Havenport]] and to "see that they understand what comes next." Did not acknowledge Cassian's pleasantries before leading the party out.
 - Told the party to report back to him in the morning.
+- Met the party at dawn at the Blackwood camp, rebuffed Cassian's attempted hug (*"just personal space, man"*), and escorted them to the [[Gleaming Keep]]. There he paid roughly **5,000 gp** of Blackwood's money in tribute and handed over the spell draught for the teleportation circle. It is not recorded whether he teleported with them to [[Havenport]]. Source: [[2026.09.22|2026.09.22]].
 
 ## Relationships
 

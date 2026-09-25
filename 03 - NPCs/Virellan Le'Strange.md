@@ -2,18 +2,18 @@
 cssclasses:
   - wide-page
   - wide-backlinks
-dateCreated: <% tp.file.creation_date() %>
+dateCreated: 2026-06-11
 tags:
   - npc
 aliases:
 date:
 image_name:
 ---
-# Virellan Le’Strange
+# Virellan Le'Strange
 
 ## Summary
 
-Virellan Le’Strange is a flamboyant bard or observer at the [[King's Tourney]]. He wears a mask over one eye, royal purple robes, a soft cap with a fiery plume, and carries a drum at his sash. Source: [[2026.05.05|2026.05.05]].
+Virellan Le'Strange is a flamboyant bard or observer at the [[King's Tourney]]. He wears a mask over one eye, royal purple robes, a soft cap with a fiery plume, and carries a drum at his sash. Source: [[2026.05.05|2026.05.05]].
 
 ## Notes
 

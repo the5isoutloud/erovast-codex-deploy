@@ -23,7 +23,7 @@ Present at the [[King's Tourney]] but keeping a very low profile. She was spotte
 
 - She is one of a very small number of dwarves at the [[King's Tourney]], which she explains by saying she sees humans purely as a source of gold.
 - She carries two hammers and works forging hot plate as standard labor while managing high-profile noble commissions.
-- Her clan is from an underground home she calls "the veil"—a separate place from the [[Thornwood Vale]]; her brother is responsible for protecting her clan from shadows and ghouls that infiltrate their home.
+- Her clan is from [[Thornwood Vale|the Vale]]. Her brother, [[Grimhall Duskbelt]], protects the clan from the shadows and ghouls that "make their way down into the Vale."
 - She survived the same corruption that afflicts [[Odine Dunmere]] and the [[Thornwood Vale]] by severing her own hand. She now wears a prosthetic on her right arm and keeps the dried, corrupted hand in a small wooden box on her shelf as a reminder or trophy.
 - She bears no ill will toward humans as a rule but has heard her clan's stories about "sniveling humans" meddling with magic in the Everdale hamlet cemetery, which she finds distasteful.
 - When [[Azrith]] used Thaumaturgy to conjure ghostly sounds near her tent as a calling card, she was not startled—she recognized it as a pitch. She bought it, gave the party extra time, and struck a deal.
@@ -40,7 +40,7 @@ Present at the [[King's Tourney]] but keeping a very low profile. She was spotte
 Gruvelda's ghost-job deal is complete. She was persuaded of the party's success (Cassian's persuasion + Aldrich's assistance, result 12; sealed when Cassian revealed his old-house signet ring). She delivered:
 - A **Sentinel Shield** for [[Aldrich]]: blue-painted dwarven craftsmanship with an eye emblem. Grants advantage on initiative rolls and perception checks. Requires an action to equip or stow.
 - **4 gold coins** each for all four party members.
-- A lead: her brother **[[Grimhall Duskbelt]]** in the dwarven veil, who may have work and coin for ghost hunters. She has passed word to him about the party.
+- A lead: her brother **[[Grimhall Duskbelt]]** in [[Thornwood Vale|the Vale]], who may have work and coin for ghost hunters. She has passed word to him about the party.
 
 Source: [[2026.05.12|2026.05.12]], [[2026.05.19|2026.05.19]].
 

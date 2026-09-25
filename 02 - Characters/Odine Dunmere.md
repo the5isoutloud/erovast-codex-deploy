@@ -20,15 +20,43 @@ class: Warlock 2 / Sorcerer 3
 
 ## Background
 
-Odine Dunmere is a 25-year-old half-elf from the [[Thornwood Vale]], multiclassed as a **Warlock 2 / Sorcerer 2**. She is descended from an ancient elven line, but her grandmother married a human, and her mother, Elira Dunmere, later married a half-elf named Etienne in an attempt to keep the bloodline balanced. Both of Odine's parents are still alive, and most of her ancestry going back roughly 1,400 years still lives within the Vale.
+Odine Dunmere is a 25-year-old half-elf from the [[Thornwood Vale]]. As of [[2026.09.15|2026.09.15]] she is a level 5 **Sorcerer 3 / Warlock 2**. Where her warlock power comes from has not been named in play. Source: [[2026.09.15|2026.09.15]].
 
-Odine loves the Vale and its people, but as a half-elf she is treated differently by many of its elves, almost like a second-class citizen. That prejudice became sharper after she was revealed as one of the "Touched," because the Vale now has to trust a half-human descendant with the role of binder and protector.
+### Family
 
-Odine left the Vale because the current blight is stronger than any before it. She hopes to find help, accelerate her understanding of her power, and learn how to bind the entity again, ideally forever.
+Odine comes from an ancient elven line. Her grandmother married a human, and her mother, **Elira Dunmere**, later married a half-elf named **Etienne** in an attempt to keep the bloodline balanced. These details come from Odine's written backstory and have not yet come up at the table. Her mother is alive and has already outlived Odine's grandmother. Much of her family still lives in the Vale, and their home holds several of the Vale's old straw dolls. Source: [[2026.06.11|2026.06.11]]. Odine describes her family as *"a long line of witches... powerful magic casters who somehow are immune to this but still show symptoms,"* and her people as elves *"who just wish to be left alone and fade into history."* Source: [[2026.05.12|2026.05.12]], [[2026.08.25|2026.08.25]].
+
+Her grandmother **Mara** died at 71, long before Odine was born. She *"sacrificed herself in the most painful way"* to cast the entity back. [[Gruvelda Duskbelt]], who knew Mara from girlhood, says most humans no longer remember that sacrifice. Odine believes the entity is now as powerful as it was when Mara drove it back. Source: [[2026.06.11|2026.06.11]].
+
+> [!question] Unresolved
+> Gruvelda said she *"never knew Mara to have any children,"* which sits uneasily with Mara being Odine's grandmother. This has not been explained at the table. Source: [[2026.06.11|2026.06.11]].
+
+### The Touched
+
+Odine is one of **the Touched**, the lineage that bears the burden of holding the entity back. Gruvelda recognized her as Touched on sight and said the Touched's lifespans have been shrinking with each generation, until she feared none remained. Odine calls herself *"the youngest"* and admits she has not had enough time among the Touched to learn how to use their power or to bind the entity alone. Source: [[2026.06.11|2026.06.11]].
+
+Black, tentacle-like marks run from her wrists up both arms. She told [[Jevon]] she has carried them for *"about 15 years,"* and he found it impossible that her mind was still intact after so long. Source: [[2026.05.05|2026.05.05]], [[2026.05.12|2026.05.12]].
+
+Her magic is not fully under her control. Fear, shock or stress can make it surge on its own: she once cast an involuntary Message into Gruvelda's mind, and her Eldritch Blasts "erupt" from her hands. When she lets the Touched power through, her eyes turn fully black and mist pours from her body. Gruvelda told her she needs *"a good teacher, someone who understands how to control the arcane power that resides within you."* Source: [[2026.05.12|2026.05.12]], [[2026.06.02|2026.06.02]], [[2026.06.11|2026.06.11]], [[2026.08.25|2026.08.25]].
+
+### Standing Among Her People
+
+Odine loves the Vale and its people. But among them, half-elves are treated as a lower class who would never lead a village. That prejudice sharpened once she was known to be Touched, because the Vale must now trust a half-human descendant with the role of binder and protector. Source: [[2026.05.05|2026.05.05]].
+
+### Keepsakes
+
+- **Violet crystal pendant:** of deep personal importance. It has been fused with the Shadowfell Shard from [[Duke Tristan Blackwood]]'s Gauntlet reward, and it glows when she channels Metamagic. She clutches it when frightened. Source: [[2026.05.05|2026.05.05]], [[2026.08.11|2026.08.11]], [[2026.09.08|2026.09.08]], [[2026.09.22|2026.09.22]].
+- **Village charm:** a charm marking her home village, which hung on the same necklace. She gave it to Duke Blackwood as the token backing her "Erendel Morath" decoy. Source: [[2026.08.25|2026.08.25]].
+
+### Why She Left the Vale
+
+Many of her people now bear the mark, the crops are failing, and she is *"the one tasked to deal with this."* The blight is spreading *"faster and faster"* and has reached the Crownlands. Source: [[2026.05.12|2026.05.12]], [[2026.06.11|2026.06.11]], [[2026.08.18|2026.08.18]]. She knows that the humans' story of their King defeating the hollowing about 150 years ago is a lie. On [[2026.09.22|2026.09.22]] she recognized the Oathkeepers' legend of the Dark King as *"very similar to those of my family,"* and remembered once finding the statue of King Aldrich kneeling alone in the Vale's forest. Source: [[2026.06.11|2026.06.11]], [[2026.09.22|2026.09.22]].
+
+She hopes to find someone powerful enough to teach her, to master her power faster, and to bind or seal the entity again, ideally forever. She insists that *"no one can hold the title to the Vale."* Source: [[2026.06.11|2026.06.11]], [[2026.08.11|2026.08.11]].
 
 ## Thornwood Vale
 
-Odine's people rarely leave the [[Thornwood Vale]] because the forest is, for elves, nearly perfect. The Vale's forest holds a power beyond their full understanding. After the elves arrived there about 1,300 years ago, they stopped aging and even returned to youthful bodies. The elders who first settled the Vale still live there. Source:
+Odine's people rarely leave the [[Thornwood Vale]] because the forest is, for elves, nearly perfect. The Vale's forest holds a power beyond their full understanding. After the elves arrived there about 1,300 years ago, they stopped aging and even returned to youthful bodies. The elders who first settled the Vale still live there. (This comes from Odine's written backstory. In play she has said the blight has worsened "over the last thousand years.") Source: [[2026.06.11|2026.06.11]].
 
 The Vale's immortality is conditional. If someone leaves, the gift ceases and their age can accelerate rapidly. Only younger elves under about 50 years old can leave safely, and even they must return within a few years or their lives begin to fade. The community remains isolated, though the men of the Vale sometimes leave to trade. The people call themselves the Guardians of the Vale.
 
@@ -56,20 +84,22 @@ The Guardians are matriarchal. Men are considered equals, but women naturally le
 - Received a **Shadowfell Shard** as part of [[Duke Tristan Blackwood]]'s Crown Gauntlet victory reward, and fused it onto her existing crystal pendant: as a spellcasting focus, using it with a Metamagic option lets her curse a targeted creature with disadvantage on checks/saves of one chosen ability score. Source: [[2026.08.11|2026.08.11]].
 - Bought two Potions of Greater Healing (280 gp) from [[Marea Voss]]. Continues to support [[Jevon]] in hiding via the sending stone, including a 50 gp and mead cache left at a hidden drop point. Source: [[2026.08.11|2026.08.11]].
 - During the long rest, Odine reflected on feeling far from her family in the [[Thornwood Vale]] but grounded by the friends around her. Source: [[2026.08.11|2026.08.11]].
-- Gave [[Duke Tristan Blackwood]] her most direct explanation yet of her mission—"from beyond the veil," seeking to save her homeland from a crop-killing blight. Blackwood confirmed the blight has spread into the Crownlands themselves. Source: [[2026.08.18|2026.08.18]].
+- Gave [[Duke Tristan Blackwood]] her most direct explanation yet of her mission—"from beyond the Vale," seeking to save her homeland from a crop-killing blight. Blackwood confirmed the blight has spread into the Crownlands themselves. Source: [[2026.08.18|2026.08.18]].
 - Scouted **White Feather Tor** with a natural-20 Perception check, identifying a viable nighttime cliffside infiltration route to the Messenger Tent tied to [[House Godrin]]. Entered the King's Cup drinking tournament, rigged a side bet against her own success (Deception 14), reached exhaustion level 2, vomited, and bowed out. Cast **Spare the Dying** on [[Aldrich]] reflexively after his final failed save. Source: [[2026.08.18|2026.08.18]].
 - Cleared her own exhaustion down to level 1 via a long rest alongside Aldrich's treatment. Helped bring the intercepted Godrin letter to [[Duke Tristan Blackwood]] and, on the spot, improvised a decoy to protect [[Maralynn]]: a fabricated name (**Erendel Morath**) and a false location deep in the [[Thornwood Vale]], backed by her own home-village charm pendant—removed from her necklace and handed to Blackwood—to make the lead convincing. Blackwood agreed to float it through his own channels as misdirection. Source: [[2026.08.25|2026.08.25]].
 - In the manticore bout, landed a quickened Mind Sliver and a Thunderwave (16 thunder, halved on a successful Con save). When [[Cassian]] pivoted to freeing the manticore, cast **Cause Fear** on the loudest heckler in the crowd (failed save) to sow panic and distract the officials, publicly condemning the spectacle as "cold-blooded murder, not a test"—drawing a "she's a witch!" shout from the stands. Cast an illusory bowing manticore (Silent Image) in solidarity once the beast was freed. Source: [[2026.09.08|2026.09.08]].
 - Read **[[Lady Elwyn Blackwood]]** with an Insight check (13) as a sharp social manipulator, distinct from her husband's strategist style. Grew wary of the camp's unfamiliar faces after the day's fallout and proposed the party start keeping night watches or find more secure lodging. Messaged [[Jevon]] via her sending stone to let him know the party was heading to [[Havenport]]. Kept first watch that night (Perception 19, safe), taking on an extra point of exhaustion for it. Reached **level 5** (Sorcerer 3 / Warlock 2); the GM pointed out her unusually high Deception and Intimidation modifiers go underused, prompting her to lean into a deliberately "naive-seeming but actually shrewd" persona going forward. Source: [[2026.09.15|2026.09.15]].
+- In [[Havenport]], heard the Oathkeeper [[Ian]]'s legend of the **Dark King** and remembered once finding the statue of King Aldrich **kneeling with his sword in the ground**, alone in the Vale's forest: *"I've seen this statue that you speak of with my own eyes."* She said the tale is very similar to her family's stories. Spoke telepathically with the Curtain, which answered *"door"*. Her History check (14) sensed that the black veil is foreign, non-elven magic where the ethereal and material planes are converging. She touched it and drove back its creeping shadow with Sacred Flame, and warned Cassian telepathically. Believes she can figure out the wall. Source: [[2026.09.22|2026.09.22]].
 
 ## Relationships
 
 - [[Cassian]] noticed her pendant and the black tendril marks but did not press her.
 - [[Marea Voss]] warned Odine to seek true sources about the pestilence and avoid those who exploit misinformation.
-- [[Gruvelda Duskbelt]]: Fellow survivor of the corruption (Gruvelda by amputation). A key figure for the pestilence investigation. Source: [[2026.05.12|2026.05.12]].
+- [[Gruvelda Duskbelt]]: Fellow survivor of the corruption (Gruvelda by amputation). She knew Odine's grandmother Mara and recognized Odine as Touched. A key ally in the pestilence investigation. Source: [[2026.05.12|2026.05.12]], [[2026.06.11|2026.06.11]].
 - [[Jevon]]: Rescued him at the Stone Sanctum. Holds his communication stone. His teacher [[Maralynn]] is from the Thornwood Vale and may be connected to the pestilence.
-- Elira Dunmere is Odine's mother and is still alive in the [[Thornwood Vale]].
-- Etienne is Odine's father and is still alive in the [[Thornwood Vale]].
+- Mara: her grandmother, a Touched binder who sacrificed herself to cast the entity back. She died at 71.
+- Elira Dunmere: her mother, alive in the [[Thornwood Vale]] and older than Mara lived to be.
+- Etienne: her father, per her written backstory. He has not been mentioned in play.
 
 ## Quests
 

@@ -13,11 +13,11 @@ image_name:
 
 ## Summary
 
-Grimhall Duskbelt is [[Gruvelda Duskbelt]]'s brother and a dwarven lord in the dwarven underground home the Duskbelts call "the veil" (distinct from the [[Thornwood Vale]]). He is responsible for protecting his clan from shadows and ghouls that infiltrate their underground home—a problem he believes originates from the surface. Source: [[2026.05.19|2026.05.19]].
+Grimhall Duskbelt is [[Gruvelda Duskbelt]]'s brother and a dwarven lord of the Duskbelt clan, whose home is in the [[Thornwood Vale]]. He is responsible for protecting his clan from the shadows and ghouls that "make their way down into the Vale," a problem he believes originates in the town above ([[Everdale]]) rather than in the Vale itself. Source: [[2026.05.19|2026.05.19]].
 
 ## Current Status
 
-Not yet encountered. Gruvelda recommended the party seek him out if they ever travel to the dwarven veil, saying he may have work and coin for true ghost hunters. Source: [[2026.05.19|2026.05.19]].
+Not yet encountered. Gruvelda recommended the party seek him out if they ever travel to [[Thornwood Vale|the Vale]], saying he may have work and coin for true ghost hunters. Source: [[2026.05.19|2026.05.19]].
 
 ## Notes
 

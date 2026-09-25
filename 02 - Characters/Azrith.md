@@ -2,7 +2,7 @@
 cssclasses:
   - wide-page
   - wide-backlinks
-dateCreated:
+dateCreated: 2026-09-15
 tags:
   - character
 aliases:
@@ -46,6 +46,7 @@ Azrith is energetic, curious, and easily drawn toward odd or spooky things. He t
 - **Returned** and infiltrated [[White Feather Tor]] alongside [[Cassian]], invisible under Cassian's upcast spell. Shimmied up between two gate pillars (Acrobatics, failed then succeeded) to slip inside undetected. Reached the Messenger Tent, picked a guard's keyring with a rerolled Sleight of Hand (Heroic Inspiration, 23), opened a locked drawer to recover an already-broken-seal letter from House Godrin, and looted a strongbox for 73 gp and a potion of healing, taking the whole courier satchel. Source: [[2026.08.25|2026.08.25]].
 - In the Menagerie bout against the manticore, landed several hits (dagger and Chill Touch, including an opportunity attack) and cracked a fat joke at it mid-fight. Unaware Cassian had pivoted to talking the manticore down, kept attacking after it started to stand down—prompting [[Aldrich]] to physically shove him out of melee (natural 20 Athletics) to stop the fight from reigniting. Took 21 combined damage from the manticore's retaliatory rend attacks once it felt betrayed, but stayed standing (cushioned by an earlier False Life). Drank a healing potion Aldrich tossed him after the bout ended. Source: [[2026.09.08|2026.09.08]].
 - Privately conflicted about freeing the manticore—torn between wanting the fight and being "slapped on his ass" for continuing it once the party's plan changed—but said he thought they made the right choice regardless. Reached **level 5**, gaining Extra Attack and a +7 Perception modifier. Source: [[2026.09.15|2026.09.15]].
+- **Absent** on [[2026.09.22|2026.09.22]]; the GM ran him. Just before the teleport to [[Havenport]] he started to ask *"hey wait, before we go, shouldn't we—"* and was cut off. In the [[Westermere Manor]] undercroft he **took a running jump into the Curtain**, a sphere of black mist that is a passage to the realm of death, and vanished. He may return if he survives, whenever it reopens. See [[Find Azrith]]. Source: [[2026.09.22|2026.09.22]].
 
 ## Relationships
 

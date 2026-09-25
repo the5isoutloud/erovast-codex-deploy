@@ -2,7 +2,7 @@
 cssclasses:
   - wide-page
   - wide-backlinks
-dateCreated:
+dateCreated: 2026-09-15
 tags:
   - character
 aliases:
@@ -50,6 +50,7 @@ Aldrich came to [[Everdale]] for the [[King's Tourney]] and had not personally v
 - Capped the escape from the Menagerie by casting Firebolt into the arena's outer tents and banners as a parting smokescreen. Praised by patrons at the [[Ragged Flagon]] afterward for the flair. Source: [[2026.09.15|2026.09.15]].
 - Reacted oddly when [[Duke Tristan Blackwood]] named their destination as [[Havenport]]—his own surname, known to him only from family bedtime stories. Held a private, undisclosed conversation with the GM about it; the connection to his backstory is unresolved. Source: [[2026.09.15|2026.09.15]].
 - Reached **level 5**, gaining Extra Attack. Source: [[2026.09.15|2026.09.15]].
+- Activated the Gleaming Keep's teleportation circle by holding the keystone and speaking *"Havenport"*, after worrying aloud that he might leave parts of himself behind. In Havenport, the Oathkeeper [[Ian]] treated the town as Aldrich's **home**. Aldrich said he left roughly eight or nine years ago, "maybe longer," and admitted to *"a little bit of a past there"* that he doesn't like to revisit, including the fall of [[House Westermere]]. Led the party into the [[Westermere Manor]] undercroft. Source: [[2026.09.22|2026.09.22]].
 
 ## Relationships
 
