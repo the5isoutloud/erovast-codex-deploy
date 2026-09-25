@@ -13,7 +13,7 @@ date:
 
 ## Summary
 
-House Oswall is a nomadic religious group that arrives at the [[King's Tourney]] each year to claim legitimacy to the Crownlands throne. The GM's stated faction theme: **Illegitimate**. They have **never been formally deeded land** by King Aldrich and are considered an illegitimate house by the established nobility. They are generally regarded as a joke among the noble houses and are typically humiliated at the tournament before departing. Source: [[00 - Game Log/2026.06.11|2026.06.11]], GM faction notes.
+House Oswall is a nomadic religious group that arrives at the [[King's Tourney]] each year to claim legitimacy to the Crownlands throne. The GM's stated faction theme: **Illegitimate**. They have **never been formally deeded land** by King Aldrich and are considered an illegitimate house by the established nobility. They are generally regarded as a joke among the noble houses and are typically humiliated at the tournament before departing. Source: [[2026.06.11|2026.06.11]], GM faction notes.
 
 ## Notes
 
@@ -23,8 +23,8 @@ House Oswall is a nomadic religious group that arrives at the [[King's Tourney]]
 - [[Cassian]] confirmed from noble knowledge: they are considered a standing joke among legitimate houses.
 - Their religious nature and nomadic lifestyle suggest a distinct theological or prophetic basis for their throne claim, though details are not yet established.
 
-- **Naming note:** for much of session [[00 - Game Log/2026.08.11|2026.08.11]] the party mistakenly used "House Oswall" to refer to the white-armored knights pursuing [[Jevon]]—that house is actually [[House Godrin]]. House Oswall itself is unarmored, unrelated to the Jevon plot, and had no combat presence in that confusion.
-- Fielded three unarmored dignitaries registering for **The Menagerie** tournament tier on [[00 - Game Log/2026.08.11|2026.08.11]]—an unusually large showing, more entries than any prior year, though still treated as underdogs/a laughing stock by onlookers given their lack of military background.
+- **Naming note:** for much of session [[2026.08.11|2026.08.11]] the party mistakenly used "House Oswall" to refer to the white-armored knights pursuing [[Jevon]]—that house is actually [[House Godrin]]. House Oswall itself is unarmored, unrelated to the Jevon plot, and had no combat presence in that confusion.
+- Fielded three unarmored dignitaries registering for **The Menagerie** tournament tier on [[2026.08.11|2026.08.11]]—an unusually large showing, more entries than any prior year, though still treated as underdogs/a laughing stock by onlookers given their lack of military background.
 
 ## Relationships
 

@@ -17,7 +17,7 @@ date:
 
 ## Summary
 
-White Feather Tor is a tall, craggy hill in the **Eastern Tourney Grounds**, topped with white tents, flags, and banners and reached by a well-trodden natural path. It is the **Godrin family camp**—[[House Godrin]]'s home base at the King's Tourney—and contains the **Messenger Tent**, the party's investigative target, as well as [[Golstang Godrin]]'s central pavilion. Source: [[00 - Game Log/2026.08.18|2026.08.18]].
+White Feather Tor is a tall, craggy hill in the **Eastern Tourney Grounds**, topped with white tents, flags, and banners and reached by a well-trodden natural path. It is the **Godrin family camp**—[[House Godrin]]'s home base at the King's Tourney—and contains the **Messenger Tent**, the party's investigative target, as well as [[Golstang Godrin]]'s central pavilion. Source: [[2026.08.18|2026.08.18]].
 
 ## Notes
 
@@ -25,7 +25,7 @@ White Feather Tor is a tall, craggy hill in the **Eastern Tourney Grounds**, top
 - A **sheer cliffside** on another face of the hill offers a dangerous but viable nighttime climb to infiltrate unseen.
 - A vague "marsh-lock lake approach" was also mentioned as a more overt alternative way to seek entry—not explored.
 - The **Messenger Tent**, somewhere on the tor, is named in [[Duke Tristan Blackwood]]'s intelligence note as a location tied to House Godrin's activity. Not yet entered.
-- **Successfully infiltrated** on [[00 - Game Log/2026.08.25|2026.08.25]] by [[Cassian]] and [[Azrith]], both invisible (Cassian also flying). Azrith got in by shimmying up between two close-set gate pillars near the front gate. The Messenger Tent proved empty and locked down, but Azrith stole a guard's keyring and recovered an opened Godrin letter plus a strongbox with 73 gp and a potion of healing. Cassian eavesdropped on the main tent instead, overhearing [[Percival Godrin]] confirm [[Maralynn]] is alive. Cassian also spotted House Godrin's champion, **[[Sir Thorin Cassavar]] ("the Crow")**, patrolling the camp. Source: [[00 - Game Log/2026.08.25|2026.08.25]].
+- **Successfully infiltrated** on [[2026.08.25|2026.08.25]] by [[Cassian]] and [[Azrith]], both invisible (Cassian also flying). Azrith got in by shimmying up between two close-set gate pillars near the front gate. The Messenger Tent proved empty and locked down, but Azrith stole a guard's keyring and recovered an opened Godrin letter plus a strongbox with 73 gp and a potion of healing. Cassian eavesdropped on the main tent instead, overhearing [[Percival Godrin]] confirm [[Maralynn]] is alive. Cassian also spotted House Godrin's champion, **[[Sir Thorin Cassavar]] ("the Crow")**, patrolling the camp. Source: [[2026.08.25|2026.08.25]].
 
 ## Camp Layout (per Blackwood's Note)
 

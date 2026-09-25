@@ -13,7 +13,7 @@ image_name:
 
 ## Summary
 
-Valerie Godrin is a member of [[House Godrin]]'s ruling family, named in [[Duke Tristan Blackwood]]'s intelligence note on the Godrin camp at [[White Feather Tor]]. She regularly leaves camp, making her **the most accessible Godrin family member away from the family**—a notable lead for the party's planned investigation. Source: [[00 - Game Log/2026.08.18|2026.08.18]].
+Valerie Godrin is a member of [[House Godrin]]'s ruling family, named in [[Duke Tristan Blackwood]]'s intelligence note on the Godrin camp at [[White Feather Tor]]. She regularly leaves camp, making her **the most accessible Godrin family member away from the family**—a notable lead for the party's planned investigation. Source: [[2026.08.18|2026.08.18]].
 
 ## Relationships
 

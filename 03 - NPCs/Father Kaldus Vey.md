@@ -15,7 +15,7 @@ image_name:
 
 ## Summary
 
-Father Kaldus Vey is a middle-aged priest of the Royal Chapel working the healer tents at the King's Fair. He treated **[[Aldrich]]**'s exhaustion after the King's Cup, casting Greater Restoration (capped at three castings per day) for a fee of 100 gp in diamond dust plus a 300 gp materials cost, sweetened by a 100 gp donation from [[Cassian]]—400 gp total. Source: [[00 - Game Log/2026.08.25|2026.08.25]].
+Father Kaldus Vey is a middle-aged priest of the Royal Chapel working the healer tents at the King's Fair. He treated **[[Aldrich]]**'s exhaustion after the King's Cup, casting Greater Restoration (capped at three castings per day) for a fee of 100 gp in diamond dust plus a 300 gp materials cost, sweetened by a 100 gp donation from [[Cassian]]—400 gp total. Source: [[2026.08.25|2026.08.25]].
 
 ## Notes
 

@@ -13,7 +13,7 @@ date:
 
 ## Summary
 
-The Empty Throne is the throne once held by King Aldrich in [[Everdale]]. It has remained unfilled for centuries while noble houses continue to war and compete for power. Source: [[00 - Game Log/2026.05.05|2026.05.05]].
+The Empty Throne is the throne once held by King Aldrich in [[Everdale]]. It has remained unfilled for centuries while noble houses continue to war and compete for power. Source: [[2026.05.05|2026.05.05]].
 
 ## Related
 

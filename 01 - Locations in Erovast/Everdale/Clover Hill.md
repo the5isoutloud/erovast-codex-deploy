@@ -11,7 +11,7 @@ aliases:
 
 ## Summary
 
-Clover Hill is the noble encampment area above the [[King's Tourney]] fairgrounds where higher-status houses and their vassals station their servants, tents, and supplies during the festival. Source: [[00 - Game Log/2026.06.11|2026.06.11]].
+Clover Hill is the noble encampment area above the [[King's Tourney]] fairgrounds where higher-status houses and their vassals station their servants, tents, and supplies during the festival. Source: [[2026.06.11|2026.06.11]].
 
 ## Notes
 

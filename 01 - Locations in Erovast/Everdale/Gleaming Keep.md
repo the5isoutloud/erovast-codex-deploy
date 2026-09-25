@@ -12,7 +12,7 @@ date:
 
 ## Summary
 
-The Gleaming Keep crowns the hill above [[Everdale]]. According to local lore, King Aldrich and his powerful mages transmuted the keep's stonework into metal so it would endure, causing it to gleam in the light. Source: [[00 - Game Log/2026.05.05|2026.05.05]].
+The Gleaming Keep crowns the hill above [[Everdale]]. According to local lore, King Aldrich and his powerful mages transmuted the keep's stonework into metal so it would endure, causing it to gleam in the light. Source: [[2026.05.05|2026.05.05]].
 
 ## Related Lore
 

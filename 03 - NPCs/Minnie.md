@@ -14,7 +14,7 @@ image_name:
 
 ## Summary
 
-Minnie is a brewer at the [[King's Tourney]] and the wife of [[Slug]]. Slug called her the best brewer in town. Source: [[00 - Game Log/2026.05.05|2026.05.05]].
+Minnie is a brewer at the [[King's Tourney]] and the wife of [[Slug]]. Slug called her the best brewer in town. Source: [[2026.05.05|2026.05.05]].
 
 ## Notes
 

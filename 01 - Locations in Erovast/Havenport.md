@@ -12,7 +12,7 @@ date:
 
 ## Summary
 
-Havenport is a town [[Duke Tristan Blackwood]] is sending the party to, escorted by **[[Captain Garan]]**, to let tensions cool after the Menagerie manticore scandal. The party has not yet arrived. Source: [[00 - Game Log/2026.09.15|2026.09.15]].
+Havenport is a town [[Duke Tristan Blackwood]] is sending the party to, escorted by **[[Captain Garan]]**, to let tensions cool after the Menagerie manticore scandal. The party has not yet arrived. Source: [[2026.09.15|2026.09.15]].
 
 ## Notes
 

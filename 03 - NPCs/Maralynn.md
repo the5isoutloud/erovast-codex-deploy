@@ -13,11 +13,11 @@ image_name:
 
 ## Summary
 
-Marilyn is a witch from the [[Thornwood Vale]] who is spoken of with awe by those who have encountered her. She possesses what [[Jevon]] described as "unfathomable power." She found Jevon on the brink of death, malnourished and without strength, recognized something in him, taught him to survive, and then departed. She gave him his magical box before she left. Source: [[00 - Game Log/2026.05.12|2026.05.12]].
+Marilyn is a witch from the [[Thornwood Vale]] who is spoken of with awe by those who have encountered her. She possesses what [[Jevon]] described as "unfathomable power." She found Jevon on the brink of death, malnourished and without strength, recognized something in him, taught him to survive, and then departed. She gave him his magical box before she left. Source: [[2026.05.12|2026.05.12]].
 
 ## Current Status
 
-Unknown. Jevon has not seen her in years. She is from the [[Thornwood Vale]] but was encountered at some point in [[Everdale]]. Her current whereabouts are unknown. Source: [[00 - Game Log/2026.05.12|2026.05.12]].
+Unknown. Jevon has not seen her in years. She is from the [[Thornwood Vale]] but was encountered at some point in [[Everdale]]. Her current whereabouts are unknown. Source: [[2026.05.12|2026.05.12]].
 
 ## Notes
 
@@ -27,8 +27,8 @@ Unknown. Jevon has not seen her in years. She is from the [[Thornwood Vale]] but
 - [[House Godrin]] interrogated [[Jevon]] specifically about his magic and his teacher, suggesting they are actively searching for her.
 - Per Jevon (2026.06.23), she "returned to her people in the Veil"—the same region [[House Godrin]] works with a dwarven clan to extract mana crystals from, though no direct link is confirmed.
 - As of the untranscribed session before 2026.08.11, House Godrin's interest in Jevon's sending stone is now framed as secondary to wanting to know **who gave it to him**—strongly suggestive that Maralynn, not Jevon, is Godrin's real target.
-- She gave Jevon his magical box, which [[Odine Dunmere]] identified as ancient elven craftsmanship—a relic, not a trinket. Source: [[00 - Game Log/2026.05.12|2026.05.12]].
-- **Confirmed alive and located** by [[House Godrin]]: a letter recovered from [[White Feather Tor]] plus [[Cassian]]'s overheard fragment of [[Percival Godrin]]'s voice both indicate Godrin no longer believes her to be a dead legend—"they're not chasing a ghost. She's alive. We've already confirmed it." [[Duke Tristan Blackwood]] separately knows her only through folklore, as an archmage named **Marlin** who once served **King Aldric the Wise**, presumed dead since "the ancient war." To protect her real location, [[Odine Dunmere]] fed Blackwood a decoy name and location instead. Source: [[00 - Game Log/2026.08.25|2026.08.25]].
+- She gave Jevon his magical box, which [[Odine Dunmere]] identified as ancient elven craftsmanship—a relic, not a trinket. Source: [[2026.05.12|2026.05.12]].
+- **Confirmed alive and located** by [[House Godrin]]: a letter recovered from [[White Feather Tor]] plus [[Cassian]]'s overheard fragment of [[Percival Godrin]]'s voice both indicate Godrin no longer believes her to be a dead legend—"they're not chasing a ghost. She's alive. We've already confirmed it." [[Duke Tristan Blackwood]] separately knows her only through folklore, as an archmage named **Marlin** who once served **King Aldric the Wise**, presumed dead since "the ancient war." To protect her real location, [[Odine Dunmere]] fed Blackwood a decoy name and location instead. Source: [[2026.08.25|2026.08.25]].
 
 ## Relationships
 
