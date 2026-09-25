@@ -10,6 +10,10 @@ date:
 image_name:
 ---
 
+<div style="float: left; margin-right: 10px;">  
+<img src="../Attachments/Cassian.png" alt="Cassian" width="300" />  
+</div>
+
 ## Summary
 
 Cassian is familiar with [[Everdale]], the [[King's Tourney]], and several practical parts of the festival, including registration, food, and healing supplies. He often takes the lead when the party enters unfamiliar civic or noble territory. Source: [[2026.05.05|2026.05.05]].
@@ -47,7 +51,7 @@ Cassian is familiar with [[Everdale]], the [[King's Tourney]], and several pract
 - **Freed the manticore** during the Menagerie bout instead of killing it: cast Sleep on it mid-flight to open the fight, then talked it down over several rounds (Persuasion checks of 23 and a near-crit 25), learning it feared its true captors' trebuchet-and-net failsafe more than the party. Mounted it, flew to the trebuchet, cast Charm Person (DC 13) on its operator to stand him down, and let the manticore destroy the machine. Delivered a booming public speech framing the outcome as a beast choosing freedom over bloodsport, backed by a follow-up Persuasion check (22) that won over only part of the crowd—officials were furious and unable to agree on a score, and [[Duke Tristan Blackwood]] was seen quietly avoiding eye contact while trying to leave the box. See [[The Freed Manticore]]. Source: [[2026.09.08|2026.09.08]].
 - Met **[[Captain Garan]]** and **[[Lady Elwyn Blackwood]]** for the first time en route to an urgent audience with Duke Blackwood. In private, Blackwood dropped his stern facade and called the manticore stunt "fucking genius"—furious about the gold spent but delighted that the scandal makes the party "the perfect distraction" from his other dealings. Warned soberly that mercy will eventually cost lives, and that the party had better be right whenever they place their own judgment above his orders. Escorted out of the fairgrounds by [[Captain Garan]] to [[Havenport]] to let tensions cool, since Blackwood couldn't reward them monetarily while recouping his gambling losses. Source: [[2026.09.15|2026.09.15]].
 - Reached **level 5**. Source: [[2026.09.15|2026.09.15]].
-- Awed on his first visit inside the [[Gleaming Keep]] (Perception 23). In Havenport, the Oathkeeper [[Ian]] recognized him as *"Lord Fortescue's son"* (*"Well, so they say,"* Cassian answered). This is the first person in a long time to remember [[House Fortescue]]. Rolled a natural 1 on Arcana against the Curtain, and a natural 20 on his magic check against the black veil, finding that the wall itself is the source and that something beyond it reaches through. Flirted with the ghost [[Samantha Westermere]] and promised to return: *"A Fortescue always keeps their promise."* Source: [[2026.09.22|2026.09.22]].
+- Awed on his first visit inside the [[Gleaming Keep]] (Perception 23). In Havenport, the Oathkeeper [[Ian]] recognized him as _"Lord Fortescue's son"_ (_"Well, so they say,"_ Cassian answered). This is the first person in a long time to remember [[House Fortescue]]. Rolled a natural 1 on Arcana against the Curtain, and a natural 20 on his magic check against the black veil, finding that the wall itself is the source and that something beyond it reaches through. Flirted with the ghost [[Samantha Westermere]] and promised to return: _"A Fortescue always keeps their promise."_ Source: [[2026.09.22|2026.09.22]].
 
 ## Relationships
 
