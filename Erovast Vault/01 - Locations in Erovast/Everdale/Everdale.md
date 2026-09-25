@@ -2,7 +2,7 @@
 cssclasses:
   - wide-page
   - wide-backlinks
-dateCreated: <% tp.file.creation_date() %>
+dateCreated: 2026-05-12
 tags:
   - location
 aliases:
@@ -21,6 +21,11 @@ Everdale is the human capital city and the host of the annual [[King's Tourney]]
 - **[[King's Tourney]]:** a two-week annual tournament that brings Everdale to life and sustains much of the local economy. Source: [[2026.05.05|2026.05.05]].
 - **[[Stone Sanctum]]:** an old moss-and-vine-covered cathedral in the hamlet above the tourney grounds, with an attached graveyard. Source: [[2026.05.12|2026.05.12]].
 - **[[Ragged Flagon]]:** a makeshift tavern in the King's Tourney campgrounds where nobles don't typically frequent. Source: [[2026.05.12|2026.05.12]].
+- **[[Boarhead Tor]]:** the elevated noble camp hill where [[House Wulfhelm]] is based. Source: [[2026.05.19|2026.05.19]].
+- **[[Clover Hill]]:** the noble encampment above the fairgrounds, where [[Duke Tristan Blackwood]] keeps his tent. Source: [[2026.06.11|2026.06.11]].
+- **[[Crown Gauntlet]]:** the Proving Grounds' 40-foot obstacle tower, which the party cleared on [[2026.07.14|2026.07.14]].
+- **[[The Menagerie]]:** the beast-arena tier of the tourney, where the party freed a captive manticore. Source: [[2026.08.11|2026.08.11]], [[2026.09.08|2026.09.08]].
+- **[[White Feather Tor]]:** [[House Godrin]]'s family camp in the Eastern Tourney Grounds, which the party infiltrated on [[2026.08.25|2026.08.25]].
 
 ## Governance
 

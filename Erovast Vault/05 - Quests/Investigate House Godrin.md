@@ -16,7 +16,7 @@ Active, new. Following the confirmation that [[House Godrin]]—not [[House Oswa
 
 ## Known Details
 
-- House Godrin competes in the King's Tourney annually to harvest **mana crystals**, working with a dwarven clan in "the Veil." See [[House Godrin]]. Source: [[2026.06.23|2026.06.23]].
+- House Godrin competes in the King's Tourney annually to harvest **mana crystals**, working with a dwarven clan in [[Thornwood Vale|the Vale]]. See [[House Godrin]]. Source: [[2026.06.23|2026.06.23]].
 - Their real target regarding Jevon appears to be **whomever gave him his sending stone**—plausibly [[Maralynn]]—rather than Jevon himself. Source: [[2026.08.11|2026.08.11]].
 - [[Gruvelda Duskbelt]] revealed a concrete lead: House Godrin keeps meticulous **ledgers of all their activity** at an outpost on the outskirts of the King's Fair. She would not confirm or deny whether she also arms them directly. Source: [[2026.08.11|2026.08.11]].
 - [[Duke Tristan Blackwood]] fulfilled his promised intelligence on [[2026.08.18|2026.08.18]]: gave the party a sealed note listing names/locations tied to Godrin's camp activity, which the party traced to the **Messenger Tent at White Feather Tor**. He separately reported House Godrin is unusually active lately and rumored to be **kidnapping children**; he personally witnessed them abducting hedge mages as a young competitor, and wonders what "frightened one of the most powerful arcane families in the Crownlands" into it.

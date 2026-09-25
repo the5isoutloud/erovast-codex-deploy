@@ -11,7 +11,7 @@ aliases:
 date:
 image_name:
 ---
-# `=this.file.name`
+# Jevon
 
 ## Summary
 
@@ -21,7 +21,7 @@ Jevon traveled with the party to [[Everdale]] and guided them into the [[King's 
 
 In hiding. After being rescued from the [[Stone Sanctum]] graveyard, Jevon slipped into the shadows and is laying low for the coming days. He cannot safely appear at the [[King's Tourney]] in daylight because [[House Godrin]] will be looking for him. [[Odine Dunmere]] holds a communication stone (a custom sending stone, usable once per day): she can send him a short message and receive a reply telepathically. Source: [[2026.05.12|2026.05.12]].
 
-On [[2026.06.23|2026.06.23]] he visited the party's tent in person at night, confirmed House Godrin's knights are still actively hunting him by day, and offered to use his cover as an evening armor-and-weapon repairman for tournament knights to gather intelligence or lend magical help. He said he hadn't seen [[Maralynn]] in years and believes she "returned to her people in the Veil." Source: [[2026.06.23|2026.06.23]].
+On [[2026.06.23|2026.06.23]] he visited the party's tent in person at night, confirmed House Godrin's knights are still actively hunting him by day, and offered to use his cover as an evening armor-and-weapon repairman for tournament knights to gather intelligence or lend magical help. He said he hadn't seen [[Maralynn]] in years and believes she "returned to her people in the Vale" ([[Thornwood Vale]]). Source: [[2026.06.23|2026.06.23]].
 
 At some point in the untranscribed session between [[2026.07.14|2026.07.14]] and [[2026.08.11|2026.08.11]], the party **rescued Jevon a second time** from House Godrin knights during what the GM called "a bit of a ghost hunt"—no details survive beyond that. Following this, it was learned House Godrin wants Jevon and his sending stone, but more importantly wants to know **who gave him the stone**—pointing at a third party, plausibly Maralynn. Jevon is now sheltering in the woods near the fairgrounds; the party set up a hidden dead-drop (a hollowed tree stump ~50 paces southeast of their tent) to pass him gold and supplies, since he asked for coin to sustain himself while hiding. [[Azrith]], using his new Goggles of Night, read that Jevon "seems scared about something... he's definitely hiding it." Source: [[2026.08.11|2026.08.11]].
 

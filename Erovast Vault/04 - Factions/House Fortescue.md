@@ -21,6 +21,7 @@ House Fortescue is **[[Cassian]]'s family house**, of celestial or semi-divine b
 - Cassian deflected the question rather than explain: *"There are few who remember us fondly... that is part of the reason I am here."* This implies some falling-out, disgrace, or forgotten history attached to the house that Cassian has not yet revealed to the party or the wiki. Source: [[2026.08.18|2026.08.18]].
 - Cassian's family signet ring (a falling star meeting its own tail, ouroboros-like) marks the house as old-blooded nobility. See [[Cassian]].
 - Blackwood did not consider the Fortescue name "risky" to associate with, despite the discrepancy.
+- The old [[Oathkeepers|Oathkeeper]] [[Ian]] in [[Havenport]] recognized the name at once and called [[Cassian]] *"Lord Fortescue's son"*: *"people tend to have short memories, don't they."* Source: [[2026.09.22|2026.09.22]].
 
 ## Relationships
 

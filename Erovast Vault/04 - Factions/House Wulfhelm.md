@@ -2,7 +2,7 @@
 cssclasses:
   - wide-page
   - wide-backlinks
-dateCreated:
+dateCreated: 2026-08-18
 tags:
   - faction
   - noble-house

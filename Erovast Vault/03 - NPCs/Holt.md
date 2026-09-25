@@ -2,7 +2,7 @@
 cssclasses:
   - wide-page
   - wide-backlinks
-dateCreated: <% tp.file.creation_date() %>
+dateCreated: 2026-09-15
 tags:
   - npc
 aliases:
