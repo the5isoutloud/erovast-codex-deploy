@@ -1,0 +1,48 @@
+{{- /*
+  Chooses and prepares the preview image for social sharing.
+  Returns dict: url (absolute), width, height, alt — or "" if there is none.
+
+  Order: front matter `social_image` → the note's first image (if
+  params.social.page_images) → params.social.image → params.logo.
+*/ -}}
+{{- $page := . -}}
+{{- $cfg := site.Params.social | default dict -}}
+{{- $names := slice -}}
+{{- with $page.Params.social_image -}}{{- $names = $names | append . -}}{{- end -}}
+{{- if and (ne $cfg.page_images false) $page.IsPage -}}
+  {{- /* ![[x.png]], ![alt](x.png) or <img src="x.png"> */ -}}
+  {{- with findRESubmatch `(?i)(?:!\[\[|\]\(|src=")([^\]|)"\n]+?\.(?:png|jpe?g|webp|gif|avif))` $page.RawContent 1 -}}
+    {{- $names = $names | append (index (index . 0) 1) -}}
+  {{- end -}}
+{{- end -}}
+{{- with $cfg.image -}}{{- $names = $names | append . -}}{{- end -}}
+{{- with site.Params.logo -}}{{- $names = $names | append . -}}{{- end -}}
+
+{{- $out := "" -}}
+{{- range $names -}}
+  {{- if not $out -}}
+    {{- $name := . -}}
+    {{- $img := partial "resolve-media.html" $name -}}
+    {{- if not $img -}}{{- $img = resources.Get (strings.TrimPrefix "/" $name) -}}{{- end -}}
+    {{- if $img -}}
+      {{- if and (eq $img.ResourceType "image") (ne $img.MediaType.SubType "svg") -}}
+        {{- if ne $cfg.poster false -}}
+          {{- $bg := $cfg.background | default site.Params.colors.background | default "#0f1115" -}}
+          {{- /* Fit inside 1200×630 with a margin, then pad out to exactly 1200×630. */ -}}
+          {{- $fit := $img.Fit "1080x540" -}}
+          {{- $padX := div (sub 1200 $fit.Width) 2 -}}
+          {{- $padY := div (sub 630 $fit.Height) 2 -}}
+          {{- $poster := $fit.Filter (images.Padding $padY (sub (sub 1200 $fit.Width) $padX) (sub (sub 630 $fit.Height) $padY) $padX $bg) -}}
+          {{- $img = $poster.Process (printf "jpg q85 %s" $bg) -}}
+        {{- end -}}
+        {{- $out = dict "url" $img.Permalink "width" $img.Width "height" $img.Height "alt" (path.BaseName $name) -}}
+      {{- else -}}
+        {{- $out = dict "url" $img.Permalink "width" 0 "height" 0 "alt" (path.BaseName $name) -}}
+      {{- end -}}
+    {{- else if hasPrefix $name "/" -}}
+      {{- /* A file in site/static: used as-is. */ -}}
+      {{- $out = dict "url" (absURL $name) "width" 0 "height" 0 "alt" site.Title -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

@@ -8,3 +8,6 @@ hugo_stats.json
 
 # Local secrets (GitHub token for `docker compose run --rm publish`)
 .env
+
+# Hugo image-processing cache (share-preview posters); rebuilt automatically
+site/resources/_gen/

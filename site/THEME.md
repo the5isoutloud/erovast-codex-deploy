@@ -17,7 +17,7 @@ The theme was built from scratch for this project. It has no npm packages, no Sa
 5. [Fonts and sizes](#5-fonts-and-sizes)
 6. [Note pages](#6-note-pages)
 7. [Obsidian features that are supported](#7-obsidian-features-that-are-supported)
-8. [Images and other media](#8-images-and-other-media)
+8. [Images and other media](#8-images-and-other-media) (incl. [social share previews](#social-share-previews))
 9. [Editing templates and CSS](#9-editing-templates-and-css)
 10. [Moving or renaming the vault](#10-moving-or-renaming-the-vault)
 11. [Troubleshooting](#11-troubleshooting)
@@ -353,6 +353,34 @@ Files for the site itself, not the vault (a favicon, a custom logo), go in `site
 
 ---
 
+### Social share previews
+
+When a link is posted to Discord, Facebook, X, Slack, iMessage and similar apps, they show a preview card with an image, title and description. The site provides these through Open Graph and X/Twitter tags in each page's `<head>`. The settings are in `[params.social]`:
+
+```toml
+[params.social]
+  image = ""               # default image; empty = use the logo
+  poster = true            # fit images into a 1200×630 poster
+  background = "#0f1115"   # poster background color
+  page_images = true       # notes use their own first image
+  twitter = ""             # optional X account, e.g. "@erovast"
+```
+
+- **Which image is used**, in order:
+  1. `social_image: "file.png"` in a note's front matter;
+  2. the note's first image, e.g. a character portrait (when `page_images = true`);
+  3. `image` in `[params.social]`;
+  4. the logo.
+- **Posters:** Hugo fits the image inside 1200×630, the size social sites expect. It centers the image on `background` and saves it as a small JPEG, around 100 KB. Nothing is cropped, so tall portraits get dark bars at the sides.
+- **Using your own designed image:** make it exactly 1200×630 and put it in `site/assets/images/` (or the vault). Set `image = "images/social.png"` (or its vault file name) and `poster = false`.
+- **Title and description:** the page name, plus a description. The description is the note's `description:` front matter if set, otherwise the first ~180 characters of its text with wikilinks and formatting removed. The landing page and folder pages use `description` from `[params]`.
+- **`baseURL` must be the real address** (`https://erovast.com/`). Social sites fetch the image from that full URL.
+- **Checking a preview:** after publishing, paste a URL into [opengraph.xyz](https://www.opengraph.xyz) or the [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/). Discord and Facebook cache previews. If an old preview sticks, use the debugger's **Scrape Again** button; for Discord, add `?v=2` to the end of the URL.
+
+Processed images are cached in `site/resources/_gen/`, which is git-ignored and rebuilt automatically.
+
+---
+
 ## 9. Editing templates and CSS
 
 Templates use Hugo's Go template language ([docs](https://gohugo.io/templates/)). Here's what each file does:
@@ -365,7 +393,8 @@ Templates use Hugo's Go template language ([docs](https://gohugo.io/templates/))
 | `layouts/section.html` | A folder's listing page |
 | `layouts/taxonomy.html`, `layouts/term.html` | `/tags/` and `/tags/<tag>/` |
 | `layouts/404.html` | "Page not found" |
-| `_partials/head.html` | `<title>`, fonts, CSS bundle |
+| `_partials/head.html` | `<title>`, fonts, CSS bundle, share-preview tags |
+| `_partials/social-image.html`, `_partials/description.html` | Share-preview image (poster) and description |
 | `_partials/sidebar.html`, `_partials/sidebar-tree.html` | The sidebar and folder tree |
 | `_partials/folder-name.html` | Folder display-name rules (strip + rename) |
 | `_partials/page-name.html` | Display name for any page |

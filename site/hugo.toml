@@ -3,8 +3,8 @@
 #  See THEME.md in this folder for a full guide to customizing the site.
 # =============================================================================
 
-# Change this to the real address once the site is hosted.
-baseURL = "https://example.com/"
+# The public address of the site. Used for share previews, canonical links and the sitemap.
+baseURL = "https://erovast.com/"
 locale = "en-US"
 title = "The Erovast Codex"
 
@@ -120,6 +120,26 @@ ignoreFiles = ['(^|[\\/])\.obsidian([\\/]|$)', '(^|[\\/])\.trash([\\/]|$)']
   # path to a file in site/static (e.g. "/images/logo.png").
   logo = "Erovast.png"
   favicon = ""                       # e.g. "/favicon.png" in site/static
+
+  # ---------------------------------------------------------------------------
+  #  SOCIAL SHARING — the preview card shown when a link is posted to
+  #  Discord, Facebook, X, Slack, iMessage, etc.  baseURL (top of this file)
+  #  must be the real site address, or the preview image won't load.
+  # ---------------------------------------------------------------------------
+  [params.social]
+    # Default preview image: a vault image name, an image in site/assets/, or a
+    # path in site/static. Leave empty to use the logo.
+    image = ""
+    # Resize images into a 1200×630 poster, centered on `background`.
+    # Turn off if you supply a finished 1200×630 image yourself.
+    poster = true
+    background = "#0f1115"
+    # Share a note's own first image (e.g. a character portrait) instead of
+    # the default. A note can also set `social_image: "file.png"` in its
+    # front matter to choose one explicitly.
+    page_images = true
+    # Optional X/Twitter account, e.g. "@erovast".
+    twitter = ""
 
   # Fonts. `fontsURL` is a stylesheet link (Google Fonts etc.). Leave it empty
   # to use only fonts installed on the reader's machine.
