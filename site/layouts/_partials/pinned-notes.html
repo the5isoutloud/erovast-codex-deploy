@@ -1,0 +1,11 @@
+{{- /* Resolves [[params.sidebar.pinned]] once per build. Returns slice of dict: page, title. */ -}}
+{{- $out := slice -}}
+{{- range site.Params.sidebar.pinned -}}
+  {{- $cfg := . -}}
+  {{- with partial "resolve-note.html" (.note | default "") -}}
+    {{- $out = $out | append (dict "page" . "title" ($cfg.title | default (partial "page-name.html" .))) -}}
+  {{- else -}}
+    {{- warnf "sidebar.pinned: note %q not found" $cfg.note -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

@@ -252,6 +252,14 @@ ignoreFiles = ['(^|[\\/])\.obsidian([\\/]|$)', '(^|[\\/])\.trash([\\/]|$)']
   [params.sidebar.rename]
     "Locations in Erovast" = "Locations"
 
+  # Single notes pinned to the top of the sidebar, above the folders, in the
+  # order listed. They are removed from their usual place in the tree.
+  #   note  = the note's file name (or "Folder/Note")
+  #   title = the label shown (defaults to the note's name)
+  [[params.sidebar.pinned]]
+    note = "Campaign Synopsis"
+    title = "Synopsis"
+
   # ---------------------------------------------------------------------------
   #  SEARCH — the search box on the landing page and at the top of every page.
   #  Shortcuts: Ctrl+K / ⌘K, or "/" when not typing.
@@ -305,6 +313,12 @@ ignoreFiles = ['(^|[\\/])\.obsidian([\\/]|$)', '(^|[\\/])\.trash([\\/]|$)']
       label = "Latest session"
     # If there are no [[params.home.cards]] entries, one card is made for each
     # top-level vault folder automatically.
+
+    [[params.home.cards]]
+      title = "Synopsis"
+      note = "Campaign Synopsis"          # a single note instead of a folder
+      description = "The story so far, in one place."
+      icon = "📖"
 
     [[params.home.cards]]
       title = "Campaign Log"

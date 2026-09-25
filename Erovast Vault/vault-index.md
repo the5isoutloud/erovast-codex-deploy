@@ -8,7 +8,7 @@ dateCreated: 2026-09-25
 dateUpdated: 2026-09-25
 lastSessionLogged: 2026-09-22
 lastTranscript: 2026.09.22
-noteCount: 74
+noteCount: 75
 transcriptCount: 13
 ---
 
@@ -44,6 +44,14 @@ The transcripts label speakers by player handle or by character name. This table
 | ƤΔŘŽƗVΔŁ | [[Aldrich]] (also spelled "Aldric") |
 
 On 2026.09.22, Azrith's player was absent (probably "Gavin"), and the GM ran Azrith.
+
+---
+
+## Vault Root
+
+| Note | Summary |
+| --- | --- |
+| [[Campaign Synopsis]] | A wiki-style plot article: an overview of the whole campaign plus a session-by-session timeline grouped into story arcs, with the current state of play. Covers sessions through 2026.09.22. |
 
 ---
 
@@ -319,3 +327,4 @@ These are issues found while building this index. Fix them when the scribe works
 - **2026-09-25:** Index created. Cataloged 67 notes, 13 transcripts and 7 images.
 - **2026-09-25:** Deleted the duplicate `05 - Quests/Whitefeather Tor.png`. Fixed the portrait path in [[White Feather Tor]] from `../Attachments/` to `../../Attachments/WhiteFeatherTor.png`.
 - **2026-09-25:** Wrote the [[2026.09.22]] session log. Created [[Ian]], [[Samantha Westermere]], [[Mauve Marigold]], [[House Westermere]], [[Westermere Manor]] and [[Find Azrith]]. Moved [[Havenport]] into a `Havenport/` region folder. Corrected Vale/veil references across 14 notes after a transcript audit. Standardized Maralynn's spelling. Switched the Virellan file and links to a straight apostrophe. Rewrote Odine's Background. Caught up the stale notes. Added the portraits for Garan and Elwyn. Replaced Templater dates. Moved the scribe skill to `.claude/skills/erovast-scribe/`.
+- **2026-09-25:** Created [[Campaign Synopsis]] at the vault root: an overview and an arc-by-arc timeline covering 2026.05.05 to 2026.09.22.

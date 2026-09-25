@@ -10,6 +10,15 @@
   </div>
   {{- end }}
   <nav class="tree" id="sidebar-tree">
+    {{- with partialCached "pinned-notes.html" "pinned" }}
+    <ul class="tree-list tree-pinned">
+      {{- range . }}
+      <li class="tree-page is-pinned"><a href="{{ .page.RelPermalink }}">
+        <svg class="tree-pin-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 1.75h5.5L12.5 4.75v9.5h-8.5z M9.5 1.75v3h3 M6 8h4.5 M6 10.75h4.5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/></svg>
+        <span>{{ .title }}</span></a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
     {{ partial "sidebar-tree.html" site.Home }}
   </nav>
   {{- if site.Taxonomies.tags }}

@@ -1,6 +1,8 @@
 {{- /* Notes directly inside a section, sorted by file name (or reversed, see reverse_sort). */ -}}
+{{- $pinned := slice -}}
+{{- range partialCached "pinned-notes.html" "pinned" -}}{{- $pinned = $pinned | append .page.RelPermalink -}}{{- end -}}
 {{- $rows := slice -}}
-{{- range .RegularPages -}}
+{{- range where .RegularPages "RelPermalink" "not in" $pinned -}}
   {{- $k := "" -}}
   {{- with .File -}}{{- $k = lower .ContentBaseName -}}{{- else -}}{{- $k = lower .Title -}}{{- end -}}
   {{- $rows = $rows | append (dict "k" $k "p" .) -}}

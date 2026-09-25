@@ -142,6 +142,18 @@ All sidebar settings live under `[params.sidebar]`:
   "Locations in Erovast" = "Locations"
 ```
 
+### Pinning a single note to the top
+
+To show one note at the top of the sidebar, above all the folders and styled like a folder row, add a `[[params.sidebar.pinned]]` block:
+
+```toml
+[[params.sidebar.pinned]]
+  note = "Campaign Synopsis"   # the note's file name (or "Folder/Note")
+  title = "Synopsis"           # the label shown; defaults to the note's name
+```
+
+Pinned notes appear in the order their blocks are listed, and they're removed from their usual place in the tree. A pinned note can also have a card on the landing page: use `note = "…"` in a `[[params.home.cards]]` block (see [Category cards](#category-cards)).
+
 ### How folder names are displayed
 
 For each folder, the site works through these steps in order:

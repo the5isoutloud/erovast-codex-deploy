@@ -26,6 +26,7 @@ erovast-codex-deploy/
 ├── .claude/skills/erovast-scribe/   ← this skill (+ scripts/check_links.py)
 ├── Erovast Vault/                   ← THE VAULT (your workspace)
 │   ├── vault-index.md               ← master catalog — read first, update always
+│   ├── Campaign Synopsis.md         ← wiki-style plot overview + arc timeline — refresh every session
 │   ├── 00 - Campaign Log/           ← session logs: YYYY.MM.DD.md
 │   │   └── Transcripts/             ← raw speech-to-text: "YYYY.MM.DD - Transcript.md" (not published)
 │   ├── 01 - Locations in Erovast/   ← locations; sub-folders per region (Everdale/, Thornwood Vale/)
@@ -102,8 +103,15 @@ Out-of-character chatter is not campaign content, so never record it. That inclu
    - Refresh "Campaign at a Glance".
    - Update the frontmatter: `lastSessionLogged`, `lastTranscript`, `noteCount`, `transcriptCount` and `dateUpdated`.
    - Add a Changelog line.
-8. **Run the checker** (§7) and fix what it reports.
-9. **Report back**: list the files you created and updated, and any ambiguities you flagged.
+8. **Revisit and refresh `Campaign Synopsis.md`** at the vault root. Do this every time you process a transcript, not only when a session seems important. Read the **whole** synopsis again, then:
+   - **Add the new session** as an episode entry under the right arc, or start a new arc if the story has clearly shifted. Give it a short title in quotes and 2–4 sentences of plot, written like a TV episode guide.
+   - **Revise the Overview** (1–2 paragraphs) so it still sums up the whole campaign as it now stands. A new revelation may change how the story is best framed.
+   - **Re-check earlier entries** against what the new session revealed. Apply any GM corrections or renamed entities. Where later events recontextualize an earlier beat, add a brief forward note, for example "(later revealed to be…)". Never rewrite what happened.
+   - **Rebalance the arcs** if an arc has grown too long or a new theme has emerged.
+   - **Refresh** the infobox (sessions covered, party level, status), "Where Things Stand", and the `coversThrough` and `dateUpdated` frontmatter.
+   - Keep it spoiler-safe for the players: never include private whispers, GM-only information or speculation.
+9. **Run the checker** (§7) and fix what it reports.
+10. **Report back**: list the files you created and updated, and any ambiguities you flagged.
 
 **Untranscribed sessions.** When the GM recaps a session that has no transcript, record the recap in the next log under `## Previously (Untranscribed Session)`. See `2026.08.11.md` for an example.
 
@@ -264,6 +272,7 @@ Use the sections `## Status`, `## Known Details` / `## Evidence`, `## Next Steps
 - [ ] New name variants have been added to `aliases:` and to the Lore Glossary.
 - [ ] Issues you noticed are added to the index's Maintenance Notes, and ones you fixed are checked off.
 - [ ] The index frontmatter counts and dates are bumped, and a Changelog line is added.
+- [ ] If a transcript was processed, `Campaign Synopsis.md` has been re-read and refreshed: the new episode entry, Overview, infobox, "Where Things Stand" and `coversThrough`.
 - [ ] The checker passes. Run it from the repo root:
   ```bash
   python3 .claude/skills/erovast-scribe/scripts/check_links.py
