@@ -14,7 +14,7 @@ image_name:
 
 ## Summary
 
-[[Captain Garan]] is [[Duke Tristan Blackwood]]'s captain of the guard—a decorated soldier the party had not met before. He approached them with haste (though not overt aggression) shortly after the Menagerie bout, warning them cryptically: "You wagered and you lost. But you're only wagering against a prize. The duke is wagering against his name." He advised them to "be careful the games you play. You don't know what you've set off." Source: [[00 - Game Log/2026.09.15|2026.09.15]].
+[[Captain Garan]] is [[Duke Tristan Blackwood]]'s captain of the guard—a decorated soldier the party had not met before. He approached them with haste (though not overt aggression) shortly after the Menagerie bout, warning them cryptically: "You wagered and you lost. But you're only wagering against a prize. The duke is wagering against his name." He advised them to "be careful the games you play. You don't know what you've set off." Source: [[2026.09.15|2026.09.15]].
 
 ## Notes
 

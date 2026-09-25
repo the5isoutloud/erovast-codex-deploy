@@ -13,7 +13,7 @@ image_name:
 
 ## Summary
 
-A manticore forced to fight in **The Menagerie**, freed by **[[Cassian]]** during what was meant to be a routine tournament bout. Bound to its captors by a trebuchet rigged with a steel net—positioned to recapture anything that tried to flee the arena—it initially fought the party, but broke off once Cassian offered genuine freedom instead of combat. Cassian flew it to the trebuchet, charmed the operator into standing down, and let it destroy the machine. It departed unnamed, promising to visit the party's camp for meat and ale, and to find a name of its own. Source: [[00 - Game Log/2026.09.08|2026.09.08]].
+A manticore forced to fight in **The Menagerie**, freed by **[[Cassian]]** during what was meant to be a routine tournament bout. Bound to its captors by a trebuchet rigged with a steel net—positioned to recapture anything that tried to flee the arena—it initially fought the party, but broke off once Cassian offered genuine freedom instead of combat. Cassian flew it to the trebuchet, charmed the operator into standing down, and let it destroy the machine. It departed unnamed, promising to visit the party's camp for meat and ale, and to find a name of its own. Source: [[2026.09.08|2026.09.08]].
 
 ## Notes
 

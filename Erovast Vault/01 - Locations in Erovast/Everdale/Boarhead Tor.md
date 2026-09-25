@@ -13,7 +13,7 @@ date:
 
 ## Summary
 
-Boarhead Tor is the elevated noble camp hill at the [[King's Tourney]] grounds in [[Everdale]]. The great houses erect their finest silk tents here, stable prize horses, and post guards in house colors. It is cleaner and better-smelling than the common campgrounds, with music and revelry continuing even late at night. Source: [[00 - Game Log/2026.05.19|2026.05.19]].
+Boarhead Tor is the elevated noble camp hill at the [[King's Tourney]] grounds in [[Everdale]]. The great houses erect their finest silk tents here, stable prize horses, and post guards in house colors. It is cleaner and better-smelling than the common campgrounds, with music and revelry continuing even late at night. Source: [[2026.05.19|2026.05.19]].
 
 ## Notes
 

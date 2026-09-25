@@ -15,7 +15,7 @@ image_name:
 
 ## Summary
 
-Sir Thorin Cassavar, known at the tournaments as **"the Crow,"** is [[House Godrin]]'s fiercest warrior and tournament champion. He stands nearly 9–10 feet tall, clad in arcane relic armor and helm and wielding an enchanted axe—all gifted to him by the house. Some say the armor itself enlarges his frame. [[Cassian]] spotted him for the first time while eavesdropping invisibly at [[White Feather Tor]] and deliberately avoided drawing his attention. Source: [[00 - Game Log/2026.08.25|2026.08.25]].
+Sir Thorin Cassavar, known at the tournaments as **"the Crow,"** is [[House Godrin]]'s fiercest warrior and tournament champion. He stands nearly 9–10 feet tall, clad in arcane relic armor and helm and wielding an enchanted axe—all gifted to him by the house. Some say the armor itself enlarges his frame. [[Cassian]] spotted him for the first time while eavesdropping invisibly at [[White Feather Tor]] and deliberately avoided drawing his attention. Source: [[2026.08.25|2026.08.25]].
 
 ## Notes
 

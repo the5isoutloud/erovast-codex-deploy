@@ -13,7 +13,7 @@ date:
 
 ## Summary
 
-House Troth is a minor, lesser-known vassal house of [[House Wulfhelm]]. **[[Aldrich]]** once served under them—not as nobility, but in a rank-and-file guard/security capacity—before leaving "the seaside" to see the world at an old friend's encouragement. Source: [[00 - Game Log/2026.08.18|2026.08.18]].
+House Troth is a minor, lesser-known vassal house of [[House Wulfhelm]]. **[[Aldrich]]** once served under them—not as nobility, but in a rank-and-file guard/security capacity—before leaving "the seaside" to see the world at an old friend's encouragement. Source: [[2026.08.18|2026.08.18]].
 
 ## Notes
 

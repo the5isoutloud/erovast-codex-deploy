@@ -13,7 +13,7 @@ image_name:
 
 ## Summary
 
-Slug is the large, rotund owner of a cookhouse at the [[King's Tourney]]. He is known for smoked pork and remembered [[Cassian]] from a previous tourney visit. Source: [[00 - Game Log/2026.05.05|2026.05.05]].
+Slug is the large, rotund owner of a cookhouse at the [[King's Tourney]]. He is known for smoked pork and remembered [[Cassian]] from a previous tourney visit. Source: [[2026.05.05|2026.05.05]].
 
 ## Notes
 
