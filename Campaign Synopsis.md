@@ -12,19 +12,20 @@ aliases:
 date:
 coversThrough: 2026-09-22
 ---
+
 # Campaign Synopsis
 
-| | |
-| --- | --- |
-| **Setting** | The Crownlands of Erovast: [[Everdale]] and the [[King's Tourney]], [[Havenport]], and the [[Thornwood Vale]] |
-| **Party** | *Cassian's Crushing Crusaders*: [[Aldrich]], [[Azrith]], [[Cassian]], [[Odine Dunmere]] |
-| **Sessions covered** | 13 logged sessions and 1 untranscribed session, [[2026.05.05]] to [[2026.09.22]] |
-| **Party level** | 5 (as of [[2026.09.15]]) |
-| **Status** | Ongoing |
+|                      |                                                                                                               |
+| -------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Setting**          | The Crownlands of Erovast: [[Everdale]] and the [[King's Tourney]], [[Havenport]], and the [[Thornwood Vale]] |
+| **Party**            | _Cassian's Crushing Crusaders_: [[Aldrich]], [[Azrith]], [[Cassian]], [[Odine Dunmere]]                       |
+| **Sessions covered** | 13 logged sessions and 1 untranscribed session, [[2026.05.05]] to [[2026.09.22]]                              |
+| **Party level**      | 5 (as of [[2026.09.15]])                                                                                      |
+| **Status**           | Ongoing                                                                                                       |
 
 ## Overview
 
-A half-elf sorceress named [[Odine Dunmere]] leaves her isolated elven homeland, the [[Thornwood Vale]], because a creeping corruption, later called **the Wither**, is killing its crops, its creatures and its people. She joins three companions on the road: the silver-tongued noble [[Cassian]], the horned, ghost-chasing [[Azrith]], and the tiefling ex-guard [[Aldrich]]. Together they arrive in [[Everdale]], seat of the long-vacant [[Empty Throne]], during the annual [[King's Tourney]]. The tourney's grand prize is the **deed to the Vale itself**, which the great noble houses have fought over for a decade. The four enter as *Cassian's Crushing Crusaders*, an unknown team of underdogs. With the backing of the scheming [[Duke Tristan Blackwood]], they climb from the muddy Proving Grounds to the famed [[Crown Gauntlet]], which no team had cleared in seven years. Along the way they win the hearts of the common folk and the attention of the nobility.
+A half-elf sorceress named [[Odine Dunmere]] leaves her isolated elven homeland, the [[Thornwood Vale]], because a creeping corruption, later called **the Wither**, is killing its crops, its creatures and its people. She joins three companions on the road: the silver-tongued noble [[Cassian]], the horned, ghost-chasing [[Azrith]], and the tiefling ex-guard [[Aldrich]]. Together they arrive in [[Everdale]], seat of the long-vacant [[Empty Throne]], during the annual [[King's Tourney]]. The tourney's grand prize is the **deed to the Vale itself**, which the great noble houses have fought over for a decade. The four enter as _Cassian's Crushing Crusaders_, an unknown team of underdogs. With the backing of the scheming [[Duke Tristan Blackwood]], they climb from the muddy Proving Grounds to the famed [[Crown Gauntlet]], which no team had cleared in seven years. Along the way they win the hearts of the common folk and the attention of the nobility.
 
 Beneath the spectacle, the party is pulled into older and darker currents. The arcane [[House Godrin]] has been hunting the young mage [[Jevon]] to reach his teacher, [[Maralynn]], a legendary witch of the Vale they have now confirmed is alive. The dwarf smith [[Gruvelda Duskbelt]] reveals that Odine's grandmother, Mara, gave her life to hold back the entity behind the Wither, and that humanity's tale of its King's victory over it is a lie. Cassian carries a bargain with [[The Masked Figure]] who visits his dreams. The Wither is spreading into the Crownlands. When the party freed a captive manticore in [[The Menagerie]] instead of slaying it, they scandalized the tourney. Blackwood sent them by ancient teleportation circle to [[Havenport]], a ruined seaport that turns out to be Aldrich's forgotten home. There they heard the Oathkeepers' legend of the **Dark King**, which echoes Odine's family stories. Then Azrith leapt headlong through a curtain into the realm of death.
 
@@ -34,7 +35,7 @@ Beneath the spectacle, the party is pulled into older and darker currents. The a
 
 ### Prologue: The Road to Everdale
 
-*Before the first logged session.* Odine, Cassian, Aldrich and Azrith travel toward Everdale with [[Jevon]], a young mage carrying a glowing elven box. On the road they meet Sir Televast, an [[Oathkeepers|Oathkeeper]] knight, and encounter a horse twisted by the same black corruption Odine has seen in the Vale. It is her first sign that the curse has escaped her homeland. See [[2026.05.05]].
+_Before the first logged session._ Odine, Cassian, Aldrich and Azrith travel toward Everdale with [[Jevon]], a young mage carrying a glowing elven box. On the road they meet Sir Televast, an [[Oathkeepers|Oathkeeper]] knight, and encounter a horse twisted by the same black corruption Odine has seen in the Vale. It is her first sign that the curse has escaped her homeland. See [[2026.05.05]].
 
 ### Arc I: Arrival at the Tourney
 
@@ -64,7 +65,7 @@ The party maxes out the crowd's cheers, scales the wall, frees a jammed gear-tow
 ### Arc III: Shadows of House Godrin
 
 **Untranscribed session "The Wither"**
-*Known only from the GM's recap (see [[2026.08.11]]).* The party buys its own campsite, learns the blight's true name, **the Wither**, from a disillusioned Oathkeeper, and rescues Jevon from Godrin's knights a second time. They learn that Godrin wants to know **who gave Jevon his stone**.
+_Known only from the GM's recap (see [[2026.08.11]])._ The party buys its own campsite, learns the blight's true name, **the Wither**, from a disillusioned Oathkeeper, and rescues Jevon from Godrin's knights a second time. They learn that Godrin wants to know **who gave Jevon his stone**.
 
 **[[2026.08.11]] "Spoils and Ledgers"**
 Blackwood's nephew [[Renny Blackwood]] delivers the Gauntlet prize: about 1,500 gp and a magic item for each hero. The party sets up a hidden dead-drop to keep Jevon supplied. Gruvelda quietly reveals that House Godrin keeps ledgers of its dealings. Holt confirms the Crusaders have been promoted to [[The Menagerie]], the tourney's beast arena. At the table, the GM corrects a running mix-up: the knights hunting Jevon were always **House Godrin**, not [[House Oswall]].
@@ -81,7 +82,7 @@ The priest [[Father Kaldus Vey]] nurses Aldrich back. Cassian and Azrith infiltr
 Mid-battle, the manticore speaks, and Cassian chooses words over steel. He learns that the beast is a captive held by a trebuchet-and-net failsafe and talks it down. He then rides it to destroy the machine and sets it free. [[The Freed Manticore]] flies off promising to visit. The paying crowd boos and the judges are in uproar, while peasants on the cliffs cheer. Blackwood slips out of his box without a word.
 
 **[[2026.09.15]] "That Was Genius"**
-The party flees in a haze of burning banners. Holt warns that the stunt may end their tourney run, while the common folk hail them as folk heroes. In private, Blackwood calls it *"fucking genius."* The scandal is the perfect distraction for his own schemes. But he warns that mercy will one day cost lives. He sends them away to lie low under his stern captain, [[Captain Garan]], to a town called [[Havenport]]. That is also Aldrich's surname. The party reaches level 5.
+The party flees in a haze of burning banners. Holt warns that the stunt may end their tourney run, while the common folk hail them as folk heroes. In private, Blackwood calls it _"fucking genius."_ The scandal is the perfect distraction for his own schemes. But he warns that mercy will one day cost lives. He sends them away to lie low under his stern captain, [[Captain Garan]], to a town called [[Havenport]]. That is also Aldrich's surname. The party reaches level 5.
 
 ### Arc V: Havenport
 
@@ -99,4 +100,4 @@ Blackwood's gold buys passage through an ancient **teleportation circle** in the
 - The Wither spreads. Its link to the Dark King, the kneeling statue and Odine's lineage is the campaign's central mystery; see [[Investigate the Pestilence]].
 - Cassian's dream bargain with [[The Masked Figure]] is still unresolved, as is the question of why [[House Wulfhelm]] will not acknowledge [[House Fortescue]].
 
-*For session-by-session detail, see each log in `00 - Campaign Log/`. For every note in the vault, see [[vault-index]].*
+_For session-by-session detail, see each log in `00 - Campaign Log/`._
