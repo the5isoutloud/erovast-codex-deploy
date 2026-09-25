@@ -1,0 +1,25 @@
+{{- /*
+  Hugo only creates folder ("section") pages automatically for top-level
+  folders. This content adapter walks the vault and adds a section page for
+  every folder, including nested ones (e.g. Locations/Everdale), so they all
+  appear in the sidebar tree, get their own listing page, and keep their
+  exact folder name as the title.
+
+  If you add a brand new nested folder while `hugo server` is running,
+  restart the server so it is picked up.
+*/ -}}
+{{- $dirs := dict -}}
+{{- range resources.Match "vault-notes/**.md" -}}
+  {{- $dir := path.Dir (strings.TrimPrefix "/vault-notes/" .Name) -}}
+  {{- $parts := split $dir "/" -}}
+  {{- $acc := "" -}}
+  {{- range $i, $part := $parts -}}
+    {{- $acc = cond (eq $i 0) $part (printf "%s/%s" $acc $part) -}}
+    {{- if ne $part "." -}}
+      {{- $dirs = merge $dirs (dict $acc $part) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- range $path, $name := $dirs -}}
+  {{- $.AddPage (dict "path" $path "kind" "section" "title" $name) -}}
+{{- end -}}

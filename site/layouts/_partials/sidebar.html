@@ -1,0 +1,18 @@
+{{- /* Rendered once and reused on every page (partialCached); the current page is highlighted by site.js. */ -}}
+<aside class="sidebar" id="sidebar" aria-label="Codex navigation">
+  <a class="sidebar-brand" href="{{ site.Home.RelPermalink }}">
+    {{- with partial "logo-url.html" . }}<img src="{{ . }}" alt="" class="sidebar-logo">{{ end -}}
+    <span class="sidebar-title">{{ site.Title }}</span>
+  </a>
+  {{- if ne site.Params.sidebar.filter false }}
+  <div class="sidebar-filter">
+    <input type="search" id="sidebar-filter" placeholder="Filter pages…" autocomplete="off" aria-label="Filter pages">
+  </div>
+  {{- end }}
+  <nav class="tree" id="sidebar-tree">
+    {{ partial "sidebar-tree.html" site.Home }}
+  </nav>
+  {{- if site.Taxonomies.tags }}
+  <div class="sidebar-footer"><a href="{{ "tags/" | relURL }}">Browse tags</a></div>
+  {{- end }}
+</aside>

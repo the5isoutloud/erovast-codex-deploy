@@ -1,0 +1,8 @@
+{{- /* Should this folder (raw name) start expanded? See params.sidebar.open. */ -}}
+{{- $raw := lower . -}}
+{{- $display := lower (partial "folder-name.html" .) -}}
+{{- $out := false -}}
+{{- range site.Params.sidebar.open -}}
+  {{- if or (eq (lower .) $raw) (eq (lower .) $display) -}}{{- $out = true -}}{{- end -}}
+{{- end -}}
+{{- return $out -}}

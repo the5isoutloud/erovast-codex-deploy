@@ -1,0 +1,62 @@
+{{- /*
+  Renders ![[...]] embeds.  Returns dict: html (string), block (bool).
+    ![[image.png]]  ![[image.png|300]]  ![[image.png|300x200]]  ![[image.png|Alt text]]
+    ![[clip.mp4]]  ![[song.mp3]]  ![[file.pdf]]
+    ![[Some Note]]   – the note's content is shown inline (one level deep)
+*/ -}}
+{{- $page := .page -}}
+{{- $depth := .depth | default 0 -}}
+{{- $parts := split (replace .inner `\|` "|") "|" -}}
+{{- $target := index $parts 0 | strings.TrimSpace -}}
+{{- $opt := "" -}}
+{{- if gt (len $parts) 1 -}}{{- $opt = index $parts 1 | strings.TrimSpace -}}{{- end -}}
+{{- $file := replaceRE `#.*$` "" $target -}}
+{{- $ext := path.Ext $file | lower -}}
+{{- $html := "" -}}
+{{- $block := false -}}
+
+{{- $size := "" -}}
+{{- $alt := path.BaseName $file -}}
+{{- with findRESubmatch `^(\d+)(?:x(\d+))?$` $opt 1 -}}
+  {{- $m := index . 0 -}}
+  {{- $size = printf ` width="%s"` (index $m 1) -}}
+  {{- with index $m 2 -}}{{- $size = printf `%s height="%s"` $size . -}}{{- end -}}
+{{- else -}}
+  {{- with $opt -}}{{- $alt = . -}}{{- end -}}
+{{- end -}}
+
+{{- if in (slice ".png" ".jpg" ".jpeg" ".gif" ".webp" ".svg" ".avif" ".bmp") $ext -}}
+  {{- with partial "resolve-media.html" $file -}}
+    {{- $html = printf `<img class="embed-image" src="%s" alt="%s"%s loading="lazy">` .RelPermalink (htmlEscape $alt) $size -}}
+  {{- else -}}
+    {{- $html = printf `<span class="internal-link is-broken" title="File not found">%s</span>` (htmlEscape $file) -}}
+  {{- end -}}
+{{- else if in (slice ".mp4" ".webm" ".mov") $ext -}}
+  {{- with partial "resolve-media.html" $file -}}
+    {{- $html = printf `<video class="embed-video" src="%s" controls preload="metadata"%s></video>` .RelPermalink $size -}}
+  {{- end -}}
+{{- else if in (slice ".mp3" ".ogg" ".wav" ".m4a") $ext -}}
+  {{- with partial "resolve-media.html" $file -}}
+    {{- $html = printf `<audio class="embed-audio" src="%s" controls preload="metadata"></audio>` .RelPermalink -}}
+  {{- end -}}
+{{- else if eq $ext ".pdf" -}}
+  {{- with partial "resolve-media.html" $file -}}
+    {{- $html = printf `<iframe class="embed-pdf" src="%s" title="%s"></iframe>` .RelPermalink (htmlEscape $alt) -}}
+    {{- $block = true -}}
+  {{- end -}}
+{{- else -}}
+  {{- /* Embedded note */ -}}
+  {{- with partial "resolve-note.html" $file -}}
+    {{- $name := partial "page-name.html" . -}}
+    {{- if lt $depth 1 -}}
+      {{- $inner := partial "obsidian/render.html" (dict "page" . "depth" (add $depth 1)) -}}
+      {{- $html = printf `<div class="embed-note"><div class="embed-note-title"><a class="internal-link" href="%s">%s</a></div><div class="embed-note-body">%s</div></div>` .RelPermalink (htmlEscape $name) $inner -}}
+      {{- $block = true -}}
+    {{- else -}}
+      {{- $html = printf `<a class="internal-link" href="%s">%s</a>` .RelPermalink (htmlEscape $name) -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $html = printf `<span class="internal-link is-broken" title="Note not found">%s</span>` (htmlEscape $file) -}}
+  {{- end -}}
+{{- end -}}
+{{- return (dict "html" $html "block" $block) -}}

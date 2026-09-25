@@ -1,0 +1,17 @@
+{{- /* Display name for any page: folders use folder-name, notes use title or file name. */ -}}
+{{- $p := . -}}
+{{- $name := "" -}}
+{{- if $p.IsHome -}}
+  {{- $name = site.Title -}}
+{{- else if eq $p.Kind "section" -}}
+  {{- $name = partial "folder-name.html" $p.Title -}}
+{{- else if in (slice "taxonomy" "term") $p.Kind -}}
+  {{- $name = $p.Title -}}
+{{- else -}}
+  {{- $name = $p.Title -}}
+  {{- if not $name -}}{{- with $p.File -}}{{- $name = .ContentBaseName -}}{{- end -}}{{- end -}}
+  {{- if site.Params.sidebar.strip_pages -}}
+    {{- $name = replaceRE (site.Params.sidebar.strip_pattern | default `^\d+\s*-\s*`) "" $name -}}
+  {{- end -}}
+{{- end -}}
+{{- return $name -}}

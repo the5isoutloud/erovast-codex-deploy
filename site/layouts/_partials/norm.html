@@ -1,0 +1,7 @@
+{{- /* Normalize a note name for lookups: case-insensitive, curly quotes = straight quotes. */ -}}
+{{- $s := . | lower | strings.TrimSpace -}}
+{{- $s = replace $s "’" "'" -}}
+{{- $s = replace $s "‘" "'" -}}
+{{- $s = replace $s "“" "\"" -}}
+{{- $s = replace $s "”" "\"" -}}
+{{- return $s -}}

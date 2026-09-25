@@ -1,0 +1,5 @@
+{{- /* Is this folder (raw name) listed in params.sidebar.reverse_sort? */ -}}
+{{- $name := lower . -}}
+{{- $out := false -}}
+{{- range site.Params.sidebar.reverse_sort -}}{{- if eq (lower .) $name -}}{{- $out = true -}}{{- end -}}{{- end -}}
+{{- return $out -}}

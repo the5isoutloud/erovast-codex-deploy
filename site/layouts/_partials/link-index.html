@@ -1,0 +1,31 @@
+{{- /*
+  Map of normalized note name -> page, used to resolve [[wikilinks]].
+  Keys: "folder/sub/note" (full path), "note" (file name), and any `aliases`.
+  Built once per build (called with partialCached).
+*/ -}}
+{{- $s := newScratch -}}
+{{- $pages := site.RegularPages -}}
+{{- $s.Set "idx" dict -}}
+{{- range $pages -}}
+  {{- $p := . -}}
+  {{- with .File -}}
+    {{- $s.SetInMap "idx" (partial "norm.html" (strings.TrimSuffix ".md" .Path)) $p -}}
+  {{- end -}}
+{{- end -}}
+{{- range $pages -}}
+  {{- $p := . -}}
+  {{- with .File -}}
+    {{- $k := partial "norm.html" .ContentBaseName -}}
+    {{- if not (index ($s.Get "idx") $k) -}}{{- $s.SetInMap "idx" $k $p -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- range $pages -}}
+  {{- $p := . -}}
+  {{- range .Params.aliases -}}
+    {{- if and . (reflect.IsMap . | not) -}}
+      {{- $k := partial "norm.html" (string .) -}}
+      {{- if not (index ($s.Get "idx") $k) -}}{{- $s.SetInMap "idx" $k $p -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return ($s.Get "idx") | default dict -}}

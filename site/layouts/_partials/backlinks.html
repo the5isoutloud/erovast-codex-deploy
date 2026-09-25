@@ -1,0 +1,24 @@
+{{- /* "Linked mentions": other notes that contain a [[wikilink]] to this one. */ -}}
+{{- $page := . -}}
+{{- with .File -}}
+  {{- $name := .ContentBaseName -}}
+  {{- $esc := replaceRE `([\\.+*?()|\[\]{}^$])` `\${1}` $name -}}
+  {{- $esc = replaceRE `['’]` `['’]` $esc -}}
+  {{- $re := printf `(?i)\[\[(?:[^\]|#\n]*/)?%s(?:#[^\]|\n]*)?(?:\\?\|[^\]\n]*)?\]\]` $esc -}}
+  {{- $rows := slice -}}
+  {{- range site.RegularPages -}}
+    {{- if and (ne . $page) (findRE $re .RawContent 1) -}}
+      {{- $rows = $rows | append (dict "k" (lower (partial "page-name.html" .)) "p" .) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with $rows }}
+<section class="backlinks">
+  <h2 class="backlinks-title">Linked mentions <span class="count">{{ len . }}</span></h2>
+  <ul>
+    {{- range sort . "k" }}
+    <li><a href="{{ .p.RelPermalink }}">{{ partial "page-name.html" .p }}</a>{{ with .p.Parent }}{{ if not .IsHome }}<span class="backlink-folder">{{ partial "page-name.html" . }}</span>{{ end }}{{ end }}</li>
+    {{- end }}
+  </ul>
+</section>
+  {{- end }}
+{{- end -}}

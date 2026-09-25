@@ -1,0 +1,8 @@
+{{- /* Map of lower-case file name -> resource for every media file in the vault. */ -}}
+{{- $s := newScratch -}}
+{{- $s.Set "idx" dict -}}
+{{- range resources.Match "vault/**" -}}
+  {{- $k := partial "norm.html" (path.Base .Name) -}}
+  {{- if not (index ($s.Get "idx") $k) -}}{{- $s.SetInMap "idx" $k . -}}{{- end -}}
+{{- end -}}
+{{- return ($s.Get "idx") -}}

@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="{{ site.Params.colors.background | default "#0f1115" }}">
+{{- $name := partial "page-name.html" . }}
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ $name }} · {{ site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+{{- with site.Params.favicon }}
+<link rel="icon" href="{{ . | relURL }}">
+{{- else }}{{ with partial "logo-url.html" . }}
+<link rel="icon" href="{{ . }}">
+{{- end }}{{ end }}
+{{- with site.Params.fonts.fontsURL }}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="{{ . }}">
+{{- end }}
+{{- $vars := resources.Get "css/theme-vars.css" | resources.ExecuteAsTemplate "css/theme-vars.css" site }}
+{{- $css := slice (resources.Get "css/chroma.css") (resources.Get "css/main.css") $vars | resources.Concat "css/site.css" }}
+{{- if hugo.IsProduction }}{{ $css = $css | minify | fingerprint }}{{ end }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}"{{ with $css.Data.Integrity }} integrity="{{ . }}"{{ end }}>

@@ -1,0 +1,18 @@
+/*
+  Generated from hugo.toml — do not edit colors here.
+  Every key under [params.colors] becomes --color-<key> (underscores → dashes),
+  [params.layout] keys become --<key>, and [params.fonts] keys become --font-<key>.
+*/
+:root {
+{{- range $k, $v := site.Params.colors }}
+  --color-{{ replace $k "_" "-" }}: {{ $v | safeCSS }};
+{{- end }}
+{{- range $k, $v := site.Params.layout }}
+  --{{ replace $k "_" "-" }}: {{ $v | safeCSS }};
+{{- end }}
+{{- range $k, $v := site.Params.fonts }}
+  {{- if ne (lower $k) "fontsurl" }}
+  --font-{{ replace $k "_" "-" }}: {{ $v | safeCSS }};
+  {{- end }}
+{{- end }}
+}

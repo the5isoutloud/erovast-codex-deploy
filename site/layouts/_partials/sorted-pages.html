@@ -1,0 +1,11 @@
+{{- /* Notes directly inside a section, sorted by file name (or reversed, see reverse_sort). */ -}}
+{{- $rows := slice -}}
+{{- range .RegularPages -}}
+  {{- $k := "" -}}
+  {{- with .File -}}{{- $k = lower .ContentBaseName -}}{{- else -}}{{- $k = lower .Title -}}{{- end -}}
+  {{- $rows = $rows | append (dict "k" $k "p" .) -}}
+{{- end -}}
+{{- $order := cond (and (not .IsHome) (partial "is-reversed.html" .Title)) "desc" "asc" -}}
+{{- $out := slice -}}
+{{- range sort $rows "k" $order -}}{{- $out = $out | append .p -}}{{- end -}}
+{{- return $out -}}

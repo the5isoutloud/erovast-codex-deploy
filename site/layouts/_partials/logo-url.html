@@ -1,0 +1,6 @@
+{{- /* Resolve params.logo: a vault media file name, or a path in site/static. */ -}}
+{{- $url := "" -}}
+{{- with site.Params.logo -}}
+  {{- with partial "resolve-media.html" . -}}{{- $url = .RelPermalink -}}{{- else -}}{{- $url = relURL . -}}{{- end -}}
+{{- end -}}
+{{- return $url -}}

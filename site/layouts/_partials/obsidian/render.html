@@ -1,0 +1,98 @@
+{{- /*
+  Turns Obsidian-flavoured Markdown into HTML.
+  Input dict:
+    page   – the page the text belongs to (required)
+    text   – Markdown (defaults to page.RawContent)
+    depth  – embed nesting depth (internal)
+    inline – render as inline HTML (for front matter properties)
+
+  Handles, in order:
+    %%comments%%                     removed
+    ![[note]] / ![[image.png|300]]   embeds
+    [[note]] [[note|alias]] [[note#heading]] [[#heading]]   links
+    src="../Attachments/x.png"       raw HTML paths rewritten to the real file
+  Regular Markdown images/links are handled by layouts/_markup/ render hooks.
+*/ -}}
+{{- $page := .page -}}
+{{- $s := .text | default $page.RawContent -}}
+{{- $depth := .depth | default 0 -}}
+{{- $inline := .inline | default false -}}
+
+{{- /* Comments */ -}}
+{{- $s = replaceRE `(?s)%%.*?%%` "" $s -}}
+
+{{- /* Embeds. Note embeds use placeholders that are swapped in after rendering. */ -}}
+{{- $blocks := slice -}}
+{{- range findRESubmatch `!\[\[([^\]\n]+?)\]\]` $s -}}
+  {{- $full := index . 0 -}}
+  {{- $res := partial "obsidian/embed.html" (dict "inner" (index . 1) "page" $page "depth" $depth) -}}
+  {{- if $res.block -}}
+    {{- $token := printf "@@EMBED%dX@@" (len $blocks) -}}
+    {{- $blocks = $blocks | append (dict "token" $token "html" $res.html) -}}
+    {{- $s = replace $s $full (printf "\n\n%s\n\n" $token) -}}
+  {{- else -}}
+    {{- $s = replace $s $full $res.html -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Wikilinks */ -}}
+{{- range findRESubmatch `\[\[([^\]\n]+?)\]\]` $s -}}
+  {{- $full := index . 0 -}}
+  {{- $inner := replace (index . 1) `\|` "|" -}}
+  {{- $parts := split $inner "|" -}}
+  {{- $target := index $parts 0 | strings.TrimSpace -}}
+  {{- $alias := "" -}}
+  {{- if gt (len $parts) 1 -}}{{- $alias = delimit (after 1 $parts) "|" | strings.TrimSpace -}}{{- end -}}
+  {{- $note := $target -}}
+  {{- $heading := "" -}}
+  {{- with findRESubmatch `^([^#]*)#(.*)$` $target 1 -}}
+    {{- $note = index (index . 0) 1 | strings.TrimSpace -}}
+    {{- $heading = index (index . 0) 2 | strings.TrimSpace -}}
+  {{- end -}}
+  {{- $label := $alias -}}
+  {{- if not $label -}}
+    {{- $label = path.Base $note -}}
+    {{- if $heading -}}{{- $label = cond (eq $note "") (strings.TrimPrefix "^" $heading) (printf "%s › %s" $label (strings.TrimPrefix "^" $heading)) -}}{{- end -}}
+  {{- end -}}
+  {{- $anchor := "" -}}
+  {{- if and $heading (not (hasPrefix $heading "^")) -}}{{- $anchor = printf "#%s" (anchorize $heading) -}}{{- end -}}
+  {{- $html := "" -}}
+  {{- if eq $note "" -}}
+    {{- $html = printf `<a class="internal-link" href="%s">%s</a>` $anchor (htmlEscape $label) -}}
+  {{- else -}}
+    {{- with partial "resolve-note.html" $note -}}
+      {{- $html = printf `<a class="internal-link" href="%s%s">%s</a>` .RelPermalink $anchor (htmlEscape $label) -}}
+    {{- else -}}
+      {{- $plain := false -}}
+      {{- range site.Params.page.plain_text_links -}}{{- if findRE . $note 1 -}}{{- $plain = true -}}{{- end -}}{{- end -}}
+      {{- if $plain -}}
+        {{- $html = htmlEscape $label -}}
+      {{- else -}}
+        {{- $html = printf `<span class="internal-link is-broken" title="Note not found: %s">%s</span>` (htmlEscape $note) (htmlEscape $label) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $s = replace $s $full $html -}}
+{{- end -}}
+
+{{- /* Relative media paths inside raw HTML (e.g. <img src="../Attachments/x.png">) */ -}}
+{{- range findRESubmatch `(src|href|poster)="((?:\.\.?/)*[^"/:#?][^":#?]*\.(?i:png|jpe?g|gif|webp|svg|avif|bmp|mp4|webm|mov|mp3|ogg|wav|m4a|pdf))"` $s -}}
+  {{- $m := . -}}
+  {{- with partial "resolve-media.html" (index $m 2) -}}
+    {{- $s = replace $s (index $m 0) (printf `%s="%s"` (index $m 1) .RelPermalink) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Render */ -}}
+{{- $html := "" -}}
+{{- if $inline -}}
+  {{- $html = $page.RenderString $s -}}
+{{- else -}}
+  {{- $html = $page.RenderString (dict "display" "block") $s -}}
+{{- end -}}
+{{- $html = string $html -}}
+{{- range $blocks -}}
+  {{- $html = replace $html (printf "<p>%s</p>" .token) .html -}}
+  {{- $html = replace $html .token .html -}}
+{{- end -}}
+{{- return ($html | safeHTML) -}}

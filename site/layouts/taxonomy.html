@@ -1,0 +1,11 @@
+{{- define "main" }}
+<article class="folder-page">
+  {{ partial "breadcrumbs.html" . }}
+  <header class="note-header"><h1 class="note-title">Tags</h1></header>
+  <ul class="tag-list large">
+    {{- range .Data.Terms.Alphabetical }}
+    <li><a class="tag" href="{{ .Page.RelPermalink }}">#{{ .Page.LinkTitle }} <span class="count">{{ .Count }}</span></a></li>
+    {{- end }}
+  </ul>
+</article>
+{{- end }}

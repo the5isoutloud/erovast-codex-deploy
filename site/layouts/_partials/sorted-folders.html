@@ -1,0 +1,11 @@
+{{- /* Visible sub-folders of a section, sorted by their real (numbered) name. */ -}}
+{{- $rows := slice -}}
+{{- range .Sections -}}
+  {{- if not (partial "is-hidden.html" .Title) -}}
+    {{- $rows = $rows | append (dict "k" (lower .Title) "p" .) -}}
+  {{- end -}}
+{{- end -}}
+{{- $order := cond (and (not .IsHome) (partial "is-reversed.html" .Title)) "desc" "asc" -}}
+{{- $out := slice -}}
+{{- range sort $rows "k" $order -}}{{- $out = $out | append .p -}}{{- end -}}
+{{- return $out -}}

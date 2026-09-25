@@ -1,0 +1,60 @@
+{{- define "main" }}
+{{- $home := site.Params.home }}
+<section class="hero">
+  {{- if ne $home.show_logo false }}{{ with partial "logo-url.html" . }}
+  <img class="hero-logo" src="{{ . }}" alt="{{ site.Title }}">
+  {{- end }}{{ end }}
+  <h1 class="hero-title">{{ .Title | default site.Title }}</h1>
+  {{- with $home.tagline }}<p class="hero-tagline">{{ . }}</p>{{ end }}
+</section>
+
+{{- with .RawContent }}
+<section class="home-content prose">
+  {{ partial "obsidian/render.html" (dict "page" $) }}
+</section>
+{{- end }}
+
+{{- with $home.latest }}
+  {{- with site.GetPage (printf "/%s" .folder) }}
+    {{- with index (partial "sorted-pages.html" .) 0 }}
+<div class="home-actions">
+  <a class="button" href="{{ .RelPermalink }}">{{ $home.latest.label | default "Latest" }}: {{ partial "page-name.html" . }}</a>
+</div>
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{- /* Category cards: from [[params.home.cards]], or one per top-level folder. */}}
+{{- $cards := slice }}
+{{- range $home.cards }}
+  {{- $url := .url | default "" }}{{ $count := -1 }}
+  {{- with .folder }}{{ with site.GetPage (printf "/%s" .) }}{{ $url = .RelPermalink }}{{ $count = len .RegularPagesRecursive }}{{ end }}{{ end }}
+  {{- with .note }}{{ with partial "resolve-note.html" . }}{{ $url = .RelPermalink }}{{ end }}{{ end }}
+  {{- $cards = $cards | append (dict "title" .title "description" (.description | default "") "icon" (.icon | default "") "image" (.image | default "") "url" $url "count" $count) }}
+{{- end }}
+{{- if not $cards }}
+  {{- range partial "sorted-folders.html" site.Home }}
+    {{- $cards = $cards | append (dict "title" (partial "folder-name.html" .Title) "description" "" "icon" "" "image" "" "url" .RelPermalink "count" (len .RegularPagesRecursive)) }}
+  {{- end }}
+{{- end }}
+{{- with $cards }}
+<section class="home-cards">
+  {{- with $home.cards_heading }}<h2 class="home-cards-heading">{{ . }}</h2>{{ end }}
+  <div class="card-grid">
+    {{- range . }}
+    <a class="card" href="{{ .url | relURL }}">
+      {{- with .image }}
+        {{- $src := . }}{{ with partial "resolve-media.html" . }}{{ $src = .RelPermalink }}{{ else }}{{ $src = relURL . }}{{ end }}
+      <img class="card-image" src="{{ $src }}" alt="" loading="lazy">
+      {{- end }}
+      <div class="card-body">
+        <div class="card-title">{{ with .icon }}<span class="card-icon" aria-hidden="true">{{ . }}</span>{{ end }}{{ .title }}</div>
+        {{- with .description }}<p class="card-text">{{ . }}</p>{{ end }}
+        {{- if ge .count 0 }}<span class="card-count">{{ .count }} {{ cond (eq .count 1) "entry" "entries" }}</span>{{ end }}
+      </div>
+    </a>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
+{{- end }}

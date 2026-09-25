@@ -1,0 +1,8 @@
+{{- /* Input: a link target such as "Everdale", "00 - Game Log/2026.05.05" or "Note.md". Returns the page or "". */ -}}
+{{- $t := . | replaceRE `%20` " " | strings.TrimPrefix "./" | strings.TrimPrefix "/" -}}
+{{- $t = replaceRE `^(\.\./)+` "" $t | strings.TrimSuffix ".md" -}}
+{{- $idx := partialCached "link-index.html" "idx" -}}
+{{- $k := partial "norm.html" $t -}}
+{{- $found := index $idx $k -}}
+{{- if not $found -}}{{- $found = index $idx (path.Base $k) -}}{{- end -}}
+{{- return ($found | default "") -}}

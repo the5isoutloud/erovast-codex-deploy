@@ -1,0 +1,4 @@
+{{- /* Input: a file name or relative path like "../Attachments/x.png". Returns the resource or "". */ -}}
+{{- $name := . | replaceRE `%20` " " | path.Base -}}
+{{- $idx := partialCached "media-index.html" "idx" -}}
+{{- return ((index $idx (partial "norm.html" $name)) | default "") -}}

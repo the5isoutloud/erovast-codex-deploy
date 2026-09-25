@@ -1,0 +1,19 @@
+{{- define "main" }}
+{{- $classes := slice "note" }}
+{{- range .Params.cssclasses }}{{ $classes = $classes | append (printf "cc-%s" (urlize .)) }}{{ end }}
+<article class="{{ delimit $classes " " }}">
+  {{ partial "breadcrumbs.html" . }}
+  {{- /* Skip the page title when the note already starts with its own "# Heading". */}}
+  {{- $hasH1 := findRE `(?m)^#\s` .RawContent 1 }}
+  <header class="note-header{{ if $hasH1 }} no-title{{ end }}">
+    {{- if not $hasH1 }}<h1 class="note-title">{{ partial "page-name.html" . }}</h1>{{ end }}
+    {{ partial "tags.html" . }}
+    {{ partial "properties.html" . }}
+  </header>
+  <div class="prose">
+    {{ partial "obsidian/render.html" (dict "page" .) }}
+  </div>
+  {{- if ne site.Params.page.backlinks false }}{{ partial "backlinks.html" . }}{{ end }}
+  {{ partial "prev-next.html" . }}
+</article>
+{{- end }}

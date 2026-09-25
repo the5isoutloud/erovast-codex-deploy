@@ -1,0 +1,18 @@
+{{- /*
+  Display name for a vault folder.
+  Input: the folder's real name, e.g. "01 - Locations in Erovast".
+  1. [params.sidebar.rename] is checked for the full name, then the stripped name.
+  2. Otherwise strip_pattern is removed from the start.
+*/ -}}
+{{- $raw := . -}}
+{{- $cfg := site.Params.sidebar -}}
+{{- $pattern := $cfg.strip_pattern | default `^\d+\s*-\s*` -}}
+{{- $stripped := replaceRE $pattern "" $raw -}}
+{{- $rename := $cfg.rename | default dict -}}
+{{- $out := $stripped -}}
+{{- with index $rename (lower $raw) -}}
+  {{- $out = . -}}
+{{- else -}}
+  {{- with index $rename (lower $stripped) -}}{{- $out = . -}}{{- end -}}
+{{- end -}}
+{{- return $out -}}

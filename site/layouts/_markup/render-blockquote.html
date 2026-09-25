@@ -1,0 +1,27 @@
+{{- /*
+  Obsidian callouts:  > [!note] Title   > [!warning]- Collapsed   > [!tip]+ Expanded
+  Colors come from params.colors.callout_* in hugo.toml.
+*/ -}}
+{{- if eq .Type "alert" -}}
+{{- $type := lower .AlertType -}}
+{{- $family := "note" -}}
+{{- if in (slice "tip" "hint" "important" "success" "check" "done") $type -}}{{- $family = "tip" -}}
+{{- else if in (slice "warning" "caution" "attention" "question" "help" "faq" "todo") $type -}}{{- $family = "warning" -}}
+{{- else if in (slice "danger" "error" "failure" "fail" "missing" "bug") $type -}}{{- $family = "danger" -}}
+{{- else if in (slice "quote" "cite" "example") $type -}}{{- $family = "quote" -}}
+{{- end -}}
+{{- $title := .AlertTitle | replaceRE `(?:<br\s*/?>\s*)+$` "" | default (title $type) -}}
+{{- if .AlertSign -}}
+<details class="callout callout-{{ $family }}" data-callout="{{ $type }}"{{ if eq .AlertSign "+" }} open{{ end }}>
+  <summary class="callout-title">{{ $title }}</summary>
+  <div class="callout-body">{{ .Text }}</div>
+</details>
+{{- else -}}
+<div class="callout callout-{{ $family }}" data-callout="{{ $type }}">
+  <div class="callout-title">{{ $title }}</div>
+  <div class="callout-body">{{ .Text }}</div>
+</div>
+{{- end -}}
+{{- else -}}
+<blockquote>{{ .Text }}</blockquote>
+{{- end -}}

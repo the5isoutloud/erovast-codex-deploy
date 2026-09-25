@@ -1,0 +1,17 @@
+{{- /* Front matter fields listed in params.page.properties, shown under the title. */ -}}
+{{- $p := . -}}
+{{- $rows := slice -}}
+{{- range site.Params.page.properties -}}
+  {{- $v := index $p.Params (lower .) -}}
+  {{- if $v -}}
+    {{- if reflect.IsSlice $v -}}{{- $v = delimit $v ", " -}}{{- end -}}
+    {{- $rows = $rows | append (dict "k" . "v" (string $v)) -}}
+  {{- end -}}
+{{- end -}}
+{{- with $rows }}
+<dl class="properties">
+  {{- range . }}
+  <div class="property"><dt>{{ humanize .k }}</dt><dd>{{ partial "obsidian/render.html" (dict "page" $p "text" .v "inline" true) }}</dd></div>
+  {{- end }}
+</dl>
+{{- end }}

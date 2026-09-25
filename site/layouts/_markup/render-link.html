@@ -1,0 +1,20 @@
+{{- /* Markdown links. Relative links to .md notes are resolved like wikilinks; external links open in a new tab. */ -}}
+{{- $dest := .Destination -}}
+{{- $u := urls.Parse $dest -}}
+{{- $class := "" -}}
+{{- $external := false -}}
+{{- if $u.IsAbs -}}
+  {{- $external = true -}}{{- $class = "external-link" -}}
+{{- else if hasSuffix (lower $u.Path) ".md" -}}
+  {{- with partial "resolve-note.html" $u.Path -}}
+    {{- $dest = .RelPermalink -}}
+    {{- with $u.Fragment -}}{{- $dest = printf "%s#%s" $dest (anchorize .) -}}{{- end -}}
+    {{- $class = "internal-link" -}}
+  {{- else -}}
+    {{- $class = "internal-link is-broken" -}}
+  {{- end -}}
+{{- else if $u.Path -}}
+  {{- with partial "resolve-media.html" $u.Path -}}{{- $dest = .RelPermalink -}}{{- end -}}
+{{- end -}}
+<a href="{{ $dest | safeURL }}"{{ with $class }} class="{{ . }}"{{ end }}{{ with .Title }} title="{{ . }}"{{ end }}{{ if $external }} target="_blank" rel="noopener"{{ end }}>{{ .Text }}</a>
+{{- /**/ -}}

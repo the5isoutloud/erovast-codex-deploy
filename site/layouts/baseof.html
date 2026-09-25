@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{ site.Language.Locale | default "en" }}" class="dark">
+<head>
+  {{ partial "head.html" . }}
+</head>
+{{- $sidebar := or (not .IsHome) site.Params.home.show_sidebar }}
+<body class="kind-{{ .Kind }}{{ if .IsHome }} is-home{{ end }}{{ if $sidebar }} has-sidebar{{ end }}">
+  {{- if $sidebar }}
+  <header class="topbar">
+    <button class="sidebar-toggle" id="sidebar-toggle" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="topbar-title" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
+  </header>
+  <div class="sidebar-backdrop" id="sidebar-backdrop" hidden></div>
+  {{ partialCached "sidebar.html" . "sidebar" }}
+  {{- end }}
+  <main class="main" id="main">
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer.html" . }}
+  </main>
+  {{- $js := resources.Get "js/site.js" }}
+  {{- if hugo.IsProduction }}{{ $js = $js | minify | fingerprint }}{{ end }}
+  <script src="{{ $js.RelPermalink }}" defer></script>
+</body>
+</html>

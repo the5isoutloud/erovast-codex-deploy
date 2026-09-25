@@ -1,0 +1,35 @@
+{{- define "main" }}
+<article class="folder-page">
+  {{ partial "breadcrumbs.html" . }}
+  <header class="note-header">
+    <h1 class="note-title">{{ partial "page-name.html" . }}</h1>
+    <p class="folder-meta">{{ len .RegularPagesRecursive }} {{ cond (eq (len .RegularPagesRecursive) 1) "entry" "entries" }}</p>
+  </header>
+  {{- with .RawContent }}<div class="prose">{{ partial "obsidian/render.html" (dict "page" $) }}</div>{{ end }}
+
+  {{- with partial "sorted-folders.html" . }}
+  <h2 class="folder-section-title">Folders</h2>
+  <div class="card-grid compact">
+    {{- range . }}
+    <a class="card" href="{{ .RelPermalink }}">
+      <div class="card-body">
+        <div class="card-title"><span class="card-icon" aria-hidden="true">📁</span>{{ partial "folder-name.html" .Title }}</div>
+        <span class="card-count">{{ len .RegularPagesRecursive }} {{ cond (eq (len .RegularPagesRecursive) 1) "entry" "entries" }}</span>
+      </div>
+    </a>
+    {{- end }}
+  </div>
+  {{- end }}
+
+  {{- with partial "sorted-pages.html" . }}
+  <h2 class="folder-section-title">Notes</h2>
+  <ul class="page-list">
+    {{- range . }}
+    <li><a href="{{ .RelPermalink }}">{{ partial "page-name.html" . }}</a>
+      {{- with .GetTerms "tags" }}<span class="page-list-tags">{{ range . }}<span class="tag small">#{{ .LinkTitle }}</span>{{ end }}</span>{{ end }}
+    </li>
+    {{- end }}
+  </ul>
+  {{- end }}
+</article>
+{{- end }}

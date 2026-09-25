@@ -1,0 +1,298 @@
+# =============================================================================
+#  Erovast Codex — Hugo configuration
+#  See THEME.md in this folder for a full guide to customizing the site.
+# =============================================================================
+
+# Change this to the real address once the site is hosted.
+baseURL = "https://example.com/"
+locale = "en-US"
+title = "The Erovast Codex"
+
+# Obsidian notes use `aliases:` for alternate names. Hugo would normally turn
+# those into redirect pages, so that feature is switched off.
+disableAliases = true
+disableKinds = ["rss"]
+
+# Keep folder and file names exactly as written in the vault.
+titleCaseStyle = "none"
+pluralizeListTitles = false
+
+enableGitInfo = false
+
+# Never read Obsidian's settings folder or its trash, wherever they appear.
+ignoreFiles = ['(^|[\\/])\.obsidian([\\/]|$)', '(^|[\\/])\.trash([\\/]|$)']
+
+[taxonomies]
+  tag = "tags"
+
+# -----------------------------------------------------------------------------
+#  Where content comes from
+#  The Obsidian vault is read in place, so nothing is copied into this folder.
+# -----------------------------------------------------------------------------
+[module]
+  # The site's own landing page (content/_index.md).
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+
+  # All notes in the vault.
+  [[module.mounts]]
+    source = "../Erovast Vault"
+    target = "content"
+    # Rules are checked top to bottom; the first match wins. "!" excludes.
+    files = [
+      "! index.md",         # the landing page lives in site/content/_index.md
+      "! Attachments/**",   # media folder — never shown as a folder
+      "! **/Transcripts/**", # session transcripts — used by another process
+      "! .obsidian/**",
+      "! .trash/**",
+      "*.md",
+      "**/*.md",
+    ]
+
+  # Theme CSS / JS.
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+
+  # Every image / video / audio / PDF in the vault, looked up by file name.
+  # Only files that are actually linked from a note end up in public/.
+  [[module.mounts]]
+    source = "../Erovast Vault"
+    target = "assets/vault"
+    files = [
+      "! .obsidian/**",
+      "! .trash/**",
+      "*.{png,jpg,jpeg,gif,webp,svg,avif,bmp,mp4,webm,mov,mp3,ogg,wav,m4a,pdf}",
+      "**/*.{png,jpg,jpeg,gif,webp,svg,avif,bmp,mp4,webm,mov,mp3,ogg,wav,m4a,pdf}",
+    ]
+
+  # The vault's notes again, used only to discover nested folders so each one
+  # gets its own page (see content/_content.gotmpl). Nothing here is published.
+  [[module.mounts]]
+    source = "../Erovast Vault"
+    target = "assets/vault-notes"
+    files = [
+      "! Attachments/**",
+      "! **/Transcripts/**",
+      "! .obsidian/**",
+      "! .trash/**",
+      "**/*.md",
+    ]
+
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+
+# -----------------------------------------------------------------------------
+#  Markdown rendering (tuned to behave like Obsidian)
+# -----------------------------------------------------------------------------
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true        # allow raw HTML such as <img> and <div> in notes
+    hardWraps = true     # a single line break is a line break, as in Obsidian
+  [markup.goldmark.extensions.extras.mark]
+    enable = true        # ==highlight==
+  [markup.goldmark.extensions.extras.delete]
+    enable = true        # ~~strikethrough~~
+  [markup.goldmark.parser.attribute]
+    block = true
+  [markup.highlight]
+    noClasses = false
+    style = "github-dark"
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+# =============================================================================
+#  THEME SETTINGS
+# =============================================================================
+[params]
+  description = "A chronicle of the realm of Erovast."
+  # Footer text on every page (Markdown allowed).
+  footer = "The Erovast Codex · A living record of the campaign"
+
+  # Logo: a file name from the vault (found anywhere, e.g. Attachments/) or a
+  # path to a file in site/static (e.g. "/images/logo.png").
+  logo = "Erovast.png"
+  favicon = ""                       # e.g. "/favicon.png" in site/static
+
+  # Fonts. `fontsURL` is a stylesheet link (Google Fonts etc.). Leave it empty
+  # to use only fonts installed on the reader's machine.
+  [params.fonts]
+    fontsURL = "https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+    heading = "'Cinzel', Georgia, serif"
+    body = "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif"
+    mono = "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+
+  # Sizes. Any CSS length works.
+  [params.layout]
+    sidebar_width = "290px"
+    content_width = "860px"
+    base_font_size = "16px"
+    radius = "8px"
+
+  # ---------------------------------------------------------------------------
+  #  COLORS — every color in the theme. Any CSS color value works
+  #  (#hex, rgb(), hsl(), named colors). Each key becomes a CSS variable
+  #  called --color-<key>, with underscores turned into dashes.
+  # ---------------------------------------------------------------------------
+  [params.colors]
+    # Page
+    background        = "#0f1115"
+    surface           = "#171a21"   # cards, panels, code blocks
+    surface_hover     = "#1f232c"
+    border            = "#2a2f3a"
+    selection         = "#3b3320"
+
+    # Text
+    text              = "#d6d8de"
+    text_muted        = "#8b91a0"
+    heading           = "#f1e3c2"
+    strong            = "#f4f5f7"
+
+    # Links and accents
+    link              = "#d9a441"
+    link_hover        = "#f3c567"
+    link_broken       = "#c25b5b"   # wikilinks to notes that don't exist
+    accent            = "#d9a441"   # buttons, active markers, rules
+    accent_text       = "#16130c"   # text drawn on top of the accent color
+
+    # Sidebar
+    sidebar_bg        = "#12151b"
+    sidebar_text      = "#b7bcc8"
+    sidebar_heading   = "#f1e3c2"   # folder names
+    sidebar_hover_bg  = "#1c2029"
+    sidebar_active_bg = "#2a2416"
+    sidebar_active    = "#f3c567"   # the page you are on
+
+    # Content elements
+    blockquote_border = "#d9a441"
+    blockquote_bg     = "#161920"
+    code_bg           = "#1a1d25"
+    code_text         = "#e6c07b"
+    table_header_bg   = "#1c2029"
+    table_stripe_bg   = "#14171d"
+    mark_bg           = "#5c4a17"   # ==highlight==
+    mark_text         = "#fff4d6"
+    tag_bg            = "#262a34"
+    tag_text          = "#d9a441"
+
+    # Callouts  (> [!note], > [!warning], ...)
+    callout_note      = "#5b8def"
+    callout_tip       = "#3fb68b"
+    callout_warning   = "#e0a33a"
+    callout_danger    = "#e05d5d"
+    callout_quote     = "#8b91a0"
+
+    # Landing page
+    hero_glow         = "rgba(217, 164, 65, 0.18)"
+    card_bg           = "#171a21"
+    card_hover_bg     = "#1f232c"
+    card_border       = "#2a2f3a"
+    card_title        = "#f1e3c2"
+
+  # ---------------------------------------------------------------------------
+  #  SIDEBAR
+  # ---------------------------------------------------------------------------
+  [params.sidebar]
+    # Regular expression removed from the start of folder names for display.
+    # The default removes "00 - ", "01 - " etc. Sorting still uses the full name.
+    strip_pattern = '^\d+\s*-\s*'
+    # Apply the same stripping to page names too.
+    strip_pages = false
+    # Folders never shown (in addition to Attachments, which is never loaded).
+    hidden = []
+    # Folders listed newest-first (Z→A) instead of A→Z.
+    reverse_sort = ["00 - Game Log"]
+    # Folders that start expanded. Folders holding the current page always do.
+    open = []
+    # Show the "filter pages" box at the top of the sidebar.
+    filter = true
+
+  # Rename folders in the sidebar and breadcrumbs.
+  #   "<exact folder name>" = "<display name>"
+  [params.sidebar.rename]
+    "Locations in Erovast" = "Locations"
+
+  # ---------------------------------------------------------------------------
+  #  NOTE PAGES
+  # ---------------------------------------------------------------------------
+  [params.page]
+    backlinks = true           # "Linked mentions" at the bottom of each note
+    tags = true                # tag chips under the title
+    breadcrumbs = true
+    # Front matter fields to show under the title (wikilinks work in them).
+    properties = ["status"]
+    # Wikilinks whose target matches one of these regular expressions are shown
+    # as plain text instead of a red "missing note" link. Used for links to the
+    # transcripts, which are deliberately not part of the site.
+    plain_text_links = ['(?i)transcript$']
+
+  # ---------------------------------------------------------------------------
+  #  LANDING PAGE — the text itself is in site/content/_index.md
+  # ---------------------------------------------------------------------------
+  [params.home]
+    tagline = "A chronicle of the realm, its people, and the party's deeds."
+    show_logo = true
+    show_sidebar = false     # the folder sidebar is hidden on the landing page
+    # Heading above the category cards. Leave empty to hide it.
+    cards_heading = "Explore the Codex"
+
+    # A button linking to the first note of a folder (in sidebar order — the
+    # Game Log is sorted newest-first, so this is the latest session).
+    # Delete this block to hide the button.
+    [params.home.latest]
+      folder = "00 - Game Log"
+      label = "Latest session"
+    # If there are no [[params.home.cards]] entries, one card is made for each
+    # top-level vault folder automatically.
+
+    [[params.home.cards]]
+      title = "Campaign Log"
+      folder = "00 - Campaign Log"            # a vault folder name…
+      description = "Session-by-session recaps of the campaign."
+      icon = "📜"
+
+    [[params.home.cards]]
+      title = "Locations"
+      folder = "01 - Locations in Erovast"
+      description = "Cities, keeps, taverns, and wilds of Erovast."
+      icon = "🏰"
+
+    [[params.home.cards]]
+      title = "Characters"
+      folder = "02 - Characters"
+      description = "The heroes of the party."
+      icon = "⚔️"
+
+    [[params.home.cards]]
+      title = "NPCs"
+      folder = "03 - NPCs"
+      description = "Allies, rivals, and everyone in between."
+      icon = "🎭"
+
+    [[params.home.cards]]
+      title = "Factions"
+      folder = "04 - Factions"
+      description = "Noble houses and orders vying for power."
+      icon = "🛡️"
+
+    [[params.home.cards]]
+      title = "Quests"
+      folder = "05 - Quests"
+      description = "Open threads and completed adventures."
+      icon = "🗺️"
+
+    # A card can also point at a single note or any URL:
+    # [[params.home.cards]]
+    #   title = "Everdale"
+    #   note = "Everdale"                  # a note's file name
+    #   description = "The human capital."
+    # [[params.home.cards]]
+    #   title = "Tags"
+    #   url = "/tags/"

@@ -1,0 +1,16 @@
+{{- define "main" }}
+<article class="folder-page">
+  {{ partial "breadcrumbs.html" . }}
+  <header class="note-header">
+    <h1 class="note-title">#{{ .Title }}</h1>
+    <p class="folder-meta">{{ len .Pages }} {{ cond (eq (len .Pages) 1) "entry" "entries" }}</p>
+  </header>
+  <ul class="page-list">
+    {{- $rows := slice }}
+    {{- range .Pages }}{{ $rows = $rows | append (dict "k" (lower (partial "page-name.html" .)) "p" .) }}{{ end }}
+    {{- range sort $rows "k" }}
+    <li><a href="{{ .p.RelPermalink }}">{{ partial "page-name.html" .p }}</a>{{ with .p.Parent }}{{ if not .IsHome }}<span class="backlink-folder">{{ partial "page-name.html" . }}</span>{{ end }}{{ end }}</li>
+    {{- end }}
+  </ul>
+</article>
+{{- end }}

@@ -1,0 +1,18 @@
+{{- /* One level of the sidebar folder tree. Calls itself for sub-folders. */ -}}
+<ul class="tree-list">
+  {{- range partial "sorted-folders.html" . }}
+  <li class="tree-folder">
+    <details data-folder="{{ .RelPermalink }}"{{ if partial "is-open.html" .Title }} open{{ end }}>
+      <summary>
+        <svg class="tree-chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3.5 10.5 8 6 12.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="tree-folder-name">{{ partial "folder-name.html" .Title }}</span>
+        <a class="tree-folder-link" href="{{ .RelPermalink }}" title="Open folder page" aria-label="Open {{ partial "folder-name.html" .Title }} folder page">{{ len .RegularPagesRecursive }}</a>
+      </summary>
+      {{ partial "sidebar-tree.html" . }}
+    </details>
+  </li>
+  {{- end }}
+  {{- range partial "sorted-pages.html" . }}
+  <li class="tree-page"><a href="{{ .RelPermalink }}">{{ partial "page-name.html" . }}</a></li>
+  {{- end }}
+</ul>

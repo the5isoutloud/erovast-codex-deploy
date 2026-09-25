@@ -1,0 +1,8 @@
+{{- /* Is this folder (raw name) hidden via params.sidebar.hidden? Attachments is always hidden. */ -}}
+{{- $raw := lower . -}}
+{{- $display := lower (partial "folder-name.html" .) -}}
+{{- $out := eq $raw "attachments" -}}
+{{- range site.Params.sidebar.hidden -}}
+  {{- if or (eq (lower .) $raw) (eq (lower .) $display) -}}{{- $out = true -}}{{- end -}}
+{{- end -}}
+{{- return $out -}}

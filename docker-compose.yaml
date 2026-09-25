@@ -1,12 +1,27 @@
 ---
-name: Erovast Codex
+# Hugo runs only inside the hugomods container — nothing to install locally
+# except Docker. The whole project is mounted so the site (./site) can read the
+# Obsidian vault (./Erovast Vault) in place.
+#
+#   docker compose up                      live-reloading preview at http://localhost:1313
+#   docker compose run --rm build          generate the site into site/public/
+#
+x-hugo: &hugo
+  image: hugomods/hugo:go-git
+  working_dir: /project/site
+  volumes:
+    - ./:/project
+    - ${HOME}/.cache/docker_compose_hugo_cache:/tmp/hugo_cache
 
 services:
   server:
-    image: hugomods/hugo:exts
-    command: hugo server --bind 0.0.0.0
-    volumes:
-      - $PWD/site:/src
-      - $HOME/.cache/docker_compose_hugo_cache:/tmp/hugo_cache
+    <<: *hugo
+    container_name: erovast-hugo
+    command: hugo server --bind 0.0.0.0 --port 1313 --baseURL http://localhost:1313/ --disableFastRender
     ports:
       - 1313:1313
+
+  build:
+    <<: *hugo
+    profiles: ["build"]
+    command: hugo --gc --minify --cleanDestinationDir
