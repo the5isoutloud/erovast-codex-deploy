@@ -52,6 +52,7 @@ ignoreFiles = ['(^|[\\/])\.obsidian([\\/]|$)', '(^|[\\/])\.trash([\\/]|$)']
       "! index.md",         # the landing page lives in site/content/_index.md
       "! Attachments/**",   # media folder — never shown as a folder
       "! **/Transcripts/**", # session transcripts — used by another process
+      "! vault-index.md",   # vault maintenance index — not for the site
       "! .obsidian/**",
       "! .trash/**",
       "*.md",
