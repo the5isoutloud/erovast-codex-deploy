@@ -5,3 +5,6 @@ Thumbs.db
 node_modules/
 .hugo_build.lock
 hugo_stats.json
+
+# Local secrets (GitHub token for `docker compose run --rm publish`)
+.env

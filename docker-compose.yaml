@@ -6,18 +6,21 @@
 #   docker compose up                      live-reloading preview at http://localhost:1313
 #   docker compose run --rm build          generate the site into site/public/
 #
+# Windows: if the preview doesn't reload when you save, add HUGO_POLL=700ms to
+# .env so Hugo checks for changes itself instead of waiting for file events.
+#
 x-hugo: &hugo
   image: hugomods/hugo:go-git
   working_dir: /project/site
   volumes:
     - ./:/project
-    - ${HOME}/.cache/docker_compose_hugo_cache:/tmp/hugo_cache
+    - ${HOME:-${USERPROFILE}}/.cache/docker_compose_hugo_cache:/tmp/hugo_cache
 
 services:
   server:
     <<: *hugo
     container_name: erovast-hugo
-    command: hugo server --bind 0.0.0.0 --port 1313 --baseURL http://localhost:1313/ --disableFastRender
+    command: hugo server --bind 0.0.0.0 --port 1313 --baseURL http://localhost:1313/ --disableFastRender ${HUGO_POLL:+--poll $HUGO_POLL}
     ports:
       - 1313:1313
 
@@ -25,3 +28,27 @@ services:
     <<: *hugo
     profiles: ["build"]
     command: hugo --gc --minify --cleanDestinationDir
+
+  # Build, commit + push main, then publish the do-deploy (site/public) and
+  # obsidian (vault) subtree branches. Needs GITHUB_TOKEN in .env.
+  #   docker compose run --rm publish "Commit message"
+  publish:
+    build:
+      context: .
+      dockerfile: docker/publish.Dockerfile
+    image: erovast-publish
+    profiles: ["publish"]
+    working_dir: /project
+    entrypoint: ["sh", "/project/scripts/publish.sh"]
+    command: []
+    environment:
+      GITHUB_TOKEN: ${GITHUB_TOKEN:-}
+    volumes:
+      - ./:/project
+      - ${HOME:-${USERPROFILE}}/.cache/docker_compose_hugo_cache:/tmp/hugo_cache
+      - type: bind                                 # your git name and email
+        source: ${HOME:-${USERPROFILE}}/.gitconfig
+        target: /root/.gitconfig
+        read_only: true
+        bind:
+          create_host_path: false                  # error instead of creating a folder if missing

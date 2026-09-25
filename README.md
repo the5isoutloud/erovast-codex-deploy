@@ -37,6 +37,39 @@ This writes the finished static website to **`site/public/`**. Upload that folde
 
 `site/public/` is generated output and is ignored by Git.
 
+## Publishing
+
+One command builds the site, commits **all** changes on `main`, pushes `main`, and updates two branches made from subfolders:
+
+| Branch | Contains | Used by |
+|---|---|---|
+| `do-deploy` | `site/public/` (the built website) | DigitalOcean, which redeploys on every push |
+| `obsidian` | `Erovast Vault/` | anyone who wants just the vault |
+
+```sh
+docker compose run --rm publish "Describe what changed"
+```
+
+Leave the message off to use a timestamp instead.
+
+**One-time setup** (each person who publishes):
+
+1. Create a GitHub fine-grained personal access token at <https://github.com/settings/personal-access-tokens>. Give it access to this repository with **Contents: Read and write**.
+2. Copy `.env.example` to `.env` in the project root and paste the token after `GITHUB_TOKEN=`. `.env` is git-ignored and never committed.
+3. Make sure your git name and email are set on your machine (`git config --global user.name` / `user.email`). The container reads your `~/.gitconfig`.
+
+The first run builds a small image (`docker/publish.Dockerfile`, the Hugo image plus `git subtree`), which takes a few seconds. The steps themselves live in `scripts/publish.sh`. The script refuses to run unless you're on `main`.
+
+## Windows notes
+
+Everything above works on Windows with [Docker Desktop](https://www.docker.com/products/docker-desktop/), using the same commands in PowerShell.
+
+- **Setup:** create `.env` with `Copy-Item .env.example .env`.
+- **Your git config file:** it must exist at `C:\Users\<you>\.gitconfig`. If `publish` fails with a mount error about `.gitconfig`, run `git config --global user.name "Your Name"` and `git config --global user.email you@example.com`, which creates it.
+- **Live preview doesn't reload:** file-change events from Windows folders often don't reach Docker. Add `HUGO_POLL=700ms` to `.env` and restart with `docker compose down` then `docker compose up -d`. Hugo will then check for changes itself.
+- **Faster, more reliable alternative:** clone the repo inside WSL 2 (e.g. `\\wsl$\Ubuntu\home\<you>\`) rather than onto `C:\`. File events work there, and Docker reads the files much faster.
+- **Line endings:** `.gitattributes` keeps text files stored with LF line endings in the repo. Leave it in place. Without it, the Linux git inside the container would see every file checked out on Windows as changed.
+
 ## Editing notes
 
 Open `Erovast Vault/` as a vault in Obsidian and write as usual. The site understands wikilinks (`[[Note]]`, `[[Note|text]]`, `[[Note#Heading]]`), image embeds (`![[image.png|300]]`), note embeds, callouts, highlights, `%% comments %%` and tags. See [`site/THEME.md`](site/THEME.md#7-obsidian-features-that-are-supported) for the full list.

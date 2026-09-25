@@ -1,0 +1,7 @@
+# Store text files with LF line endings in the repo, whatever the OS. This keeps
+# Windows checkouts (CRLF) from showing every file as changed when git runs
+# inside the Linux container (docker compose run --rm publish).
+* text=auto
+
+# Shell scripts must keep LF on disk too, or they fail inside the container.
+*.sh text eol=lf

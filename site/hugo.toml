@@ -208,7 +208,7 @@ ignoreFiles = ['(^|[\\/])\.obsidian([\\/]|$)', '(^|[\\/])\.trash([\\/]|$)']
     # Folders never shown (in addition to Attachments, which is never loaded).
     hidden = []
     # Folders listed newest-first (Z→A) instead of A→Z.
-    reverse_sort = ["00 - Game Log"]
+    reverse_sort = ["00 - Campaign Log"]
     # Folders that start expanded. Folders holding the current page always do.
     open = []
     # Show the "filter pages" box at the top of the sidebar.
@@ -244,10 +244,10 @@ ignoreFiles = ['(^|[\\/])\.obsidian([\\/]|$)', '(^|[\\/])\.trash([\\/]|$)']
     cards_heading = "Explore the Codex"
 
     # A button linking to the first note of a folder (in sidebar order — the
-    # Game Log is sorted newest-first, so this is the latest session).
+    # Campaign Log is sorted newest-first, so this is the latest session).
     # Delete this block to hide the button.
     [params.home.latest]
-      folder = "00 - Game Log"
+      folder = "00 - Campaign Log"
       label = "Latest session"
     # If there are no [[params.home.cards]] entries, one card is made for each
     # top-level vault folder automatically.
