@@ -11,8 +11,12 @@ aliases:
 date:
 image_name:
 ---
+
 # Jevon
 
+<div style="float: left; margin-right: 10px;">  
+<img src="../Attachments/Jevon.png" alt="Jevon" width="300" />  
+</div>
 ## Summary
 
 Jevon traveled with the party to [[Everdale]] and guided them into the [[King's Tourney]]. He was taken by [[House Godrin]] soldiers and interrogated about his magic and his teacher. The party rescued him at the [[Stone Sanctum]] graveyard. He is now in hiding and cannot be seen at the fair in daylight. Source: [[2026.05.05|2026.05.05]], [[2026.05.12|2026.05.12]].
