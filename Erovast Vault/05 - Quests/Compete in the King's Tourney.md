@@ -48,7 +48,7 @@ Strong parties get approached by scouts and sponsors immediately after their bou
 
 ## The King's Cup (Ragged Flagon side event)
 
-Rory's weekly drinking tournament: escalating-DC Constitution saves against a large field of contestants, with exhaustion accumulating on failures. [[Aldrich]] won the whole thing on [[2026.08.18|2026.08.18]], outlasting an unnamed dwarf who died on the tournament's final round ("King's Mistake"). Reward: 90 gp and an oversized brass drinking mug—but Aldrich ended the night at **exhaustion level 6**. Treated by [[Father Kaldus Vey]] and rested down to exhaustion level 1 by [[2026.08.25|2026.08.25]]. See [[Cure Aldrich's Exhaustion]] (resolved).
+Rory's weekly drinking tournament: escalating-DC Constitution saves against a large field of contestants, with exhaustion accumulating on failures. [[Aldrich]] won the whole thing on [[2026.08.18|2026.08.18]], outlasting an unnamed dwarf who died on the tournament's final round ("King's Mistake"). Reward: 90 gp and an oversized brass drinking mug—but Aldrich ended the night at **exhaustion level 6**. Treated by [[Father Caldus Vey]] and rested down to exhaustion level 1 by [[2026.08.25|2026.08.25]]. See [[Cure Aldrich's Exhaustion]] (resolved).
 
 ## The Menagerie Bout: Manticore
 
@@ -56,7 +56,7 @@ The party's Menagerie bout opponent was a **manticore**, not a rival champion di
 
 **Resolved unconventionally on [[2026.09.08|2026.09.08]]**: rather than killing it, [[Cassian]] talked the manticore down mid-fight, learned it was a captive held in check by a trebuchet-and-net failsafe rather than a willing combatant, and freed it—flying it to disable the trebuchet and letting it go. The party won the moral outcome but lost the crowd: the arena's hidden crowd-approval checks failed repeatedly, officials couldn't agree on a score (one threw his clipboard), the paying crowd largely booed (one heckler shouted "she's a witch!" at [[Odine Dunmere]]), and **[[Duke Tristan Blackwood]]** was seen quietly leaving the box without meeting anyone's eyes. Peasants watching for free from a cliffside outside the arena cheered the party as heroes instead. See [[The Freed Manticore]]. Source: [[2026.09.08|2026.09.08]].
 
-**Aftermath ([[2026.09.15|2026.09.15]])**: [[Aldrich]] torched the arena's outer tents/banners as a parting smokescreen on the way out. [[Holt]] called it the most disrespectful performance he'd seen and warned it could end the party's tournament run. At the [[Ragged Flagon]], [[Rory]] revealed he'd bet against the party and won, but common folk (a half-orc and a dwarf) hailed them as folk heroes for freeing the beast. Duke Blackwood, once alone with the party, privately called the stunt "fucking genius"—the scandal serves as a useful distraction from his other affairs—but warned that mercy will eventually cost lives. Unable to pay them while recouping his gambling losses, he sent the party to [[Havenport]] under **[[Captain Garan]]**'s escort to let tensions cool. The whole party reached **level 5** as a milestone reward instead. Source: [[2026.09.15|2026.09.15]].
+**Aftermath ([[2026.09.15|2026.09.15]])**: [[Aldrich]] torched the arena's outer tents/banners as a parting smokescreen on the way out. [[Holt]] called it the most disrespectful performance he'd seen and warned it could end the party's tournament run. At the [[Ragged Flagon]], [[Rory]] revealed he'd bet against the party and won, but common folk (a half-orc and a dwarf) hailed them as folk heroes for freeing the beast. Duke Blackwood, once alone with the party, privately called the stunt "fucking genius"—the scandal serves as a useful distraction from his other affairs—but warned that mercy will eventually cost lives. Unable to pay them while recouping his gambling losses, he sent the party to [[Havenport]] under **[[Captain Garran]]**'s escort to let tensions cool. The whole party reached **level 5** as a milestone reward instead. Source: [[2026.09.15|2026.09.15]].
 
 **On hold:** the party left Everdale by teleportation circle for [[Havenport]] on [[2026.09.22|2026.09.22]] to wait for word from Blackwood. Whether they can return to the tourney after the scandal is unknown.
 
@@ -84,9 +84,9 @@ The party's Menagerie bout opponent was a **manticore**, not a rival champion di
 - [[Holt]]
 - [[Kardis Wulfhelm]]
 - [[Sir Thorin Cassavar]]
-- [[Father Kaldus Vey]]
+- [[Father Caldus Vey]]
 - [[The Freed Manticore]]
-- [[Captain Garan]]
+- [[Captain Garran]]
 - [[Lady Elwyn Blackwood]]
 - [[Havenport]]
 - [[Cure Aldrich's Exhaustion]]

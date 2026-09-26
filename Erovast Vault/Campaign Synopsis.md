@@ -74,7 +74,7 @@ Blackwood's nephew [[Renny Blackwood]] delivers the Gauntlet prize: about 1,500 
 Blackwood finally explains the true stakes. Godrin and [[House Wulfhelm]] have traded the Vale for a decade. [[House Corwyn]] believes the Vale hides a secret that could topple them both. Godrin has been abducting hedge mages and, rumor says, children. He hands Cassian a sealed intelligence note on Godrin's camp, [[White Feather Tor]]. That night Aldrich enters Rory's drinking contest, the King's Cup, and wins it. His last rival, a dwarf, dies at the table, and Aldrich is left incapacitated at exhaustion level 6.
 
 **[[2026.08.25]] "She's Alive"**
-The priest [[Father Kaldus Vey]] nurses Aldrich back. Cassian and Azrith infiltrate White Feather Tor invisibly. They steal a Godrin letter and overhear [[Percival Godrin]]: Maralynn **is alive, and they have found her**. They also glimpse Godrin's towering champion, [[Sir Thorin Cassavar]], "the Crow." To protect Maralynn, Odine invents a decoy witch, "Erendel Morath," and Blackwood agrees to spread the lie. That evening the party walks into the Menagerie to face a manticore.
+The priest [[Father Caldus Vey]] nurses Aldrich back. Cassian and Azrith infiltrate White Feather Tor invisibly. They steal a Godrin letter and overhear [[Percival Godrin]]: Maralynn **is alive, and they have found her**. They also glimpse Godrin's towering champion, [[Sir Thorin Cassavar]], "the Crow." To protect Maralynn, Odine invents a decoy witch, "Aerendyl Morath," and Blackwood agrees to spread the lie. That evening the party walks into the Menagerie to face a manticore.
 
 ### Arc IV: The Menagerie
 
@@ -82,7 +82,7 @@ The priest [[Father Kaldus Vey]] nurses Aldrich back. Cassian and Azrith infiltr
 Mid-battle, the manticore speaks, and Cassian chooses words over steel. He learns that the beast is a captive held by a trebuchet-and-net failsafe and talks it down. He then rides it to destroy the machine and sets it free. [[The Freed Manticore]] flies off promising to visit. The paying crowd boos and the judges are in uproar, while peasants on the cliffs cheer. Blackwood slips out of his box without a word.
 
 **[[2026.09.15]] "That Was Genius"**
-The party flees in a haze of burning banners. Holt warns that the stunt may end their tourney run, while the common folk hail them as folk heroes. In private, Blackwood calls it _"fucking genius."_ The scandal is the perfect distraction for his own schemes. But he warns that mercy will one day cost lives. He sends them away to lie low under his stern captain, [[Captain Garan]], to a town called [[Havenport]]. That is also Aldrich's surname. The party reaches level 5.
+The party flees in a haze of burning banners. Holt warns that the stunt may end their tourney run, while the common folk hail them as folk heroes. In private, Blackwood calls it _"fucking genius."_ The scandal is the perfect distraction for his own schemes. But he warns that mercy will one day cost lives. He sends them away to lie low under his stern captain, [[Captain Garran]], to a town called [[Havenport]]. That is also Aldrich's surname. The party reaches level 5.
 
 ### Arc V: Havenport
 

@@ -16,7 +16,7 @@ image_name:
 
 ## Summary
 
-Ian is an old [[Oathkeepers|Oathkeeper]] knight posted alone at the teleportation circle in [[Westermere Manor]], [[Havenport]]. He has a long, unkempt white beard and the look of a man who has been stationed there a long time. **Naming note:** only [[Cassian]] called him "Ian Wren"; the GM never confirmed the surname. Source: [[2026.09.22|2026.09.22]].
+Ian is an old [[Oathkeepers|Oathkeeper]] knight posted alone at the teleportation circle in [[Westermere Manor]], [[Havenport]]. He has a long, unkempt white beard and the look of a man who has been stationed there a long time. The GM confirmed his surname and title as **Ser Ian Wren** in the campaign-info Discord channel. Source: [[2026.09.22|2026.09.22]].
 
 ## Notes
 

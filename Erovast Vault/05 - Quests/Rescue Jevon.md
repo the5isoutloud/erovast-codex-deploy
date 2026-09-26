@@ -12,7 +12,7 @@ dateUpdated: 2026-09-15
 
 ## Status
 
-**Rescued twice, still hunted.** [[Jevon]] was first found bound and bloodied in the [[Stone Sanctum]] graveyard and freed by [[Odine Dunmere]] ([[2026.05.12|2026.05.12]]). The party rescued him a second time from [[House Godrin]] knights in an untranscribed session before [[2026.08.11|2026.08.11]]. Godrin's real target turned out to be his teacher, [[Maralynn]], whom they have now confirmed is alive ([[2026.08.25|2026.08.25]]). By [[2026.09.15|2026.09.15]], Jevon had left Everdale for an outpost on the western fringe of the [[Thornwood Vale]] to help mislead the Godrin scouts chasing Odine's "Erendel Morath" decoy. The quest stays active because Jevon is no longer in danger at the fair but is still a Godrin target. Source: [[2026.05.12|2026.05.12]], [[2026.08.11|2026.08.11]], [[2026.08.25|2026.08.25]], [[2026.09.15|2026.09.15]].
+**Rescued twice, still hunted.** [[Jevon]] was first found bound and bloodied in the [[Stone Sanctum]] graveyard and freed by [[Odine Dunmere]] ([[2026.05.12|2026.05.12]]). The party rescued him a second time from [[House Godrin]] knights in an untranscribed session before [[2026.08.11|2026.08.11]]. Godrin's real target turned out to be his teacher, [[Maralynn]], whom they have now confirmed is alive ([[2026.08.25|2026.08.25]]). By [[2026.09.15|2026.09.15]], Jevon had left Everdale for an outpost on the western fringe of the [[Thornwood Vale]] to help mislead the Godrin scouts chasing Odine's "Aerendyl Morath" decoy. The quest stays active because Jevon is no longer in danger at the fair but is still a Godrin target. Source: [[2026.05.12|2026.05.12]], [[2026.08.11|2026.08.11]], [[2026.08.25|2026.08.25]], [[2026.09.15|2026.09.15]].
 
 ## Evidence
 

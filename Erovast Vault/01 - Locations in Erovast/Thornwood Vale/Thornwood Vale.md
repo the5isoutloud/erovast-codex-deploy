@@ -49,7 +49,7 @@ The Vale is a long, narrow forested canyon with black cliff sides and mountains 
 
 - [[Minnie]]'s huckleberry mead is made from huckleberries harvested on the fringes of the Vale. Odine was surprised that people from Everdale risk going that close. Source: [[2026.05.05|2026.05.05]].
 - The corrupted horse the party met before reaching Everdale suggested the curse is no longer confined to the Vale. Source: [[2026.05.05|2026.05.05]].
-- [[Jevon]] has gone to an outpost on the Vale's western fringe to help mislead the House Godrin scouts chasing Odine's "Erendel Morath" decoy. The decoy's fake location is also deep in the Vale. Source: [[2026.08.25|2026.08.25]], [[2026.09.15|2026.09.15]].
+- [[Jevon]] has gone to an outpost on the Vale's western fringe to help mislead the House Godrin scouts chasing Odine's "Aerendyl Morath" decoy. The decoy's fake location is also deep in the Vale. Source: [[2026.08.25|2026.08.25]], [[2026.09.15|2026.09.15]].
 
 ## Related
 

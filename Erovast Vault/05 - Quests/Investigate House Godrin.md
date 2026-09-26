@@ -26,8 +26,8 @@ Active, new. Following the confirmation that [[House Godrin]]—not [[House Oswa
 ## Next Steps
 
 - ~~Attempt the nighttime cliffside infiltration of **[[White Feather Tor]]**~~ — **done** on [[2026.08.25|2026.08.25]] (via the gate pillars rather than the cliffside): [[Cassian]] and [[Azrith]] infiltrated invisibly, recovered a Godrin letter and loot from the Messenger Tent, and confirmed via letter and overheard conversation that House Godrin has located [[Maralynn]] alive. Godrin's champion, **[[Sir Thorin Cassavar]] ("the Crow")**, was also identified.
-- The party fed [[Duke Tristan Blackwood]] a decoy name/location (Odine's fabricated "Erendel Morath") to protect Maralynn's real whereabouts, which he's floating through his own channels—outcome pending.
-- **Decoy confirmed in motion** as of [[2026.09.15|2026.09.15]]: [[House Godrin]]'s scouting party is now chasing the "Erendel Morath" lead toward the western fringe of the [[Thornwood Vale]]. [[Jevon]] has left Everdale for an outpost there to help distract or mislead them.
+- The party fed [[Duke Tristan Blackwood]] a decoy name/location (Odine's fabricated "Aerendyl Morath") to protect Maralynn's real whereabouts, which he's floating through his own channels—outcome pending.
+- **Decoy confirmed in motion** as of [[2026.09.15|2026.09.15]]: [[House Godrin]]'s scouting party is now chasing the "Aerendyl Morath" lead toward the western fringe of the [[Thornwood Vale]]. [[Jevon]] has left Everdale for an outpost there to help distract or mislead them.
 - Consider approaching **[[Valerie Godrin]]** outside camp, since she's flagged as the most accessible family member.
 - Locate House Godrin's outpost/ledgers on the outskirts of the fair (may be the same camp, or a separate site—unconfirmed).
 - Determine why House Godrin attacks travelers on the road (raised directly to Blackwood, unanswered).
