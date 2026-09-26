@@ -472,7 +472,7 @@ Templates use Hugo's Go template language ([docs](https://gohugo.io/templates/))
 
 Browsers and CDNs keep copies of files to load pages faster. That's great for readers, but it can hide your changes. The site is set up so that stale copies can't happen:
 
-- **CSS, JavaScript, images and the search index have fingerprinted URLs.** Each URL contains a hash of the file's contents, e.g. `site.2c23af….css` or `Aldrich.fedb13….png`. When a file changes, its URL changes too, so a browser can never show an old version. This also covers replacing an image in the vault under the same file name. It applies to preview and the published site alike (`head.html`, `baseof.html`, `media-index.html`).
+- **CSS, JavaScript, images and the search index have fingerprinted URLs.** Each URL contains a hash of the file's contents, e.g. `site.2c23af….css` or `Aldric.fedb13….png`. When a file changes, its URL changes too, so a browser can never show an old version. This also covers replacing an image in the vault under the same file name. It applies to preview and the published site alike (`head.html`, `baseof.html`, `media-index.html`).
 - **The preview server (`docker compose up`) sends `Cache-Control: no-store`** on every response, so a normal reload always gets the latest files. This is the `[server]` block at the top of `hugo.toml`, and it doesn't affect the published site.
 - **HTML pages** can't be fingerprinted, because their addresses must stay the same. The host decides how long browsers keep them. After a publish, a normal reload usually shows the new page. If one doesn't, a hard refresh (`Cmd/Ctrl+Shift+R`) always will. Because every page points at fingerprinted CSS and JS, a refreshed page never mixes old styles with new content.
 

@@ -41,7 +41,7 @@ By [[2026.09.15|2026.09.15]], Jevon had left Everdale for an outpost on the west
 - [[House Godrin]] soldiers kidnapped him to interrogate him about his powers and his teacher. One of the two soldiers was already dead when Jevon regained consciousness (apparently killed by the possessing ghost); the other was destroyed by the party.
 - He can conjure images magically, which he offered as a possible alternative to bringing Gruvelda a severed head as proof of the ghost fight.
 - He recommended the [[Ragged Flagon]] as a safe place for the party to lodge during the festival.
-- He laughed at Aldrich's joke about the distorted corpse—the first Jevon laugh of the campaign.
+- He laughed at Aldric's joke about the distorted corpse—the first Jevon laugh of the campaign.
 - "Kevin" remains a running joke among the party for his name. Source: [[2026.05.12|2026.05.12]].
 
 ## Relationships
@@ -49,6 +49,6 @@ By [[2026.09.15|2026.09.15]], Jevon had left Everdale for an outpost on the west
 - [[Odine Dunmere]]: Rescued him. Holds his communication stone. He trusts her and relies on her for coin/supplies while hiding.
 - [[Cassian]]: Returned Jevon's box to him during combat. Jevon shakes his head at Cassian's jokes.
 - [[Azrith]]: Finished off the possessed knight that had been draining his captors; later read Jevon's hidden fear via his Goggles of Night.
-- [[Aldrich]]: Made Jevon laugh with a joke about the distorted corpse.
+- [[Aldric]]: Made Jevon laugh with a joke about the distorted corpse.
 - [[Maralynn]]: His teacher and the source of his magical box. She is being hunted by House Godrin—and may be the true target behind House Godrin's interest in Jevon's sending stone.
 - [[House Godrin]]: Kidnapped and interrogated him; rescued from their knights a second time in an untranscribed session; he fears their retaliation.

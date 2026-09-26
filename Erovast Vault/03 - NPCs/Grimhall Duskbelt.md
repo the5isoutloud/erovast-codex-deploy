@@ -28,4 +28,4 @@ Not yet encountered. Gruvelda recommended the party seek him out if they ever tr
 ## Relationships
 
 - [[Gruvelda Duskbelt]]: His sister. She vouches for the party to him.
-- [[Cassian]], [[Aldrich]], [[Azrith]], [[Odine Dunmere]]: Prospective ghost hunters he may hire.
+- [[Cassian]], [[Aldric]], [[Azrith]], [[Odine Dunmere]]: Prospective ghost hunters he may hire.

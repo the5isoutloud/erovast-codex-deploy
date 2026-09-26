@@ -18,6 +18,6 @@ Virellan Le'Strange is a flamboyant bard or observer at the [[King's Tourney]]. 
 ## Notes
 
 - He greeted the party shortly after they entered the fair.
-- He introduced [[Aldrich]] to [[Minnie]] when Aldrich asked where to find good ale.
+- He introduced [[Aldric]] to [[Minnie]] when Aldric asked where to find good ale.
 - He seems more interested in observing stories than performing them.
 - Reappeared at the [[King's Tourney]] during session 2026.06.11. He addressed [[Cassian]] as *"Lord Fortescue,"* confirming [[Cassian]]'s family house name as **House Fortescue**. Source: [[2026.06.11|2026.06.11]].

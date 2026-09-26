@@ -12,7 +12,7 @@ date:
 
 ## Summary
 
-Havenport is a rain-lashed, decaying seaport on a rocky coast, reached by the party through the [[Oathkeepers]]' teleportation circle from the [[Gleaming Keep]]. [[Duke Tristan Blackwood]] sent the party here to lie low after the Menagerie manticore scandal, with orders to find **[[Mauve Marigold]]** and stay with her until he sends word. It is also **[[Aldrich]]'s home** and shares his surname. Source: [[2026.09.15|2026.09.15]], [[2026.09.22|2026.09.22]].
+Havenport is a rain-lashed, decaying seaport on a rocky coast, reached by the party through the [[Oathkeepers]]' teleportation circle from the [[Gleaming Keep]]. [[Duke Tristan Blackwood]] sent the party here to lie low after the Menagerie manticore scandal, with orders to find **[[Mauve Marigold]]** and stay with her until he sends word. It is also **[[Aldric]]'s home** and shares his surname. Source: [[2026.09.15|2026.09.15]], [[2026.09.22|2026.09.22]].
 
 ## Description
 
@@ -29,12 +29,12 @@ Havenport is a rain-lashed, decaying seaport on a rocky coast, reached by the pa
 
 ## Notes
 
-- **Aldrich's home:** [[Ian]] treated Havenport as Aldrich's home, and Aldrich said he left roughly eight or nine years ago, "maybe longer." He admitted to *"a little bit of a past there"* but doesn't like to reminisce. He knew of House Westermere's fall. When the town was first named on [[2026.09.15|2026.09.15]], the GM and Aldrich's player held a private aside; its content is not recorded. Source: [[2026.09.15|2026.09.15]], [[2026.09.22|2026.09.22]].
+- **Aldric's home:** [[Ian]] treated Havenport as Aldric's home, and Aldric said he left roughly eight or nine years ago, "maybe longer." He admitted to *"a little bit of a past there"* but doesn't like to reminisce. He knew of House Westermere's fall. When the town was first named on [[2026.09.15|2026.09.15]], the GM and Aldric's player held a private aside; its content is not recorded. Source: [[2026.09.15|2026.09.15]], [[2026.09.22|2026.09.22]].
 
 ## Relationships
 
 - [[Duke Tristan Blackwood]]: Sent the party here to lie low.
-- [[Aldrich]]: His hometown and surname.
+- [[Aldric]]: His hometown and surname.
 - [[Mauve Marigold]]: Blackwood's contact here. Not yet met.
 - [[House Westermere]]: The town's fallen noble house.
 - [[Oathkeepers]]: Maintain the town's teleportation circle.

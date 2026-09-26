@@ -18,15 +18,15 @@ This is the master catalog of the Erovast campaign vault. Every note in the vaul
 
 ## Campaign at a Glance
 
-- **Party:** *Cassian's Crushing Crusaders*: [[Aldrich]], [[Azrith]], [[Cassian]], [[Odine Dunmere]]. All four are level 5 as of [[2026.09.15]].
+- **Party:** *Cassian's Crushing Crusaders*: [[Aldric]], [[Azrith]], [[Cassian]], [[Odine Dunmere]]. All four are level 5 as of [[2026.09.15]].
 - **Sponsor:** [[Duke Tristan Blackwood]] of [[House Blackwood]], a vassal of [[House Corwyn]]. He takes 8% of prize money.
-- **Where the story stands:** The party freed the Menagerie's manticore instead of killing it, which caused a scandal at the [[King's Tourney]]. Blackwood sent them by teleportation circle to [[Havenport]], a decaying seaport and **Aldrich's hometown**, to lie low with [[Mauve Marigold]] until he sends word. In the undercroft of [[Westermere Manor]], **[[Azrith]] leapt through the Curtain into the realm of death** and is missing (see [[Find Azrith]]). The others are heading to the Salt House for the night.
+- **Where the story stands:** The party freed the Menagerie's manticore instead of killing it, which caused a scandal at the [[King's Tourney]]. Blackwood sent them by teleportation circle to [[Havenport]], a decaying seaport and **Aldric's hometown**, to lie low with [[Mauve Marigold]] until he sends word. In the undercroft of [[Westermere Manor]], **[[Azrith]] leapt through the Curtain into the realm of death** and is missing (see [[Find Azrith]]). The others are heading to the Salt House for the night.
 - **Big mysteries:**
   - The Wither (also called the pestilence, hollowing or blight) is spreading out of the [[Thornwood Vale]].
   - [[House Godrin]] has confirmed that [[Maralynn]] is alive.
   - Cassian has a deal with [[The Masked Figure]].
   - [[House Wulfhelm]] never acknowledges [[House Fortescue]] as its vassal.
-  - Havenport is Aldrich's home, and he's reluctant to talk about his past there.
+  - Havenport is Aldric's home, and he's reluctant to talk about his past there.
   - The Oathkeepers' legend of the **Dark King**: King Aldrich defeated a corrupting "far realm" ruler and was left as a kneeling statue in the Vale, which Odine has seen. The Wither's symptoms echo that war.
   - Spell draught, made from the Vale's mana crystals, powers the old teleportation circles.
 - **Grand prize of the tourney:** the King's Cup plus the deed to the Thornwood Vale.
@@ -41,7 +41,7 @@ The transcripts label speakers by player handle or by character name. This table
 | Kristofer | [[Odine Dunmere]] |
 | Phauxtographer | [[Cassian]] |
 | DigitalARG | [[Azrith]] |
-| ƤΔŘŽƗVΔŁ | [[Aldrich]] (also spelled "Aldric") |
+| ƤΔŘŽƗVΔŁ | [[Aldric]] (also spelled "Aldrick") |
 
 On 2026.09.22, Azrith's player was absent (probably "Gavin"), and the GM ran Azrith.
 
@@ -63,14 +63,14 @@ Session logs are tagged `game-log`. Each log has a Summary, Open Threads, and Ne
 | --- | --- | --- |
 | [[2026.05.05]] | The party arrives in [[Everdale]] and registers for the Proving Grounds. Cassian sees Odine's corruption marks. [[Jevon]] is taken by white-armored knights, and Azrith finds his box. | [[Holt]], [[Slug]], [[Minnie]], [[Marea Voss]], [[Virellan Le'Strange]], [[Kardis Wulfhelm]] |
 | [[2026.05.12]] | The party agrees to a ghost job for [[Gruvelda Duskbelt]] and sees her severed, cursed hand. They rescue Jevon from Godrin soldiers at the [[Stone Sanctum]]. Jevon names his teacher, [[Maralynn]]. | [[Gruvelda Duskbelt]], [[Stone Sanctum]], [[Ragged Flagon]], [[Maralynn]] |
-| [[2026.05.19]] | [[Rory]] runs the Ragged Flagon. Gruvelda is persuaded and gives Aldrich the Sentinel Shield. The party lodges at [[Boarhead Tor]]. Cassian makes a dream deal with [[The Masked Figure]]. | [[Rory]], [[Grimhall Duskbelt]], [[The Masked Figure]], [[Ser Calder Ross]], [[Boarhead Tor]] |
+| [[2026.05.19]] | [[Rory]] runs the Ragged Flagon. Gruvelda is persuaded and gives Aldric the Sentinel Shield. The party lodges at [[Boarhead Tor]]. Cassian makes a dream deal with [[The Masked Figure]]. | [[Rory]], [[Grimhall Duskbelt]], [[The Masked Figure]], [[Ser Calder Ross]], [[Boarhead Tor]] |
 | [[2026.06.02]] | The party wins its first Proving Grounds bout and reaches Crowd Favor 4, though Cassian and Azrith go down. Duke Blackwood takes notice. The no-KO wager is lost. | [[Duke Tristan Blackwood]], [[House Blackwood]] |
 | [[2026.06.11]] | Blackwood agrees to sponsor the party at 8%, pays 750 gp, and provides items collected at [[Clover Hill]]. Cassian is revealed as "Lord Fortescue." House Oswall parades in. Odine finds the straw doll, and Gruvelda reveals she knew Mara. Gruvelda gives Odine an Elven Chain and Cassian the Chain of the Unbroken. | [[House Corwyn]], [[House Oswall]], [[Clover Hill]] |
 | [[2026.06.23]] | Jevon visits at night. Cassian learns how Godrin gets its mana crystals. Corwyn knights rebuff the party. The party bets 50 gp on itself at 3×. The [[Crown Gauntlet]] begins and pauses at countdown 8. | [[Crown Gauntlet]] |
 | [[2026.07.14]] | The party completes the Crown Gauntlet with six seconds left, the first team to do so in more than 7 years. Blackwood gives only a muted clap. | — |
 | [[2026.08.11]] | This log includes the GM's recap of an untranscribed session: the Wither is named and Jevon is rescued a second time. [[Renny Blackwood]] delivers the Gauntlet rewards. The party sets up a dead-drop for Jevon, then promotes to [[The Menagerie]]. The GM corrects "Oswall" to Godrin. | [[Renny Blackwood]], [[The Menagerie]], [[Investigate House Godrin]] |
-| [[2026.08.18]] | Azrith is absent. Blackwood explains the tourney's real stakes and hands over an intelligence note. The party scouts [[White Feather Tor]]. Aldrich wins the King's Cup drinking contest and ends at exhaustion 6. | [[White Feather Tor]], [[House Troth]], [[House Fortescue]], Godrin family, [[Cure Aldrich's Exhaustion]] |
-| [[2026.08.25]] | [[Father Caldus Vey]] heals Aldrich. Cassian and Azrith infiltrate White Feather Tor, which confirms Maralynn is alive. Odine plants the "Aerendyl Morath" decoy. The manticore bout begins. | [[Father Caldus Vey]], [[Sir Thorin Cassavar]] |
+| [[2026.08.18]] | Azrith is absent. Blackwood explains the tourney's real stakes and hands over an intelligence note. The party scouts [[White Feather Tor]]. Aldric wins the King's Cup drinking contest and ends at exhaustion 6. | [[White Feather Tor]], [[House Troth]], [[House Fortescue]], Godrin family, [[Cure Aldric's Exhaustion]] |
+| [[2026.08.25]] | [[Father Caldus Vey]] heals Aldric. Cassian and Azrith infiltrate White Feather Tor, which confirms Maralynn is alive. Odine plants the "Aerendyl Morath" decoy. The manticore bout begins. | [[Father Caldus Vey]], [[Sir Thorin Cassavar]] |
 | [[2026.09.08]] | Cassian talks down and frees the manticore, and the party wrecks its trebuchet leash. The paying crowd boos while the peasants cheer. Blackwood slips out of the box. | [[The Freed Manticore]] |
 | [[2026.09.15]] | The party flees the Menagerie as Holt fumes. Blackwood privately calls the stunt "fucking genius" and sends the party to [[Havenport]]. Everyone reaches level 5. | [[Captain Garran]], [[Lady Elwyn Blackwood]], [[Havenport]] |
 | [[2026.09.22]] | Azrith's player is absent. Garan pays about 5,000 gp for the Gleaming Keep's teleportation circle, powered by spell draught. The party arrives in Havenport, and Ian tells the Dark King legend; Odine has seen the kneeling statue. In the undercroft, Azrith leaps through the Curtain. They meet the ghost Samantha and study the black veil. | [[Ian]], [[Samantha Westermere]], [[Mauve Marigold]], [[House Westermere]], [[Westermere Manor]], [[Find Azrith]] |
@@ -109,7 +109,7 @@ Tagged `location`, plus `event` for the tournament venues.
 | --- | --- | --- |
 | [[Everdale]] | The human capital and host of the King's Tourney. It is governed by the [[Oathkeepers]]. Hub page for its landmarks and noble houses. | Visited; the party left on 09.22 |
 | [[Thornwood Vale]] | "The Vale" (often transcribed "veil"): Odine's homeland, a forested canyon behind the Gleaming Keep. The Duskbelt dwarves also live there. It is the source of the Wither and of Godrin's mana crystals, and the tourney's grand prize. The kneeling statue of King Aldrich stands there. | Not visited in play |
-| [[Havenport]] | A decaying, rain-lashed seaport and Aldrich's home, in decline since House Westermere fell. The Wither and undead are here. Survivors gather at the Salt House. Note is in the `Havenport/` folder. | Arrived 09.22 |
+| [[Havenport]] | A decaying, rain-lashed seaport and Aldric's home, in decline since House Westermere fell. The Wither and undead are here. Survivors gather at the Salt House. Note is in the `Havenport/` folder. | Arrived 09.22 |
 
 ### Everdale and Tourney Grounds (`Everdale/`)
 
@@ -140,7 +140,7 @@ Tagged `character`.
 
 | PC | Summary | Hooks |
 | --- | --- | --- |
-| [[Aldrich]] | Red-skinned, horned tiefling fighter (Battle Master) and former guard of [[House Troth]]. Surname is Havenport. Won the King's Cup. Carries a +1 Greatsword, the Sentinel Shield and splint armor. | Havenport is his home, which he left 8–9+ years ago; his past there; what he'll do after the tourney |
+| [[Aldric]] | Red-skinned, horned tiefling fighter (Battle Master) and former guard of [[House Troth]]. Surname is Havenport. Won the King's Cup. Carries a +1 Greatsword, the Sentinel Shield and splint armor. | Havenport is his home, which he left 8–9+ years ago; his past there; what he'll do after the tourney |
 | [[Azrith]] | Azrith Duskrin: horned, curious, drawn to spooky things. Uses the Crimson Rite (Rite of Dawn), Bless and Chill Touch. Has Goggles of Night and a +1 scimitar. | **Lost through the Curtain** on 09.22 ([[Find Azrith]]); unexplained absences; an unnamed personal goal |
 | [[Cassian]] | "Lord Fortescue" of [[House Fortescue]], with celestial blood. Warlock with golden wings. Has magic dice from [[The Masked Figure]], Eyes of Charming, and the Chain of the Unbroken. | Masked Figure deal; why Wulfhelm never acknowledges his house; freed the manticore |
 | [[Odine Dunmere]] | 25-year-old half-elf from the Thornwood Vale, Sorcerer 3 / Warlock 2. One of the "Touched" and granddaughter of Mara. Has black vine marks on her arm and wears the Elven Chain and a Shadowfell Shard pendant. | The Wither; binding the entity; has seen the kneeling King Aldrich statue; holds Jevon's sending stone |
@@ -156,10 +156,10 @@ Tagged `npc`.
 | NPC | Summary |
 | --- | --- |
 | [[Jevon]] | Young mage with an ancient elven box and a student of Maralynn. House Godrin has hunted him, and the party has rescued him twice. Last seen at an outpost on the western edge of the Vale. Odine holds his sending stone. Nicknamed "Kevin". |
-| [[Maralynn]] | A witch from the Vale of "unfathomable power" and Jevon's teacher. Blackwood's folklore calls her "Marlin," archmage to King Aldric the Wise. House Godrin has confirmed she is alive. |
+| [[Maralynn]] | A witch from the Vale of "unfathomable power" and Jevon's teacher. Blackwood's folklore calls her "Marlin," archmage to King Aldrich the Wise. House Godrin has confirmed she is alive. |
 | [[Gruvelda Duskbelt]] | Dwarven master smith who cut off her own cursed hand. She knew Mara and watches the houses from the sidelines. Gave the party the Sentinel Shield, Elven Chain and Chain of the Unbroken, and pointed them to Godrin's ledgers. |
 | [[Grimhall Duskbelt]] | Gruvelda's brother, a dwarven lord of the Duskbelt clan in [[Thornwood Vale\|the Vale]] who fights shadows and ghouls. Not yet met. |
-| [[Father Caldus Vey]] | Royal Chapel priest in the healer tents. Cured Aldrich's exhaustion for 400 gp. |
+| [[Father Caldus Vey]] | Royal Chapel priest in the healer tents. Cured Aldric's exhaustion for 400 gp. |
 | [[The Freed Manticore]] | The Menagerie beast Cassian freed. It speaks Common, has no name yet, and promised to visit the party. |
 | [[Virellan Le'Strange]] | Flamboyant bard and observer who called Cassian "Lord Fortescue". |
 
@@ -227,7 +227,7 @@ Tagged `faction`, plus `noble-house` for the houses.
 | [[House Corwyn]] | Truth Seekers | Silver armor. Believes the Vale hides a secret that could unite the lesser houses. Liege of House Blackwood. |
 | [[House Blackwood]] | Vassal (Corwyn) | Duke Tristan's house; the party's sponsor. |
 | [[House Fortescue]] | Vassal (Wulfhelm) | Cassian's celestial-blooded house. Wulfhelm never publicly acknowledges it. |
-| [[House Troth]] | Vassal (Wulfhelm) | Minor seaside house that Aldrich once guarded for. |
+| [[House Troth]] | Vassal (Wulfhelm) | Minor seaside house that Aldric once guarded for. |
 | [[House Oswall]] | Illegitimate | Nomadic religious house with a claim to the throne, treated as a joke. Unusually large Menagerie entry this year. *Not* the house hunting Jevon. |
 | [[House Westermere]] | Fallen | Havenport's fallen house; its manor is now a ruin. Only known member: the ghost [[Samantha Westermere]]. |
 | [[Oathkeepers]] | — | Three surviving knightly orders (stag, ember and crossed swords) that guard the keep and throne. They run the old teleportation circles and keep the Dark King legend. One knight is fed up with their inaction on the Wither. |
@@ -245,7 +245,7 @@ Tagged `quest`, with `status:` in the frontmatter.
 | [[Investigate the Pestilence]] | active | The Wither: Gruvelda's revelations about Mara and the Touched, the spread into the Crownlands, and the Dark King legend with its kneeling statue. |
 | [[Rescue Jevon]] | active | Jevon has been rescued twice and is now on the western edge of the Vale, misdirecting Godrin's scouts. Ongoing support via the sending stone. |
 | [[Find Azrith]] | active | Azrith leapt through the Curtain in the Westermere undercroft. He may return when it reopens, in a day or a week. |
-| [[Cure Aldrich's Exhaustion]] | resolved | King's Cup exhaustion 6, cured by Father Caldus. |
+| [[Cure Aldric's Exhaustion]] | resolved | King's Cup exhaustion 6, cured by Father Caldus. |
 
 ---
 
@@ -253,7 +253,7 @@ Tagged `quest`, with `status:` in the frontmatter.
 
 | File | Used by |
 | --- | --- |
-| `Aldrich.png` | [[Aldrich]] |
+| `Aldric.png` | [[Aldric]] |
 | `Azrith.png` | [[Azrith]] |
 | `OdineDunmere.png` | [[Odine Dunmere]] |
 | `DukeTristanBlackwood.png` | [[Duke Tristan Blackwood]] |
@@ -272,8 +272,8 @@ These terms and names appear across many notes, or turn up in more than one spel
 
 - **The Wither** is the same thing as the pestilence, the hollowing and the blight. It is the entity's corruption, spreading out of the Thornwood Vale.
 - **"Veil" means the Vale:** speech-to-text usually writes "Vale" as "veil". A full transcript audit (2026-09-25) found that every place-reference means the [[Thornwood Vale]]. That includes the Duskbelt dwarves' home, Godrin's mana-crystal source, the tourney deed, Maralynn's people and Odine's evasive "from beyond the Vale". Nothing in the transcripts supports the dwarves' home being underground or a separate place. The only literal **veil** is the black entropic wall in the [[Westermere Manor]] undercroft (2026.09.22).
-- **King Aldrich** (also "Aldric the Wise") is the vanished king of the Empty Throne. The Oathkeepers await his return. He is unrelated to the PC [[Aldrich]].
-- **Maralynn** was also spelled Marilyn or Maralyn in notes; these are now standardized. In Blackwood's folklore she is **Marlin**, archmage to King Aldric the Wise.
+- **King Aldrich** (also "Aldrich the Wise") is the vanished king of the Empty Throne. The Oathkeepers await his return. He is unrelated to the PC [[Aldric]].
+- **Maralynn** was also spelled Marilyn or Maralyn in notes; these are now standardized. In Blackwood's folklore she is **Marlin**, archmage to King Aldrich the Wise.
 - **Mara** is Odine's grandmother, a Touched binder who sacrificed herself. She has no note yet.
 - **The Touched** are Vale bloodline binders of the entity. Their lifespans are shrinking.
 - **"King's Cup"** means two things: (1) the tourney's grand prize, along with the Vale deed, and (2) Rory's weekly drinking contest.
