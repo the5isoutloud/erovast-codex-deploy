@@ -32,13 +32,13 @@ Present at the [[King's Tourney]] but keeping a very low profile. She was spotte
 - She personally knew **Mara**, [[Odine Dunmere]]'s grandmother. They met when Gruvelda was young, by the river while she was collecting geodes. Mara was *"kinder than I thought her people to be."* They became long friends. Mara *"sacrificed herself—a sacrifice no longer remembered by most of these humans."* Source: [[2026.06.11|2026.06.11]].
 - She gave [[Odine Dunmere]] a wooden straw doll to a seamstress at the tailor tent years prior (when the seamstress's mother died); the doll was originally from [[Thornwood Vale]] and ~100 years old—likely connected to Mara. Source: [[2026.06.11|2026.06.11]].
 - Her view of [[Duke Tristan Blackwood]]: *"Backwood—slimy bastard. Stay away from him."* Source: [[2026.06.11|2026.06.11]].
-- [[Aldrich]] accidentally called her "Griselda" once; she gave him a sharp eyebrow and a hard look. Source: [[2026.06.11|2026.06.11]].
-- On [[2026.08.11|2026.08.11]], [[Cassian]] noticed her working black plate armor matching [[House Godrin]]'s colors for unnamed paying clients; she neither confirmed nor denied it, framing herself as a neutral mercenary smith who "armors all of the knights in this realm." When Odine asked about Jevon's pursuers, she quietly revealed a key lead: **House Godrin keeps detailed ledgers of all their activity at an outpost on the outskirts of the fair**. She commissioned upgraded armor for [[Aldrich]] (blue-dyed scale/plate, 200 gp, 8 hours) and a new +1 scimitar built from scratch for [[Azrith]] (400 gp, 8–10 hours). Source: [[2026.08.11|2026.08.11]].
+- [[Aldric]] accidentally called her "Griselda" once; she gave him a sharp eyebrow and a hard look. Source: [[2026.06.11|2026.06.11]].
+- On [[2026.08.11|2026.08.11]], [[Cassian]] noticed her working black plate armor matching [[House Godrin]]'s colors for unnamed paying clients; she neither confirmed nor denied it, framing herself as a neutral mercenary smith who "armors all of the knights in this realm." When Odine asked about Jevon's pursuers, she quietly revealed a key lead: **House Godrin keeps detailed ledgers of all their activity at an outpost on the outskirts of the fair**. She commissioned upgraded armor for [[Aldric]] (blue-dyed scale/plate, 200 gp, 8 hours) and a new +1 scimitar built from scratch for [[Azrith]] (400 gp, 8–10 hours). Source: [[2026.08.11|2026.08.11]].
 
 ## The Ghost Deal — Fulfilled
 
-Gruvelda's ghost-job deal is complete. She was persuaded of the party's success (Cassian's persuasion + Aldrich's assistance, result 12; sealed when Cassian revealed his old-house signet ring). She delivered:
-- A **Sentinel Shield** for [[Aldrich]]: blue-painted dwarven craftsmanship with an eye emblem. Grants advantage on initiative rolls and perception checks. Requires an action to equip or stow.
+Gruvelda's ghost-job deal is complete. She was persuaded of the party's success (Cassian's persuasion + Aldric's assistance, result 12; sealed when Cassian revealed his old-house signet ring). She delivered:
+- A **Sentinel Shield** for [[Aldric]]: blue-painted dwarven craftsmanship with an eye emblem. Grants advantage on initiative rolls and perception checks. Requires an action to equip or stow.
 - **4 gold coins** each for all four party members.
 - A lead: her brother **[[Grimhall Duskbelt]]** in [[Thornwood Vale|the Vale]], who may have work and coin for ghost hunters. She has passed word to him about the party.
 
@@ -52,7 +52,7 @@ At her smithing tent, after [[Odine Dunmere]] produced the wooden straw doll (na
 
 ## Relationships
 
-- [[Aldrich]]: She sized him up as the strong one of the group and made her deal with him directly.
+- [[Aldric]]: She sized him up as the strong one of the group and made her deal with him directly.
 - [[Azrith]]: His ghost-hunter pitch using Thaumaturgy caught her attention.
 - [[Cassian]]: She found his charm amusing but unconvincing on its own; she dragged him out of the tent when he overplayed it.
 - [[Odine Dunmere]]: Fellow bearer of the black vine corruption (though Gruvelda severed hers). She has significant knowledge about the pestilence and wants to speak with Odine privately.

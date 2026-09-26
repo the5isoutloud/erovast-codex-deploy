@@ -65,7 +65,7 @@ In [[Havenport]], the old Oathkeeper [[Ian]] told the legend the veteran [[Oathk
 
 - Ian says **the Wither's symptoms resemble what their ancestors suffered** in that war. The Wither is now taking victims in Havenport too.
 - [[Odine Dunmere]] has seen the statue with her own eyes: King Aldrich **kneeling with his sword in the ground**, alone in the Vale's forest. She said the tale is *"very similar"* to her family's stories of the entity and of those who fought it.
-- The legend is widespread folklore among men; [[Aldrich]] and [[Cassian]] both grew up hearing versions of it.
+- The legend is widespread folklore among men; [[Aldric]] and [[Cassian]] both grew up hearing versions of it.
 - This bears on the "King's victory 150 years ago" that Gruvelda and Odine call a lie. Whether the Dark King and the Vale's entity are the same being is **unconfirmed**.
 
 Source: [[2026.09.22|2026.09.22]].

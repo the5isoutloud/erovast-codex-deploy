@@ -35,7 +35,7 @@ The King's Tourney is the annual tournament and festival held in the valley bene
 
 ## Current Party Status
 
-[[Cassian]], [[Aldrich]], [[Azrith]], and [[Odine Dunmere]] entered the Proving Grounds as **Cassian's Crushing Crusaders**, won their first bout, then completed the **Crown Gauntlet** (started [[2026.06.23|2026.06.23]], won [[2026.07.14|2026.07.14]])—the first team to clear it in over seven years. The party has since advanced to **[[The Menagerie]]**, a beast-arena tier, with a bout scheduled 5 PM the day after [[2026.08.11|2026.08.11]], red tent, bracketed near [[House Wulfhelm]]. Sponsored by [[Duke Tristan Blackwood]] ([[House Blackwood]]) at 8%. See [[Compete in the King's Tourney]]. Source: [[2026.05.05|2026.05.05]], [[2026.06.02|2026.06.02]], [[2026.06.11|2026.06.11]], [[2026.07.14|2026.07.14]], [[2026.08.11|2026.08.11]].
+[[Cassian]], [[Aldric]], [[Azrith]], and [[Odine Dunmere]] entered the Proving Grounds as **Cassian's Crushing Crusaders**, won their first bout, then completed the **Crown Gauntlet** (started [[2026.06.23|2026.06.23]], won [[2026.07.14|2026.07.14]])—the first team to clear it in over seven years. The party has since advanced to **[[The Menagerie]]**, a beast-arena tier, with a bout scheduled 5 PM the day after [[2026.08.11|2026.08.11]], red tent, bracketed near [[House Wulfhelm]]. Sponsored by [[Duke Tristan Blackwood]] ([[House Blackwood]]) at 8%. See [[Compete in the King's Tourney]]. Source: [[2026.05.05|2026.05.05]], [[2026.06.02|2026.06.02]], [[2026.06.11|2026.06.11]], [[2026.07.14|2026.07.14]], [[2026.08.11|2026.08.11]].
 
 ## Tournament Tiers
 

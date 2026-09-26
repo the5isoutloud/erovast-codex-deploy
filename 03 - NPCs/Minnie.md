@@ -18,6 +18,6 @@ Minnie is a brewer at the [[King's Tourney]] and the wife of [[Slug]]. Slug call
 
 ## Notes
 
-- She sold [[Aldrich]] a bottle of her finest huckleberry mead for one gold.
+- She sold [[Aldric]] a bottle of her finest huckleberry mead for one gold.
 - The mead is made locally with huckleberries harvested near the fringes of the [[Thornwood Vale]].
-- Aldrich plans to save the bottle for a victory celebration after the [[King's Tourney]].
+- Aldric plans to save the bottle for a victory celebration after the [[King's Tourney]].

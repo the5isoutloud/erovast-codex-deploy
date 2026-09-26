@@ -19,7 +19,7 @@ House Oswall is a nomadic religious group that arrives at the [[King's Tourney]]
 
 - Identified by green, gold, and purple robes; priests, nuns, floats, banners, and trumpets accompany their arrival parade.
 - Common folk show genuine interest in their procession; established nobles are dismissive.
-- [[Aldrich]] recalled their history with an investigation roll of 12: never deeded land, claims throne legitimacy, comes every year, typically humiliated.
+- [[Aldric]] recalled their history with an investigation roll of 12: never deeded land, claims throne legitimacy, comes every year, typically humiliated.
 - [[Cassian]] confirmed from noble knowledge: they are considered a standing joke among legitimate houses.
 - Their religious nature and nomadic lifestyle suggest a distinct theological or prophetic basis for their throne claim, though details are not yet established.
 
@@ -29,5 +29,5 @@ House Oswall is a nomadic religious group that arrives at the [[King's Tourney]]
 ## Relationships
 
 - [[King's Tourney]]: Attend annually to press their claim; never win.
-- [[Aldrich]]: Has passing historical knowledge of the group.
+- [[Aldric]]: Has passing historical knowledge of the group.
 - [[Cassian]]: Offered their registering dignitaries a backhanded blessing—"nothing legitimizes a house faster than surviving in front of witnesses."

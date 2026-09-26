@@ -18,7 +18,7 @@ House Westermere is a **fallen noble house** of [[Havenport]]. Its cliffside hom
 
 ## Notes
 
-- [[Aldrich]] has "heard of their fall" but avoids Havenport's history. He left town roughly eight or nine years ago.
+- [[Aldric]] has "heard of their fall" but avoids Havenport's history. He left town roughly eight or nine years ago.
 - The only known member is the ghost **[[Samantha Westermere]]**, who died in the manor's undercroft.
 - Its liege house and the details of its fall are unknown.
 

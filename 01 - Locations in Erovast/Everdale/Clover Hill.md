@@ -16,7 +16,7 @@ Clover Hill is the noble encampment area above the [[King's Tourney]] fairground
 ## Notes
 
 - The party collected their sponsorship items from [[House Blackwood]]'s servants here after [[Duke Tristan Blackwood]] finalized the sponsorship deal.
-- Items delivered at Clover Hill: Combat Greaves ([[Aldrich]]), Cloak of Protection ([[Cassian]]), Ring of Scorching Ray ([[Odine Dunmere]]), and a Potion of Fire Breathing (party inventory).
+- Items delivered at Clover Hill: Combat Greaves ([[Aldric]]), Cloak of Protection ([[Cassian]]), Ring of Scorching Ray ([[Odine Dunmere]]), and a Potion of Fire Breathing (party inventory).
 
 ## Relationships
 

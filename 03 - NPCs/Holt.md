@@ -17,7 +17,7 @@ Holt is a registrar at the [[King's Tourney]] registration tent. He wears a ligh
 
 ## Notes
 
-- He registered [[Cassian]], [[Aldrich]], [[Azrith]], and [[Odine Dunmere]] as **Cassian's Crushing Crusaders**.
+- He registered [[Cassian]], [[Aldric]], [[Azrith]], and [[Odine Dunmere]] as **Cassian's Crushing Crusaders**.
 - He charged the 25 gold group entry fee for the Proving Grounds.
 - He placed the party's registration on the "to be watched" shelf.
 - He scheduled the team to report to Tent D on the following in-game day at 6 PM. See [[Compete in the King's Tourney]].
