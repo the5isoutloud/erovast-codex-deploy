@@ -70,9 +70,9 @@ Session logs are tagged `game-log`. Each log has a Summary, Open Threads, and Ne
 | [[2026.07.14]] | The party completes the Crown Gauntlet with six seconds left, the first team to do so in more than 7 years. Blackwood gives only a muted clap. | — |
 | [[2026.08.11]] | This log includes the GM's recap of an untranscribed session: the Wither is named and Jevon is rescued a second time. [[Renny Blackwood]] delivers the Gauntlet rewards. The party sets up a dead-drop for Jevon, then promotes to [[The Menagerie]]. The GM corrects "Oswall" to Godrin. | [[Renny Blackwood]], [[The Menagerie]], [[Investigate House Godrin]] |
 | [[2026.08.18]] | Azrith is absent. Blackwood explains the tourney's real stakes and hands over an intelligence note. The party scouts [[White Feather Tor]]. Aldrich wins the King's Cup drinking contest and ends at exhaustion 6. | [[White Feather Tor]], [[House Troth]], [[House Fortescue]], Godrin family, [[Cure Aldrich's Exhaustion]] |
-| [[2026.08.25]] | [[Father Kaldus Vey]] heals Aldrich. Cassian and Azrith infiltrate White Feather Tor, which confirms Maralynn is alive. Odine plants the "Erendel Morath" decoy. The manticore bout begins. | [[Father Kaldus Vey]], [[Sir Thorin Cassavar]] |
+| [[2026.08.25]] | [[Father Caldus Vey]] heals Aldrich. Cassian and Azrith infiltrate White Feather Tor, which confirms Maralynn is alive. Odine plants the "Aerendyl Morath" decoy. The manticore bout begins. | [[Father Caldus Vey]], [[Sir Thorin Cassavar]] |
 | [[2026.09.08]] | Cassian talks down and frees the manticore, and the party wrecks its trebuchet leash. The paying crowd boos while the peasants cheer. Blackwood slips out of the box. | [[The Freed Manticore]] |
-| [[2026.09.15]] | The party flees the Menagerie as Holt fumes. Blackwood privately calls the stunt "fucking genius" and sends the party to [[Havenport]]. Everyone reaches level 5. | [[Captain Garan]], [[Lady Elwyn Blackwood]], [[Havenport]] |
+| [[2026.09.15]] | The party flees the Menagerie as Holt fumes. Blackwood privately calls the stunt "fucking genius" and sends the party to [[Havenport]]. Everyone reaches level 5. | [[Captain Garran]], [[Lady Elwyn Blackwood]], [[Havenport]] |
 | [[2026.09.22]] | Azrith's player is absent. Garan pays about 5,000 gp for the Gleaming Keep's teleportation circle, powered by spell draught. The party arrives in Havenport, and Ian tells the Dark King legend; Odine has seen the kneeling statue. In the undercroft, Azrith leaps through the Curtain. They meet the ghost Samantha and study the black veil. | [[Ian]], [[Samantha Westermere]], [[Mauve Marigold]], [[House Westermere]], [[Westermere Manor]], [[Find Azrith]] |
 
 **Untranscribed session:** there was one session between 2026.07.14 and 2026.08.11 with no transcript. Its only record is the "Previously" section of [[2026.08.11]].
@@ -159,7 +159,7 @@ Tagged `npc`.
 | [[Maralynn]] | A witch from the Vale of "unfathomable power" and Jevon's teacher. Blackwood's folklore calls her "Marlin," archmage to King Aldric the Wise. House Godrin has confirmed she is alive. |
 | [[Gruvelda Duskbelt]] | Dwarven master smith who cut off her own cursed hand. She knew Mara and watches the houses from the sidelines. Gave the party the Sentinel Shield, Elven Chain and Chain of the Unbroken, and pointed them to Godrin's ledgers. |
 | [[Grimhall Duskbelt]] | Gruvelda's brother, a dwarven lord of the Duskbelt clan in [[Thornwood Vale\|the Vale]] who fights shadows and ghouls. Not yet met. |
-| [[Father Kaldus Vey]] | Royal Chapel priest in the healer tents. Cured Aldrich's exhaustion for 400 gp. |
+| [[Father Caldus Vey]] | Royal Chapel priest in the healer tents. Cured Aldrich's exhaustion for 400 gp. |
 | [[The Freed Manticore]] | The Menagerie beast Cassian freed. It speaks Common, has no name yet, and promised to visit the party. |
 | [[Virellan Le'Strange]] | Flamboyant bard and observer who called Cassian "Lord Fortescue". |
 
@@ -170,7 +170,7 @@ Tagged `npc`.
 | [[Duke Tristan Blackwood]] | The party's sponsor, a wildcard vassal of Corwyn. Main source of lore on the tourney's stakes and on Godrin. Suspects a mole in his own camp. Gruvelda calls him a "slimy bastard". |
 | [[Lady Elwyn Blackwood]] | The Duke's wife, a sharp social operator who approved of the manticore stunt. Has a portrait. |
 | [[Renny Blackwood]] | The Duke's nephew and manservant, who carries his messages and deliveries. |
-| [[Captain Garan]] | The Duke's captain of the guard. Warned the party cryptically, then paid their way through the teleportation circle. Has a portrait. |
+| [[Captain Garran]] | The Duke's captain of the guard. Warned the party cryptically, then paid their way through the teleportation circle. Has a portrait. |
 
 ### House Godrin
 
@@ -204,7 +204,7 @@ Tagged `npc`.
 
 | NPC | Summary |
 | --- | --- |
-| [[Ian]] | Old Oathkeeper guarding the Havenport circle (surname "Wren" unconfirmed). Knew of House Fortescue and told the Dark King legend. |
+| [[Ian]] | Old Oathkeeper guarding the Havenport circle. Surname **Wren** confirmed by the GM. Knew of House Fortescue and told the Dark King legend. |
 | [[Samantha Westermere]] | Ghost of a Westermere daughter in the manor's undercroft. Won't pass on until Havenport is restored. Flirts with Cassian. |
 | [[Mauve Marigold]] | Blackwood's contact in Havenport, whom the party must stay with. Not yet met; spelling unconfirmed. |
 
@@ -241,11 +241,11 @@ Tagged `quest`, with `status:` in the frontmatter.
 | Quest | Status | Summary |
 | --- | --- | --- |
 | [[Compete in the King's Tourney]] | active (on hold) | The party's tourney run: Proving Grounds, then the Gauntlet, then the Menagerie and the manticore aftermath. Tracks wagers, rewards and rival champions. On hold while the party lies low in Havenport. |
-| [[Investigate House Godrin]] | active | The infiltration of White Feather Tor, Maralynn found alive, and the "Erendel Morath" decoy now in play. Open leads: Valerie, the ledger outpost, the mole. |
+| [[Investigate House Godrin]] | active | The infiltration of White Feather Tor, Maralynn found alive, and the "Aerendyl Morath" decoy now in play. Open leads: Valerie, the ledger outpost, the mole. |
 | [[Investigate the Pestilence]] | active | The Wither: Gruvelda's revelations about Mara and the Touched, the spread into the Crownlands, and the Dark King legend with its kneeling statue. |
 | [[Rescue Jevon]] | active | Jevon has been rescued twice and is now on the western edge of the Vale, misdirecting Godrin's scouts. Ongoing support via the sending stone. |
 | [[Find Azrith]] | active | Azrith leapt through the Curtain in the Westermere undercroft. He may return when it reopens, in a day or a week. |
-| [[Cure Aldrich's Exhaustion]] | resolved | King's Cup exhaustion 6, cured by Father Kaldus. |
+| [[Cure Aldrich's Exhaustion]] | resolved | King's Cup exhaustion 6, cured by Father Caldus. |
 
 ---
 
@@ -258,7 +258,7 @@ Tagged `quest`, with `status:` in the frontmatter.
 | `OdineDunmere.png` | [[Odine Dunmere]] |
 | `DukeTristanBlackwood.png` | [[Duke Tristan Blackwood]] |
 | `WhiteFeatherTor.png` | [[White Feather Tor]] |
-| `Captain Garran.png` | [[Captain Garan]] (the file name is spelled with two r's) |
+| `Captain Garran.png` | [[Captain Garran]] (the file name is spelled with two r's) |
 | `Lady Elwyn Blackwood.png` | [[Lady Elwyn Blackwood]] |
 | `Erovast.png` | World map (not embedded anywhere yet) |
 
@@ -277,7 +277,8 @@ These terms and names appear across many notes, or turn up in more than one spel
 - **Mara** is Odine's grandmother, a Touched binder who sacrificed herself. She has no note yet.
 - **The Touched** are Vale bloodline binders of the entity. Their lifespans are shrinking.
 - **"King's Cup"** means two things: (1) the tourney's grand prize, along with the Vale deed, and (2) Rory's weekly drinking contest.
-- **Erendel Morath** is a fake witch identity Odine invented as a decoy.
+- **Aerendyl Morath** is a fake witch identity Odine invented as a decoy. The GM posted the spelling "Aerendyl Morath" in the campaign-info Discord channel; the player had originally said "Erendel Morath" at the table.
+- **"Godran"** is how the DM and NPCs frequently pronounce/write "Godrin" in the transcripts and in Blackwood's Note (posted to Discord on 2026-08-19). The canonical spelling is **Godrin** (per the GM's faction theme posts), with "Godran" as a recognized variant/alias.
 - **The Dark King** (also called the Nightmare King) is a corrupting ruler from a "far realm" whom King Aldrich defeated alone, leaving only a kneeling statue of himself in the Vale. It may or may not be the Vale's entity (unconfirmed).
 - **Spell draught** is a bluish-silver liquid transmuted from the Vale's mana crystals. It powers the teleportation circles.
 - **The Curtain** is a black mist sphere in the Westermere undercroft, a gate to the realm of death.
@@ -328,3 +329,4 @@ These are issues found while building this index. Fix them when the scribe works
 - **2026-09-25:** Deleted the duplicate `05 - Quests/Whitefeather Tor.png`. Fixed the portrait path in [[White Feather Tor]] from `../Attachments/` to `../../Attachments/WhiteFeatherTor.png`.
 - **2026-09-25:** Wrote the [[2026.09.22]] session log. Created [[Ian]], [[Samantha Westermere]], [[Mauve Marigold]], [[House Westermere]], [[Westermere Manor]] and [[Find Azrith]]. Moved [[Havenport]] into a `Havenport/` region folder. Corrected Vale/veil references across 14 notes after a transcript audit. Standardized Maralynn's spelling. Switched the Virellan file and links to a straight apostrophe. Rewrote Odine's Background. Caught up the stale notes. Added the portraits for Garan and Elwyn. Replaced Templater dates. Moved the scribe skill to `.claude/skills/erovast-scribe/`.
 - **2026-09-25:** Created [[Campaign Synopsis]] at the vault root: an overview and an arc-by-arc timeline covering 2026.05.05 to 2026.09.22.
+- **2026-09-26:** Discord DM cross-reference correction. Renamed [[Captain Garran]] (from "Garan", DM posted "Captain Garran"). Renamed [[Father Caldus Vey]] (from "Kaldus", DM posted "Father Caldus Vey"). Confirmed Ian's surname as **Wren** (DM posted "Ser Ian Wren"). Updated the decoy name to **Aerendyl Morath** (from "Erendel", DM posted "Aerendyl Morath"). Noted "Godran" as a DM variant spelling of Godrin. Added Discord-downloaded images to Attachments.

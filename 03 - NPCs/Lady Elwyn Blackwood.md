@@ -18,7 +18,7 @@ image_name: Lady Elwyn Blackwood.png
 
 ## Summary
 
-Lady Elwyn Blackwood is **[[Duke Tristan Blackwood]]'s wife**, previously glimpsed sitting beside him in the Proving Grounds box but not formally met until she stepped out of the shadows to smooth over **[[Captain Garan]]**'s tense warning to the party. She wears a black-and-gold-trimmed gown and carries herself with practiced noble grace. Source: [[2026.09.15|2026.09.15]].
+Lady Elwyn Blackwood is **[[Duke Tristan Blackwood]]'s wife**, previously glimpsed sitting beside him in the Proving Grounds box but not formally met until she stepped out of the shadows to smooth over **[[Captain Garran]]**'s tense warning to the party. She wears a black-and-gold-trimmed gown and carries herself with practiced noble grace. Source: [[2026.09.15|2026.09.15]].
 
 ## Notes
 
@@ -29,4 +29,4 @@ Lady Elwyn Blackwood is **[[Duke Tristan Blackwood]]'s wife**, previously glimps
 ## Relationships
 
 - [[Duke Tristan Blackwood]]: Her husband.
-- [[Captain Garan]]: Speaks of him with familiarity, smoothing over his warnings to the party.
+- [[Captain Garran]]: Speaks of him with familiarity, smoothing over his warnings to the party.

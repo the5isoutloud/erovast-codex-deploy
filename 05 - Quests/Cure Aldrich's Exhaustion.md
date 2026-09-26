@@ -14,7 +14,7 @@ dateStarted: 2026-08-18
 
 **Resolved.** [[Aldrich]] won the King's Cup drinking tournament at the [[Ragged Flagon]] but was driven to **exhaustion level 6**, functionally incapacitated—unable to move under his own power. He needed to recover before the party's Menagerie bout and before any attempt on [[White Feather Tor]]. Source: [[2026.08.18|2026.08.18]].
 
-[[Father Kaldus Vey]], a Royal Chapel priest at the King's Fair healer tents, treated him overnight with repeated castings of Greater Restoration (400 gp total, paid by the party), reducing his exhaustion to level 2 by morning; sleeping through the following day cleared one more level, leaving Aldrich at **exhaustion level 1** for the Menagerie bout. [[Odine Dunmere]] similarly cleared her own King's Cup exhaustion to level 1. Source: [[2026.08.25|2026.08.25]].
+[[Father Caldus Vey]], a Royal Chapel priest at the King's Fair healer tents, treated him overnight with repeated castings of Greater Restoration (400 gp total, paid by the party), reducing his exhaustion to level 2 by morning; sleeping through the following day cleared one more level, leaving Aldrich at **exhaustion level 1** for the Menagerie bout. [[Odine Dunmere]] similarly cleared her own King's Cup exhaustion to level 1. Source: [[2026.08.25|2026.08.25]].
 
 ## Known Recovery Options
 
@@ -29,7 +29,7 @@ Per [[Cassian]]'s Medicine check (15):
 
 - [[Aldrich]]
 - [[Odine Dunmere]]
-- [[Father Kaldus Vey]]
+- [[Father Caldus Vey]]
 - [[Renny Blackwood]]
 - [[Duke Tristan Blackwood]]
 - [[Compete in the King's Tourney]]
