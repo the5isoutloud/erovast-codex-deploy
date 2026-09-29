@@ -8,11 +8,10 @@ tags:
 aliases:
 date:
 ---
-<div style="float: left; margin-right: 10px;">
-<img src="../Attachments/Havenport_Cityscape.png" alt="Havenport Cityscape" width="400" />
-</div>
 
 # Havenport
+
+![[Havenport_Cityscape.png]]
 
 ## Summary
 
@@ -21,10 +20,10 @@ Havenport is a rain-lashed, decaying seaport on a rocky coast, reached by the pa
 ## Description
 
 - The town once held perhaps 1,000–5,000 people. Today it is nearly abandoned: ragged ships sit at the docks, farmland and village stretch behind, and the "city up above the rocky coastline" is mostly dark. Source: [[2026.09.22|2026.09.22]].
-- It has been in disarray since the **fall of [[House Westermere]]**, whose cliffside home, [[Westermere Manor]], overlooks the town. Per [[Ian]]: *"Seems like every time they solve one problem, two more crop up in its place."* Source: [[2026.09.22|2026.09.22]].
+- It has been in disarray since the **fall of [[House Westermere]]**, whose cliffside home, [[Westermere Manor]], overlooks the town. Per [[Ian]]: _"Seems like every time they solve one problem, two more crop up in its place."_ Source: [[2026.09.22|2026.09.22]].
 - **The Wither** is taking more and more of the weak and sick here. Source: [[2026.09.22|2026.09.22]].
 - Undead are infesting the ground beneath the manor. The survivors, including "Mav and her people," have taken refuge down in the village. Source: [[2026.09.22|2026.09.22]].
-- There is little literature in town for researching lore, *"perhaps amongst the wealthy... but these people here are very much humble folk, survivors."* Source: [[2026.09.22|2026.09.22]].
+- There is little literature in town for researching lore, _"perhaps amongst the wealthy... but these people here are very much humble folk, survivors."_ Source: [[2026.09.22|2026.09.22]].
 
 ## Places
 
@@ -33,7 +32,7 @@ Havenport is a rain-lashed, decaying seaport on a rocky coast, reached by the pa
 
 ## Notes
 
-- **Aldric's home:** [[Ian]] treated Havenport as Aldric's home, and Aldric said he left roughly eight or nine years ago, "maybe longer." He admitted to *"a little bit of a past there"* but doesn't like to reminisce. He knew of House Westermere's fall. When the town was first named on [[2026.09.15|2026.09.15]], the GM and Aldric's player held a private aside; its content is not recorded. Source: [[2026.09.15|2026.09.15]], [[2026.09.22|2026.09.22]].
+- **Aldric's home:** [[Ian]] treated Havenport as Aldric's home, and Aldric said he left roughly eight or nine years ago, "maybe longer." He admitted to _"a little bit of a past there"_ but doesn't like to reminisce. He knew of House Westermere's fall. When the town was first named on [[2026.09.15|2026.09.15]], the GM and Aldric's player held a private aside; its content is not recorded. Source: [[2026.09.15|2026.09.15]], [[2026.09.22|2026.09.22]].
 
 ## Relationships
 
