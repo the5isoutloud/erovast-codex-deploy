@@ -17,7 +17,9 @@ The Gleaming Keep crowns the hill above [[Everdale]]. According to local lore, K
 ## Related Lore
 
 - The keep houses or protects the [[Empty Throne]], which has remained unfilled since King Aldrich.
-- The [[Oathkeepers]] guard the keep and preserve it for the hoped-for return of King Aldrich.
+- The [[Oathkeepers]] guard the keep and preserve it for the hoped-for return of King Aldrich — the Stone King.
+
+**Blackwood Sponsorship:** [[Duke Tristan Blackwood]] sponsored the party's travel through the Gleaming Keep's teleportation circle on [[2026.09.22|2026.09.22]], paying roughly 5,000 gp and providing spell draught to power the circle. Source: [[2026.09.22|2026.09.22]].
 - The [[King's Tourney]] takes place in the valley below the keep.
 
 ## Inside the Keep

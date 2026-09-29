@@ -9,6 +9,10 @@ aliases:
   - The Undercroft
 date:
 ---
+<div style="float: left; margin-right: 10px;">
+<img src="../Attachments/WestermereManor_ConceptArt.png" alt="Westermere Manor Concept Art" width="400" />
+</div>
+
 # Westermere Manor
 
 ## Summary

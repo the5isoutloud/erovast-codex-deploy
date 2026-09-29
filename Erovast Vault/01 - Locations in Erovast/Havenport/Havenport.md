@@ -8,6 +8,10 @@ tags:
 aliases:
 date:
 ---
+<div style="float: left; margin-right: 10px;">
+<img src="../Attachments/Havenport_Cityscape.png" alt="Havenport Cityscape" width="400" />
+</div>
+
 # Havenport
 
 ## Summary
