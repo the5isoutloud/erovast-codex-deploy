@@ -12,7 +12,7 @@ date:
 
 ## Summary
 
-The Oathkeepers are three orders of knights bound under one oath in [[Everdale]]. They guard the [[Gleaming Keep]], protect the [[Empty Throne]], police the [[King's Tourney]], and help oversee the city's economy and settlement. Source: [[2026.05.05|2026.05.05]].
+The Oathkeepers are three orders of knights bound under one oath in [[Everdale]]. They guard the [[Gleaming Keep]], protect the [[Empty Throne]], police the [[King's Tourney]], help oversee the city's economy and settlement, and maintain order in Everdale until the Stone King's fabled return. Source: [[2026.05.05|2026.05.05]].
 
 ## The Three Orders
 

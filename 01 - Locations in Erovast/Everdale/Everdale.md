@@ -8,6 +8,10 @@ tags:
 aliases:
 date:
 ---
+<div style="float: left; margin-right: 10px;">
+<img src="../Attachments/Everdale_ConceptArt.png" alt="Everdale Concept Art" width="400" />
+</div>
+
 # Everdale
 
 ## Summary

@@ -107,9 +107,9 @@ Tagged `location`, plus `event` for the tournament venues.
 
 | Note | Summary | Status |
 | --- | --- | --- |
-| [[Everdale]] | The human capital and host of the King's Tourney. It is governed by the [[Oathkeepers]]. Hub page for its landmarks and noble houses. | Visited; the party left on 09.22 |
+|| [[Everdale]] | The human capital and host of the King's Tourney. It is governed by the [[Oathkeepers]]. Hub page for its landmarks and noble houses. | Visited; the party left on 09.22 | Includes concept art: `Everdale_ConceptArt.png` |
 | [[Thornwood Vale]] | "The Vale" (often transcribed "veil"): Odine's homeland, a forested canyon behind the Gleaming Keep. The Duskbelt dwarves also live there. It is the source of the Wither and of Godrin's mana crystals, and the tourney's grand prize. The kneeling statue of King Aldrich stands there. | Not visited in play |
-| [[Havenport]] | A decaying, rain-lashed seaport and Aldric's home, in decline since House Westermere fell. The Wither and undead are here. Survivors gather at the Salt House. Note is in the `Havenport/` folder. | Arrived 09.22 |
+|| [[Havenport]] | A decaying, rain-lashed seaport and Aldric's home, in decline since House Westermere fell. The Wither and undead are here. Survivors gather at the Salt House. Note is in the `Havenport/` folder. Includes cityscape art: `Havenport_Cityscape.png`. | Arrived 09.22 |
 
 ### Everdale and Tourney Grounds (`Everdale/`)
 
@@ -130,7 +130,7 @@ Tagged `location`, plus `event` for the tournament venues.
 
 | Note | Summary |
 | --- | --- |
-| [[Westermere Manor]] | Ruined cliffside keep of House Westermere, with a teleportation circle guarded by [[Ian]]. Its undercroft holds **the Curtain**, a gate to the realm of death that Azrith jumped into, and the **black veil**, an entropic wall sealing off part of the undercroft. |
+|| [[Westermere Manor]] | Ruined cliffside keep of House Westermere, with a teleportation circle guarded by [[Ian]]. Its undercroft holds **the Curtain**, a gate to the realm of death that Azrith jumped into, and the **black veil**, an entropic wall sealing off part of the undercroft. Includes concept art: `WestermereManor_ConceptArt.png`. |
 
 ---
 
