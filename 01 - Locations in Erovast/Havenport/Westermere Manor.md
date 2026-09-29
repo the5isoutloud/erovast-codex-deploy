@@ -9,11 +9,10 @@ aliases:
   - The Undercroft
 date:
 ---
-<div style="float: left; margin-right: 10px;">
-<img src="../Attachments/WestermereManor_ConceptArt.png" alt="Westermere Manor Concept Art" width="400" />
-</div>
 
 # Westermere Manor
+
+![[WestermereManor_ConceptArt.png]]
 
 ## Summary
 
@@ -31,16 +30,16 @@ Use of the circle is paid for with tribute to the [[Oathkeepers]]. [[Duke Trista
 
 ## The Undercroft
 
-Stairwells on either side of the entrance hall lead down to the undercroft. [[Samantha Westermere]], the family's ghost, says *"much of it has fallen into the ethereal realm."* [[Ian]] says undead are infesting it, and he keeps away with the help of an amulet. Village children sometimes wander up at night. Source: [[2026.09.22|2026.09.22]].
+Stairwells on either side of the entrance hall lead down to the undercroft. [[Samantha Westermere]], the family's ghost, says _"much of it has fallen into the ethereal realm."_ [[Ian]] says undead are infesting it, and he keeps away with the help of an amulet. Village children sometimes wander up at night. Source: [[2026.09.22|2026.09.22]].
 
-- **The Curtain:** a floating sphere of swirling black mist blocking the archway from the first large room into a hallway. It whispered *"door"* to [[Odine Dunmere]]. Samantha calls it *"a curtain to the realm of death,"* a passage between the ethereal and material planes.
+- **The Curtain:** a floating sphere of swirling black mist blocking the archway from the first large room into a hallway. It whispered _"door"_ to [[Odine Dunmere]]. Samantha calls it _"a curtain to the realm of death,"_ a passage between the ethereal and material planes.
   - It opens and closes unpredictably and tends to close after it is used.
   - Both the living and the dead use it, "some of them are vile." Traffic has grown as more people have died in recent years.
   - **[[Azrith]] leapt into it and vanished.** See [[Find Azrith]].
 - **The black veil:** a shimmering black wall that has sealed off part of the undercroft since the Curtain opened. It wasn't there in Samantha's lifetime, and it is impenetrable to her.
-  - To a mortal it feels like cold steel. Black mist crawls up the arm and steals warmth, like **entropy**, *"almost like it's turning your essence into living shadow."* It is not evil in itself.
+  - To a mortal it feels like cold steel. Black mist crawls up the arm and steals warmth, like **entropy**, _"almost like it's turning your essence into living shadow."_ It is not evil in itself.
   - It swallows light with no reflection. Radiant light (Odine's Sacred Flame) drives the shadow back.
-  - Cassian's magic check (natural 20) found that no one is casting a spell there. The wall itself is the source, and *"whatever lies beyond that wall is affecting you."*
+  - Cassian's magic check (natural 20) found that no one is casting a spell there. The wall itself is the source, and _"whatever lies beyond that wall is affecting you."_
 - **Samantha's room:** where she died.
 
 ## Relationships
