@@ -14,6 +14,10 @@ dateUpdated: 2026-05-12
 
 # King's Tourney
 
+<div style="float: left; margin-right: 15px;">  
+<img src="../../Attachments/b8671640-a18c-471a-8a57-84f334ed909e.png" alt="King's Tourney" width="350" />  
+</div>
+
 ## Summary
 
 The King's Tourney is the annual tournament and festival held in the valley beneath [[Everdale]] and the [[Gleaming Keep]]. It lasts for about two weeks and draws noble houses, knights, merchants, performers, scouts, and spectators from across the Crownlands. Source: [[2026.05.05|2026.05.05]].

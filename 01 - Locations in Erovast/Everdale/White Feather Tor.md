@@ -11,9 +11,7 @@ date:
 
 # White Feather Tor
 
-<div style="float: left; margin-right: 10px;">  
-<img src="../../Attachments/WhiteFeatherTor.png" alt="White Feather Tor" width="300" />  
-</div>
+![[WhiteFeatherTor.png]]
 
 ## Summary
 
