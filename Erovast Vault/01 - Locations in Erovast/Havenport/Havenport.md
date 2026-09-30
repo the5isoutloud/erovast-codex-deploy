@@ -13,6 +13,8 @@ date:
 
 ![[Havenport_Cityscape.png]]
 
+![[Havenport_Vista_Art.png]]
+
 ## Summary
 
 Havenport is a rain-lashed, decaying seaport on a rocky coast, reached by the party through the [[Oathkeepers]]' teleportation circle from the [[Gleaming Keep]]. [[Duke Tristan Blackwood]] sent the party here to lie low after the Menagerie manticore scandal, with orders to find **[[Mauve Marigold]]** and stay with her until he sends word. It is also **[[Aldric]]'s home** and shares his surname. Source: [[2026.09.15|2026.09.15]], [[2026.09.22|2026.09.22]].

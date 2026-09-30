@@ -11,6 +11,8 @@ date:
 ---
 # House Blackwood
 
+![[Blackwood_Crest.png]]
+
 ## Summary
 
 House Blackwood is a lower-tier vassal house at the [[King's Tourney]]. They hold a smaller parcel of land loaned to them by one of the greater houses and are not one of the big three noble houses. They do not typically win tournaments. Their representative at the current tournament is **[[Duke Tristan Blackwood]]**. Source: [[2026.06.02|2026.06.02]].

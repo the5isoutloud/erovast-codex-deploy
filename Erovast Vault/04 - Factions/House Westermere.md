@@ -12,6 +12,8 @@ date:
 ---
 # House Westermere
 
+![[Westermere_Crest.png]]
+
 ## Summary
 
 House Westermere is a **fallen noble house** of [[Havenport]]. Its cliffside home, [[Westermere Manor]], now stands ruined above the town. *"Many catastrophes"* led to the house's fall, and Havenport has been in disarray ever since. The manor looks 10–15 years abandoned. Source: [[2026.09.22|2026.09.22]].

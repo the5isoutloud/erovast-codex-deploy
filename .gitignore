@@ -11,4 +11,3 @@ hugo_stats.json
 
 # Hugo image-processing cache (share-preview posters); rebuilt automatically
 site/resources/_gen/
-public/

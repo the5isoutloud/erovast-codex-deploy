@@ -13,6 +13,8 @@ image_name:
 ---
 # Mauve Marigold
 
+![[Mauve_Marigold.png]]
+
 ## Summary
 
 Mauve Marigold is the person [[Duke Tristan Blackwood]] sent the party to find in [[Havenport]]. They are to stay with her until he sends word. **They met her this session at the Salt House.** Source: [[2026.09.22|2026.09.22]], [[2026.09.29|2026.09.29]].

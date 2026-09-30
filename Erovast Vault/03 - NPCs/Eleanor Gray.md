@@ -15,6 +15,8 @@ image_name:
 
 # Eleanor Gray
 
+![[Eleanor_Gray.png]]
+
 ## Summary
 
 Eleanor Gray is the ghost of Aldric's mother, trapped in the ethereal plane beyond the Curtain in the Westermere Manor undercroft. She named her son after King Aldrich the Wise. She was enthralled by a dark force — the same spirit that commands the undead beyond the black veil — and recently escaped its control. She cannot return to the material realm but can communicate with those who pass through the Curtain. Source: [[2026.09.29|2026.09.29]].

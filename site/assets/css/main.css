@@ -110,6 +110,14 @@ img, video { max-width: 100%; height: auto; }
 /* A note with `cssclasses: [wide-page]` in its front matter gets more room. */
 .main > article.cc-wide-page { max-width: calc(var(--content-width) + 240px); }
 
+/* Full-width images: the `full-width-img` class on an article makes its
+   embed images span the full content column instead of being constrained by
+   the normal max-width. Used for setting/location art. */
+.main > article.cc-full-width-img .prose .embed-image,
+.main > article.cc-full-width-img .prose img.embed-image {
+  max-width: 100%;
+}
+
 .topbar { display: none; }
 
 /* ------------------------------------------------------------- Sidebar --- */
