@@ -13,7 +13,7 @@ date:
 # House Blackwood
 
 <div class="portrait-frame">
-![[Blackwood_Crest.png]]
+<img src="../Attachments/Blackwood_Crest.png" alt="House Blackwood crest" width="300" />
 </div>
 
 ## Summary

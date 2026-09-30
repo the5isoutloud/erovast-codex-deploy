@@ -14,7 +14,7 @@ date:
 # House Godrin
 
 <div class="portrait-frame">
-![[Godrin_Crest.png]]
+<img src="../Attachments/Godrin_Crest.png" alt="House Godrin crest" width="300" />
 </div>
 
 ## Summary

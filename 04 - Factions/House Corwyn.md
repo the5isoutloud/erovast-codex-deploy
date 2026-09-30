@@ -14,7 +14,7 @@ date:
 # House Corwyn
 
 <div class="portrait-frame">
-![[Corwyn_Crest.png]]
+<img src="../Attachments/Corwyn_Crest.png" alt="House Corwyn crest" width="300" />
 </div>
 
 ## Summary
