@@ -8,7 +8,7 @@ dateCreated: 2026-09-25
 dateUpdated: 2026-09-25
 lastSessionLogged: 2026-09-29
 lastTranscript: 2026.09.29
-noteCount: 80
+noteCount: 84
 transcriptCount: 14
 ---
 
@@ -246,14 +246,25 @@ Tagged `faction`, plus `noble-house` for the houses.
 
 Tagged `quest`, with `status:` in the frontmatter.
 
-| Quest | Status | Summary |
+|| Quest | Status | Summary |
 | --- | --- | --- |
 | [[Compete in the King's Tourney]] | active (on hold) | The party's tourney run: Proving Grounds, then the Gauntlet, then the Menagerie and the manticore aftermath. Tracks wagers, rewards and rival champions. On hold while the party lies low in Havenport. |
 | [[Investigate House Godrin]] | active | The infiltration of White Feather Tor, Maralynn found alive, and the "Aerendyl Morath" decoy now in play. Open leads: Valerie, the ledger outpost, the mole. |
 | [[Investigate the Pestilence]] | active | The Wither: Gruvelda's revelations about Mara and the Touched, the spread into the Crownlands, and the Dark King legend with its kneeling statue. |
 | [[Rescue Jevon]] | active | Jevon has been rescued twice and is now on the western edge of the Vale, misdirecting Godrin's scouts. Ongoing support via the sending stone. |
-|| [[Find Azrith]] | active | Azrith leapt through the Curtain in the Westermere undercroft. He returned on [[2026.09.29|2026.09.29]] and met [[Eleanor Gray]], his mother's ghost. The spirit behind the black veil commands the undead. |
-| [[Cure Aldric's Exhaustion]] | resolved | King's Cup exhaustion 6, cured by Father Caldus. |
+| [[Havenport]] | active | The party's time in Havenport: staying with [[Mauve Marigold]] at the Salt House, the Wither in town, the Westermere Manor undercroft, the black veil, and all the threads that opened there. Started [[2026.09.22|2026.09.22]]. |
+| [[Investigate the Wither in Havenport]] | active | A subquest of [[Havenport]]. The Wither has been taking victims in Havenport for ~15 years, since House Westermere fell. Mauve's timeline, Hesta Cole's limits, and the connection to the undercroft. |
+| [[Confront the Spirit Behind the Black Veil]] | active | A subquest of [[Havenport]]. Azrith declared he will kill the putrid spirit that commands the undead beyond the black veil in Westermere Manor's undercroft. Eleanor Gray escaped its control. |
+| [[Uncover the Westermere-Wulfhelm Coup]] | active | A subquest of [[Havenport]]. Samantha Westermere revealed that House Wulfhelm killed her family 15 years ago — Beowyn and Eodwin Wulfhelm were involved. The truth lies beyond the black veil. |
+
+### Completed
+
+Quests that have been resolved and moved to `Completed/`:
+
+| Quest | Resolution |
+| --- | --- |
+| [[Cure Aldric's Exhaustion]] | King's Cup exhaustion 6, cured by Father Caldus Vey. |
+| [[Find Azrith]] | Azrith leapt through the Curtain on [[2026.09.22|2026.09.22]], was lost to the realm of death, and returned on [[2026.09.29|2026.09.29]]. He met [[Eleanor Gray]], his mother's ghost. |
 
 ---
 
@@ -344,3 +355,4 @@ These are issues found while building this index. Fix them when the scribe works
 - **2026-09-25:** Created [[Campaign Synopsis]] at the vault root: an overview and an arc-by-arc timeline covering 2026.05.05 to 2026.09.22.
 - **2026-09-26:** Discord DM cross-reference correction. Renamed [[Captain Garran]] (from "Garan", DM posted "Captain Garran"). Renamed [[Father Caldus Vey]] (from "Kaldus", DM posted "Father Caldus Vey"). Confirmed Ian's surname as **Wren** (DM posted "Ser Ian Wren"). Updated the decoy name to **Aerendyl Morath** (from "Erendel", DM posted "Aerendyl Morath"). Noted "Godran" as a DM variant spelling of Godrin. Added Discord-downloaded images to Attachments.
 - **2026-09-30:** Wrote the [[2026.09.29]] session log (session 15). Created [[Eleanor Gray]], [[Hesta Cole]], [[Edith Rooke]], [[The Spirit Behind the Veil]], and [[Salt House]]. Updated [[Samantha Westermere]] (Wulfhelm killed her family), [[Mauve Marigold]] (met at Salt House), [[House Westermere]] (Wulfhelm coup), [[Ian]] (romantic interest in Edith), [[Odine Dunmere]], [[Cassian]], [[Azrith]], [[Aldric]], [[Havenport]], [[Westermere Manor]], [[Find Azrith]], and [[Campaign Synopsis]]. Added session 15 to the synopsis timeline.
+- **2026-09-30:** Organized the quests folder: created `Completed/` subfolder and moved [[Cure Aldric's Exhaustion]] and [[Find Azrith]] into it. Created four new quest notes: [[Havenport]], [[Investigate the Wither in Havenport]], [[Confront the Spirit Behind the Black Veil]], and [[Uncover the Westermere-Wulfhelm Coup]]. Updated vault-index.md with the new structure, a Completed table, and bumped noteCount from 80 to 84.
