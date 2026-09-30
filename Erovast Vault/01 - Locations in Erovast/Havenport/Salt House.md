@@ -48,7 +48,7 @@ The Salt House is a former shipyard warehouse in [[Havenport]]'s dock ward, now 
 ## People
 
 - [[Mauve Marigold]]: In charge. Sits at a table near the bar, wearing a weathered sailor's pin that marks her authority.
-- [[Edith]]: Bartender and server. Brings food and drinks, handles room bookings.
+- [[Edith Rooke]]: Bartender and server. Brings food and drinks, handles room bookings.
 - [[Hesta Cole]]: Healer/nurse, sits in the corner treating Wither victims.
 - Survivors of Havenport's decline gather here — "Mav and her people" took refuge from the undead in the village.
 
