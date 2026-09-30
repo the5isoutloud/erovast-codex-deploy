@@ -15,8 +15,8 @@ image_name:
 
 # Eleanor Gray
 
-<div style="float: left; margin-right: 10px;">  
-<img src="../Attachments/Eleanor_Gray.png" alt="Eleanor Gray" width="300" />  
+<div class="portrait-frame">
+<img src="../Attachments/Eleanor_Gray.png" alt="Eleanor Gray" width="300" />
 </div>
 
 ## Summary

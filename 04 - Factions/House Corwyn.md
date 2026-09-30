@@ -10,9 +10,12 @@ aliases:
   - House Corwin
 date:
 ---
+
 # House Corwyn
 
+<div class="portrait-frame">
 ![[Corwyn_Crest.png]]
+</div>
 
 ## Summary
 

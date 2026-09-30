@@ -10,8 +10,8 @@ date:
 image_name:
 ---
 
-<div style="float: left; margin-right: 10px;">  
-<img src="../Attachments/Cassian.png" alt="Cassian" width="300" />  
+<div class="portrait-frame">
+<img src="../Attachments/Cassian.png" alt="Cassian" width="300" />
 </div>
 
 ## Summary

@@ -11,8 +11,8 @@ image_name:
 
 # Edith Rooke
 
-<div style="float: left; margin-right: 10px;">  
-<img src="../Attachments/Edith_token.png" alt="Edith Rooke" width="300" />  
+<div class="portrait-frame">
+<img src="../Attachments/Edith_token.png" alt="Edith Rooke" width="300" />
 </div>
 
 ## Summary

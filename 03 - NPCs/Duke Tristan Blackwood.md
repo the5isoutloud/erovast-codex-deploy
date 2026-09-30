@@ -14,8 +14,8 @@ image_name:
 
 # Duke Tristan Blackwood
 
-<div style="float: left; margin-right: 10px;">  
-<img src="../Attachments/DukeTristanBlackwood.png" alt="Duke Tristan Blackwood" width="300" />  
+<div class="portrait-frame">
+<img src="../Attachments/DukeTristanBlackwood.png" alt="Duke Tristan Blackwood" width="300" />
 </div>
 
 ## Summary
@@ -32,7 +32,7 @@ Present at the King's Tourney. During the party's first Proving Grounds bout, he
 - Watches from a red-tent section of the noble box at the Proving Grounds.
 - He did not pay close attention to the match until partway through, when the fighting quality drew him in.
 - [[House Blackwood]] is a **vassal of [[House Corwyn]]**, one of the three dominant houses at the tournament. Duke Blackwood operates within Corwyn's sphere of influence. Source: [[2026.06.11|2026.06.11]].
-- [[Gruvelda Duskbelt]]'s assessment of him is blunt: _"Backwood—slimy bastard. Stay away from him."_ The party is now bound to his sponsorship despite this warning. Source: [[2026.06.11|2026.06.11]].
+- [[Gruvelda Duskbelt]]'s assessment of him is blunt: *"Backwood—slimy bastard. Stay away from him."* The party is now bound to his sponsorship despite this warning. Source: [[2026.06.11|2026.06.11]].
 - Agreed to dig through his [[House Corwyn]] contacts for intelligence on [[House Godrin]]'s weaknesses—contingent on the party performing well in the [[Crown Gauntlet]]. Source: [[2026.06.23|2026.06.23]].
 - Watched the party complete the Crown Gauntlet from the sponsor's box with only a slow, reserved clap—"amused and amazed" rather than jubilant, a notably muted reaction to his own sponsored team's biggest win yet. Source: [[2026.07.14|2026.07.14]].
 - Sent his nephew and manservant, **[[Renny Blackwood]]**, to deliver the Gauntlet victory reward (~1,500 gp split among the party plus individualized magic items) along with an invitation to visit his tent that evening "to discuss business"—not yet acted on. Source: [[2026.08.11|2026.08.11]].

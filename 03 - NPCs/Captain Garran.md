@@ -12,8 +12,8 @@ image_name: Captain Garran.png
 ---
 # Captain Garran
 
-<div style="float: left; margin-right: 10px;">  
-<img src="../Attachments/Captain Garran.png" alt="Captain Garran" width="300" />  
+<div class="portrait-frame">
+<img src="../Attachments/Captain Garran.png" alt="Captain Garran" width="300" />
 </div>
 
 ## Summary
