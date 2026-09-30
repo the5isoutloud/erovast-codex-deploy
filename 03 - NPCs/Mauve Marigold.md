@@ -45,4 +45,4 @@ Source: [[2026.09.22|2026.09.22]], [[2026.09.29|2026.09.29]].
 - [[House Westermere]]: Her family's fall 15 years ago set off Havenport's decline and the Wither's arrival.
 - [[Investigate the Pestilence]]: Taking more of Havenport's people. She believes it's connected to the Westermere fall.
 - [[Hesta Cole]]: Fellow survivor; Hesta is the town's healer.
-- [[Edith]]: The bartender at the Salt House.
+- [[Edith Rooke]]: The bartender at the Salt House.

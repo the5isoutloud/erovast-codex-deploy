@@ -15,7 +15,9 @@ image_name:
 
 # Eleanor Gray
 
-![[Eleanor_Gray.png]]
+<div style="float: left; margin-right: 10px;">  
+<img src="../Attachments/Eleanor_Gray.png" alt="Eleanor Gray" width="300" />  
+</div>
 
 ## Summary
 

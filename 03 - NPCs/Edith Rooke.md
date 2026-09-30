@@ -9,9 +9,11 @@ date:
 image_name:
 ---
 
-# Edith
+# Edith Rooke
 
-![[Edith_token.png]]
+<div style="float: left; margin-right: 10px;">  
+<img src="../Attachments/Edith_token.png" alt="Edith Rooke" width="300" />  
+</div>
 
 ## Summary
 
