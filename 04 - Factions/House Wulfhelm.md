@@ -11,6 +11,8 @@ date:
 ---
 # House Wulfhelm
 
+![[Wulfhelm_Crest.png]]
+
 ## Summary
 
 House Wulfhelm is one of the three most powerful noble houses in the Crownlands. The GM's stated faction theme: **Militant Peace**—military dominance framed as the guarantor of order rather than raw conquest. They won last year's [[King's Tourney]] and currently hold the title and deed to the [[Thornwood Vale]]. The other two dominant houses are [[House Godrin]] (**Mage Power**) and [[House Corwyn]] (**Truth Seekers**). Source: [[2026.05.05|2026.05.05]], [[2026.06.11|2026.06.11]], GM faction notes.

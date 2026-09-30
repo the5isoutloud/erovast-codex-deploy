@@ -8,9 +8,12 @@ tags:
   - havenport
 date:
 image_name:
+  - Salt_House.png
 ---
 
 # Salt House
+
+![[Salt_House.png]]
 
 ## Summary
 

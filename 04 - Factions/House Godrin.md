@@ -12,6 +12,8 @@ date:
 ---
 # House Godrin
 
+![[Godrin_Crest.png]]
+
 ## Summary
 
 House Godrin is one of the three most powerful noble houses in the Crownlands. The GM's stated faction theme: **Mage Power**—known for mana crystals, artifacts, and magical wealth. Its current patron is [[Golstang Godrin]]. The other two dominant houses are [[House Wulfhelm]] (**Militant Peace**) and [[House Corwyn]] (**Truth Seekers**). Source: [[2026.05.05|2026.05.05]], [[2026.06.11|2026.06.11]], GM faction notes.

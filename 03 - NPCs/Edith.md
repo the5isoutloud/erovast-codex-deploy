@@ -11,6 +11,8 @@ image_name:
 
 # Edith
 
+![[Edith_token.png]]
+
 ## Summary
 
 Edith is the bartender and server at the [[Salt House]] in [[Havenport]]. She serves the party their meals and drinks, handles room bookings, and provides local information. Source: [[2026.09.29|2026.09.29]].

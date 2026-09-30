@@ -12,6 +12,8 @@ date:
 ---
 # House Corwyn
 
+![[Corwyn_Crest.png]]
+
 ## Summary
 
 House Corwyn is one of the three dominant noble houses at the [[King's Tourney]] and in the broader Crownlands. The GM's stated faction theme: **Truth Seekers**—their interest in power runs through information, scholarship, and the arcane arts rather than pure military might or wealth. Their retainers are identified by **silver armor**. Source: [[2026.06.11|2026.06.11]], GM faction notes.

@@ -11,6 +11,8 @@ date:
 ---
 # House Fortescue
 
+> **Crest unavailable:** The Fortiscue crest image was unavailable from the GM's Discord upload (CDN expired). It will be restored when a fresh copy is provided.
+
 ## Summary
 
 House Fortescue is **[[Cassian]]'s family house**, of celestial or semi-divine bloodline—descended from a lineage cut off from the divine but still carrying celestial heritage. Confirmed as a **vassal of [[House Wulfhelm]]** for roughly 60 years (established ~40 years after King Aldrich's reign ended, around a century ago). Source: [[2026.06.11|2026.06.11]], [[2026.08.18|2026.08.18]].
