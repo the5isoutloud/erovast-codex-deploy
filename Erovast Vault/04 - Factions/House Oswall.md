@@ -9,7 +9,11 @@ aliases:
   - House Oswald
 date:
 ---
+
 # House Oswall
+
+<div class="portrait-frame">
+</div>
 
 ## Summary
 

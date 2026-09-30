@@ -9,7 +9,11 @@ tags:
 aliases:
 date:
 ---
+
 # House Troth
+
+<div class="portrait-frame">
+</div>
 
 ## Summary
 

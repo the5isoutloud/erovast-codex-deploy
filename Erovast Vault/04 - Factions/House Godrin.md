@@ -10,9 +10,12 @@ aliases:
   - House Godran
 date:
 ---
+
 # House Godrin
 
+<div class="portrait-frame">
 ![[Godrin_Crest.png]]
+</div>
 
 ## Summary
 
@@ -40,3 +43,11 @@ House Godrin is one of the three most powerful noble houses in the Crownlands. T
 - **Champion identified**: [[Sir Thorin Cassavar]], "the Crow"—a nearly 9–10-foot-tall warrior in arcane relic armor and helm, wielding an enchanted axe, spotted patrolling [[White Feather Tor]]. Source: [[2026.08.25|2026.08.25]].
 - On [[2026.08.25|2026.08.25]], the party infiltrated [[White Feather Tor]] and confirmed via an intercepted letter and overheard conversation ([[Percival Godrin]]'s voice) that House Godrin has located [[Maralynn]] and knows she is alive, not the dead legend they'd assumed. The party fed [[Duke Tristan Blackwood]] a decoy lead to protect her real location.
 - **Spell draught:** an Oathkeeper acolyte at the [[Gleaming Keep]] said the teleportation circles run on spell draught, a liquid transmuted from the **mana crystals mined in the [[Thornwood Vale]]** that Godrin harvests whenever it holds the deed. House Godrin was "influential in the discovery" of spell draught, which took nearly 60 years to work out. Source: [[2026.09.22|2026.09.22]].
+
+## Relationships
+
+- [[Golstang Godrin]]: Patron.
+- [[House Wulfhelm]]: Rival; trades the Vale deed back and forth.
+- [[House Corwyn]]: Fellow big-three house; rivals.
+- [[House Oswall]]: Unrelated religious house sometimes confused with Godrin at the table.
+- [[White Feather Tor]]: Godrin family camp at the tourney.

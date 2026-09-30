@@ -10,9 +10,12 @@ aliases:
   - Westermere
 date:
 ---
+
 # House Westermere
 
+<div class="portrait-frame">
 ![[Westermere_Crest.png]]
+</div>
 
 ## Summary
 

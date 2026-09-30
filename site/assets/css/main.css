@@ -326,7 +326,27 @@ th, td { padding: 0.5rem 0.8rem; border: 1px solid var(--color-border); text-ali
 th { background: var(--color-table-header-bg); color: var(--color-heading); font-weight: 600; }
 tbody tr:nth-child(even) { background: var(--color-table-stripe-bg); }
 
-/* --------------------------------------------------------------- Embeds --- */
+/* --------------------------------------------------------- Images with wrapped text --- */
+
+/* Portrait frame: float-left images on character/NPC/faction pages.
+   Text wraps around the image; the Summary heading aligns to the top. */
+.portrait-frame {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+.portrait-frame img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  display: block;
+}
+/* First heading after a portrait frame aligns to the top of the image */
+.portrait-frame ~ h2,
+.portrait-frame ~ h3 { margin-top: 0; }
+
+/* --------------------------------------------------------- Embeds --- */
 
 .embed-image { display: inline-block; }
 .embed-video, .embed-audio { display: block; width: 100%; margin: 0 0 1.1rem; }
@@ -343,7 +363,7 @@ tbody tr:nth-child(even) { background: var(--color-table-stripe-bg); }
 .embed-note-body { padding: 0.8rem 1rem; }
 .embed-note-body > :last-child { margin-bottom: 0; }
 
-/* ------------------------------------------------------------- Callouts --- */
+/* ---------------------------------------------------------------- Cards --- */
 
 .callout {
   --callout: var(--color-callout-note);

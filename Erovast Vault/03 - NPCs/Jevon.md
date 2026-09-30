@@ -14,8 +14,8 @@ image_name:
 
 # Jevon
 
-<div style="float: left; margin-right: 10px;">  
-<img src="../Attachments/Jevon.png" alt="Jevon" width="300" />  
+<div class="portrait-frame">
+<img src="../Attachments/Jevon.png" alt="Jevon" width="300" />
 </div>
 ## Summary
 

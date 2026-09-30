@@ -9,9 +9,12 @@ tags:
 aliases:
 date:
 ---
+
 # House Wulfhelm
 
+<div class="portrait-frame">
 ![[Wulfhelm_Crest.png]]
+</div>
 
 ## Summary
 
@@ -30,3 +33,12 @@ The house descends from Beowyn, who was deeded lands by King Aldrich centuries a
 - Currently holds the title/deed to the [[Thornwood Vale]] from last year's win. Confirmed **black armor** (in contrast to [[House Godrin]]'s white). Has traded control of the Vale back and forth with House Godrin for nearly a decade via the tournament. Per Blackwood, Wulfhelm's self-image is that their strength and status entitle them to win. Source: [[2026.08.18|2026.08.18]].
 - The party's Menagerie-tier bout is confirmed against **[[Kardis Wulfhelm]]** himself—prince and heir of the house, one of its best swordsmen—not [[Ser Calder Ross]], who remains above this bracket. Source: [[2026.08.18|2026.08.18]].
 - [[House Fortescue]] ([[Cassian]]'s family) and **[[House Troth]]** ([[Aldric]]'s former house) are both vassals of House Wulfhelm. Notably, [[Duke Tristan Blackwood]]—despite knowing many circles—has never once heard Wulfhelm publicly acknowledge House Fortescue as a vassal, an unresolved thread. Source: [[2026.08.18|2026.08.18]].
+
+## Relationships
+
+- [[House Godrin]]: Rival; trades the Vale deed back and forth.
+- [[House Corwyn]]: Fellow big-three house; rivals.
+- [[House Fortescue]]: Vassal; publicly unacknowledged.
+- [[House Troth]]: Vassal; Aldric's former house.
+- [[Kardis Wulfhelm]]: Prince and heir; tournament rival to the party.
+- [[Ser Calder Ross]]: Prized tournament champion.

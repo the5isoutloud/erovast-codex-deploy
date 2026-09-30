@@ -9,9 +9,12 @@ tags:
 aliases:
 date:
 ---
+
 # House Blackwood
 
+<div class="portrait-frame">
 ![[Blackwood_Crest.png]]
+</div>
 
 ## Summary
 

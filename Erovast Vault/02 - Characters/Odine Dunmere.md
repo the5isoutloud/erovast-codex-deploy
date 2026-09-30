@@ -14,8 +14,8 @@ age: 25
 class: Warlock 2 / Sorcerer 3
 ---
 
-<div style="float: left; margin-right: 10px;">  
-<img src="../Attachments/OdineDunmere.png" alt="Odine Dunmere" width="300" />  
+<div class="portrait-frame">
+<img src="../Attachments/OdineDunmere.png" alt="Odine Dunmere" width="300" />
 </div>
 
 ## Background

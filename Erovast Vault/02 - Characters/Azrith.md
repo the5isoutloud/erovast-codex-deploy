@@ -11,8 +11,8 @@ date:
 image_name:
 ---
 
-<div style="float: left; margin-right: 10px;">  
-<img src="../Attachments/Azrith.png" alt="Azrith" width="300" />  
+<div class="portrait-frame">
+<img src="../Attachments/Azrith.png" alt="Azrith" width="300" />
 </div>
 
 ## Summary
