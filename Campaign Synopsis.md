@@ -3,31 +3,31 @@ cssclasses:
   - wide-page
   - wide-backlinks
 dateCreated: 2026-09-25
-dateUpdated: 2026-09-25
+dateUpdated: 2026-09-30
 tags:
   - synopsis
 aliases:
   - Synopsis
   - Story So Far
 date:
-coversThrough: 2026-09-22
+coversThrough: 2026-09-29
 ---
 
 # Campaign Synopsis
 
-|                      |                                                                                                               |
-| -------------------- | ------------------------------------------------------------------------------------------------------------- |
-| **Setting**          | The Crownlands of Erovast: [[Everdale]] and the [[King's Tourney]], [[Havenport]], and the [[Thornwood Vale]] |
-| **Party**            | _Cassian's Crushing Crusaders_: [[Aldric]], [[Azrith]], [[Cassian]], [[Odine Dunmere]]                       |
-| **Sessions covered** | 13 logged sessions and 1 untranscribed session, [[2026.05.05]] to [[2026.09.22]]                              |
-| **Party level**      | 5 (as of [[2026.09.15]])                                                                                      |
-| **Status**           | Ongoing                                                                                                       |
+||                      |                                                                                                               |
+|| -------------------- | ------------------------------------------------------------------------------------------------------------- |
+|| **Setting**          | The Crownlands of Erovast: [[Everdale]] and the [[King's Tourney]], [[Havenport]], and the [[Thornwood Vale]] |
+|| **Party**            | _Cassian's Crushing Crusaders_: [[Aldric]], [[Azrith]], [[Cassian]], [[Odine Dunmere]]                       |
+|| **Sessions covered** | 14 logged sessions and 1 untranscribed session, [[2026.05.05]] to [[2026.09.29]]                             |
+|| **Party level**      | 5 (as of [[2026.09.15]])                                                                                      |
+|| **Status**           | Ongoing                                                                                                       |
 
 ## Overview
 
 A half-elf sorceress named [[Odine Dunmere]] leaves her isolated elven homeland, the [[Thornwood Vale]], because a creeping corruption, later called **the Wither**, is killing its crops, its creatures and its people. She joins three companions on the road: the silver-tongued noble [[Cassian]], the horned, ghost-chasing [[Azrith]], and the tiefling ex-guard [[Aldric]]. Together they arrive in [[Everdale]], seat of the long-vacant [[Empty Throne]], during the annual [[King's Tourney]]. The tourney's grand prize is the **deed to the Vale itself**, which the great noble houses have fought over for a decade. The four enter as _Cassian's Crushing Crusaders_, an unknown team of underdogs. With the backing of the scheming [[Duke Tristan Blackwood]], they climb from the muddy Proving Grounds to the famed [[Crown Gauntlet]], which no team had cleared in seven years. Along the way they win the hearts of the common folk and the attention of the nobility.
 
-Beneath the spectacle, the party is pulled into older and darker currents. The arcane [[House Godrin]] has been hunting the young mage [[Jevon]] to reach his teacher, [[Maralynn]], a legendary witch of the Vale they have now confirmed is alive. The dwarf smith [[Gruvelda Duskbelt]] reveals that Odine's grandmother, Mara, gave her life to hold back the entity behind the Wither, and that humanity's tale of its King's victory over it is a lie. Cassian carries a bargain with [[The Masked Figure]] who visits his dreams. The Wither is spreading into the Crownlands. When the party freed a captive manticore in [[The Menagerie]] instead of slaying it, they scandalized the tourney. Blackwood sent them by ancient teleportation circle to [[Havenport]], a ruined seaport that turns out to be Aldric's forgotten home. There they heard the Oathkeepers' legend of the **Dark King**, which echoes Odine's family stories. Then Azrith leapt headlong through a curtain into the realm of death.
+The party is pulled into older and darker currents. The arcane [[House Godrin]] has been hunting the young mage [[Jevon]] to reach his teacher, [[Maralynn]], a legendary witch of the Vale they have now confirmed is alive. The dwarf smith [[Gruvelda Duskbelt]] reveals that Odine's grandmother, Mara, gave her life to hold back the entity behind the Wither, and that humanity's tale of its King's victory over it is a lie. Cassian carries a bargain with [[The Masked Figure]] who visits his dreams. The Wither is spreading into the Crownlands. When the party freed a captive manticore in [[The Menagerie]] instead of slaying it, they scandalized the tourney. Blackwood sent them by ancient teleportation circle to [[Havenport]], a ruined seaport that turns out to be Aldric's forgotten home. There they heard the Oathkeepers' legend of the **Dark King**, which echoes Odine's family stories. Then Azrith leapt headlong through a curtain into the realm of death, and returned with news that **[[Aldric]] has a mother — Eleanor Gray — who named him after King Aldrich and always meant to bring him home.** The party also learned that **[[House Wulfhelm]] killed [[House Westermere]]** in a coup 15 years ago to silence a secret, and that a putrid spirit commanding the undead waits beyond the black veil in the Westermere undercroft.
 
 ---
 
@@ -89,15 +89,21 @@ The party flees in a haze of burning banners. Holt warns that the stunt may end 
 **[[2026.09.22]] "Beyond the Curtain"**
 Blackwood's gold buys passage through an ancient **teleportation circle** in the Gleaming Keep. It is powered by **spell draught**, a liquid made from the Vale's mana crystals. The party arrives at [[Westermere Manor]] in rain-lashed, dying Havenport. There they learn it is **Aldric's hometown**. The lone Oathkeeper [[Ian]] tells them the legend of the **Dark King**, a corrupting power from a far realm. King Aldrich defeated it alone, and all that was found of him afterward was a statue of himself in the Vale. Odine has seen that statue with her own eyes. In the haunted undercroft, Azrith leaps into **the Curtain**, a gate to the realm of death, and vanishes. The ghost [[Samantha Westermere]] explains what it is, and the party studies a black veil of pure entropy that is sealing off the depths.
 
+**[[2026.09.29]] "Aldrick of Havenport"** (session 15)
+Gavin returned and the GM handed Azrith back to his player. The party found [[Mauve Marigold]] at the Salt House and learned the full story of Havenport's decline: [[House Westermere]] fell 15 years ago when [[House Wulfhelm]] staged a coup to silence a secret, and the Wither crept in afterward, taking victims one by one until the town collapsed. [[Odine]] confirmed the same 15-year timeline for the Wither in the Vale. [[Cassian]] revealed his full title, Lord Fortescue, to Mauve. Meanwhile, [[Azrith]] fought through the ethereal plane beyond the Curtain, killed a vengeful ghost, and met **[[Eleanor Gray]]** — [[Aldric]]'s mother, a ghost who named him after King Aldrich, called him "Aldrick of Havenport," and told him he was never a mistake. She had recently escaped the enthrallment of the spirit behind the black veil, a putrid entity that commands the undead. Azrith jumped back through the Curtain and rejoined the party. Back in the undercroft, [[Samantha Westermere]] revealed that Beowyn and Eodwin Wulfhelm were friends with her family — until Wulfhelm killed them all. The truth lies beyond the veil. The party studied the veil and learned that radiant energy repels it and that something vital may need to be exchanged to pass through.
+
 ---
 
 ## Where Things Stand
 
-- **Azrith is missing** beyond the Curtain; see [[Find Azrith]].
-- The party must find **[[Mauve Marigold]]** in Havenport and wait for word from Blackwood.
+- **[[Azrith]] returned** from the ethereal plane on [[2026.09.29]], bringing news that [[Aldric]] has a mother — the ghost [[Eleanor Gray]] — who named him after King Aldrich and always meant to bring him home. See [[Find Azrith]].
+- The party is staying with **[[Mauve Marigold]]** at the [[Salt House]] in Havenport, waiting for word from [[Duke Tristan Blackwood]].
 - The tourney run is on hold after the Menagerie scandal; see [[Compete in the King's Tourney]].
 - House Godrin is chasing Odine's decoy toward the western Vale, where Jevon has gone to mislead them; see [[Investigate House Godrin]].
 - The Wither spreads. Its link to the Dark King, the kneeling statue and Odine's lineage is the campaign's central mystery; see [[Investigate the Pestilence]].
 - Cassian's dream bargain with [[The Masked Figure]] is still unresolved, as is the question of why [[House Wulfhelm]] will not acknowledge [[House Fortescue]].
+- **[[House Wulfhelm]] killed [[House Westermere]]** in a coup 15 years ago to silence a secret. Beowyn and Eodwin Wulfhelm were friends with Samantha's family. The truth lies beyond the black veil.
+- **The spirit behind the black veil** commands the undead and enthralls spirits. [[Eleanor Gray]] recently escaped its control. Azrith has declared he will kill it.
+- **[[Aldric]]'s mother** is the ghost [[Eleanor Gray]], trapped in the ethereal plane. She named him "Aldrick of Havenport" and always meant to bring him home.
 
 _For session-by-session detail, see each log in `00 - Campaign Log/`._
