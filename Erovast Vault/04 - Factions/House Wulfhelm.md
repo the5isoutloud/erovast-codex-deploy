@@ -13,7 +13,7 @@ date:
 # House Wulfhelm
 
 <div class="portrait-frame">
-![[Wulfhelm_Crest.png]]
+<img src="../Attachments/Wulfhelm_Crest.png" alt="House Wulfhelm crest" width="300" />
 </div>
 
 ## Summary

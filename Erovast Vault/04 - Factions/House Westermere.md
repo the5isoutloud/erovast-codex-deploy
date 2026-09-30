@@ -14,7 +14,7 @@ date:
 # House Westermere
 
 <div class="portrait-frame">
-![[Westermere_Crest.png]]
+<img src="../Attachments/Westermere_Crest.png" alt="House Westermere crest" width="300" />
 </div>
 
 ## Summary
