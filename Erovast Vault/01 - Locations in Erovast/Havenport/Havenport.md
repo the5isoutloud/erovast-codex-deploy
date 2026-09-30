@@ -21,7 +21,9 @@ Havenport is a rain-lashed, decaying seaport on a rocky coast, reached by the pa
 
 - The town once held perhaps 1,000–5,000 people. Today it is nearly abandoned: ragged ships sit at the docks, farmland and village stretch behind, and the "city up above the rocky coastline" is mostly dark. Source: [[2026.09.22|2026.09.22]].
 - It has been in disarray since the **fall of [[House Westermere]]**, whose cliffside home, [[Westermere Manor]], overlooks the town. Per [[Ian]]: _"Seems like every time they solve one problem, two more crop up in its place."_ Source: [[2026.09.22|2026.09.22]].
-- **The Wither** is taking more and more of the weak and sick here. Source: [[2026.09.22|2026.09.22]].
+- **The Wither** is taking more and more of the weak and sick here. It began with the fall of House Westermere 15 years ago. [[Mauve Marigold]] believes the Westermere family brought something into the manor they couldn't control. The Wither's progression: people get tired and sick, stop eating, stop talking, and "it's like watching somebody disappear before their body's gotten the message." Black veins crawl beneath the skin. **[[Hesta Cole]]** tends the victims but has reached her limits.
+- Ghost sightings near the old shipyard have increased, coming into the city more in recent years. Connected to the manor.
+- **The Westermere fall was a coup by [[House Wulfhelm]].** [[Samantha Westermere]] revealed that [[Beowyn Wulfhelm]] and [[Eodwin Wulfhelm]] learned something dire about Wulfhelm — a secret they hoped to keep quiet. Wulfhelm knew the Westermeres knew, and staged a trap. The family vanished in an instant; all that remained was a black wall of force. The truth lies beyond the black veil. Source: [[2026.09.22|2026.09.22]].
 - Undead are infesting the ground beneath the manor. The survivors, including "Mav and her people," have taken refuge down in the village. Source: [[2026.09.22|2026.09.22]].
 - There is little literature in town for researching lore, _"perhaps amongst the wealthy... but these people here are very much humble folk, survivors."_ Source: [[2026.09.22|2026.09.22]].
 
@@ -38,6 +40,6 @@ Havenport is a rain-lashed, decaying seaport on a rocky coast, reached by the pa
 
 - [[Duke Tristan Blackwood]]: Sent the party here to lie low.
 - [[Aldric]]: His hometown and surname.
-- [[Mauve Marigold]]: Blackwood's contact here. Not yet met.
+- **[[Westermere Manor]]**: the ruined House Westermere keep on the cliffs. It holds the town's teleportation circle, guarded by [[Ian]], and an undercroft where the ethereal and material planes are converging.
 - [[House Westermere]]: The town's fallen noble house.
 - [[Oathkeepers]]: Maintain the town's teleportation circle.

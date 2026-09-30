@@ -35,4 +35,4 @@ Source: [[2026.09.22|2026.09.22]].
 
 - [[Oathkeepers]]: A long-serving knight of the order.
 - [[Cassian]]: Knew of his family.
-- [[Samantha Westermere]]: She doesn't know his name.
+- Ian: The Oathkeeper posted at the circle. Has a romantic interest in Edith at the Salt House, but he doesn't visit and she won't go up to the manor. Source: [[2026.09.29|2026.09.29]].

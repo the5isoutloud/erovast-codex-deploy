@@ -32,14 +32,18 @@ Use of the circle is paid for with tribute to the [[Oathkeepers]]. [[Duke Trista
 
 Stairwells on either side of the entrance hall lead down to the undercroft. [[Samantha Westermere]], the family's ghost, says _"much of it has fallen into the ethereal realm."_ [[Ian]] says undead are infesting it, and he keeps away with the help of an amulet. Village children sometimes wander up at night. Source: [[2026.09.22|2026.09.22]].
 
-- **The Curtain:** a floating sphere of swirling black mist blocking the archway from the first large room into a hallway. It whispered _"door"_ to [[Odine Dunmere]]. Samantha calls it _"a curtain to the realm of death,"_ a passage between the ethereal and material planes.
+- **The Curtain:** a floating sphere of swirling black mist blocking the archway from the first large room into a hallway. It whispered "door" to [[Odine Dunmere]]. Samantha calls it "a curtain to the realm of death," a passage between the ethereal and material planes.
   - It opens and closes unpredictably and tends to close after it is used.
   - Both the living and the dead use it, "some of them are vile." Traffic has grown as more people have died in recent years.
-  - **[[Azrith]] leapt into it and vanished.** See [[Find Azrith]].
+  - **[[Azrith]] leapt into it and vanished.** He returned through it on [[2026.09.29|2026.09.29]], following directions from [[Eleanor Gray]]. See [[Find Azrith]].
+  - Eleanor said the Curtains are acting strangely because of the spirit behind the black veil — a putrid, foul entity that commands the undead and draws spirits to itself. This is why Havenport's dead aren't staying dead.
 - **The black veil:** a shimmering black wall that has sealed off part of the undercroft since the Curtain opened. It wasn't there in Samantha's lifetime, and it is impenetrable to her.
-  - To a mortal it feels like cold steel. Black mist crawls up the arm and steals warmth, like **entropy**, _"almost like it's turning your essence into living shadow."_ It is not evil in itself.
+  - To a mortal it feels like cold steel. Black mist crawls up the arm and steals warmth, like **entropy**, "almost like it's turning your essence into living shadow." It is not evil in itself.
   - It swallows light with no reflection. Radiant light (Odine's Sacred Flame) drives the shadow back.
-  - Cassian's magic check (natural 20) found that no one is casting a spell there. The wall itself is the source, and _"whatever lies beyond that wall is affecting you."_
+  - Cassian's magic check (natural 20) found that no one is casting a spell there. The wall itself is the source, and "whatever lies beyond that wall is affecting you."
+  - Odine's insight check (14) revealed the veil reacts to living creatures with a sense of refusal. Whatever is on the other side is the origin of the wall and is protecting that space. Radiant energy staves off its effects; perhaps enough radiant energy, or an exchange of something vital with the necrotic force, might allow passage. But it's old, complex, and not understood magic.
+  - Samantha believes the veil is tied to the Curtain.
+  - The truth about House Westermere's fall — and the entity behind the veil — lies beyond it. Samantha, Eleanor, and her family all lie beyond the veil.
 - **Samantha's room:** where she died.
 
 ## Relationships

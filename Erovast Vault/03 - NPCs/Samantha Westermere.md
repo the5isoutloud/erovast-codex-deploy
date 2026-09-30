@@ -32,3 +32,4 @@ Source: [[2026.09.22|2026.09.22]].
 - [[House Westermere]]: Her family.
 - [[Westermere Manor]]: Her home and haunt.
 - [[Cassian]]: Charmed by him. He promised to come back.
+- [[House Wulfhelm]]: Killed her family in a coup 15 years ago.
