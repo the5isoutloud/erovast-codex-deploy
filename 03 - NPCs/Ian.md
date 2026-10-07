@@ -31,8 +31,15 @@ Ian is an old [[Oathkeepers|Oathkeeper]] knight posted alone at the teleportatio
 
 Source: [[2026.09.22|2026.09.22]].
 
+- [[Edith Rooke]] at the [[Salt House]] calls him *"that old handsome devil, Sir Ian Wren"*. The two seem to have a romantic interest, but he doesn't visit and she won't go up to the manor. Source: [[2026.09.29|2026.09.29]].
+- The party found him dozing at his post by the **Oath Gate**, chair tipped back against the wall. *"It's not the darkness, the loneliness that gets to you."* Source: [[2026.10.06|2026.10.06]].
+- He said the [[Oathkeepers]] have **ordered him not to enter the undercroft** because of incidents of missing persons. He is stationed only to man the Oath Gate. The order knows the [[Black Veil|black veil]] exists. Source: [[2026.10.06|2026.10.06]].
+- He said only a paladin, or King Aldrich himself, could smite the veil, and that he knows no living mortal with that much divine power. *"If the order of the Oathkeepers knew someone... we wouldn't have already done it?"* Source: [[2026.10.06|2026.10.06]].
+- His **amulet** keeps ghosts from coming near him, so lending it out would leave him exposed. He refused to break his orders despite [[Odine Dunmere]]'s pleading. His parting words: *"If it is truly fated by the gods, then I imagine you will all find a way to get through it."* Source: [[2026.10.06|2026.10.06]].
+
 ## Relationships
 
-- [[Oathkeepers]]: A long-serving knight of the order.
-- [[Cassian]]: Knew of his family.
-- Ian: The Oathkeeper posted at the circle. Has a romantic interest in Edith at the Salt House, but he doesn't visit and she won't go up to the manor. Source: [[2026.09.29|2026.09.29]].
+- [[Oathkeepers]]: A long-serving knight of the order, under orders to stay out of the undercroft.
+- [[Cassian]]: Knew of his family. Calls him "young Lord Fortescue".
+- [[Edith Rooke]]: A mutual romantic interest. Source: [[2026.09.29|2026.09.29]].
+- [[Westermere Manor]]: His post at the Oath Gate.

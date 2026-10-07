@@ -24,6 +24,10 @@ Hesta Cole is Havenport's closest thing to a nurse — a practical healer who te
 - Mauve says her abilities have "reached their limits."
 - She would be delighted to receive any information about the Wither that the party could provide.
 
+Source: [[2026.09.29|2026.09.29]].
+
+- [[Mauve Marigold]] described her as a healer still developing her skill with curses, who has dedicated her life to the work. When [[Odine Dunmere]] asked if she could come with the party to the veil, Mauve refused: *"If I allow her to accompany you for long, we may lose another life this evening."* Source: [[2026.10.06|2026.10.06]].
+
 ## Relationships
 
 - [[Salt House]]: Works here.

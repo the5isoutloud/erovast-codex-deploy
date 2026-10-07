@@ -28,6 +28,10 @@ Edith is the bartender and server at the [[Salt House]] in [[Havenport]]. She se
 - She seems to have a romantic interest in [[Ian]]: when Cassian says Ian is charming, she says "he doesn't come to visit, I sure as hell ain't going up there."
 - She takes pride in the food and drinks, smiling humbly when Cassian tips generously.
 
+Source: [[2026.09.29|2026.09.29]].
+
+- When the party returned, she served [[Cassian]] and [[Aldric]] pints of **Harbor Gose** at 3 copper each: a light, briny ale. Havenport salts its ale. The local saying goes: *"The first one tastes like the harbor, but the second one tastes like home."* Source: [[2026.10.06|2026.10.06]].
+
 ## Relationships
 
 - [[Salt House]]: Works here as bartender and server.

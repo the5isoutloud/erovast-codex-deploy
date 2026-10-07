@@ -42,6 +42,11 @@ Eleanor Gray is the ghost of Aldric's mother, trapped in the ethereal plane beyo
 - She asked if Aldric was safe, well, and happy. Azrith said he seemed fairly happy on the outside.
 - She smiled with relief when she learned Aldric was not alone — he travels with friends.
 
+Source: [[2026.09.29|2026.09.29]].
+
+- [[Aldric]] doubted that the ghost was really his mother, saying there could be other red tieflings out there, though the GM noted her description of her son matched him. [[Cassian]] also questioned it. Aldric resolved to find out for himself whether the stories are true. Source: [[2026.10.06|2026.10.06]].
+- Through [[Azrith]], the party reported that she warned of a very powerful force behind the [[Black Veil|black veil]] that must be killed. Source: [[2026.10.06|2026.10.06]].
+
 ## Relationships
 
 - [[Aldric]]: Her son. She named him after King Aldrich.

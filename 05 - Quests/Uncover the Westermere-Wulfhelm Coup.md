@@ -30,13 +30,13 @@ Active. A subquest of [[Havenport]]. On [[2026.09.29|2026.09.29]], the ghost [[S
 - **The black veil** — appeared in the undercroft after the Curtain opened. Samantha said the wall wasn't there in her lifetime and is likely tied to the Curtain. Her family is beyond it. Source: [[2026.09.22|2026.09.22]].
 - **The Wither in Havenport** — Mauve said the Wither began creeping in over the following years after the Westermere fall. She believes Westermere *"brought something dark and evil into that manor all those years ago"* and their fall was the consequence. Source: [[2026.09.29|2026.09.29]].
 - **[[House Wulfhelm]]** — the family that killed the Westermeres. Beowyn and Eodwin are the named parties. Source: [[2026.09.29|2026.09.29]].
-- **[[The Spirit Behind the Black Veil]]** — if the truth lies beyond the veil, confronting the spirit may also mean confronting what Wulfhelm did. Source: [[2026.09.29|2026.09.29]].
+- **[[The Spirit Behind the Veil]]** — if the truth lies beyond the veil, confronting the spirit may also mean confronting what Wulfhelm did. Source: [[2026.09.29|2026.09.29]].
 
 ## Leads
 
 - **Samantha Westermere** — the living source. She doesn't know all the details but knows more than she's said. She refuses to pass on until Havenport is restored.
 - **[[Beowyn Wulfhelm]]** and **[[Eodwin Wulfhelm]]** — the named participants. Are they still alive? Are they still in House Wulfhelm's good graces? Do they know the secret themselves?
-- **The black veil** — the truth is beyond it. Radiant energy repels it; an exchange of something vital with the necrotic force may allow passage.
+- **The [[Black Veil|black veil]]** — the truth is beyond it. On [[2026.10.06|2026.10.06]] the party learned the price of passage: 10 HP of maximum hit points in shared life force. They plan to attempt it next. Source: [[2026.10.06|2026.10.06]].
 - **[[House Westermere]]** note — update with the full story.
 
 ## Next Steps
@@ -51,9 +51,9 @@ Active. A subquest of [[Havenport]]. On [[2026.09.29|2026.09.29]], the ghost [[S
 - [[Samantha Westermere]]
 - [[House Westermere]]
 - [[House Wulfhelm]]
-- [[Beowyn Wulfhelm]] (if it exists)
+- [[Beowyn Wulfhelm]]
 - [[Eodwin Wulfhelm]]
-- [[The Spirit Behind the Black Veil]]
+- [[The Spirit Behind the Veil]]
 - [[Confront the Spirit Behind the Black Veil]]
 - [[Investigate the Wither in Havenport]]
 - [[Westermere Manor]]

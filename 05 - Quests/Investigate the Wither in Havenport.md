@@ -19,7 +19,7 @@ Active. A subquest of [[Havenport]]. The Wither — the same pestilence, hollowi
 
 ## Timeline
 
-- **~15 years ago:** House Westermere falls in a [[House Wufhelm]] coup. The family vanishes instantly. A black wall of force blocks the undercroft. The Wither begins creeping into Havenport. Source: [[2026.09.29|2026.09.29]].
+- **~15 years ago:** House Westermere falls in a [[House Wulfhelm]] coup. The family vanishes instantly. A black wall of force blocks the undercroft. The Wither begins creeping into Havenport. Source: [[2026.09.29|2026.09.29]].
 - **First 5–10 years:** 2–3 individuals a year are taken. Source: [[2026.09.29|2026.09.29]].
 - **Last 5–6 years:** the town begins to fall apart. The Wither accelerates. Source: [[2026.09.29|2026.09.29]].
 - **Concurrently:** Odine's black vine markings appeared on her arm ~15 years ago, around age 10–11. Source: [[2026.05.12|2026.05.12]], [[2026.09.29|2026.09.29]].
@@ -32,6 +32,9 @@ Active. A subquest of [[Havenport]]. The Wither — the same pestilence, hollowi
 - **[[Hesta Cole]]** tends the victims as a practical healer but has reached her limits. Source: [[2026.09.29|2026.09.29]].
 - **[[Odine Dunmere]]** showed Mauve her arm markings and earned her trust when Mauve recognized the Wither. Source: [[2026.09.29|2026.09.29]].
 - **[[Samantha Westermere]]** said the wall wasn't there in her lifetime and is likely tied to the Curtain. Source: [[2026.09.22|2026.09.22]].
+
+- **Past attempts at the veil:** priests have prayed at the veil and tried to bless the undercroft's burial site, and a [[House Corwyn]] hedge mage studied it for three days. None of it worked. Source: [[2026.10.06|2026.10.06]].
+- **Hesta can't be spared:** Mauve would not let [[Hesta Cole]] leave the sick even briefly: *"we may lose another life this evening."* Mauve also refused [[Cassian]]'s suggestion to ask dying victims for their life force. Source: [[2026.10.06|2026.10.06]].
 
 ## Leads
 
@@ -55,5 +58,5 @@ Active. A subquest of [[Havenport]]. The Wither — the same pestilence, hollowi
 - [[Hesta Cole]]
 - [[Odine Dunmere]]
 - [[Westermere Manor]]
-- [[The Curtain]]
+- [[Black Veil]]
 - [[House Westermere]]
