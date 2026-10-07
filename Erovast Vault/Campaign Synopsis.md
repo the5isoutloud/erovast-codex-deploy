@@ -10,7 +10,7 @@ aliases:
   - Synopsis
   - Story So Far
 date:
-coversThrough: 2026-09-29
+coversThrough: 2026-10-06
 ---
 
 # Campaign Synopsis
@@ -19,7 +19,7 @@ coversThrough: 2026-09-29
 || -------------------- | ------------------------------------------------------------------------------------------------------------- |
 || **Setting**          | The Crownlands of Erovast: [[Everdale]] and the [[King's Tourney]], [[Havenport]], and the [[Thornwood Vale]] |
 || **Party**            | _Cassian's Crushing Crusaders_: [[Aldric]], [[Azrith]], [[Cassian]], [[Odine Dunmere]]                       |
-|| **Sessions covered** | 14 logged sessions and 1 untranscribed session, [[2026.05.05]] to [[2026.09.29]]                             |
+|| **Sessions covered** | 15 logged sessions and 1 untranscribed session, [[2026.05.05]] to [[2026.10.06]]                             |
 || **Party level**      | 5 (as of [[2026.09.15]])                                                                                      |
 || **Status**           | Ongoing                                                                                                       |
 
@@ -91,6 +91,10 @@ Blackwood's gold buys passage through an ancient **teleportation circle** in the
 
 **[[2026.09.29]] "Aldrick of Havenport"** (session 15)
 Gavin returned and the GM handed Azrith back to his player. The party found [[Mauve Marigold]] at the Salt House and learned the full story of Havenport's decline: [[House Westermere]] fell 15 years ago when [[House Wulfhelm]] staged a coup to silence a secret, and the Wither crept in afterward, taking victims one by one until the town collapsed. [[Odine]] confirmed the same 15-year timeline for the Wither in the Vale. [[Cassian]] revealed his full title, Lord Fortescue, to Mauve. Meanwhile, [[Azrith]] fought through the ethereal plane beyond the Curtain, killed a vengeful ghost, and met **[[Eleanor Gray]]** — [[Aldric]]'s mother, a ghost who named him after King Aldrich, called him "Aldrick of Havenport," and told him he was never a mistake. She had recently escaped the enthrallment of the spirit behind the black veil, a putrid entity that commands the undead. Azrith jumped back through the Curtain and rejoined the party. Back in the undercroft, [[Samantha Westermere]] revealed that Beowyn and Eodwin Wulfhelm were friends with her family — until Wulfhelm killed them all. The truth lies beyond the veil. The party studied the veil and learned that radiant energy repels it and that something vital may need to be exchanged to pass through.
+
+**[[2026.10.06]] "The Salt House"** (session 16)
+
+The party is laying low in Havenport, at the Salt House, a large warehouse with warm light that has become the town's community center. [[Odine]] and [[Cassian]] discuss the city's decline and the Wither, while [[Aldric]] remains skeptical of [[Azrith]]'s story about his mother. They go to the Oath Gate and speak with **Sir Ian Wren**, who cannot help directly because he is commanded by his order not to go into the ethereal realm. [[Odine]] urges a paladin or divine caster, and [[Azrith]] reveals that the entity beyond the veil has warned them of a very powerful force causing all the issues in the area. The session ends with the party resting at the Salt House for the night and planning to return in the morning.
 
 ---
 
