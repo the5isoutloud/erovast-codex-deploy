@@ -17,6 +17,8 @@ Active. On [[2026.09.22|2026.09.22]], [[Duke Tristan Blackwood]] sent the party 
 
 The town is in decline since [[House Westermere]] fell 15 years ago. The Wither has been taking victims there for years. Undead haunt the manor's undercroft. The party found lodging at [[Salt House]], the survivors' community center, where [[Mauve Marigold]] — Blackwood's contact — is in charge. Source: [[2026.09.29|2026.09.29]].
 
+On [[2026.10.06|2026.10.06]] the party set out to pass the [[Black Veil|black veil]]. [[Odine Dunmere]] learned it can be opened with a shared offering of life force (10 HP of maximum hit points). [[Ian]] is under [[Oathkeepers]] orders not to enter the undercroft and could not help. [[Mauve Marigold]] told them of the town's failed attempts, offered her own blood, and released them from any obligation. The party rested at the Salt House, planning to go through the veil in the morning. Source: [[2026.10.06|2026.10.06]].
+
 ## What Brought the Party Here
 
 Blackwood's reasons for sending them to Havenport, in order of certainty:
@@ -48,12 +50,14 @@ Beyond the veil lies **the spirit behind the black veil** — a putrid, foul ent
 - **The spirit behind the veil** — commands the undead; enthralls spirits; Eleanor escaped it. Azrith declared he will kill it. See [[Confront the Spirit Behind the Black Veil]]. Source: [[2026.09.29|2026.09.29]].
 - **The Westermere-Wulfhelm coup** — Samantha's family discovered something dire about House Wulfhelm and was killed for it. The truth lies beyond the veil. See [[Uncover the Westermere-Wulfhelm Coup]]. Source: [[2026.09.29|2026.09.29]].
 - **Aldric's past** — his real surname is Havenport, this is his home, and he left under unclear circumstances. Mauve was puzzled that *"Havenport is not a surname."* Source: [[2026.09.29|2026.09.29]].
-- **Blackwood's word** — the party is to wait at the Salt House until Blackwood sends word. He has not yet done so. Source: [[2026.09.22|2026.09.22]].
+- **Blackwood's word** — the party is to wait at the Salt House until Blackwood sends word. He has not yet done so. Mauve now suspects Blackwood sent them to her because of the veil: *"He sure does know how to measure his bets."* Source: [[2026.09.22|2026.09.22]], [[2026.10.06|2026.10.06]].
+- **Passing the black veil** — two ways through: a divine smite, or 10 HP of maximum hit points of shared life force. Aldric and Odine have offered 5 each. See [[Confront the Spirit Behind the Black Veil]]. Source: [[2026.10.06|2026.10.06]].
 
 ## Related
 
 - [[Salt House]]
 - [[Westermere Manor]]
+- [[Black Veil]]
 - [[Mauve Marigold]]
 - [[Ian]]
 - [[Samantha Westermere]]

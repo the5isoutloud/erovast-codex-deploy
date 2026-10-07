@@ -35,7 +35,7 @@ The Salt House is a former shipyard warehouse in [[Havenport]]'s dock ward, now 
 - **Salted pork and mash**
 - **Pan-fried catch of the day** with vegetables: 3 silver
 - Sides: bread, cheese, pickled onion
-- **Harbor Gose**: a stormy dark beer
+- **Harbor Gose**: a stormy dark beer, 3 copper a pint. It is light and briny, because Havenport salts its ale. As the local saying goes, *"the first one tastes like the harbor, but the second one tastes like home."* Source: [[2026.10.06|2026.10.06]].
 - **Hot spiced cider**: 4 copper per cup
 - **Westmere brandy**: 1 silver for an 8-ounce pour, 1 gold for the bottle
 
@@ -58,6 +58,8 @@ The Salt House is a former shipyard warehouse in [[Havenport]]'s dock ward, now 
 - The party's first meal in Havenport; they warmed up and planned their next move here.
 - Mauve met the party here and agreed to let them stay.
 - The party learned much of what they know about Havenport's history and the Wither from conversations here.
+- [[Mauve Marigold]] keeps the tavern's ledgers in a study next to the main hall. Source: [[2026.10.06|2026.10.06]].
+- On [[2026.10.06|2026.10.06]], the party returned for a drink before facing the veil. Mauve told them about the town's past attempts to break it and offered her own blood if needed. The party decided to spend the night here and go to the veil in the morning. Source: [[2026.10.06|2026.10.06]].
 
 ## Relationships
 

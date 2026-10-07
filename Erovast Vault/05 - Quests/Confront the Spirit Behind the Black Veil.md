@@ -19,6 +19,8 @@ Active. A subquest of [[Havenport]]. On [[2026.09.29|2026.09.29]], [[Azrith]] re
 
 Azrith declared: *"if it's undead and he can kill it, he will."* Source: [[2026.09.29|2026.09.29]].
 
+On [[2026.10.06|2026.10.06]], [[Odine Dunmere]]'s natural 20 revealed the veil's price: **10 HP of maximum hit points** of shared life force (narratively, about a year of life split among four). Neither [[Ian]] nor [[Mauve Marigold]] could offer a divine alternative. [[Aldric]] and Odine each offered 5 HP, and [[Cassian]] remains reluctant. The party rested at the [[Salt House]] and planned to return to the veil in the morning; Odine vowed to go *"with or without you."* Source: [[2026.10.06|2026.10.06]].
+
 ## The Spirit
 
 - Commands the undead.
@@ -37,6 +39,9 @@ Azrith declared: *"if it's undead and he can kill it, he will."* Source: [[2026.
 - Radiant energy staves off its negative effects. Source: [[2026.09.29|2026.09.29]].
 - Passing through may require enough radiant energy, or exchanging something vital with the necrotic force. Source: [[2026.09.29|2026.09.29]].
 - It is old, complex, and not understood magic. Source: [[2026.09.29|2026.09.29]].
+- **Two ways through** (Odine's natural 20 Insight): (1) a divine smite large enough to beat what seems to be an alien, near-infinite necrotic power source, which is probably beyond the party; or (2) "knocking": the veil invites them in for a price of **10 HP of maximum HP** in life force, which can be shared. Source: [[2026.10.06|2026.10.06]].
+- Past attempts failed: priests prayed at it and tried to bless the burial site, and a [[House Corwyn]] hedge mage spent three days on it without success. Source: [[2026.10.06|2026.10.06]].
+- The [[Oathkeepers]] know of it and have forbidden [[Ian]] to go down there because of missing persons. Source: [[2026.10.06|2026.10.06]].
 - The wall swallows light completely (shown by [[Aldric]]'s Light cantrip). Source: [[2026.09.22|2026.09.22]].
 
 ## What Azrith Learned in the Ethereal Plane
@@ -51,7 +56,10 @@ On [[2026.09.29|2026.09.29]], Azrith fought through the ethereal plane:
 
 - Find out whether Azrith can return to the ethereal plane (and the spirit's location) at will, or whether the Curtain must reopen.
 - Learn more about the spirit — from Eleanor, from the vengeful ghost's remains, from any other trapped spirits.
-- Determine what it would take to pass through the black veil — radiant energy? An exchange of something vital?
+- ~~Determine what it would take to pass through the black veil~~ — **done** (2026.10.06): a divine smite, or 10 HP of maximum hit points in shared life force.
+- ~~Seek a divine caster who could smite the veil~~ — **done** (2026.10.06): Ian and Mauve know of no one.
+- Decide who gives how much life force (Aldric 5 and Odine 5 offered), and pass through the veil.
+- Find out whether leaving the veil's domain costs life force again.
 - Confront and kill the spirit, as Azrith has declared.
 
 ## Related
@@ -63,6 +71,8 @@ On [[2026.09.29|2026.09.29]], Azrith fought through the ethereal plane:
 - [[Aldric]]
 - [[Azrith]]
 - [[Find Azrith]] (resolved)
-- [[The Curtain]]
-- [[The Black Veil]]
+- [[Black Veil]]
+- [[Ian]]
+- [[Mauve Marigold]]
+- [[2026.10.06]]
 - [[Investigate the Wither in Havenport]]

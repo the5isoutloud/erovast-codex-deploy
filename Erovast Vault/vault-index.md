@@ -5,10 +5,10 @@ cssclasses:
 tags:
   - index
 dateCreated: 2026-09-25
-dateUpdated: 2026-09-25
+dateUpdated: 2026-10-07
 lastSessionLogged: 2026-10-06
 lastTranscript: 2026.10.06
-noteCount: 86
+noteCount: 89
 transcriptCount: 15
 ---
 
@@ -20,7 +20,7 @@ This is the master catalog of the Erovast campaign vault. Every note in the vaul
 
 - **Party:** *Cassian's Crushing Crusaders*: [[Aldric]], [[Azrith]], [[Cassian]], [[Odine Dunmere]]. All four are level 5 as of [[2026.09.15]].
 - **Sponsor:** [[Duke Tristan Blackwood]] of [[House Blackwood]], a vassal of [[House Corwyn]]. He takes 8% of prize money.
-- **Where the story stands:** The party freed the Menagerie's manticore instead of killing it, which caused a scandal at the [[King's Tourney]]. Blackwood sent them by teleportation circle to [[Havenport]], a decaying seaport and **Aldric's hometown**, to lie low with [[Mauve Marigold]] until he sends word. Over the summer, Azrith has returned from the realm of death (see [[Find Azrith]]), and the party has learned that [[House Wulfhelm]] killed [[House Westermere]] 15 years ago and that the Wither is linked to the black veil sealing the Westermere undercroft. They are now investigating the veil and the missing people tied to it.
+- **Where the story stands:** The party freed the Menagerie's manticore instead of killing it, which caused a scandal at the [[King's Tourney]]. Blackwood sent them by teleportation circle to [[Havenport]], a decaying seaport and **Aldric's hometown**, to lie low with [[Mauve Marigold]] until he sends word. Over the summer, Azrith has returned from the realm of death (see [[Find Azrith]]), and the party has learned that [[House Wulfhelm]] killed [[House Westermere]] 15 years ago and that the Wither is linked to the black veil sealing the Westermere undercroft. On [[2026.10.06]] they learned the veil can be passed by sharing 10 HP of maximum hit points of life force, and they plan to go through it next.
 - **Big mysteries:**
   - The Wither (also called the pestilence, hollowing or blight) is spreading out of the [[Thornwood Vale]].
   - [[House Godrin]] has confirmed that [[Maralynn]] is alive.
@@ -43,7 +43,7 @@ The transcripts label speakers by player handle or by character name. This table
 | DigitalARG | [[Azrith]] |
 | ƤΔŘŽƗVΔŁ | [[Aldric]] (also spelled "Aldrick") |
 
-On 2026.09.22, Azrith's player was absent (probably "Gavin"), and the GM ran Azrith.
+On 2026.09.22 and 2026.10.06, Azrith's player was absent and the GM ran Azrith.
 
 ---
 
@@ -51,7 +51,7 @@ On 2026.09.22, Azrith's player was absent (probably "Gavin"), and the GM ran Azr
 
 | Note | Summary |
 | --- | --- |
-| [[Campaign Synopsis]] | A wiki-style plot article: an overview of the whole campaign plus a session-by-session timeline grouped into story arcs, with the current state of play. Covers sessions through 2026.09.22. |
+| [[Campaign Synopsis]] | A wiki-style plot article: an overview of the whole campaign plus a session-by-session timeline grouped into story arcs, with the current state of play. Covers sessions through 2026.10.06. |
 
 ---
 
@@ -73,8 +73,9 @@ Session logs are tagged `game-log`. Each log has a Summary, Open Threads, and Ne
 | [[2026.08.25]] | [[Father Caldus Vey]] heals Aldric. Cassian and Azrith infiltrate White Feather Tor, which confirms Maralynn is alive. Odine plants the "Aerendyl Morath" decoy. The manticore bout begins. | [[Father Caldus Vey]], [[Sir Thorin Cassavar]] |
 | [[2026.09.08]] | Cassian talks down and frees the manticore, and the party wrecks its trebuchet leash. The paying crowd boos while the peasants cheer. Blackwood slips out of the box. | [[The Freed Manticore]] |
 | [[2026.09.15]] | The party flees the Menagerie as Holt fumes. Blackwood privately calls the stunt "fucking genius" and sends the party to [[Havenport]]. Everyone reaches level 5. | [[Captain Garran]], [[Lady Elwyn Blackwood]], [[Havenport]] |
-|| [[2026.09.22]] | Azrith's player is absent. Garan pays about 5,000 gp for the Gleaming Keep's teleportation circle, powered by spell draught. The party arrives in Havenport, and Ian tells the Dark King legend; Odine has seen the kneeling statue. In the undercroft, Azrith leaps through the Curtain. They meet the ghost Samantha and study the black veil. | [[Ian]], [[Samantha Westermere]], [[Mauve Marigold]], [[House Westermere]], [[Westermere Manor]], [[Find Azrith]] ||
-|| [[2026.09.29]] | Gavin returns; Azrith's player is back. The party meets [[Mauve Marigold]] at the Salt House and learns House Westermere fell 15 years ago in a [[House Wulfhelm]] coup. Azrith fights through the ethereal plane, kills a vengeful ghost, and meets [[Eleanor Gray]] — [[Aldric]]'s mother. She named him after King Aldrich and always meant to bring him home. Samantha reveals Wulfhelm killed her family. The party studies the black veil: radiant energy repels it, something vital may need to be exchanged to pass. | [[Eleanor Gray]], [[Hesta Cole]], [[Edith Rooke]], [[The Spirit Behind the Veil]], [[Salt House]] ||\n|| [[2026.10.06]] | The party is laying low in Havenport, at the Salt House. They speak with Sir Ian Wren at the Oath Gate, who cannot help directly due to Oathkeeper orders. [[Azrith]] reveals the entity beyond the veil has warned of a powerful force causing issues in the area. The session ends with the party resting at the Salt House for the night. | [[Sir Ian Wren]], [[Oathkeepers]], [[Salt House]] ||\n|| [[2026.09.29 - Transcript]] | ✅ | Gavin returned; split-screen format; Azrith's ethereal plane scene + Salt House scene |
+| [[2026.09.22]] | Azrith's player is absent. Garan pays about 5,000 gp for the Gleaming Keep's teleportation circle, powered by spell draught. The party arrives in Havenport, and Ian tells the Dark King legend; Odine has seen the kneeling statue. In the undercroft, Azrith leaps through the Curtain. They meet the ghost Samantha and study the black veil. | [[Ian]], [[Samantha Westermere]], [[Mauve Marigold]], [[House Westermere]], [[Westermere Manor]], [[Find Azrith]] ||
+| [[2026.09.29]] | Azrith's player returns. The party meets [[Mauve Marigold]] at the [[Salt House]] and learns House Westermere fell 15 years ago in a [[House Wulfhelm]] coup. Azrith fights through the ethereal plane and meets [[Eleanor Gray]], Aldric's mother. Odine finds radiant energy repels the black veil. | [[Eleanor Gray]], [[Hesta Cole]], [[Edith Rooke]], [[The Spirit Behind the Veil]], [[Salt House]], [[Black Veil]] |
+| [[2026.10.06]] | Azrith's player is absent and the GM voices him. Odine's natural 20 reveals the [[Black Veil]]'s price: a divine smite, or 10 HP of maximum hit points in shared life force. [[Ian]] is forbidden by the Oathkeepers to enter the undercroft. [[Mauve Marigold]] recounts failed attempts (priests, a Corwyn hedge mage) and offers her blood. The party rests at the Salt House to decide in the morning. | — |
 
 **Untranscribed session:** there was one session between 2026.07.14 and 2026.08.11 with no transcript. Its only record is the "Previously" section of [[2026.08.11]].
 
@@ -96,8 +97,9 @@ Transcripts are raw speech-to-text of each session, 45–100 KB each. They are t
 | [[2026.08.25 - Transcript]] | ✅ | `dateCreated` wrongly says 2026-09-08 |
 | [[2026.09.08 - Transcript]] | ✅ | |
 | [[2026.09.15 - Transcript]] | ✅ | |
-|| [[2026.09.22 - Transcript]] | ✅ | `dateCreated` wrongly says 2026-09-15. Azrith's player was absent |
-|| [[2026.09.29 - Transcript]] | ✅ | Gavin returned; split-screen format; Azrith's ethereal plane scene + Salt House scene |
+| [[2026.09.22 - Transcript]] | ✅ | `dateCreated` wrongly says 2026-09-15. Azrith's player was absent |
+| [[2026.09.29 - Transcript]] | ✅ | Split-screen format: Azrith's ethereal-plane scene and the Salt House scene |
+| [[2026.10.06 - Transcript]] | ✅ | Azrith's player absent (GM voiced Azrith). Long out-of-character opening |
 
 ---
 
@@ -107,12 +109,12 @@ Tagged `location`, plus `event` for the tournament venues.
 
 ### Regions and Towns
 
-|| Note | Summary | Status |
-|| --- | --- | --- |
-||| [[Salt House]] | A former shipyard warehouse in [[Havenport]]'s dock ward, now the survivors' community center and the only lit building in the village. [[Mauve Marigold]] is in charge. Includes the menu, lodging rates, and people. | Visited 09.29 |
-|| [[Everdale]] | The human capital and host of the King's Tourney. It is governed by the [[Oathkeepers]]. Hub page for its landmarks and noble houses. | Visited; the party left on 09.22 | Includes concept art: `Everdale_ConceptArt.png` |
+| Note | Summary | Status |
+| --- | --- | --- |
+|| [[Salt House]] | A former shipyard warehouse in [[Havenport]]'s dock ward, now the survivors' community center and the only lit building in the village. [[Mauve Marigold]] is in charge and keeps the ledgers. Includes the menu (Harbor Gose), lodging rates, and people. | Party's base since 09.29 |
+| [[Everdale]] | The human capital and host of the King's Tourney. It is governed by the [[Oathkeepers]]. Hub page for its landmarks and noble houses. Includes concept art: `Everdale_ConceptArt.png`. | Visited; the party left on 09.22 |
 | [[Thornwood Vale]] | "The Vale" (often transcribed "veil"): Odine's homeland, a forested canyon behind the Gleaming Keep. The Duskbelt dwarves also live there. It is the source of the Wither and of Godrin's mana crystals, and the tourney's grand prize. The kneeling statue of King Aldrich stands there. | Not visited in play |
-|| [[Havenport]] | A decaying, rain-lashed seaport and Aldric's home, in decline since House Westermere fell. The Wither and undead are here. Survivors gather at the Salt House. Note is in the `Havenport/` folder. Includes cityscape art: `Havenport_Cityscape.png`. | Arrived 09.22 |
+| [[Havenport]] | A decaying, rain-lashed seaport and Aldric's home, in decline since House Westermere fell. The Wither and undead are here. Survivors gather at the Salt House. Note is in the `Havenport/` folder. Includes cityscape art: `Havenport_Cityscape.png`. | Arrived 09.22 |
 
 ### Everdale and Tourney Grounds (`Everdale/`)
 
@@ -133,7 +135,8 @@ Tagged `location`, plus `event` for the tournament venues.
 
 | Note | Summary |
 | --- | --- |
-|| [[Westermere Manor]] | Ruined cliffside keep of House Westermere, with a teleportation circle guarded by [[Ian]]. Its undercroft holds **the Curtain**, a gate to the realm of death that Azrith jumped into, and the **black veil**, an entropic wall sealing off part of the undercroft. Includes concept art: `WestermereManor_ConceptArt.png`. |
+| [[Black Veil]] | The entropic wall of necrotic force sealing part of the [[Westermere Manor]] undercroft. Two ways through: a divine smite, or 10 HP of maximum hit points in shared life force (2026.10.06). Lists past failed attempts. Has art: `Black_Veil.png`. |
+| [[Westermere Manor]] | Ruined cliffside keep of House Westermere, with a teleportation circle guarded by [[Ian]] at the Oath Gate. Its undercroft holds **the Curtain**, a gate to the realm of death that Azrith jumped into, and the **black veil**, an entropic wall sealing off part of the undercroft. Includes concept art: `WestermereManor_ConceptArt.png`. |
 
 ---
 
@@ -143,10 +146,10 @@ Tagged `character`.
 
 | PC | Summary | Hooks |
 | --- | --- | --- |
-|| [[Aldric]] | Red-skinned, horned tiefling fighter (Battle Master) and former guard of [[House Troth]]. Surname is Havenport. Won the King's Cup. Carries a +1 Greatsword, the Sentinel Shield and splint armor. | Havenport is his home, which he left 8–9+ years ago; his past there; what he'll do after the tourney; **his mother Eleanor Gray is a ghost trapped in the ethereal plane** |
-|| [[Azrith]] | Azrith Duskrin: horned, curious, drawn to spooky things. Uses the Crimson Rite (Rite of Dawn), Bless and Chill Touch. Has Goggles of Night and a +1 scimitar. | **Lost through the Curtain** on 09.22, **returned on 09.29** ([[Find Azrith]]); unexplained absences; an unnamed personal goal; met his mother's ghost |
-|| [[Cassian]] | "Lord Fortescue" of [[House Fortescue]], with celestial blood. Warlock with golden wings. Has magic dice from [[The Masked Figure]], Eyes of Charming, and the Chain of the Unbroken. | Masked Figure deal; why Wulfhelm never acknowledges his house; freed the manticore; **revealed his full title to Mauve Marigold** |
-|| [[Odine Dunmere]] | 25-year-old half-elf from the Thornwood Vale, Sorcerer 3 / Warlock 2. One of the "Touched" and granddaughter of Mara. Has black vine marks on her arm and wears the Elven Chain and a Shadowfell Shard pendant. | The Wither; binding the entity; has seen the kneeling King Aldrich statue; holds Jevon's sending stone |
+| [[Aldric]] | Red-skinned, horned tiefling fighter (Battle Master) and former guard of [[House Troth]]. Surname is Havenport. Won the King's Cup. Carries a +1 Greatsword, the Sentinel Shield and splint armor. | Havenport is his home, which he left 8–9+ years ago; his past there; what he'll do after the tourney; **his mother Eleanor Gray is a ghost trapped in the ethereal plane** |
+| [[Azrith]] | Azrith Duskrin: horned, curious, drawn to spooky things. Uses the Crimson Rite (Rite of Dawn), Bless and Chill Touch. Has Goggles of Night and a +1 scimitar. | **Lost through the Curtain** on 09.22, **returned on 09.29** ([[Find Azrith]]); unexplained absences; an unnamed personal goal; met his mother's ghost |
+| [[Cassian]] | "Lord Fortescue" of [[House Fortescue]], with celestial blood. Warlock with golden wings. Has magic dice from [[The Masked Figure]], Eyes of Charming, and the Chain of the Unbroken. | Masked Figure deal; why Wulfhelm never acknowledges his house; freed the manticore; **revealed his full title to Mauve Marigold** |
+| [[Odine Dunmere]] | 25-year-old half-elf from the Thornwood Vale, Sorcerer 3 / Warlock 2. One of the "Touched" and granddaughter of Mara. Has black vine marks on her arm and wears the Elven Chain and a Shadowfell Shard pendant. | The Wither; binding the entity; has seen the kneeling King Aldrich statue; holds Jevon's sending stone |
 
 ---
 
@@ -165,10 +168,9 @@ Tagged `npc`.
 | [[Father Caldus Vey]] | Royal Chapel priest in the healer tents. Cured Aldric's exhaustion for 400 gp. |
 | [[The Freed Manticore]] | The Menagerie beast Cassian freed. It speaks Common, has no name yet, and promised to visit the party. |
 | [[Virellan Le'Strange]] | Flamboyant bard and observer who called Cassian "Lord Fortescue". |
-| **New in 2026.09.29** |
 | [[Eleanor Gray]] | The ghost of Aldric's mother, trapped in the ethereal plane beyond the Curtain. She named him after King Aldrich and told him he was never an accident. She was enthralled by the spirit behind the black veil and recently escaped. |
-| [[Hesta Cole]] | Havenport's closest thing to a nurse — a practical healer at the Salt House who tends Wither victims. |
-| [[Edith Rooke]] | The bartender at the Salt House. Has a romantic interest in Ian. |
+| [[Hesta Cole]] | Havenport's closest thing to a nurse — a practical healer at the Salt House who tends Wither victims. Too needed to leave the dying. |
+| [[Edith Rooke]] | The bartender at the Salt House. Serves Harbor Gose. Has a romantic interest in Ian. |
 | [[The Spirit Behind the Veil]] | A putrid, foul spirit that commands the undead, beyond the black veil in Westermere Manor's undercroft. |
 
 ### House Blackwood
@@ -197,6 +199,8 @@ Tagged `npc`.
 | --- | --- |
 | [[Kardis Wulfhelm]] | White-haired prince and heir, a skilled swordsman. Was bracketed near the party in the Menagerie. |
 | [[Ser Calder Ross]] | "The Doomfist," Wulfhelm's pugilist champion who won last year's tourney. |
+| [[Beowyn Wulfhelm]] | Friend of the Westermere family, named by Samantha as involved in the coup. |
+| [[Eodwin Wulfhelm]] | Named by Samantha in connection with the Westermere coup; she played with his current wife as a child. |
 
 ### Tourney Folk
 
@@ -212,9 +216,9 @@ Tagged `npc`.
 
 | NPC | Summary |
 | --- | --- |
-| [[Ian]] | Old Oathkeeper guarding the Havenport circle. Surname **Wren** confirmed by the GM. Knew of House Fortescue and told the Dark King legend. |
+| [[Ian]] | Sir Ian Wren, old Oathkeeper guarding the Havenport circle at the Oath Gate. Knew of House Fortescue and told the Dark King legend. Ordered by his order not to enter the undercroft; wears a ghost-warding amulet. |
 | [[Samantha Westermere]] | Ghost of a Westermere daughter in the manor's undercroft. Won't pass on until Havenport is restored. Flirts with Cassian. |
-| [[Mauve Marigold]] | Blackwood's contact in Havenport, whom the party must stay with. Not yet met; spelling unconfirmed. |
+| [[Mauve Marigold]] | Blackwood's contact in Havenport; runs the Salt House and keeps its ledgers. Has known Blackwood since before his dukedom. Offered her own blood to pass the black veil but asks nothing of the party. |
 
 ### Mysterious
 
@@ -232,13 +236,13 @@ Tagged `faction`, plus `noble-house` for the houses.
 | --- | --- | --- |
 | [[House Godrin]] | Mage Power | White armor. Harvests mana crystals with a dwarven clan in [[Thornwood Vale\|the Vale]]; helped discover spell draught. Kidnaps hedge mages and, by rumor, children. Hunting Maralynn. Camps at [[White Feather Tor]]. |
 | [[House Wulfhelm]] | Militant Peace | Black armor. Holds the Vale deed from last year's win. Line of Beowyn and Eodwin. Liege of House Fortescue and House Troth. |
-| [[House Corwyn]] | Truth Seekers | Silver armor. Believes the Vale hides a secret that could unite the lesser houses. Liege of House Blackwood. |
+| [[House Corwyn]] | Truth Seekers | Silver armor. Believes the Vale hides a secret that could unite the lesser houses. Liege of House Blackwood. A Corwyn hedge mage once failed to breach the black veil. |
 | [[House Blackwood]] | Vassal (Corwyn) | Duke Tristan's house; the party's sponsor. |
 | [[House Fortescue]] | Vassal (Wulfhelm) | Cassian's celestial-blooded house. Wulfhelm never publicly acknowledges it. |
 | [[House Troth]] | Vassal (Wulfhelm) | Minor seaside house that Aldric once guarded for. |
 | [[House Oswall]] | Illegitimate | Nomadic religious house with a claim to the throne, treated as a joke. Unusually large Menagerie entry this year. *Not* the house hunting Jevon. |
 | [[House Westermere]] | Fallen | Havenport's fallen house; its manor is now a ruin. Only known member: the ghost [[Samantha Westermere]]. |
-| [[Oathkeepers]] | — | Three surviving knightly orders (stag, ember and crossed swords) that guard the keep and throne. They run the old teleportation circles and keep the Dark King legend. One knight is fed up with their inaction on the Wither. |
+| [[Oathkeepers]] | — | Three surviving knightly orders (stag, ember and crossed swords) that guard the keep and throne. They run the old teleportation circles and keep the Dark King legend. One knight is fed up with their inaction on the Wither. They know of the black veil and forbid Ian to go near it. |
 
 ---
 
@@ -246,7 +250,7 @@ Tagged `faction`, plus `noble-house` for the houses.
 
 Tagged `quest`, with `status:` in the frontmatter.
 
-|| Quest | Status | Summary |
+| Quest | Status | Summary |
 | --- | --- | --- |
 | [[Compete in the King's Tourney]] | active (on hold) | The party's tourney run: Proving Grounds, then the Gauntlet, then the Menagerie and the manticore aftermath. Tracks wagers, rewards and rival champions. On hold while the party lies low in Havenport. |
 | [[Investigate House Godrin]] | active | The infiltration of White Feather Tor, Maralynn found alive, and the "Aerendyl Morath" decoy now in play. Open leads: Valerie, the ledger outpost, the mole. |
@@ -254,7 +258,7 @@ Tagged `quest`, with `status:` in the frontmatter.
 | [[Rescue Jevon]] | active | Jevon has been rescued twice and is now on the western edge of the Vale, misdirecting Godrin's scouts. Ongoing support via the sending stone. |
 | [[Havenport]] | active | The party's time in Havenport: staying with [[Mauve Marigold]] at the Salt House, the Wither in town, the Westermere Manor undercroft, the black veil, and all the threads that opened there. Started [[2026.09.22|2026.09.22]]. |
 | [[Investigate the Wither in Havenport]] | active | A subquest of [[Havenport]]. The Wither has been taking victims in Havenport for ~15 years, since House Westermere fell. Mauve's timeline, Hesta Cole's limits, and the connection to the undercroft. |
-| [[Confront the Spirit Behind the Black Veil]] | active | A subquest of [[Havenport]]. Azrith declared he will kill the putrid spirit that commands the undead beyond the black veil in Westermere Manor's undercroft. Eleanor Gray escaped its control. |
+| [[Confront the Spirit Behind the Black Veil]] | active | A subquest of [[Havenport]]. Azrith declared he will kill the putrid spirit that commands the undead beyond the black veil in Westermere Manor's undercroft. Eleanor Gray escaped its control. The veil's price is now known (10 HP of maximum hit points, shared); the party plans to go through next. |
 | [[Uncover the Westermere-Wulfhelm Coup]] | active | A subquest of [[Havenport]]. Samantha Westermere revealed that House Wulfhelm killed her family 15 years ago — Beowyn and Eodwin Wulfhelm were involved. The truth lies beyond the black veil. |
 
 ### Completed
@@ -302,6 +306,9 @@ These terms and names appear across many notes, or turn up in more than one spel
 - **Spell draught** is a bluish-silver liquid transmuted from the Vale's mana crystals. It powers the teleportation circles.
 - **The Curtain** is a black mist sphere in the Westermere undercroft, a gate to the realm of death.
 - **"Mav"** is how Ian refers to [[Mauve Marigold]].
+- **The Oath Gate** is the Oathkeeper post at the Westermere Manor circle where [[Ian]] keeps watch.
+- **Harbor Gose** is the Salt House's briny house ale. *"The first one tastes like the harbor, but the second one tastes like home."*
+- **Sir Wren / "Seren"** are transcript variants for [[Ian]] (Sir Ian Wren).
 - **House Godrin wears white and House Wulfhelm wears black.** This was corrected on 08.18. Earlier logs that said "black-armored" Godrin were fixed then.
 
 ### Entities Mentioned Without a Note
@@ -314,19 +321,15 @@ These are candidates for new notes when they become relevant:
 - Ulkaf (bookkeeper)
 - The Coin Master
 - The seamstress
-- **Eleanor Gray** — Aldric's mother, a ghost trapped in the ethereal plane beyond the Curtain (created 2026.09.30)
-- **Hesta Cole** — Havenport's practical healer at the Salt House (created 2026.09.30)
-- **Edith** — Bartender at the Salt House (created 2026.09.30)
-- **The Spirit Behind the Veil** — The putrid entity commanding the undead beyond the black veil (created 2026.09.30)
-- **Beowyn and Eodwin Wulfhelm** — Now known to have been involved in the Westermere coup (see [[House Westermere]])
 - "Old Ironhide" (the dwarf who died in the King's Cup)
 - The Grand Stage
 - Beggar's Rook
 - The Godrin ledger outpost
 - The Chain of the Unbroken (magic item)
-- The Salt House (Havenport's survivors' community center; described in [[Havenport]])
 - The Dark King / Nightmare King (see [[Investigate the Pestilence]])
 - The Oathkeeper acolyte at the Gleaming Keep's circle
+- The Corwyn hedge mage who studied the black veil (2026.10.06)
+- The shepherd and his fainting goat on the road to the manor (2026.10.06)
 
 ---
 
@@ -343,6 +346,7 @@ These are issues found while building this index. Fix them when the scribe works
 - [x] Caught up the stale notes: [[Thornwood Vale]], [[Rescue Jevon]], [[Investigate the Pestilence]], [[Everdale]]. Done 2026-09-25.
 - [x] Remove the duplicate image `05 - Quests/Whitefeather Tor.png`. Done 2026-09-25.
 - [ ] Transcript frontmatter is missing for 06.11, 06.23, 07.14 and 08.11, and `dateCreated` is wrong on 08.25 and 09.22. Left as is, because transcripts are raw source files.
+- [x] Wrote a full [[2026.10.06]] log, replacing a thin draft. Fixed broken links ([[House Wulfhelm]] typo, `The Curtain`, `The Black Veil`, `Curtain`, `Wither`, `The Spirit Behind the Black Veil`), malformed index rows, and real player names in notes. Done 2026-10-07.
 - [ ] [[The Menagerie]] is sometimes written as plain text instead of a link in older logs.
 
 ---
@@ -356,3 +360,4 @@ These are issues found while building this index. Fix them when the scribe works
 - **2026-09-26:** Discord DM cross-reference correction. Renamed [[Captain Garran]] (from "Garan", DM posted "Captain Garran"). Renamed [[Father Caldus Vey]] (from "Kaldus", DM posted "Father Caldus Vey"). Confirmed Ian's surname as **Wren** (DM posted "Ser Ian Wren"). Updated the decoy name to **Aerendyl Morath** (from "Erendel", DM posted "Aerendyl Morath"). Noted "Godran" as a DM variant spelling of Godrin. Added Discord-downloaded images to Attachments.
 - **2026-09-30:** Wrote the [[2026.09.29]] session log (session 15). Created [[Eleanor Gray]], [[Hesta Cole]], [[Edith Rooke]], [[The Spirit Behind the Veil]], and [[Salt House]]. Updated [[Samantha Westermere]] (Wulfhelm killed her family), [[Mauve Marigold]] (met at Salt House), [[House Westermere]] (Wulfhelm coup), [[Ian]] (romantic interest in Edith), [[Odine Dunmere]], [[Cassian]], [[Azrith]], [[Aldric]], [[Havenport]], [[Westermere Manor]], [[Find Azrith]], and [[Campaign Synopsis]]. Added session 15 to the synopsis timeline.
 - **2026-09-30:** Organized the quests folder: created `Completed/` subfolder and moved [[Cure Aldric's Exhaustion]] and [[Find Azrith]] into it. Created four new quest notes: [[Havenport]], [[Investigate the Wither in Havenport]], [[Confront the Spirit Behind the Black Veil]], and [[Uncover the Westermere-Wulfhelm Coup]]. Updated vault-index.md with the new structure, a Completed table, and bumped noteCount from 80 to 84.
+- **2026-10-07:** Rewrote the [[2026.10.06]] session log from the transcript. Updated [[Ian]], [[Mauve Marigold]], [[Edith Rooke]], [[Hesta Cole]], [[Eleanor Gray]], [[Samantha Westermere]], [[The Spirit Behind the Veil]], [[Black Veil]], [[Westermere Manor]], [[Salt House]], [[Aldric]], [[Azrith]], [[Cassian]], [[Odine Dunmere]], [[House Corwyn]], [[Oathkeepers]], the four Havenport quests and [[Campaign Synopsis]]. Added index rows for [[Black Veil]], [[Beowyn Wulfhelm]] and [[Eodwin Wulfhelm]]. Repaired malformed table rows and broken links.

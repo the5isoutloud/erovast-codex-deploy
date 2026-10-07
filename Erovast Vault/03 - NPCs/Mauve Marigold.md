@@ -38,6 +38,12 @@ Mauve Marigold is the person [[Duke Tristan Blackwood]] sent the party to find i
 
 Source: [[2026.09.22|2026.09.22]], [[2026.09.29|2026.09.29]].
 
+- She is the Salt House's **bookkeeper**. [[Odine Dunmere]] found her reviewing the tavern's ledgers in a study next to the main hall, wearing half-moon spectacles. Source: [[2026.10.06|2026.10.06]].
+- On learning that an entity behind the [[Black Veil|black veil]] is behind Havenport's troubles, she mused: *"There may be a reason Blackwood sent you to me after all. He sure does know how to measure his bets."* Source: [[2026.10.06|2026.10.06]].
+- She told the party what Havenport has already tried. Priests and priestesses prayed at the veil, studied it and tried to bless the undercroft's burial site. A **hedge mage from [[House Corwyn]]** spent three days on it, and *"the veil didn't so much as flutter."* The town has no fighters or militia, only civilians toughened by their surroundings. Source: [[2026.10.06|2026.10.06]].
+- After [[Cassian]]'s persuasion (22), she said that if blood is needed, **she is likely the only one in town willing to give it**. She refused to send [[Hesta Cole]] along because Hesta was needed with the dying, and she refused Cassian's idea of asking the dying to give their life force. *"Despite Blackwood's conniving ways... I have no such expectation of you all."* She would be eternally grateful if they ended the undead problem, but she would not ask strangers to pay for it. Source: [[2026.10.06|2026.10.06]].
+- She agreed to check that nothing escapes the manor if the party is not back within two hours. Source: [[2026.10.06|2026.10.06]].
+
 ## Relationships
 
 - [[Duke Tristan Blackwood]]: Directed the party to her. She has known him since before his dukedom.

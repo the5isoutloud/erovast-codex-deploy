@@ -33,6 +33,9 @@ A putrid and foul spirit that commands the undead, residing beyond the black vei
 - Eleanor asked [[Azrith]] if he would dare confront this spirit guardian and end its "putrid curse upon this land." Azrith agreed.
 - The spirit's relationship to [[House Wulfhelm]]'s coup against [[House Westermere]] is unclear — Samantha said Wulfhelm killed her family, and Eleanor says the entity is behind the veil. Whether Wulfhelm unleashed it, encountered it, or was destroyed by it is unknown.
 
+- [[Odine Dunmere]]'s natural 20 Insight revealed that the veil draws on what seems to be an alien, near-infinite necrotic power source. The only thing she has ever sensed more powerful is the thing that comes to her village in the [[Thornwood Vale]]. She told [[Ian]] she believes it is *"a new, returned evil"*. That is her own reading, unconfirmed. Source: [[2026.10.06|2026.10.06]].
+- Mauve said whatever lies behind the wall *"has done a mighty fine job at concealing the truth that lies within."* Source: [[2026.10.06|2026.10.06]].
+
 ## Connections
 
 - [[Eleanor Gray]]: Was enthralled by this entity; escaped its control.

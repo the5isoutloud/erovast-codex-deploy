@@ -43,13 +43,16 @@ Stairwells on either side of the entrance hall lead down to the undercroft. [[Sa
   - Cassian's magic check (natural 20) found that no one is casting a spell there. The wall itself is the source, and "whatever lies beyond that wall is affecting you."
   - Odine's insight check (14) revealed the veil reacts to living creatures with a sense of refusal. Whatever is on the other side is the origin of the wall and is protecting that space. Radiant energy staves off its effects; perhaps enough radiant energy, or an exchange of something vital with the necrotic force, might allow passage. But it's old, complex, and not understood magic.
   - Samantha believes the veil is tied to the Curtain.
+  - On [[2026.10.06|2026.10.06]], Odine's natural 20 Insight found two ways through: a divine smite beyond anything the party commands, or a shared offering of **10 HP of maximum hit points** of life force. See [[Black Veil]]. Source: [[2026.10.06|2026.10.06]].
   - The truth about House Westermere's fall — and the entity behind the veil — lies beyond it. Samantha, Eleanor, and her family all lie beyond the veil.
 - **Samantha's room:** where she died.
+- **The Oath Gate:** the post upstairs where [[Ian]] keeps watch over the teleportation circle. The [[Oathkeepers]] have ordered him never to descend into the undercroft because of incidents of missing persons. Source: [[2026.10.06|2026.10.06]].
 
 ## Relationships
 
 - [[House Westermere]]: The family that owned it.
 - [[Samantha Westermere]]: Haunts the undercroft.
 - [[Ian]]: The Oathkeeper posted at the circle.
+- [[Black Veil]]: Seals part of the undercroft.
 - [[Havenport]]: The town below.
 - [[Gleaming Keep]]: Linked by the teleportation circle.

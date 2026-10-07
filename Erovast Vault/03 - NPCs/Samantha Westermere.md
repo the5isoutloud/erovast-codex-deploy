@@ -27,6 +27,9 @@ Samantha Westermere is the ghost of a daughter of [[House Westermere]]. She is a
 
 Source: [[2026.09.22|2026.09.22]].
 
+- Revealed that **[[House Wulfhelm]] killed her family** 15 years ago after her family learned a dire Wulfhelm secret. She and her family lie beyond the [[Black Veil|black veil]]. See [[Uncover the Westermere-Wulfhelm Coup]]. Source: [[2026.09.29|2026.09.29]].
+- [[Odine Dunmere]] told [[Mauve Marigold]] that the party had spoken with Samantha again and that she sent her regards. Mauve called that very kind of her. No such conversation was shown in play. Source: [[2026.10.06|2026.10.06]].
+
 ## Relationships
 
 - [[House Westermere]]: Her family.

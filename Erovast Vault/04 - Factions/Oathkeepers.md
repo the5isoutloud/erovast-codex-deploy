@@ -38,6 +38,10 @@ In an untranscribed session before [[2026.08.11|2026.08.11]], the party learned 
 
 The Oathkeepers maintain a few **teleportation circles** that survive from King Aldrich's time, including one in the [[Gleaming Keep]] and one in [[Westermere Manor]], [[Havenport]]. Using a circle requires their permission and a tribute; [[Duke Tristan Blackwood]] paid roughly 5,000 gp. A robed acolyte traces the circle with **spell draught**, a liquid transmuted from Thornwood Vale mana crystals, and the traveler speaks the destination while holding a metal keystone. A lone knight, [[Ian]], guards the Havenport circle and is relieved every two weeks. Source: [[2026.09.22|2026.09.22]].
 
+## The Westermere Undercroft
+
+The order knows about the [[Black Veil|black veil]] beneath [[Westermere Manor]]. It has **ordered [[Ian]] never to go down into the undercroft** because of incidents of missing persons, and posted him only to man the Oath Gate. Ian said the order knows no one with the divine power to smite the veil; if it did, *"we would have already done it."* Source: [[2026.10.06|2026.10.06]].
+
 ## The Legend of the Dark King
 
 Veteran Oathkeepers "believe the old stories" of the **Dark King** (also called the Nightmare King), a corrupting ruler from a far realm whom King Aldrich defeated alone, leaving only a statue of himself in the Vale. Ian's grandfather fought in that war. See [[Investigate the Pestilence]]. Source: [[2026.09.22|2026.09.22]].

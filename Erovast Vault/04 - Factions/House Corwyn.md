@@ -28,6 +28,7 @@ House Corwyn is one of the three dominant noble houses at the [[King's Tourney]]
 - Their champion and broader tournament strategy are not yet known to the party.
 - **Their true motive, per Blackwood**: House Corwyn believes the [[Thornwood Vale]] conceals a secret that could unite the lesser noble houses to rise up against Godrin and Wulfhelm. They've sought this secret for nearly a century but cannot act on it without holding the Vale's title outright—which Wulfhelm currently holds. Per Blackwood, Corwyn's self-image is that they're clever enough to understand everyone else's game. Source: [[2026.08.18|2026.08.18]].
 - [[Duke Tristan Blackwood]], their vassal, is a wildcard rather than a loyal company man: he says he'd relish seeing all three great houses (including his own liege, Corwyn) lose the tournament this year—something unprecedented in its hundred-year history. Source: [[2026.08.18|2026.08.18]].
+- A **hedge mage from House Corwyn** once spent three days in [[Havenport]] studying the [[Black Veil|black veil]] in the [[Westermere Manor]] undercroft, *"threw every clever trick he knew against the thing,"* and failed to affect it, per [[Mauve Marigold]]. When this happened, and why Corwyn sent him, is unknown. Source: [[2026.10.06|2026.10.06]].
 
 ## Relationships
 
