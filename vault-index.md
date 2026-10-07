@@ -6,10 +6,10 @@ tags:
   - index
 dateCreated: 2026-09-25
 dateUpdated: 2026-09-25
-lastSessionLogged: 2026-09-29
-lastTranscript: 2026.09.29
-noteCount: 84
-transcriptCount: 14
+lastSessionLogged: 2026-10-06
+lastTranscript: 2026.10.06
+noteCount: 86
+transcriptCount: 15
 ---
 
 # Erovast Vault Index
@@ -20,7 +20,7 @@ This is the master catalog of the Erovast campaign vault. Every note in the vaul
 
 - **Party:** *Cassian's Crushing Crusaders*: [[Aldric]], [[Azrith]], [[Cassian]], [[Odine Dunmere]]. All four are level 5 as of [[2026.09.15]].
 - **Sponsor:** [[Duke Tristan Blackwood]] of [[House Blackwood]], a vassal of [[House Corwyn]]. He takes 8% of prize money.
-- **Where the story stands:** The party freed the Menagerie's manticore instead of killing it, which caused a scandal at the [[King's Tourney]]. Blackwood sent them by teleportation circle to [[Havenport]], a decaying seaport and **Aldric's hometown**, to lie low with [[Mauve Marigold]] until he sends word. In the undercroft of [[Westermere Manor]], **[[Azrith]] leapt through the Curtain into the realm of death** and is missing (see [[Find Azrith]]). The others are heading to the Salt House for the night.
+- **Where the story stands:** The party freed the Menagerie's manticore instead of killing it, which caused a scandal at the [[King's Tourney]]. Blackwood sent them by teleportation circle to [[Havenport]], a decaying seaport and **Aldric's hometown**, to lie low with [[Mauve Marigold]] until he sends word. Over the summer, Azrith has returned from the realm of death (see [[Find Azrith]]), and the party has learned that [[House Wulfhelm]] killed [[House Westermere]] 15 years ago and that the Wither is linked to the black veil sealing the Westermere undercroft. They are now investigating the veil and the missing people tied to it.
 - **Big mysteries:**
   - The Wither (also called the pestilence, hollowing or blight) is spreading out of the [[Thornwood Vale]].
   - [[House Godrin]] has confirmed that [[Maralynn]] is alive.
@@ -74,7 +74,7 @@ Session logs are tagged `game-log`. Each log has a Summary, Open Threads, and Ne
 | [[2026.09.08]] | Cassian talks down and frees the manticore, and the party wrecks its trebuchet leash. The paying crowd boos while the peasants cheer. Blackwood slips out of the box. | [[The Freed Manticore]] |
 | [[2026.09.15]] | The party flees the Menagerie as Holt fumes. Blackwood privately calls the stunt "fucking genius" and sends the party to [[Havenport]]. Everyone reaches level 5. | [[Captain Garran]], [[Lady Elwyn Blackwood]], [[Havenport]] |
 || [[2026.09.22]] | Azrith's player is absent. Garan pays about 5,000 gp for the Gleaming Keep's teleportation circle, powered by spell draught. The party arrives in Havenport, and Ian tells the Dark King legend; Odine has seen the kneeling statue. In the undercroft, Azrith leaps through the Curtain. They meet the ghost Samantha and study the black veil. | [[Ian]], [[Samantha Westermere]], [[Mauve Marigold]], [[House Westermere]], [[Westermere Manor]], [[Find Azrith]] ||
-|| [[2026.09.29]] | Gavin returns; Azrith's player is back. The party meets [[Mauve Marigold]] at the Salt House and learns House Westermere fell 15 years ago in a [[House Wulfhelm]] coup. Azrith fights through the ethereal plane, kills a vengeful ghost, and meets [[Eleanor Gray]] — [[Aldric]]'s mother. She named him after King Aldrich and always meant to bring him home. Samantha reveals Wulfhelm killed her family. The party studies the black veil: radiant energy repels it, something vital may need to be exchanged to pass. | [[Eleanor Gray]], [[Hesta Cole]], [[Edith Rooke]], [[The Spirit Behind the Veil]], [[Salt House]] ||
+|| [[2026.09.29]] | Gavin returns; Azrith's player is back. The party meets [[Mauve Marigold]] at the Salt House and learns House Westermere fell 15 years ago in a [[House Wulfhelm]] coup. Azrith fights through the ethereal plane, kills a vengeful ghost, and meets [[Eleanor Gray]] — [[Aldric]]'s mother. She named him after King Aldrich and always meant to bring him home. Samantha reveals Wulfhelm killed her family. The party studies the black veil: radiant energy repels it, something vital may need to be exchanged to pass. | [[Eleanor Gray]], [[Hesta Cole]], [[Edith Rooke]], [[The Spirit Behind the Veil]], [[Salt House]] ||\n|| [[2026.10.06]] | The party is laying low in Havenport, at the Salt House. They speak with Sir Ian Wren at the Oath Gate, who cannot help directly due to Oathkeeper orders. [[Azrith]] reveals the entity beyond the veil has warned of a powerful force causing issues in the area. The session ends with the party resting at the Salt House for the night. | [[Sir Ian Wren]], [[Oathkeepers]], [[Salt House]] ||\n|| [[2026.09.29 - Transcript]] | ✅ | Gavin returned; split-screen format; Azrith's ethereal plane scene + Salt House scene |
 
 **Untranscribed session:** there was one session between 2026.07.14 and 2026.08.11 with no transcript. Its only record is the "Previously" section of [[2026.08.11]].
 
