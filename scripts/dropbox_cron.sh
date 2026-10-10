@@ -1,21 +1,31 @@
 #!/usr/bin/env bash
-# Dropbox Craig monitor cron wrapper — sets env and runs the monitor.
-# Output is JSON consumed by the scribe agent.
+# Dropbox Craig monitor cron wrapper.
+# Credentials are loaded from the swiftquill-dev profile environment.
 set -euo pipefail
 
-REPO="/opt/data/profiles/erovast-scribe/erovast-codex-deploy"
-VENV="/opt/data/profiles/erovast-scribe/venv"
-TOKEN_FILE="/opt/data/profiles/erovast-scribe/cache/scratch/dropbox_refresh_token.txt"
+REPO="/opt/data/workspace/erovast-codex-deploy"
+VENV="/opt/data/workspace/erovast-automation/venv"
+ENV_FILE="/opt/data/profiles/swiftquill-dev/.env"
 
-if [ ! -f "$TOKEN_FILE" ]; then
-  echo '{"error": "Dropbox refresh token file not found"}'
+if [ ! -f "$ENV_FILE" ]; then
+  echo '{"error": "swiftquill-dev environment file not found"}'
   exit 1
 fi
 
-export DROPBOX_APP_KEY="wjmn0lpjrm7k9w4"
-export DROPBOX_APP_SECRET="p9quc4t3hzqga9n"
-export DROPBOX_REFRESH_TOKEN="$(cat "$TOKEN_FILE")"
+# Profile .env files contain trusted shell-style KEY=VALUE assignments.
+set -a
+# shellcheck disable=SC1090
+source "$ENV_FILE"
+set +a
+
+: "${DROPBOX_APP_KEY:?DROPBOX_APP_KEY is not set in the swiftquill-dev profile .env}"
+: "${DROPBOX_APP_SECRET:?DROPBOX_APP_SECRET is not set in the swiftquill-dev profile .env}"
+: "${DROPBOX_REFRESH_TOKEN:?DROPBOX_REFRESH_TOKEN is not set in the swiftquill-dev profile .env}"
+
+if [ ! -x "$VENV/bin/python" ]; then
+  echo '{"error": "Erovast automation virtual environment is missing"}'
+  exit 1
+fi
 
 cd "$REPO"
-source "$VENV/bin/activate"
-exec python3 scripts/dropbox_monitor.py
+exec "$VENV/bin/python" scripts/dropbox_monitor.py "$@"
