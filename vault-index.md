@@ -5,11 +5,11 @@ cssclasses:
 tags:
   - index
 dateCreated: 2026-09-25
-dateUpdated: 2026-10-07
-lastSessionLogged: 2026-10-06
-lastTranscript: 2026.10.06
-noteCount: 89
-transcriptCount: 15
+dateUpdated: 2026-10-14
+lastSessionLogged: 2026-10-13
+lastTranscript: 2026.10.13
+noteCount: 90
+transcriptCount: 16
 ---
 
 # Erovast Vault Index
@@ -20,7 +20,7 @@ This is the master catalog of the Erovast campaign vault. Every note in the vaul
 
 - **Party:** *Cassian's Crushing Crusaders*: [[Aldric]], [[Azrith]], [[Cassian]], [[Odine Dunmere]]. All four are level 5 as of [[2026.09.15]].
 - **Sponsor:** [[Duke Tristan Blackwood]] of [[House Blackwood]], a vassal of [[House Corwyn]]. He takes 8% of prize money.
-- **Where the story stands:** The party freed the Menagerie's manticore instead of killing it, which caused a scandal at the [[King's Tourney]]. Blackwood sent them by teleportation circle to [[Havenport]], a decaying seaport and **Aldric's hometown**, to lie low with [[Mauve Marigold]] until he sends word. Over the summer, Azrith has returned from the realm of death (see [[Find Azrith]]), and the party has learned that [[House Wulfhelm]] killed [[House Westermere]] 15 years ago and that the Wither is linked to the black veil sealing the Westermere undercroft. On [[2026.10.06]] they learned the veil can be passed by sharing 10 HP of maximum hit points of life force, and they plan to go through it next.
+- **Where the story stands:** The party freed the Menagerie's manticore instead of killing it, which caused a scandal at the [[King's Tourney]]. Blackwood sent them by teleportation circle to [[Havenport]], a decaying seaport and **Aldric's hometown**, to lie low with [[Mauve Marigold]] until he sends word. Over the summer, Azrith has returned from the realm of death (see [[Find Azrith]]), and the party has learned that [[House Wulfhelm]] killed [[House Westermere]] 15 years ago and that the Wither is linked to the black veil sealing the Westermere undercroft. On [[2026.10.13]] they paid the veil's price (10 max HP shared) and passed through into the ethereal domain of death, where the trapped souls named their captor — [[The Warden of Death]] — and its Shepherd-statue vessel attacked. The statue was destroyed, but the Warden survived and seeks a new vessel; the fight resumes next session.
 - **Big mysteries:**
   - The Wither (also called the pestilence, hollowing or blight) is spreading out of the [[Thornwood Vale]].
   - [[House Godrin]] has confirmed that [[Maralynn]] is alive.
@@ -43,7 +43,7 @@ The transcripts label speakers by player handle or by character name. This table
 | DigitalARG | [[Azrith]] |
 | ƤΔŘŽƗVΔŁ | [[Aldric]] (also spelled "Aldrick") |
 
-On 2026.09.22 and 2026.10.06, Azrith's player was absent and the GM ran Azrith.
+On 2026.09.22 and 2026.10.06, Azrith's player was absent and the GM ran Azrith. He returned for 2026.10.13.
 
 ---
 
@@ -51,7 +51,7 @@ On 2026.09.22 and 2026.10.06, Azrith's player was absent and the GM ran Azrith.
 
 | Note | Summary |
 | --- | --- |
-| [[Campaign Synopsis]] | A wiki-style plot article: an overview of the whole campaign plus a session-by-session timeline grouped into story arcs, with the current state of play. Covers sessions through 2026.10.06. |
+| [[Campaign Synopsis]] | A wiki-style plot article: an overview of the whole campaign plus a session-by-session timeline grouped into story arcs, with the current state of play. Covers sessions through 2026.10.13. |
 
 ---
 
@@ -76,6 +76,7 @@ Session logs are tagged `game-log`. Each log has a Summary, Open Threads, and Ne
 | [[2026.09.22]] | Azrith's player is absent. Garan pays about 5,000 gp for the Gleaming Keep's teleportation circle, powered by spell draught. The party arrives in Havenport, and Ian tells the Dark King legend; Odine has seen the kneeling statue. In the undercroft, Azrith leaps through the Curtain. They meet the ghost Samantha and study the black veil. | [[Ian]], [[Samantha Westermere]], [[Mauve Marigold]], [[House Westermere]], [[Westermere Manor]], [[Find Azrith]] ||
 | [[2026.09.29]] | Azrith's player returns. The party meets [[Mauve Marigold]] at the [[Salt House]] and learns House Westermere fell 15 years ago in a [[House Wulfhelm]] coup. Azrith fights through the ethereal plane and meets [[Eleanor Gray]], Aldric's mother. Odine finds radiant energy repels the black veil. | [[Eleanor Gray]], [[Hesta Cole]], [[Edith Rooke]], [[The Spirit Behind the Veil]], [[Salt House]], [[Black Veil]] |
 | [[2026.10.06]] | Azrith's player is absent and the GM voices him. Odine's natural 20 reveals the [[Black Veil]]'s price: a divine smite, or 10 HP of maximum hit points in shared life force. [[Ian]] is forbidden by the Oathkeepers to enter the undercroft. [[Mauve Marigold]] recounts failed attempts (priests, a Corwyn hedge mage) and offers her blood. The party rests at the Salt House to decide in the morning. | — |
+| [[2026.10.13]] | All four players present. The party pays the veil's toll together (Odine breaks the seal) and crosses into the ethereal domain of death, where trapped souls name their captor: [[The Warden of Death]]. The animated Shepherd statue (undead, charm-immune) attacks and is destroyed, but the Warden survives and moves toward another of the nine deity statues. Cliffhanger mid-fight. | [[The Warden of Death]] |
 
 **Untranscribed session:** there was one session between 2026.07.14 and 2026.08.11 with no transcript. Its only record is the "Previously" section of [[2026.08.11]].
 
@@ -100,6 +101,7 @@ Transcripts are raw speech-to-text of each session, 45–100 KB each. They are t
 | [[2026.09.22 - Transcript]] | ✅ | `dateCreated` wrongly says 2026-09-15. Azrith's player was absent |
 | [[2026.09.29 - Transcript]] | ✅ | Split-screen format: Azrith's ethereal-plane scene and the Salt House scene |
 | [[2026.10.06 - Transcript]] | ✅ | Azrith's player absent (GM voiced Azrith). Long out-of-character opening |
+| [[2026.10.13 - Transcript]] | ✅ | All four players present. Long out-of-character opening (dentist, food talk); party passed the veil and fought the Shepherd statue |
 
 ---
 
@@ -172,6 +174,7 @@ Tagged `npc`.
 | [[Hesta Cole]] | Havenport's closest thing to a nurse — a practical healer at the Salt House who tends Wither victims. Too needed to leave the dying. |
 | [[Edith Rooke]] | The bartender at the Salt House. Serves Harbor Gose. Has a romantic interest in Ian. |
 | [[The Spirit Behind the Veil]] | A putrid, foul spirit that commands the undead, beyond the black veil in Westermere Manor's undercroft. |
+| [[The Warden of Death]] | The entity enthroned in the burial chamber beyond the black veil, holding Havenport's trapped souls in its grasp — very likely the Spirit Behind the Veil. Its statue vessel was destroyed on 2026.10.13, but it survives and seeks a new vessel. |
 
 ### House Blackwood
 

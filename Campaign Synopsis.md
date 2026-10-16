@@ -95,6 +95,9 @@ With Azrith's player back at the table, the party found [[Mauve Marigold]] at th
 **[[2026.10.06]] "The Price of Passage"** (session 16)
 Odine's natural 20 revealed the black veil's terms: break it with a divine smite beyond any mortal's power, or "knock" and pay with life force, 10 hit points of maximum health shared among the party. The Oathkeeper [[Ian]] is forbidden by his order to set foot in the undercroft, and [[Mauve Marigold]] admitted that priests and a [[House Corwyn]] hedge mage had already failed against it. She offered her own blood but would not ask strangers, or the dying, to pay. Aldric still doubts the ghost is really his mother, and Cassian balks at the cost. After salty Harbor Gose at the [[Salt House]], Odine called in her favor, and the Crusaders resolved to face the veil in the morning.
 
+**[[2026.10.13]] "Beyond the Black Veil"** (session 17)
+All four players present. After breakfast at the Salt House (and a free knob of garlic from [[Edith Rooke]]), the party gave up on finding a substitute sacrifice: the price needed a conscious, willing subject. Azrith realised that if Odine paid alone she would be stranded beyond the veil, so all four touched the wall together and paid the toll — nine points of life force shared, and Odine's final point to break the seal. Beyond lay the ethereal domain of death: a corridor of trapped souls begging release from the grasp of **[[The Warden of Death]]**, opening into a burial chamber of nine deity statues with the **Shepherd** — death's archetype — enthroned. The souls animated the Shepherd statue; it greeted the party as "little flames" and attacked. The party destroyed the statue (it was undead, charm-immune, fire-resistant), but the Warden's ethereal rostrum survived — *"you have destroyed my body, but you will not break my oath"* — and drifted toward another statue to possess. The session ended on that cliffhanger.
+
 ---
 
 ## Where Things Stand
@@ -107,7 +110,8 @@ Odine's natural 20 revealed the black veil's terms: break it with a divine smite
 - Cassian's dream bargain with [[The Masked Figure]] is still unresolved, as is the question of why [[House Wulfhelm]] will not acknowledge [[House Fortescue]].
 - **[[House Wulfhelm]] killed [[House Westermere]]** in a coup 15 years ago to silence a secret. Beowyn and Eodwin Wulfhelm were friends with Samantha's family. The truth lies beyond the black veil.
 - **The spirit behind the black veil** commands the undead and enthralls spirits. [[Eleanor Gray]] recently escaped its control. Azrith has declared he will kill it.
-- **The price of the [[Black Veil|veil]]**: passage costs 10 HP of maximum hit points in shared life force. Aldric and Odine have offered 5 each. The party rests at the Salt House and means to go through in the morning; see [[Confront the Spirit Behind the Black Veil]].
-- **[[Aldric]]'s mother** is the ghost [[Eleanor Gray]], trapped in the ethereal plane. She named him "Aldrick of Havenport" and always meant to bring him home.
+- **The party passed the [[Black Veil]] on [[2026.10.13]],** paying 10 max HP of life force shared among the four (Odine broke the seal). Beyond lies the ethereal domain of death, a prison of trapped souls kept by **[[The Warden of Death]]** — very likely the spirit behind the veil. Its Shepherd-statue vessel was destroyed, but the Warden itself survived and seeks a new vessel among the chamber's nine deity statues. The party must stop it. See [[Confront the Spirit Behind the Black Veil]].
+- [[Aldric]]'s mother is the ghost [[Eleanor Gray]], trapped in the ethereal plane. She named him "Aldrick of Havenport" and always meant to bring him home.
+- The party left the [[Salt House]] meaning to return within two hours; [[Mauve Marigold]] will check the manor if they do not.
 
 _For session-by-session detail, see each log in `00 - Campaign Log/`._
