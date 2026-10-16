@@ -13,9 +13,14 @@ aliases:
   - The Veil Warden
 date:
 image_name:
+  - The_Warden_of_Death.png
 ---
 
 # The Warden of Death
+
+<div class="portrait-frame">
+<img src="../Attachments/The_Warden_of_Death.png" alt="The Warden of Death" width="300" />
+</div>
 
 ## Summary
 
