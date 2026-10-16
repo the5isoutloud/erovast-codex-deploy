@@ -35,6 +35,7 @@ A putrid and foul spirit that commands the undead, residing beyond the black vei
 
 - [[Odine Dunmere]]'s natural 20 Insight revealed that the veil draws on what seems to be an alien, near-infinite necrotic power source. The only thing she has ever sensed more powerful is the thing that comes to her village in the [[Thornwood Vale]]. She told [[Ian]] she believes it is *"a new, returned evil"*. That is her own reading, unconfirmed. Source: [[2026.10.06|2026.10.06]].
 - Mauve said whatever lies behind the wall *"has done a mighty fine job at concealing the truth that lies within."* Source: [[2026.10.06|2026.10.06]].
+- On [[2026.10.13]] the party crossed the veil and the trapped souls named their captor: **[[The Warden of Death]]** — very likely this same entity. See [[Black Veil]] for what lies beyond. Source: [[2026.10.13|2026.10.13]].
 
 ## Connections
 

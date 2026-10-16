@@ -15,11 +15,13 @@ parent: [[Havenport]]
 
 ## Status
 
-Active. A subquest of [[Havenport]]. On [[2026.09.29|2026.09.29]], [[Azrith]] returned from the ethereal plane and met [[Eleanor Gray]] — [[Aldric]]'s mother, a ghost trapped beyond the black veil. She told him about the spirit behind the veil: *"a putrid and foul entity... an evil force, a spirit that commands the undead. It draws it unto itself."* Source: [[2026.09.29|2026.09.29]].
+Active. A subquest of [[Havenport]]. On [[2026.09.29]], [[Azrith]] returned from the ethereal plane and met [[Eleanor Gray]] — [[Aldric]]'s mother, a ghost trapped beyond the black veil. She told him about the spirit behind the veil: *"a putrid and foul entity... an evil force, a spirit that commands the undead. It draws it unto itself."* Source: [[2026.09.29|2026.09.29]].
 
 Azrith declared: *"if it's undead and he can kill it, he will."* Source: [[2026.09.29|2026.09.29]].
 
-On [[2026.10.06|2026.10.06]], [[Odine Dunmere]]'s natural 20 revealed the veil's price: **10 HP of maximum hit points** of shared life force (narratively, about a year of life split among four). Neither [[Ian]] nor [[Mauve Marigold]] could offer a divine alternative. [[Aldric]] and Odine each offered 5 HP, and [[Cassian]] remains reluctant. The party rested at the [[Salt House]] and planned to return to the veil in the morning; Odine vowed to go *"with or without you."* Source: [[2026.10.06|2026.10.06]].
+On [[2026.10.06|2026.10.06]], [[Odine Dunmere]]'s natural 20 revealed the veil's price: **10 HP of maximum hit points** of shared life force (narratively, about a year of life split among four). Neither [[Ian]] nor [[Mauve Marigold]] could offer a divine alternative. [[Aldric]] and Odine each offered 5 HP, and [[Cassian]] remained reluctant. The party rested at the [[Salt House]] and planned to return to the veil in the morning; Odine vowed to go *"with or without you."* Source: [[2026.10.06|2026.10.06]].
+
+**On [[2026.10.13|2026.10.13]], the party paid the toll and passed the veil.** Cassian paid the first point of life force, nine points were shared among the four, and Odine paid the last alone to break the seal. Beyond, they crossed the ethereal corridor of trapped souls into the burial chamber, where the trapped spirits named their captor — [[The Warden of Death]] — and its animated Shepherd-statue vessel attacked. The party destroyed the statue, but the Warden's ethereal rostrum survived (*"you have destroyed my body, but you will not break my oath"*) and moved toward another of the nine deity statues to possess it. The session ended mid-fight: the party must stop it reaching a new vessel. Source: [[2026.10.13|2026.10.13]].
 
 ## The Spirit
 
@@ -58,15 +60,18 @@ On [[2026.09.29|2026.09.29]], Azrith fought through the ethereal plane:
 - Learn more about the spirit — from Eleanor, from the vengeful ghost's remains, from any other trapped spirits.
 - ~~Determine what it would take to pass through the black veil~~ — **done** (2026.10.06): a divine smite, or 10 HP of maximum hit points in shared life force.
 - ~~Seek a divine caster who could smite the veil~~ — **done** (2026.10.06): Ian and Mauve know of no one.
-- Decide who gives how much life force (Aldric 5 and Odine 5 offered), and pass through the veil.
+- ~~Decide who gives how much life force, and pass through the veil~~ — **done** (2026.10.13): nine points shared, Odine paid the last to break the seal.
+- **Stop the Warden before it possesses another of the nine deity statues** (2026.10.13 cliffhanger).
 - Find out whether leaving the veil's domain costs life force again.
-- Confront and kill the spirit, as Azrith has declared.
+- Confront and kill the Warden, as Azrith has declared — and learn the nature of its oath.
+- Ask whether the Warden is truly the spirit behind the veil that Eleanor described.
 
 ## Related
 
 - [[Havenport]]
 - [[Westermere Manor]]
 - [[The Spirit Behind the Veil]]
+- [[The Warden of Death]]
 - [[Eleanor Gray]]
 - [[Aldric]]
 - [[Azrith]]
@@ -75,4 +80,5 @@ On [[2026.09.29|2026.09.29]], Azrith fought through the ethereal plane:
 - [[Ian]]
 - [[Mauve Marigold]]
 - [[2026.10.06]]
+- [[2026.10.13]]
 - [[Investigate the Wither in Havenport]]

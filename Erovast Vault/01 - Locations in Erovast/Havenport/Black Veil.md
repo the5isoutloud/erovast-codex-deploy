@@ -36,6 +36,14 @@ On [[2026.10.06|2026.10.06]], [[Odine Dunmere]] rolled a natural 20 on Insight w
 - **Breaking the door down:** a divine smite powerful enough to surpass the veil's damage threshold. The GM said this is probably beyond the party, short of a very good prayer to a god. [[Ian]] knows no living mortal who could do it; only a paladin, or King Aldrich, could have.
 - **Knocking:** the veil will invite people in for a price, **life force**. Passage costs **10 hit points of maximum HP** in total, not temporary HP or wounds, and the cost can be shared. In narrative terms it is about a year of life split among four, roughly three months each. [[Aldric]] and [[Odine Dunmere]] each offered 5. It is unknown whether leaving costs the same again.
 
+## Beyond the Veil
+
+On [[2026.10.13]], the party paid the toll and passed through together. Beyond lies a misty corridor into the **ethereal plane — the domain of death**, where all mortal souls pass toward the great beyond, with restless spirits lingering in its liminal space. The mist at their feet is a **miasma of trapped spirits** — faces whispered through Odine's radiant flame, begging release from the grasp of [[The Warden of Death]]. The corridor opens into an ancient **burial chamber**: sarcophagi and nine statues of the deities of Erovast, with the **Shepherd** — the pantheon archetype of death — enthroned on a central dais, newer than the other eight, moved in as if to complete the set. The souls animated the Shepherd statue to fight the party; its destruction left the Warden's ethereal form seeking a new vessel. Source: [[2026.10.13 - Transcript|Transcript]].
+
+- **The toll is paid.** Cassian (touching longest) paid the first point (32 → 31); nine points were shared one at a time among the four, and **Odine paid the tenth alone to break the seal**. Source: [[2026.10.13 - Transcript|Transcript]].
+- Passing through was not instant: the black energy climbed past elbows to shoulders as the wall softened to an oozing solid and gave them room. Source: [[2026.10.13 - Transcript|Transcript]].
+- Touching the veil to *study* it (Cassian's *identify*) draws its attention and begins to sap permanent hit points within the first minute. Source: [[2026.10.13 - Transcript|Transcript]].
+
 ## Past Attempts
 
 - Priests and priestesses have prayed at the veil, studied it and tried to bless the undercroft's burial site, with no result. Source: [[2026.10.06|2026.10.06]].
