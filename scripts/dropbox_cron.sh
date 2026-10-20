@@ -6,6 +6,7 @@ set -euo pipefail
 REPO="/opt/data/workspace/erovast-codex-deploy"
 VENV="/opt/data/workspace/erovast-automation/venv"
 ENV_FILE="/opt/data/profiles/swiftquill-dev/.env"
+HERMES_BIN="${HERMES_BIN:-/opt/hermes/bin/hermes}"
 
 if [ ! -f "$ENV_FILE" ]; then
   echo '{"error": "swiftquill-dev environment file not found"}'
@@ -27,5 +28,10 @@ if [ ! -x "$VENV/bin/python" ]; then
   exit 1
 fi
 
+if [ ! -x "$HERMES_BIN" ]; then
+  echo '{"error": "Hermes CLI is missing"}'
+  exit 1
+fi
+
 cd "$REPO"
-exec "$VENV/bin/python" scripts/dropbox_monitor.py "$@"
+exec "$VENV/bin/python" scripts/dropbox_monitor.py --hermes-bin "$HERMES_BIN" "$@"
