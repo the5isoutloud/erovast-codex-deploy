@@ -60,6 +60,65 @@ Leave the message off to use a timestamp instead.
 
 The first run builds a small image (`docker/publish.Dockerfile`, the Hugo image plus `git subtree`), which takes a few seconds. The steps themselves live in `scripts/publish.sh`. The script refuses to run unless you're on `main`.
 
+## Automated Craig transcript intake
+
+`scripts/dropbox_monitor.py` polls `/Apps/CraigChat`, identifies ZIP revisions by
+Dropbox file ID plus revision, and stores each unseen archive and its single
+`transcript.txt` under `/opt/data/workspace/erovast-automation/inbox`. Detection
+and intake never write into `Erovast Vault`. After a successful intake, the
+monitor creates an idempotent three-card chain on the `erovast` Kanban board:
+
+1. prepare/synchronise (`swiftquill-dev`)
+2. author (`default`)
+3. validate and publish (`swiftquill-dev`)
+
+Credentials are read only from the `swiftquill-dev` process environment. The
+cron wrapper loads `/opt/data/profiles/swiftquill-dev/.env`; it never prints the
+credential values. One-time setup is:
+
+```sh
+python3 -m venv /opt/data/workspace/erovast-automation/venv
+/opt/data/workspace/erovast-automation/venv/bin/pip install dropbox
+mkdir -p /opt/data/workspace/erovast-automation/inbox
+```
+
+Run a read-only production dry-run before enabling the schedule:
+
+```sh
+scripts/dropbox_cron.sh --dry-run
+```
+
+Dry-run does not download files, change state, create Kanban cards, or edit the
+vault. Output is a single canonical JSON line. `status` is `unchanged` when no
+unseen revision exists and `would_change` when intake would occur, making the
+output suitable for a 15-minute cron change detector. A real run returns
+`changed` only after secure extraction, Kanban creation, and atomic state
+persistence have all succeeded.
+
+On the first deployment only, compare every dry-run entry with the transcripts
+already present in the vault. If and only if every listed revision is historical,
+seed the durable identity ledger without downloads or cards:
+
+```sh
+scripts/dropbox_cron.sh --bootstrap
+scripts/dropbox_cron.sh --dry-run
+```
+
+The second command must return `status: "unchanged"`. Never bootstrap while a
+genuinely new recording is present, because bootstrap intentionally marks every
+currently listed revision as already handled.
+
+To validate the authored vault before building:
+
+```sh
+python3 scripts/check_vault.py
+```
+
+The production publish card must use Hugo Extended 0.165.0 directly on the
+host (Docker is unavailable to that worker), run the checker above, verify a
+clean and fast-forward-current `main`, and complete all remote SHA, DigitalOcean
+deployment, and HTTP smoke checks described in the card before completion.
+
 ## Windows notes
 
 Everything above works on Windows with [Docker Desktop](https://www.docker.com/products/docker-desktop/), using the same commands in PowerShell.

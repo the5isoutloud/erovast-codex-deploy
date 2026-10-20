@@ -1,283 +1,383 @@
 #!/usr/bin/env python3
-"""
-Monitor Dropbox /Apps/CraigChat for new Craig recordings.
-Downloads the zip, extracts the transcript, and saves it to the vault.
+"""Deterministically intake new Craig ZIP transcripts from Dropbox.
 
-Usage:
-    source venv/bin/activate && python3 scripts/dropbox_monitor.py [--dry-run]
-
-Outputs JSON describing what was found and what was done, so the cron job
-agent can decide whether to run the full scribe workflow.
+Detection and intake are deliberately isolated from ``Erovast Vault``. A successful
+intake writes only beneath the automation inbox/state roots and creates an
+idempotent prepare -> author -> publish chain on the ``erovast`` Kanban board.
 """
-import dropbox
-import zipfile
+
+from __future__ import annotations
+
+import argparse
+import json
 import os
 import re
+import stat
+import subprocess
 import sys
-import json
-import tempfile
-from datetime import datetime, timezone, timedelta
-
-# Dropbox credentials
-APP_KEY = os.environ.get("DROPBOX_APP_KEY", "")
-APP_SECRET = os.environ.get("DROPBOX_APP_SECRET", "")
-REFRESH_TOKEN = os.environ.get("DROPBOX_REFRESH_TOKEN", "")
-
-# Also try reading from the Hermes .env file if env vars aren't set
-if not REFRESH_TOKEN:
-    env_path = os.path.expanduser("~/.hermes/.env")
-    if not os.path.exists(env_path):
-        env_path = os.path.expanduser("~/profiles/erovast-scribe/.env")
-    if os.path.exists(env_path):
-        with open(env_path) as f:
-            for line in f:
-                if line.startswith("DROPBOX_REFRESH_TOKEN="):
-                    REFRESH_TOKEN = line.split("=", 1)[1].strip()
-                elif line.startswith("DROPBOX_APP_KEY="):
-                    APP_KEY = line.split("=", 1)[1].strip()
-                elif line.startswith("DROPBOX_APP_SECRET="):
-                    APP_SECRET = line.split("=", 1)[1].strip()
+import zipfile
+from pathlib import Path, PurePosixPath
+from typing import Any, Callable
 
 DROPBOX_PATH = "/Apps/CraigChat"
-VAULT_TRANSCRIPTS = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-    "Erovast Vault", "00 - Campaign Log", "Transcripts"
-)
-VAULT_LOGS = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-    "Erovast Vault", "00 - Campaign Log"
-)
-
-# Craig filenames have timestamps in UTC. Sessions are evening US time,
-# so the UTC date is often the next day. We map by comparing the first line
-# of the transcript to existing ones, or by the date being close.
-# Existing vault sessions (YYYY.MM.DD format):
-# 2026.05.05, 2026.05.12, 2026.05.19, 2026.06.02, 2026.06.11,
-# 2026.06.23, 2026.07.14, 2026.08.11, 2026.08.18, 2026.08.25,
-# 2026.09.08, 2026.09.15, 2026.09.22
+AUTOMATION_ROOT = Path("/opt/data/workspace/erovast-automation")
+DEFAULT_INBOX = AUTOMATION_ROOT / "inbox"
+DEFAULT_STATE = AUTOMATION_ROOT / "state" / "dropbox-monitor.json"
+REPO_ROOT = Path("/opt/data/workspace/erovast-codex-deploy")
+MAX_ARCHIVE_BYTES = 500 * 1024 * 1024
+MAX_TRANSCRIPT_BYTES = 25 * 1024 * 1024
 
 
-def parse_craig_date(filename):
-    """Extract the date from a Craig filename like craig_VNqXLozOEBy3_2026-9-23_0-41-50.aac.zip"""
-    m = re.search(r"(\d{4})-(\d{1,2})-(\d{1,2})", filename)
-    if not m:
-        return None
-    return int(m.group(1)), int(m.group(2)), int(m.group(3))
+def extract_transcript(
+    archive_path: Path | str,
+    destination_dir: Path | str,
+    max_bytes: int = MAX_TRANSCRIPT_BYTES,
+) -> Path:
+    """Extract exactly one transcript.txt without trusting ZIP member paths."""
+    archive_path = Path(archive_path)
+    destination_dir = Path(destination_dir)
+    try:
+        bundle = zipfile.ZipFile(archive_path)
+    except zipfile.BadZipFile as exc:
+        raise ValueError("download is not a valid ZIP archive") from exc
+
+    with bundle:
+        transcripts: list[zipfile.ZipInfo] = []
+        for info in bundle.infolist():
+            member = PurePosixPath(info.filename)
+            if member.is_absolute() or ".." in member.parts or "\\" in info.filename:
+                raise ValueError(f"unsafe ZIP member: {info.filename}")
+            mode = info.external_attr >> 16
+            if stat.S_ISLNK(mode):
+                raise ValueError(f"unsafe ZIP symlink: {info.filename}")
+            if member.name.lower() == "transcript.txt" and not info.is_dir():
+                transcripts.append(info)
+
+        if len(transcripts) != 1:
+            raise ValueError("archive must contain exactly one transcript.txt")
+        transcript = transcripts[0]
+        if transcript.flag_bits & 0x1:
+            raise ValueError("encrypted transcript.txt is not supported")
+        if transcript.file_size > max_bytes:
+            raise ValueError("transcript exceeds size limit")
+
+        destination_dir.mkdir(parents=True, exist_ok=True)
+        output = destination_dir / "transcript.txt"
+        temporary = destination_dir / ".transcript.txt.part"
+        written = 0
+        try:
+            with bundle.open(transcript) as source, temporary.open("wb") as target:
+                while chunk := source.read(1024 * 1024):
+                    written += len(chunk)
+                    if written > max_bytes:
+                        raise ValueError("transcript exceeds size limit")
+                    target.write(chunk)
+            temporary.replace(output)
+        finally:
+            temporary.unlink(missing_ok=True)
+        return output
 
 
-def get_existing_transcripts():
-    """Return set of existing transcript basenames in the vault."""
-    existing = set()
-    if os.path.isdir(VAULT_TRANSCRIPTS):
-        for f in os.listdir(VAULT_TRANSCRIPTS):
-            if f.endswith(".md"):
-                existing.add(f)
-    return existing
+def select_unseen(entries: list[Any], state: dict[str, Any]) -> list[dict[str, Any]]:
+    """Return Craig ZIP metadata not recorded by durable Dropbox id/revision."""
+    processed = state.get("processed", {})
+    unseen = []
+    for entry in entries:
+        name = getattr(entry, "name", "")
+        file_id = getattr(entry, "id", "")
+        revision = getattr(entry, "rev", "")
+        if not name.lower().endswith(".zip") or "craig" not in name.lower():
+            continue
+        if not file_id or not revision:
+            continue
+        identity = f"{file_id}:{revision}"
+        if identity in processed:
+            continue
+        unseen.append(
+            {
+                "identity": identity,
+                "file_id": file_id,
+                "revision": revision,
+                "name": name,
+                "path": entry.path_display,
+                "size_bytes": int(entry.size),
+            }
+        )
+    return sorted(unseen, key=lambda item: (item["file_id"], item["revision"], item["name"]))
 
 
-def get_existing_logs():
-    """Return set of existing session log dates (YYYY.MM.DD) in the vault."""
-    logs = set()
-    if os.path.isdir(VAULT_LOGS):
-        for f in os.listdir(VAULT_LOGS):
-            m = re.match(r"(\d{4}\.\d{2}\.\d{2})\.md$", f)
-            if m:
-                logs.add(m.group(1))
-    return logs
+def create_task_chain(
+    archive: dict[str, Any],
+    transcript_path: Path,
+    runner: Callable[..., Any] = subprocess.run,
+    repo_root: Path = REPO_ROOT,
+    hermes_bin: str = "hermes",
+) -> dict[str, str]:
+    """Create the idempotent prepare -> author -> publish Kanban chain."""
+    identity = archive["identity"]
+    workspace = f"dir:{repo_root}"
 
+    def create(
+        title: str, assignee: str, body: str, stage: str, parent: str | None = None
+    ) -> str:
+        command = [
+            hermes_bin,
+            "kanban",
+            "--board",
+            "erovast",
+            "create",
+            title,
+            "--assignee",
+            assignee,
+            "--body",
+            body,
+            "--workspace",
+            workspace,
+            "--idempotency-key",
+            f"craig:{identity}:{stage}",
+            "--completion-contract",
+            "local-only",
+            "--json",
+        ]
+        if parent:
+            command.extend(["--parent", parent])
+        result = runner(command, check=True, text=True, capture_output=True)
+        task_id = json.loads(result.stdout)["id"]
+        if not task_id:
+            raise RuntimeError(f"Kanban did not return an id for {stage}")
+        return task_id
 
-def find_matching_transcript(existing, craig_date):
-    """Check if a transcript matching this Craig date already exists."""
-    if not craig_date:
-        return None
-    year, month, day = craig_date
-    # The session date is usually the UTC date minus 1 (evening US = next day UTC)
-    # Check both the same day and the previous day
-    for offset in [0, -1]:
-        d = datetime(year, month, day, tzinfo=timezone.utc) + timedelta(days=offset)
-        candidate = f"{d.year:04}.{d.month:02}.{d.day:02} - Transcript.md"
-        if candidate in existing:
-            return candidate
-        # Also check without zero-padding
-        candidate2 = f"{d.year}.{d.month:02}.{d.day:02} - Transcript.md"
-        if candidate2 in existing:
-            return candidate2
-    return None
-
-
-def format_transcript(content, craig_date, filename):
-    """Format the raw transcript text into the vault's markdown format.
-
-    Matches the existing transcript frontmatter format:
-      ---
-      cssclasses:
-        - wide-page
-        - wide-backlinks
-      dateCreated: YYYY-MM-DD
-      Kristofer: Odine
-      KINGBOOMY: GM
-      Phauxtographer: Cassian
-      DigitalARG: Azrith
-      ƤΔŘŽƗVΔŁ: Aldric
-      ---
-
-    The speaker map is constant across all existing transcripts.
-    """
-    year, month, day = craig_date
-
-    # Determine the session date by checking if a session log already exists
-    # Craig timestamps are UTC; sessions are evening US time, so the vault
-    # date is usually the day before the UTC date.
-    existing_logs = get_existing_logs()
-    session_date = None
-    for offset in [0, -1]:
-        test_date = datetime(year, month, day, tzinfo=timezone.utc) + timedelta(days=offset)
-        test_str = f"{test_date.year:04}.{test_date.month:02}.{test_date.day:02}"
-        if test_str in existing_logs:
-            session_date = test_str
-            break
-
-    if not session_date:
-        # Default: use the previous day (UTC → US evening)
-        prev = datetime(year, month, day, tzinfo=timezone.utc) - timedelta(days=1)
-        session_date = f"{prev.year:04}.{prev.month:02}.{prev.day:02}"
-
-    # Convert session_date (YYYY.MM.DD) to YYYY-MM-DD for dateCreated
-    date_created = f"{session_date[:4]}-{session_date[5:7]}-{session_date[8:10]}"
-
-    # Build frontmatter matching the existing transcript format exactly.
-    # The speaker map is constant across all existing transcripts.
-    header = (
-        "---\n"
-        "cssclasses:\n"
-        "  - wide-page\n"
-        "  - wide-backlinks\n"
-        f"dateCreated: {date_created}\n"
-        "Kristofer: Odine\n"
-        "KINGBOOMY: GM\n"
-        "Phauxtographer: Cassian\n"
-        "DigitalARG: Azrith\n"
-        "ƤΔŘŽƗVΔŁ: Aldric\n"
-        "---\n\n"
+    prepare_body = (
+        f"Prepare and synchronise Craig intake {identity}. Source archive: "
+        f"{archive['name']}; extracted transcript: {transcript_path}. Verify the "
+        "intake identity/revision, then require a clean main checkout, fetch origin, "
+        "and fast-forward-only pull. Do not edit Erovast Vault and do not publish. "
+        "Hand the verified current main SHA and transcript path to the author task."
+    )
+    prepare = create(
+        f"Prepare Craig transcript {archive['name']}",
+        "swiftquill-dev",
+        prepare_body,
+        "prepare",
     )
 
-    return header, session_date, content
-
-
-def main():
-    dry_run = "--dry-run" in sys.argv
-
-    if not REFRESH_TOKEN:
-        print(json.dumps({"error": "No DROPBOX_REFRESH_TOKEN found"}))
-        sys.exit(1)
-
-    dbx = dropbox.Dropbox(
-        oauth2_refresh_token=REFRESH_TOKEN,
-        app_key=APP_KEY,
-        app_secret=APP_SECRET,
+    author_body = (
+        f"Author the campaign update from {transcript_path} (Dropbox identity "
+        f"{identity}). Read Erovast Vault/vault-index.md first. Add the transcript "
+        "using existing transcript frontmatter conventions; create/update the dated "
+        "session log, every affected lore note, Campaign Synopsis, and vault-index. "
+        "Validate all Attachments links and Obsidian wikilinks. Preserve campaign "
+        "facts; do not invent lore or alter the Hugo theme. Commit nothing and publish "
+        "nothing; leave a precise changed-file and validation handoff."
+    )
+    author = create(
+        f"Author Craig transcript {archive['name']}",
+        "default",
+        author_body,
+        "author",
+        parent=prepare,
     )
 
-    # List all Craig recordings
-    result = dbx.files_list_folder(DROPBOX_PATH)
-    recordings = list(result.entries)
+    publish_body = (
+        "Review the author handoff and production diff. Require a clean/current main "
+        "that can be fast-forwarded from origin/main. Validate front matter, Obsidian "
+        "links, Attachments paths, and generated-site inputs with the existing checker. "
+        "Use Hugo Extended 0.165.0 without Docker; do not alter the theme. Build, commit "
+        "and push main once, then split Erovast Vault to obsidian and site/public to "
+        "do-deploy without force-pushing. Verify all three remote SHAs, poll the "
+        "DigitalOcean app deployment to success, and HTTP-smoke-test the intended public "
+        "page before completion. If publication partially succeeds, preserve exact SHAs "
+        "and retry only incomplete steps."
+    )
+    publish = create(
+        f"Publish Craig transcript {archive['name']}",
+        "swiftquill-dev",
+        publish_body,
+        "publish",
+        parent=author,
+    )
+    return {"prepare": prepare, "author": author, "publish": publish}
+
+
+def _load_state(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {"version": 1, "processed": {}}
+    state = json.loads(path.read_text(encoding="utf-8"))
+    if state.get("version") != 1 or not isinstance(state.get("processed"), dict):
+        raise ValueError("unsupported or invalid monitor state")
+    return state
+
+
+def _write_state(path: Path, state: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".part")
+    temporary.write_text(
+        json.dumps(state, sort_keys=True, indent=2) + "\n", encoding="utf-8"
+    )
+    temporary.replace(path)
+
+
+def _list_all(dbx: Any, dropbox_path: str) -> list[Any]:
+    result = dbx.files_list_folder(dropbox_path)
+    entries = list(result.entries)
     while result.has_more:
         result = dbx.files_list_folder_continue(result.cursor)
-        recordings.extend(result.entries)
+        entries.extend(result.entries)
+    return entries
 
-    existing_transcripts = get_existing_transcripts()
-    existing_logs = get_existing_logs()
 
-    new_transcripts = []
-    already_processed = []
+def _intake_directory(inbox: Path, archive: dict[str, Any]) -> Path:
+    file_id = re.sub(r"[^A-Za-z0-9_.-]+", "_", archive["file_id"])
+    revision = re.sub(r"[^A-Za-z0-9_.-]+", "_", archive["revision"])
+    if not file_id or not revision:
+        raise ValueError("Dropbox identity cannot be represented safely on disk")
+    return inbox / f"{file_id}-{revision}"
 
-    for rec in recordings:
-        craig_date = parse_craig_date(rec.name)
-        if not craig_date:
-            continue
 
-        # Check if this recording's transcript already exists in the vault
-        match = find_matching_transcript(existing_transcripts, craig_date)
-        if match:
-            already_processed.append({
-                "dropbox_file": rec.name,
-                "vault_transcript": match,
-            })
-            continue
+def run_monitor(
+    dbx: Any,
+    inbox: Path,
+    state_path: Path,
+    *,
+    dry_run: bool = False,
+    bootstrap: bool = False,
+    dropbox_path: str = DROPBOX_PATH,
+    task_creator: Callable[[dict[str, Any], Path], dict[str, str]] = create_task_chain,
+) -> dict[str, Any]:
+    """Poll Dropbox, intake unseen revisions, create tasks, and persist completion."""
+    state = _load_state(state_path)
+    unseen = select_unseen(_list_all(dbx, dropbox_path), state)
+    if bootstrap:
+        for archive in unseen:
+            state["processed"][archive["identity"]] = {
+                "file_id": archive["file_id"],
+                "revision": archive["revision"],
+                "name": archive["name"],
+                "bootstrap": True,
+            }
+        _write_state(state_path, state)
+        return {
+            "status": "bootstrapped",
+            "new_count": len(unseen),
+            "intakes": [],
+        }
+    if dry_run:
+        return {
+            "status": "would_change" if unseen else "unchanged",
+            "new_count": len(unseen),
+            "intakes": [
+                {
+                    "identity": item["identity"],
+                    "name": item["name"],
+                    "revision": item["revision"],
+                    "size_bytes": item["size_bytes"],
+                }
+                for item in unseen
+            ],
+        }
 
-        # This is a new recording!
-        new_transcripts.append({
-            "dropbox_file": rec.name,
-            "dropbox_path": rec.path_display,
-            "size_bytes": rec.size,
-            "craig_date": f"{craig_date[0]:04}-{craig_date[1]:02}-{craig_date[2]:02}",
-        })
+    intakes = []
+    for archive in unseen:
+        if archive["size_bytes"] > MAX_ARCHIVE_BYTES:
+            raise ValueError(f"archive exceeds size limit: {archive['name']}")
+        _, response = dbx.files_download(archive["path"])
+        content = response.content
+        if len(content) > MAX_ARCHIVE_BYTES:
+            raise ValueError(f"archive exceeds size limit: {archive['name']}")
 
-    # Download and extract new transcripts (unless dry-run)
-    extracted = []
-    if not dry_run:
-        for nt in new_transcripts:
-            try:
-                # Download
-                md, response = dbx.files_download(nt["dropbox_path"])
-                content = response.content
+        intake_dir = _intake_directory(inbox, archive)
+        intake_dir.mkdir(parents=True, exist_ok=True)
+        archive_path = intake_dir / "archive.zip"
+        temporary = intake_dir / ".archive.zip.part"
+        try:
+            temporary.write_bytes(content)
+            temporary.replace(archive_path)
+        finally:
+            temporary.unlink(missing_ok=True)
+        transcript_path = extract_transcript(archive_path, intake_dir)
+        tasks = task_creator(archive, transcript_path)
 
-                # Save to temp file
-                with tempfile.NamedTemporaryFile(suffix=".zip", delete=False) as tmp:
-                    tmp.write(content)
-                    tmp_path = tmp.name
+        record = {
+            "file_id": archive["file_id"],
+            "revision": archive["revision"],
+            "name": archive["name"],
+            "archive_path": str(archive_path),
+            "transcript_path": str(transcript_path),
+            "tasks": tasks,
+        }
+        state["processed"][archive["identity"]] = record
+        _write_state(state_path, state)
+        intakes.append(
+            {
+                "identity": archive["identity"],
+                "name": archive["name"],
+                "revision": archive["revision"],
+                "tasks": tasks,
+                "transcript_path": str(transcript_path),
+            }
+        )
 
-                # Check if it's a zip
-                if zipfile.is_zipfile(tmp_path):
-                    with zipfile.ZipFile(tmp_path) as zf:
-                        # Find the transcript file
-                        transcript_name = None
-                        for name in zf.namelist():
-                            if "transcription" in name.lower() or "transcript" in name.lower():
-                                transcript_name = name
-                                break
-
-                        if transcript_name:
-                            transcript_content = zf.read(transcript_name).decode("utf-8")
-                            header, session_date, body = format_transcript(
-                                transcript_content, parse_craig_date(nt["dropbox_file"]), nt["dropbox_file"]
-                            )
-
-                            # Save to vault
-                            out_path = os.path.join(
-                                VAULT_TRANSCRIPTS,
-                                f"{session_date} - Transcript.md"
-                            )
-                            with open(out_path, "w", encoding="utf-8") as f:
-                                f.write(header + body)
-
-                            extracted.append({
-                                "dropbox_file": nt["dropbox_file"],
-                                "vault_path": f"Erovast Vault/00 - Campaign Log/Transcripts/{session_date} - Transcript.md",
-                                "session_date": session_date,
-                                "transcript_chars": len(transcript_content),
-                            })
-                        else:
-                            print(f"WARNING: No transcript file found in {nt['dropbox_file']}", file=sys.stderr)
-                else:
-                    # Not a zip — it's a raw audio file, skip
-                    pass
-
-                os.unlink(tmp_path)
-            except Exception as e:
-                print(f"ERROR downloading {nt['dropbox_file']}: {e}", file=sys.stderr)
-
-    output = {
-        "total_recordings": len(recordings),
-        "already_processed": len(already_processed),
-        "new_found": len(new_transcripts),
-        "new_extracted": len(extracted),
-        "already_processed_list": already_processed,
-        "new_transcripts": new_transcripts,
-        "extracted": extracted,
+    return {
+        "status": "changed" if intakes else "unchanged",
+        "new_count": len(intakes),
+        "intakes": intakes,
     }
 
-    print(json.dumps(output, indent=2))
+
+def _build_dropbox_client() -> Any:
+    required = ("DROPBOX_APP_KEY", "DROPBOX_APP_SECRET", "DROPBOX_REFRESH_TOKEN")
+    missing = [name for name in required if not os.environ.get(name)]
+    if missing:
+        raise RuntimeError(f"missing required environment variable(s): {', '.join(missing)}")
+    try:
+        import dropbox
+    except ImportError as exc:
+        raise RuntimeError("Dropbox SDK is not installed in the automation environment") from exc
+    return dropbox.Dropbox(
+        oauth2_refresh_token=os.environ["DROPBOX_REFRESH_TOKEN"],
+        app_key=os.environ["DROPBOX_APP_KEY"],
+        app_secret=os.environ["DROPBOX_APP_SECRET"],
+    )
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--dry-run", action="store_true")
+    mode.add_argument(
+        "--bootstrap",
+        action="store_true",
+        help="record all current revisions without downloading or creating tasks",
+    )
+    parser.add_argument("--inbox", type=Path, default=DEFAULT_INBOX)
+    parser.add_argument("--state", type=Path, default=DEFAULT_STATE)
+    parser.add_argument("--dropbox-path", default=DROPBOX_PATH)
+    parser.add_argument("--hermes-bin", default=os.environ.get("HERMES_BIN", "hermes"))
+    return parser.parse_args(argv)
+
+
+def main(argv: list[str] | None = None) -> int:
+    args = parse_args(argv)
+    try:
+        client = _build_dropbox_client()
+        creator = lambda archive, transcript: create_task_chain(  # noqa: E731
+            archive, transcript, hermes_bin=args.hermes_bin
+        )
+        output = run_monitor(
+            client,
+            args.inbox,
+            args.state,
+            dry_run=args.dry_run,
+            bootstrap=args.bootstrap,
+            dropbox_path=args.dropbox_path,
+            task_creator=creator,
+        )
+    except Exception as exc:
+        print(json.dumps({"error": str(exc)}, sort_keys=True, separators=(",", ":")))
+        return 1
+    print(json.dumps(output, sort_keys=True, separators=(",", ":")))
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
