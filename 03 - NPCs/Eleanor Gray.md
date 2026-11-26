@@ -46,6 +46,7 @@ Source: [[2026.09.29|2026.09.29]].
 
 - [[Aldric]] doubted that the ghost was really his mother, saying there could be other red tieflings out there, though the GM noted her description of her son matched him. [[Cassian]] also questioned it. Aldric resolved to find out for himself whether the stories are true. Source: [[2026.10.06|2026.10.06]].
 - Through [[Azrith]], the party reported that she warned of a very powerful force behind the [[Black Veil|black veil]] that must be killed. Source: [[2026.10.06|2026.10.06]].
+- **On [[2026.11.18]], part of her essence blessed Azrith's scimitars.** After the Warden's death his blades glowed with ethereal light; he felt a presence within them and a sense of gratitude from her for helping destroy the monster. His scimitars are now **+2 scimitars** (the silvered one remains silvered, with an added ethereal edge). Source: [[2026.11.18|2026.11.18]].
 
 ## Relationships
 

@@ -5,11 +5,11 @@ cssclasses:
 tags:
   - index
 dateCreated: 2026-09-25
-dateUpdated: 2026-10-14
-lastSessionLogged: 2026-10-13
-lastTranscript: 2026.10.13
-noteCount: 90
-transcriptCount: 16
+dateUpdated: 2026-11-18
+lastSessionLogged: 2026-11-18
+lastTranscript: 2026.11.18
+noteCount: 91
+transcriptCount: 17
 ---
 
 # Erovast Vault Index
@@ -18,9 +18,9 @@ This is the master catalog of the Erovast campaign vault. Every note in the vaul
 
 ## Campaign at a Glance
 
-- **Party:** *Cassian's Crushing Crusaders*: [[Aldric]], [[Azrith]], [[Cassian]], [[Odine Dunmere]]. All four are level 5 as of [[2026.09.15]].
+- **Party:** *Cassian's Crushing Crusaders*: [[Aldric]], [[Azrith]], [[Cassian]], [[Odine Dunmere]]. All four are level 6 as of [[2026.11.18]].
 - **Sponsor:** [[Duke Tristan Blackwood]] of [[House Blackwood]], a vassal of [[House Corwyn]]. He takes 8% of prize money.
-- **Where the story stands:** The party freed the Menagerie's manticore instead of killing it, which caused a scandal at the [[King's Tourney]]. Blackwood sent them by teleportation circle to [[Havenport]], a decaying seaport and **Aldric's hometown**, to lie low with [[Mauve Marigold]] until he sends word. Over the summer, Azrith has returned from the realm of death (see [[Find Azrith]]), and the party has learned that [[House Wulfhelm]] killed [[House Westermere]] 15 years ago and that the Wither is linked to the black veil sealing the Westermere undercroft. On [[2026.10.13]] they paid the veil's price (10 max HP shared) and passed through into the ethereal domain of death, where the trapped souls named their captor — [[The Warden of Death]] — and its Shepherd-statue vessel attacked. The statue was destroyed, but the Warden survived and seeks a new vessel; the fight resumes next session.
+- **Where the story stands:** On [[2026.11.18]] the party destroyed [[The Warden of Death]] beyond the black veil: Havenport's trapped souls were freed, the veil and the Curtain vanished, and [[Samantha Westermere]] passed on — after confirming **House Wulfhelm deliberately spread the Wither** and gifted the Shepherd statue as a trap. The Wither-sick were not cured. Havenport (via [[Mauve Marigold]]) pledged its support, and [[Captain Garran]] escorted the party back to Everdale, ten days before the final contest. The fairgrounds are militarized; the party stands between disgraced and controversial; and [[Duke Tristan Blackwood]] believes someone has already decided Erovast's future — proposing the party **compete from the shadows**. His plan is to be laid out next session.
 - **Big mysteries:**
   - The Wither (also called the pestilence, hollowing or blight) is spreading out of the [[Thornwood Vale]].
   - [[House Godrin]] has confirmed that [[Maralynn]] is alive.
@@ -77,6 +77,7 @@ Session logs are tagged `game-log`. Each log has a Summary, Open Threads, and Ne
 | [[2026.09.29]] | Azrith's player returns. The party meets [[Mauve Marigold]] at the [[Salt House]] and learns House Westermere fell 15 years ago in a [[House Wulfhelm]] coup. Azrith fights through the ethereal plane and meets [[Eleanor Gray]], Aldric's mother. Odine finds radiant energy repels the black veil. | [[Eleanor Gray]], [[Hesta Cole]], [[Edith Rooke]], [[The Spirit Behind the Veil]], [[Salt House]], [[Black Veil]] |
 | [[2026.10.06]] | Azrith's player is absent and the GM voices him. Odine's natural 20 reveals the [[Black Veil]]'s price: a divine smite, or 10 HP of maximum hit points in shared life force. [[Ian]] is forbidden by the Oathkeepers to enter the undercroft. [[Mauve Marigold]] recounts failed attempts (priests, a Corwyn hedge mage) and offers her blood. The party rests at the Salt House to decide in the morning. | — |
 | [[2026.10.13]] | All four players present. The party pays the veil's toll together (Odine breaks the seal) and crosses into the ethereal domain of death, where trapped souls name their captor: [[The Warden of Death]]. The animated Shepherd statue (undead, charm-immune) attacks and is destroyed, but the Warden survives and moves toward another of the nine deity statues. Cliffhanger mid-fight. | [[The Warden of Death]] |
+| [[2026.11.18]] | All four players present. The party shatters the remaining deity statues, and the Warden's desperate possession of Odine backfires — her natural-20 save turns 10 radiant damage back and destroys it. Souls freed, veil and Curtain gone, [[Samantha Westermere]] confirms Wulfhelm's deliberate Wither and passes on. Loot: 5,200 gp, necklace of prayer beads, cloak of displacement, ceremonial mace; Azrith's blades blessed to +2 by [[Eleanor Gray]]. Party reaches level 6, life force restored, and [[Captain Garran]] escorts them back to Everdale — ten days before the final contest, where Blackwood proposes competing "from the shadows." | — |
 
 **Untranscribed session:** there was one session between 2026.07.14 and 2026.08.11 with no transcript. Its only record is the "Previously" section of [[2026.08.11]].
 
@@ -102,6 +103,7 @@ Transcripts are raw speech-to-text of each session, 45–100 KB each. They are t
 | [[2026.09.29 - Transcript]] | ✅ | Split-screen format: Azrith's ethereal-plane scene and the Salt House scene |
 | [[2026.10.06 - Transcript]] | ✅ | Azrith's player absent (GM voiced Azrith). Long out-of-character opening |
 | [[2026.10.13 - Transcript]] | ✅ | All four players present. Long out-of-character opening (dentist, food talk); party passed the veil and fought the Shepherd statue |
+| [[2026.11.18 - Transcript]] | ✅ | All four players present (month-long break). Long out-of-character opening (Halloween, Vegas); the Warden is destroyed and the party returns to Everdale |
 
 ---
 
@@ -137,7 +139,7 @@ Tagged `location`, plus `event` for the tournament venues.
 
 | Note | Summary |
 | --- | --- |
-| [[Black Veil]] | The entropic wall of necrotic force sealing part of the [[Westermere Manor]] undercroft. Two ways through: a divine smite, or 10 HP of maximum hit points in shared life force (2026.10.06). Lists past failed attempts. Has art: `Black_Veil.png`. |
+| [[Black Veil]] | The entropic wall of necrotic force sealing part of the [[Westermere Manor]] undercroft. Two ways through: a divine smite, or 10 HP of maximum hit points in shared life force (2026.10.06). Lists past failed attempts. **Passed on 2026.10.13; vanished with the Warden's death on 2026.11.18.** Has art: `Black_Veil.png`. |
 | [[Westermere Manor]] | Ruined cliffside keep of House Westermere, with a teleportation circle guarded by [[Ian]] at the Oath Gate. Its undercroft holds **the Curtain**, a gate to the realm of death that Azrith jumped into, and the **black veil**, an entropic wall sealing off part of the undercroft. Includes concept art: `WestermereManor_ConceptArt.png`. |
 
 ---
@@ -174,7 +176,7 @@ Tagged `npc`.
 | [[Hesta Cole]] | Havenport's closest thing to a nurse — a practical healer at the Salt House who tends Wither victims. Too needed to leave the dying. |
 | [[Edith Rooke]] | The bartender at the Salt House. Serves Harbor Gose. Has a romantic interest in Ian. |
 | [[The Spirit Behind the Veil]] | A putrid, foul spirit that commands the undead, beyond the black veil in Westermere Manor's undercroft. |
-| [[The Warden of Death]] | The entity enthroned in the burial chamber beyond the black veil, holding Havenport's trapped souls in its grasp — very likely the Spirit Behind the Veil. Its statue vessel was destroyed on 2026.10.13, but it survives and seeks a new vessel. |
+| [[The Warden of Death]] | The entity enthroned in the burial chamber beyond the black veil, holding Havenport's trapped souls in its grasp — very likely the Spirit Behind the Veil. A divine veil warden that House Wulfhelm's trap twisted into a soul-magnet. **Destroyed by the party on 2026.11.18**; its oath died unexplained. |
 
 ### House Blackwood
 
@@ -255,14 +257,14 @@ Tagged `quest`, with `status:` in the frontmatter.
 
 | Quest | Status | Summary |
 | --- | --- | --- |
-| [[Compete in the King's Tourney]] | active (on hold) | The party's tourney run: Proving Grounds, then the Gauntlet, then the Menagerie and the manticore aftermath. Tracks wagers, rewards and rival champions. On hold while the party lies low in Havenport. |
+| [[Compete in the King's Tourney]] | active (final contest) | The party's tourney run: Proving Grounds, then the Gauntlet, then the Menagerie and the manticore aftermath. Tracks wagers, rewards and rival champions. The Menagerie contest is over; ten days remain to the **final contest** (2026.11.18), the party stands disgraced-to-controversial, and Blackwood proposes they **compete from the shadows**. |
 | [[Investigate House Godrin]] | active | The infiltration of White Feather Tor, Maralynn found alive, and the "Aerendyl Morath" decoy now in play. Open leads: Valerie, the ledger outpost, the mole. |
 | [[Investigate the Pestilence]] | active | The Wither: Gruvelda's revelations about Mara and the Touched, the spread into the Crownlands, and the Dark King legend with its kneeling statue. |
 | [[Rescue Jevon]] | active | Jevon has been rescued twice and is now on the western edge of the Vale, misdirecting Godrin's scouts. Ongoing support via the sending stone. |
 | [[Havenport]] | active | The party's time in Havenport: staying with [[Mauve Marigold]] at the Salt House, the Wither in town, the Westermere Manor undercroft, the black veil, and all the threads that opened there. Started [[2026.09.22|2026.09.22]]. |
 | [[Investigate the Wither in Havenport]] | active | A subquest of [[Havenport]]. The Wither has been taking victims in Havenport for ~15 years, since House Westermere fell. Mauve's timeline, Hesta Cole's limits, and the connection to the undercroft. |
-| [[Confront the Spirit Behind the Black Veil]] | active | A subquest of [[Havenport]]. Azrith declared he will kill the putrid spirit that commands the undead beyond the black veil in Westermere Manor's undercroft. Eleanor Gray escaped its control. The veil's price is now known (10 HP of maximum hit points, shared); the party plans to go through next. |
-| [[Uncover the Westermere-Wulfhelm Coup]] | active | A subquest of [[Havenport]]. Samantha Westermere revealed that House Wulfhelm killed her family 15 years ago — Beowyn and Eodwin Wulfhelm were involved. The truth lies beyond the black veil. |
+| [[Confront the Spirit Behind the Black Veil]] | completed | A subquest of [[Havenport]]. Azrith declared he will kill the putrid spirit that commands the undead beyond the black veil in Westermere Manor's undercroft. **The party destroyed [[The Warden of Death]] on 2026.11.18; the note now lives in `Completed/`** — see the Completed table below. |
+| [[Uncover the Westermere-Wulfhelm Coup]] | active | A subquest of [[Havenport]]. Samantha Westermere revealed that House Wulfhelm killed her family 15 years ago — Beowyn and Eodwin Wulfhelm were involved. **Confirmed 2026.11.18: the Shepherd statue was Wulfhelm's gift-trap and the Wither was spread deliberately.** What remains is what to do with the truth. |
 
 ### Completed
 
@@ -272,6 +274,7 @@ Quests that have been resolved and moved to `Completed/`:
 | --- | --- |
 | [[Cure Aldric's Exhaustion]] | King's Cup exhaustion 6, cured by Father Caldus Vey. |
 | [[Find Azrith]] | Azrith leapt through the Curtain on [[2026.09.22|2026.09.22]], was lost to the realm of death, and returned on [[2026.09.29|2026.09.29]]. He met [[Eleanor Gray]], his mother's ghost. |
+| [[Confront the Spirit Behind the Black Veil]] | The party paid the veil's toll (2026.10.13), passed beyond, and destroyed [[The Warden of Death]] on [[2026.11.18|2026.11.18]] when its desperate possession of Odine backfired. Souls freed, veil gone, life force restored. The note now lives in `Completed/`. |
 
 ---
 
@@ -333,6 +336,10 @@ These are candidates for new notes when they become relevant:
 - The Oathkeeper acolyte at the Gleaming Keep's circle
 - The Corwyn hedge mage who studied the black veil (2026.10.06)
 - The shepherd and his fainting goat on the road to the manor (2026.10.06)
+- The necklace of prayer beads (Westermere; Odine, 2026.11.18)
+- The cloak of displacement (Westermere; Cassian, 2026.11.18)
+- The ceremonial mace (Westermere rare artifact; Aldric, 2026.11.18)
+- **The Mariner** — a deity named only in Samantha's parting blessing, *"May the Mariner watch over you all"* (2026.11.18); possibly one of the nine deities of Erovast
 
 ---
 
@@ -364,3 +371,4 @@ These are issues found while building this index. Fix them when the scribe works
 - **2026-09-30:** Wrote the [[2026.09.29]] session log (session 15). Created [[Eleanor Gray]], [[Hesta Cole]], [[Edith Rooke]], [[The Spirit Behind the Veil]], and [[Salt House]]. Updated [[Samantha Westermere]] (Wulfhelm killed her family), [[Mauve Marigold]] (met at Salt House), [[House Westermere]] (Wulfhelm coup), [[Ian]] (romantic interest in Edith), [[Odine Dunmere]], [[Cassian]], [[Azrith]], [[Aldric]], [[Havenport]], [[Westermere Manor]], [[Find Azrith]], and [[Campaign Synopsis]]. Added session 15 to the synopsis timeline.
 - **2026-09-30:** Organized the quests folder: created `Completed/` subfolder and moved [[Cure Aldric's Exhaustion]] and [[Find Azrith]] into it. Created four new quest notes: [[Havenport]], [[Investigate the Wither in Havenport]], [[Confront the Spirit Behind the Black Veil]], and [[Uncover the Westermere-Wulfhelm Coup]]. Updated vault-index.md with the new structure, a Completed table, and bumped noteCount from 80 to 84.
 - **2026-10-07:** Rewrote the [[2026.10.06]] session log from the transcript. Updated [[Ian]], [[Mauve Marigold]], [[Edith Rooke]], [[Hesta Cole]], [[Eleanor Gray]], [[Samantha Westermere]], [[The Spirit Behind the Veil]], [[Black Veil]], [[Westermere Manor]], [[Salt House]], [[Aldric]], [[Azrith]], [[Cassian]], [[Odine Dunmere]], [[House Corwyn]], [[Oathkeepers]], the four Havenport quests and [[Campaign Synopsis]]. Added index rows for [[Black Veil]], [[Beowyn Wulfhelm]] and [[Eodwin Wulfhelm]]. Repaired malformed table rows and broken links.
+- **2026-11-18:** Added the [[2026.11.18 - Transcript]] and wrote the [[2026.11.18]] session log. Updated [[The Warden of Death]] (destroyed), [[Black Veil]] (vanished), [[Westermere Manor]], [[Samantha Westermere]] (passed on), [[Eleanor Gray]] (blessed Azrith's blades), [[House Wulfhelm]], [[House Westermere]], all four PCs (level 6, new items), [[Edith Rooke]], [[Mauve Marigold]], [[Captain Garran]], [[Duke Tristan Blackwood]], [[Renny Blackwood]], the Havenport quests and [[Compete in the King's Tourney]], and [[Campaign Synopsis]] (session 18, new Where-Things-Stand). Moved [[Confront the Spirit Behind the Black Veil]] to `Completed/`. Bumped noteCount 90 → 91 and transcriptCount 16 → 17.

@@ -6,7 +6,7 @@ dateCreated: 2026-09-29
 tags:
   - quest
   - subquest
-status: active
+status: completed
 dateStarted: 2026-09-29
 parent: [[Havenport]]
 ---
@@ -15,9 +15,9 @@ parent: [[Havenport]]
 
 ## Status
 
-Active. A subquest of [[Havenport]]. On [[2026.09.29]], [[Azrith]] returned from the ethereal plane and met [[Eleanor Gray]] — [[Aldric]]'s mother, a ghost trapped beyond the black veil. She told him about the spirit behind the veil: *"a putrid and foul entity... an evil force, a spirit that commands the undead. It draws it unto itself."* Source: [[2026.09.29|2026.09.29]].
+**Completed on [[2026.11.18]].** A subquest of [[Havenport]]. On [[2026.09.29]], [[Azrith]] returned from the ethereal plane and met [[Eleanor Gray]] — [[Aldric]]'s mother, a ghost trapped beyond the black veil. She told him about the spirit behind the veil: *"a putrid and foul entity... an evil force, a spirit that commands the undead. It draws it unto itself."* Azrith declared: *"if it's undead and he can kill it, he will."*
 
-Azrith declared: *"if it's undead and he can kill it, he will."* Source: [[2026.09.29|2026.09.29]].
+On [[2026.10.13]] the party paid the veil's toll (10 max HP, shared), passed through, and fought the entity — [[The Warden of Death]] — in its animated Shepherd-statue vessel. **On [[2026.11.18]] the party destroyed it**: Odine, Cassian and Aldric shattered all eight remaining deity statues to deny it vessels, and when it attempted a desperate possession of Odine, her natural-20 Charisma save turned its own attack back — 10 radiant damage annihilated it (*"No! You were meant to be mine!"*). The trapped souls were freed, the veil vanished, and the sapped life force was later restored with *greater restoration*. Azrith's charge from Eleanor is fulfilled. See [[2026.11.18]], [[The Warden of Death]], [[Black Veil]].
 
 On [[2026.10.06|2026.10.06]], [[Odine Dunmere]]'s natural 20 revealed the veil's price: **10 HP of maximum hit points** of shared life force (narratively, about a year of life split among four). Neither [[Ian]] nor [[Mauve Marigold]] could offer a divine alternative. [[Aldric]] and Odine each offered 5 HP, and [[Cassian]] remained reluctant. The party rested at the [[Salt House]] and planned to return to the veil in the morning; Odine vowed to go *"with or without you."* Source: [[2026.10.06|2026.10.06]].
 

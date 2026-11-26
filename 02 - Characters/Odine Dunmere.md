@@ -20,7 +20,7 @@ class: Warlock 2 / Sorcerer 3
 
 ## Background
 
-Odine Dunmere is a 25-year-old half-elf from the [[Thornwood Vale]]. As of [[2026.09.15|2026.09.15]] she is a level 5 **Sorcerer 3 / Warlock 2**. Where her warlock power comes from has not been named in play. Source: [[2026.09.15|2026.09.15]].
+Odine Dunmere is a 25-year-old half-elf from the [[Thornwood Vale]]. As of [[2026.09.15|2026.09.15]] she was a level 5 **Sorcerer 3 / Warlock 2**; she reached **level 6** on [[2026.11.18|2026.11.18]] (the new level's class split was not stated at the table) and took the **Warcaster** feat. Where her warlock power comes from has not been named in play. Source: [[2026.09.15|2026.09.15]], [[2026.11.18|2026.11.18]].
 
 ### Family
 
@@ -95,6 +95,9 @@ The Guardians are matriarchal. Men are considered equals, but women naturally le
 - Rolled a **natural 20** on Insight studying the [[Black Veil|black veil]]. She found two ways through: a divine smite beyond the party's power, or a shared sacrifice of **10 HP of maximum hit points** of life force. The only thing she has sensed more powerful than the veil is the thing that comes to her village. Her radiant magic comes from cleric spells she took through the Magic Initiate feat. Source: [[2026.10.06|2026.10.06]].
 - Pleaded with [[Ian]] to help (Persuasion 13, failed). She told him the force beyond the veil is *"a new, returned evil"* that must be faced *"in the name of King Aldrich"*, and that she is *"in tune with something"* she can't explain. She told Ian she has seen King Aldrich's statue. Source: [[2026.10.06|2026.10.06]].
 - **Called in her favor** with [[Cassian]]: she followed him into the tourney, and now he must follow her through the wall. She offered 5 HP and said she would give all of it if she had to. She vowed to go to the veil in the morning *"with or without you."* Source: [[2026.10.06|2026.10.06]].
+- **On [[2026.11.18]], Odine destroyed [[The Warden of Death]].** Racing it for the remaining deity statues, she quickened a *catapult* (16 bludgeoning) and shattered three statues with *eldritch blast*; Cassian and Aldric broke the rest, and her final two blasts (a natural 20) pulverised the last vessel. Frightened by its wave of divine dread, she threw the condition off with a natural 20. When it attempted a desperate possession of her body, she spent a heroic inspiration on the DC 15 Charisma save, rolled **a natural 20**, and her ancient magic violently rejected it — 10 radiant damage destroyed the Warden. Her black vine-marks flashed radiant as she screamed the mist out of the chamber, then collapsed ([[Cassian]]'s Healing Hands restored 10 HP). Source: [[2026.11.18|2026.11.18]].
+- **Claimed the Westermere necklace of prayer beads** from the fallen treasury: six beads (**bless**, two × level-2 **cure wounds**, **shining smite**, **greater restoration**, and a **wind walk** bead, "Blessing of the Mariner"), each castable once per dawn as a bonus action; the GM waived the item's class/attunement restrictions. She attuned over a day of downtime. Source: [[2026.11.18|2026.11.18]].
+- Cast *greater restoration* from the necklace on [[Cassian]], then [[Aldric]], then [[Azrith]] (100 gp of components each, paid from party funds) — **all the life force sapped by the veil was restored.** Gave 300 gp of the Westermere gold to Havenport's community. Source: [[2026.11.18|2026.11.18]].
 
 ## Relationships
 

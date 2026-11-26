@@ -35,6 +35,7 @@ Active. A subquest of [[Havenport]]. The Wither — the same pestilence, hollowi
 
 - **Past attempts at the veil:** priests have prayed at the veil and tried to bless the undercroft's burial site, and a [[House Corwyn]] hedge mage studied it for three days. None of it worked. Source: [[2026.10.06|2026.10.06]].
 - **Hesta can't be spared:** Mauve would not let [[Hesta Cole]] leave the sick even briefly: *"we may lose another life this evening."* Mauve also refused [[Cassian]]'s suggestion to ask dying victims for their life force. Source: [[2026.10.06|2026.10.06]].
+- **The cause is named (2026.11.18):** [[House Wulfhelm]] deliberately spread the Wither as part of its trap for [[House Westermere]], and the twisted warden beneath the manor drew Havenport's dead into the undercroft. **The Warden's destruction freed those souls but did not cure the living** — [[Edith Rooke]] was still tending the Wither-sick at the [[Salt House]] afterward. The Wither itself originates in the Vale and remains at large. Source: [[2026.11.18|2026.11.18]].
 
 ## Leads
 

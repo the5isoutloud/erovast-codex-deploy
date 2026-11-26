@@ -19,6 +19,8 @@ The town is in decline since [[House Westermere]] fell 15 years ago. The Wither 
 
 On [[2026.10.06|2026.10.06]] the party set out to pass the [[Black Veil|black veil]]. [[Odine Dunmere]] learned it can be opened with a shared offering of life force (10 HP of maximum hit points). [[Ian]] is under [[Oathkeepers]] orders not to enter the undercroft and could not help. [[Mauve Marigold]] told them of the town's failed attempts, offered her own blood, and released them from any obligation. The party rested at the Salt House, planning to go through the veil in the morning. Source: [[2026.10.06|2026.10.06]].
 
+**On [[2026.11.18]] the Havenport chapter closed.** The party passed the veil on [[2026.10.13|2026.10.13]], and on [[2026.11.18|2026.11.18]] destroyed [[The Warden of Death]]; the trapped souls were freed, the veil and the Curtain vanished, and the storm broke over Havenport for the first time since the party arrived. The Wither-sick at the Salt House were not cured. The party gave Havenport's community 500 gp of the recovered Westermere gold, won Mauve's pledge of Havenport's support ("if his cause is yours... if you need Havenport's help, then you'll have mine"), and after two days' rest — and *greater restoration* for the life force the veil had taken — [[Captain Garran]] escorted them back to Everdale with a sealed letter from Blackwood, ten days before the final contest. The open threads (the living Wither-sick, Wulfhelm's exposed guilt) continue under the subquests. Source: [[2026.11.18|2026.11.18]].
+
 ## What Brought the Party Here
 
 Blackwood's reasons for sending them to Havenport, in order of certainty:

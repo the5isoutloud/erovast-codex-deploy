@@ -44,6 +44,7 @@ Stairwells on either side of the entrance hall lead down to the undercroft. [[Sa
   - Odine's insight check (14) revealed the veil reacts to living creatures with a sense of refusal. Whatever is on the other side is the origin of the wall and is protecting that space. Radiant energy staves off its effects; perhaps enough radiant energy, or an exchange of something vital with the necrotic force, might allow passage. But it's old, complex, and not understood magic.
   - Samantha believes the veil is tied to the Curtain.
   - On [[2026.10.06|2026.10.06]], Odine's natural 20 Insight found two ways through: a divine smite beyond anything the party commands, or a shared offering of **10 HP of maximum hit points** of life force. See [[Black Veil]]. Source: [[2026.10.06|2026.10.06]].
+  - **Both the veil and the Curtain are gone (2026.11.18).** After [[The Warden of Death]] was destroyed, the trapped souls dissipated and the undercroft became just quiet stone; the party exited through [[Captain Garran]]'s escort on their way back to Everdale. Source: [[2026.11.18|2026.11.18]].
   - The truth about House Westermere's fall — and the entity behind the veil — lies beyond it. Samantha, Eleanor, and her family all lie beyond the veil.
 - **Samantha's room:** where she died.
 - **The Oath Gate:** the post upstairs where [[Ian]] keeps watch over the teleportation circle. The [[Oathkeepers]] have ordered him never to descend into the undercroft because of incidents of missing persons. Source: [[2026.10.06|2026.10.06]].
