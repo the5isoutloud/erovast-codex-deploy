@@ -31,6 +31,7 @@ Edith is the bartender and server at the [[Salt House]] in [[Havenport]]. She se
 Source: [[2026.09.29|2026.09.29]].
 
 - When the party returned, she served [[Cassian]] and [[Aldric]] pints of **Harbor Gose** at 3 copper each: a light, briny ale. Havenport salts its ale. The local saying goes: *"The first one tastes like the harbor, but the second one tastes like home."* Source: [[2026.10.06|2026.10.06]].
+- **On [[2026.11.18]]** she was still tending the Wither-sick when the party returned from the undercroft — the Warden's death freed Havenport's dead, but **not the curse on the living**. She nodded that the house owed the party a round of drinks for what they had done. Source: [[2026.11.18|2026.11.18]].
 
 ## Relationships
 

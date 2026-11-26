@@ -28,6 +28,7 @@ House Westermere is a **fallen noble house** of [[Havenport]]. Its cliffside hom
 - Its liege house and the details of its fall are unknown.
 - **House Wulfhelm killed them.** Samantha revealed that [[Beowyn Wulfhelm]] and [[Eodwin Wulfhelm]] learned something dire about House Wulfhelm — a secret they hoped to keep quiet. Wulfhelm knew the Westermeres knew, and staged a trap. The entire family went missing in an instant; all that remained was a black wall of force blocking the undercroft. The truth lies beyond the black veil. Source: [[2026.09.29|2026.09.29]].
 - The Wither began creeping into Havenport after the fall, starting with two or three individuals a year and accelerating over five or six years until the town lost its economy, infrastructure, populace and trade. Source: [[2026.09.29|2026.09.29]].
+- **The Wither's spread was deliberate.** On [[2026.11.18]] Samantha confirmed [[House Wulfhelm]] spread it intentionally as part of the trap, twisting the divine warden into a soul-magnet. The family's remains lay in the burial chamber beyond the veil; their treasury held 5,200 gp and three enchanted artifacts, recovered by the party (most of it given back to Havenport's community). Source: [[2026.11.18|2026.11.18]].
 
 Source: [[2026.09.22|2026.09.22]], [[2026.09.29|2026.09.29]].
 

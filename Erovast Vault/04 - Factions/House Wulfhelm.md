@@ -33,6 +33,7 @@ The house descends from Beowyn, who was deeded lands by King Aldrich centuries a
 - Currently holds the title/deed to the [[Thornwood Vale]] from last year's win. Confirmed **black armor** (in contrast to [[House Godrin]]'s white). Has traded control of the Vale back and forth with House Godrin for nearly a decade via the tournament. Per Blackwood, Wulfhelm's self-image is that their strength and status entitle them to win. Source: [[2026.08.18|2026.08.18]].
 - The party's Menagerie-tier bout is confirmed against **[[Kardis Wulfhelm]]** himself—prince and heir of the house, one of its best swordsmen—not [[Ser Calder Ross]], who remains above this bracket. Source: [[2026.08.18|2026.08.18]].
 - [[House Fortescue]] ([[Cassian]]'s family) and **[[House Troth]]** ([[Aldric]]'s former house) are both vassals of House Wulfhelm. Notably, [[Duke Tristan Blackwood]]—despite knowing many circles—has never once heard Wulfhelm publicly acknowledge House Fortescue as a vassal, an unresolved thread. Source: [[2026.08.18|2026.08.18]].
+- **Wulfhelm deliberately spread the Wither.** Per [[Samantha Westermere]] on [[2026.11.18]]: they sought to control it, gifted the Shepherd statue to [[House Westermere]] as a trap, and twisted the divine warden meant to ferry souls into a magnet that drew Havenport's dead into the undercroft — *"they almost taught it to do the opposite of what it was intended to do."* See [[Uncover the Westermere-Wulfhelm Coup]] and [[Investigate the Pestilence]]. Source: [[2026.11.18|2026.11.18]].
 
 ## Relationships
 

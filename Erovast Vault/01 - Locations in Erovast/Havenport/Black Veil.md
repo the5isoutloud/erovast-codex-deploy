@@ -44,6 +44,8 @@ On [[2026.10.13]], the party paid the toll and passed through together. Beyond l
 - Passing through was not instant: the black energy climbed past elbows to shoulders as the wall softened to an oozing solid and gave them room. Source: [[2026.10.13 - Transcript|Transcript]].
 - Touching the veil to *study* it (Cassian's *identify*) draws its attention and begins to sap permanent hit points within the first minute. Source: [[2026.10.13 - Transcript|Transcript]].
 
+**The veil is gone.** On [[2026.11.18]], the party destroyed [[The Warden of Death]]; the miasma of trapped souls dissipated, and looking back from the burial chamber the black veil had vanished. The ethereal Curtain was no more either — the undercroft is now just quiet stone. The life force the veil took was restored by *greater restoration* over the following days. Source: [[2026.11.18|2026.11.18]].
+
 ## Past Attempts
 
 - Priests and priestesses have prayed at the veil, studied it and tried to bless the undercroft's burial site, with no result. Source: [[2026.10.06|2026.10.06]].

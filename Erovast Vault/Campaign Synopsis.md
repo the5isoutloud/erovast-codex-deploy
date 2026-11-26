@@ -3,14 +3,14 @@ cssclasses:
   - wide-page
   - wide-backlinks
 dateCreated: 2026-09-25
-dateUpdated: 2026-10-07
+dateUpdated: 2026-11-18
 tags:
   - synopsis
 aliases:
   - Synopsis
   - Story So Far
 date:
-coversThrough: 2026-10-06
+coversThrough: 2026-11-18
 ---
 
 # Campaign Synopsis
@@ -19,15 +19,15 @@ coversThrough: 2026-10-06
 | -------------------- | ------------------------------------------------------------------------------------------------------------- |
 | **Setting**          | The Crownlands of Erovast: [[Everdale]] and the [[King's Tourney]], [[Havenport]], and the [[Thornwood Vale]] |
 | **Party**            | _Cassian's Crushing Crusaders_: [[Aldric]], [[Azrith]], [[Cassian]], [[Odine Dunmere]]                       |
-| **Sessions covered** | 15 logged sessions and 1 untranscribed session, [[2026.05.05]] to [[2026.10.06]]                             |
-| **Party level**      | 5 (as of [[2026.09.15]])                                                                                      |
+| **Sessions covered** | 17 logged sessions and 1 untranscribed session, [[2026.05.05]] to [[2026.11.18]]                             |
+| **Party level**      | 6 (as of [[2026.11.18]])                                                                                      |
 | **Status**           | Ongoing                                                                                                       |
 
 ## Overview
 
 A half-elf sorceress named [[Odine Dunmere]] leaves her isolated elven homeland, the [[Thornwood Vale]], because a creeping corruption, later called **the Wither**, is killing its crops, its creatures and its people. She joins three companions on the road: the silver-tongued noble [[Cassian]], the horned, ghost-chasing [[Azrith]], and the tiefling ex-guard [[Aldric]]. Together they arrive in [[Everdale]], seat of the long-vacant [[Empty Throne]], during the annual [[King's Tourney]]. The tourney's grand prize is the **deed to the Vale itself**, which the great noble houses have fought over for a decade. The four enter as _Cassian's Crushing Crusaders_, an unknown team of underdogs. With the backing of the scheming [[Duke Tristan Blackwood]], they climb from the muddy Proving Grounds to the famed [[Crown Gauntlet]], which no team had cleared in seven years. Along the way they win the hearts of the common folk and the attention of the nobility.
 
-The party is pulled into older and darker currents. The arcane [[House Godrin]] has been hunting the young mage [[Jevon]] to reach his teacher, [[Maralynn]], a legendary witch of the Vale they have now confirmed is alive. The dwarf smith [[Gruvelda Duskbelt]] reveals that Odine's grandmother, Mara, gave her life to hold back the entity behind the Wither, and that humanity's tale of its King's victory over it is a lie. Cassian carries a bargain with [[The Masked Figure]] who visits his dreams. The Wither is spreading into the Crownlands. When the party freed a captive manticore in [[The Menagerie]] instead of slaying it, they scandalized the tourney. Blackwood sent them by ancient teleportation circle to [[Havenport]], a ruined seaport that turns out to be Aldric's forgotten home. There they heard the Oathkeepers' legend of the **Dark King**, which echoes Odine's family stories. Then Azrith leapt headlong through a curtain into the realm of death, and returned with news that **[[Aldric]] has a mother — Eleanor Gray — who named him after King Aldrich and always meant to bring him home.** The party also learned that **[[House Wulfhelm]] killed [[House Westermere]]** in a coup 15 years ago to silence a secret, and that a putrid spirit commanding the undead waits beyond the black veil in the Westermere undercroft. No one in Havenport has managed to break the veil, and passing through it demands a toll of the party's own life force.
+The party is pulled into older and darker currents. The arcane [[House Godrin]] has been hunting the young mage [[Jevon]] to reach his teacher, [[Maralynn]], a legendary witch of the Vale they have now confirmed is alive. The dwarf smith [[Gruvelda Duskbelt]] reveals that Odine's grandmother, Mara, gave her life to hold back the entity behind the Wither, and that humanity's tale of its King's victory over it is a lie. Cassian carries a bargain with [[The Masked Figure]] who visits his dreams. The Wither is spreading into the Crownlands. When the party freed a captive manticore in [[The Menagerie]] instead of slaying it, they scandalized the tourney. Blackwood sent them by ancient teleportation circle to [[Havenport]], a ruined seaport that turns out to be Aldric's forgotten home. There they heard the Oathkeepers' legend of the **Dark King**, which echoes Odine's family stories. Then Azrith leapt headlong through a curtain into the realm of death, and returned with news that **[[Aldric]] has a mother — Eleanor Gray — who named him after King Aldrich and always meant to bring him home.** The party also learned that **[[House Wulfhelm]] killed [[House Westermere]]** in a coup 15 years ago to silence a secret, and that a putrid spirit commanding the undead waits beyond the black veil in the Westermere undercroft. No one in Havenport has managed to break the veil, and passing through it demands a toll of the party's own life force. They paid it, passed beyond, and **destroyed the Warden of Death** — a divine warden that [[House Wulfhelm]] had twisted into a magnet for Havenport's souls, and the very mechanism of their trap. With the Warden gone, Havenport's dead were freed and the town pledged its support to the party — and the Crusaders returned to Everdale to find the tourney militarized and ten days from a final contest that someone, Blackwood believes, has already decided the outcome of.
 
 ---
 
@@ -98,20 +98,22 @@ Odine's natural 20 revealed the black veil's terms: break it with a divine smite
 **[[2026.10.13]] "Beyond the Black Veil"** (session 17)
 All four players present. After breakfast at the Salt House (and a free knob of garlic from [[Edith Rooke]]), the party gave up on finding a substitute sacrifice: the price needed a conscious, willing subject. Azrith realised that if Odine paid alone she would be stranded beyond the veil, so all four touched the wall together and paid the toll — nine points of life force shared, and Odine's final point to break the seal. Beyond lay the ethereal domain of death: a corridor of trapped souls begging release from the grasp of **[[The Warden of Death]]**, opening into a burial chamber of nine deity statues with the **Shepherd** — death's archetype — enthroned. The souls animated the Shepherd statue; it greeted the party as "little flames" and attacked. The party destroyed the statue (it was undead, charm-immune, fire-resistant), but the Warden's ethereal rostrum survived — *"you have destroyed my body, but you will not break my oath"* — and drifted toward another statue to possess. The session ended on that cliffhanger.
 
+**[[2026.11.18]] "The Warden Falls"** (session 18)
+All four players present, after a month's break. The fight resumed mid-round: the party raced the Warden's rostrum for the eight remaining deity statues, and Odine, Cassian and Aldric shattered them all between catapult, eldritch blasts and greatsword. Enraged — *"fifteen years I've sheltered them... I was their shepherd"* — it tried a **desperate possession** of Odine, pouring its mist into her; her natural-20 Charisma save (heroic inspiration spent) turned the attack back, and 10 radiant damage from her ancient magic annihilated it (*"No! You were meant to be mine!"*). The trapped souls were freed, and the black veil and the Curtain vanished. In the burial chamber the party found the Westermere treasury — **5,200 gp**, a **necklace of prayer beads** (Odine), a **cloak of displacement** (Cassian) and a **ceremonial mace** (Aldric) — and Azrith's scimitars were blessed to +2 by part of **[[Eleanor Gray]]'s** essence. **[[Samantha Westermere]]** drifted in, confirmed **the Shepherd statue was a gift-trap from [[House Wulfhelm]], who deliberately spread the Wither**, and passed on. Above ground the storm broke, but the Wither-sick at the Salt House were not cured. The party gave 500 gp to Havenport's community and won **[[Mauve Marigold]]'s** pledge of Havenport's support for Blackwood's cause. Everyone reached **level 6**; *greater restoration* from Odine's necklace restored all the life force the veil had taken. **[[Captain Garran]]** escorted the Crusaders back to Everdale, ten days before the final contest, where **[[Duke Tristan Blackwood]]** revealed that someone *"has already decided"* Erovast's future and the contest is how they intend to make it happen — and proposed the party **compete from the shadows**.
+
 ---
 
 ## Where Things Stand
 
-- **[[Azrith]] returned** from the ethereal plane on [[2026.09.29]], bringing news that [[Aldric]] has a mother — the ghost [[Eleanor Gray]] — who named him after King Aldrich and always meant to bring him home. See [[Find Azrith]].
-- The party is staying with **[[Mauve Marigold]]** at the [[Salt House]] in Havenport, waiting for word from [[Duke Tristan Blackwood]].
-- The tourney run is on hold after the Menagerie scandal; see [[Compete in the King's Tourney]].
+- **The Warden of Death is destroyed (2026.11.18).** Odine's ancient magic turned its desperate possession back on itself; the trapped souls of Havenport were freed, the black veil and the Curtain vanished, and **[[Samantha Westermere]] passed on**. See [[The Warden of Death]], [[Confront the Spirit Behind the Black Veil]] (resolved).
+- **House Wulfhelm deliberately spread the Wither** and gifted the Shepherd statue to [[House Westermere]] as a trap — confirmed by Samantha. The Wither still grips the living: the sick at the [[Salt House]] were not cured. See [[Uncover the Westermere-Wulfhelm Coup]], [[Investigate the Wither in Havenport]].
+- **The party is back in Everdale** (escorted home by [[Captain Garran]]), all level 6, life force restored via *greater restoration* from Odine's **necklace of prayer beads**. Ten days remain to the **final contest**; the fairgrounds are militarized and the party stands somewhere between disgraced and controversial.
+- **[[Duke Tristan Blackwood]] believes someone has already decided Erovast's future**, and the final contest is how they intend to make it happen. He proposes the party **compete from the shadows**; his plan (plus backup and plan C) is to be laid out next session. See [[Compete in the King's Tourney]].
+- **[[Mauve Marigold]] and Havenport will hear Blackwood out** and back the party — *"if you need Havenport's help, then you'll have mine."*
 - House Godrin is chasing Odine's decoy toward the western Vale, where Jevon has gone to mislead them; see [[Investigate House Godrin]].
-- The Wither spreads. Its link to the Dark King, the kneeling statue and Odine's lineage is the campaign's central mystery; see [[Investigate the Pestilence]].
+- The Wither spreads from the [[Thornwood Vale]]. Its link to the Dark King, the kneeling statue and Odine's lineage is the campaign's central mystery; see [[Investigate the Pestilence]].
 - Cassian's dream bargain with [[The Masked Figure]] is still unresolved, as is the question of why [[House Wulfhelm]] will not acknowledge [[House Fortescue]].
-- **[[House Wulfhelm]] killed [[House Westermere]]** in a coup 15 years ago to silence a secret. Beowyn and Eodwin Wulfhelm were friends with Samantha's family. The truth lies beyond the black veil.
-- **The spirit behind the black veil** commands the undead and enthralls spirits. [[Eleanor Gray]] recently escaped its control. Azrith has declared he will kill it.
-- **The party passed the [[Black Veil]] on [[2026.10.13]],** paying 10 max HP of life force shared among the four (Odine broke the seal). Beyond lies the ethereal domain of death, a prison of trapped souls kept by **[[The Warden of Death]]** — very likely the spirit behind the veil. Its Shepherd-statue vessel was destroyed, but the Warden itself survived and seeks a new vessel among the chamber's nine deity statues. The party must stop it. See [[Confront the Spirit Behind the Black Veil]].
-- [[Aldric]]'s mother is the ghost [[Eleanor Gray]], trapped in the ethereal plane. She named him "Aldrick of Havenport" and always meant to bring him home.
-- The party left the [[Salt House]] meaning to return within two hours; [[Mauve Marigold]] will check the manor if they do not.
+- New treasures from the Westermere treasury: the **necklace of prayer beads** (Odine), the **cloak of displacement** (Cassian), the **ceremonial mace** (Aldric), and Azrith's **+2 scimitars** blessed by [[Eleanor Gray]].
+- [[Aldric]]'s mother is the ghost [[Eleanor Gray]], trapped in the ethereal plane. She named him "Aldrick of Havenport" and always meant to bring him home; part of her essence now empowers Azrith's blades.
 
 _For session-by-session detail, see each log in `00 - Campaign Log/`._
