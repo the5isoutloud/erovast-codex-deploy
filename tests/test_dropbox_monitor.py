@@ -30,6 +30,51 @@ class SafeExtractTests(unittest.TestCase):
                     archive, Path(directory) / "intake", max_bytes=4
                 )
 
+    def test_accepts_newer_transcription_txt_member(self):
+        with tempfile.TemporaryDirectory() as directory:
+            archive = Path(directory) / "recording.zip"
+            with zipfile.ZipFile(archive, "w") as bundle:
+                bundle.writestr("1-speaker.aac", "audio")
+                bundle.writestr("info.txt", "meta")
+                bundle.writestr("transcription.txt", "Speaker: newer export\n")
+
+            output = dropbox_monitor.extract_transcript(archive, Path(directory) / "intake")
+
+            self.assertEqual(output.name, "transcript.txt")
+            self.assertEqual(output.read_text(), "Speaker: newer export\n")
+
+    def test_accepts_legacy_transcript_txt_member_unchanged(self):
+        with tempfile.TemporaryDirectory() as directory:
+            archive = Path(directory) / "recording.zip"
+            with zipfile.ZipFile(archive, "w") as bundle:
+                bundle.writestr("raw.dat", "audio")
+                bundle.writestr("transcript.txt", "Speaker: legacy export\n")
+
+            output = dropbox_monitor.extract_transcript(archive, Path(directory) / "intake")
+
+            self.assertEqual(output.name, "transcript.txt")
+            self.assertEqual(output.read_text(), "Speaker: legacy export\n")
+
+    def test_rejects_archive_with_both_transcript_members(self):
+        with tempfile.TemporaryDirectory() as directory:
+            archive = Path(directory) / "recording.zip"
+            with zipfile.ZipFile(archive, "w") as bundle:
+                bundle.writestr("transcript.txt", "one")
+                bundle.writestr("transcription.txt", "two")
+
+            with self.assertRaisesRegex(ValueError, "exactly one"):
+                dropbox_monitor.extract_transcript(archive, Path(directory) / "intake")
+
+    def test_rejects_archive_without_any_transcript_member(self):
+        with tempfile.TemporaryDirectory() as directory:
+            archive = Path(directory) / "recording.zip"
+            with zipfile.ZipFile(archive, "w") as bundle:
+                bundle.writestr("info.txt", "meta")
+                bundle.writestr("raw.dat", "audio")
+
+            with self.assertRaisesRegex(ValueError, "exactly one"):
+                dropbox_monitor.extract_transcript(archive, Path(directory) / "intake")
+
 
 class DeduplicationTests(unittest.TestCase):
     def test_uses_dropbox_file_id_and_revision_and_sorts_deterministically(self):

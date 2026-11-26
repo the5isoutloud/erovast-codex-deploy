@@ -27,13 +27,22 @@ REPO_ROOT = Path("/opt/data/workspace/erovast-codex-deploy")
 MAX_ARCHIVE_BYTES = 500 * 1024 * 1024
 MAX_TRANSCRIPT_BYTES = 25 * 1024 * 1024
 
+# Craig exports name the transcript member ``transcript.txt``; newer exports use
+# ``transcription.txt``. Accept exactly one member with either name.
+TRANSCRIPT_MEMBER_NAMES = frozenset({"transcript.txt", "transcription.txt"})
+
 
 def extract_transcript(
     archive_path: Path | str,
     destination_dir: Path | str,
     max_bytes: int = MAX_TRANSCRIPT_BYTES,
 ) -> Path:
-    """Extract exactly one transcript.txt without trusting ZIP member paths."""
+    """Extract exactly one transcript without trusting ZIP member paths.
+
+    The transcript member may be named ``transcript.txt`` (older Craig exports)
+    or ``transcription.txt`` (newer exports). The extracted file is always
+    written as ``transcript.txt`` so downstream intake is unchanged.
+    """
     archive_path = Path(archive_path)
     destination_dir = Path(destination_dir)
     try:
@@ -50,14 +59,16 @@ def extract_transcript(
             mode = info.external_attr >> 16
             if stat.S_ISLNK(mode):
                 raise ValueError(f"unsafe ZIP symlink: {info.filename}")
-            if member.name.lower() == "transcript.txt" and not info.is_dir():
+            if member.name.lower() in TRANSCRIPT_MEMBER_NAMES and not info.is_dir():
                 transcripts.append(info)
 
         if len(transcripts) != 1:
-            raise ValueError("archive must contain exactly one transcript.txt")
+            raise ValueError(
+                "archive must contain exactly one transcript.txt or transcription.txt"
+            )
         transcript = transcripts[0]
         if transcript.flag_bits & 0x1:
-            raise ValueError("encrypted transcript.txt is not supported")
+            raise ValueError(f"encrypted {PurePosixPath(transcript.filename).name} is not supported")
         if transcript.file_size > max_bytes:
             raise ValueError("transcript exceeds size limit")
 
